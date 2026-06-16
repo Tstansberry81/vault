@@ -17,6 +17,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 
 ## Meta / curriculum
 - [[English Curriculum 2022-2026]] — the four-year timeline (English 9 → 10 → HL1 → HL2)
+- [[Academic Record]] — official grades (IB Diploma; senior-year report card)
 - [[Individual Oral (IO)]] — IB oral assessment (Politics, Power & Justice)
 - [[Paper 2 Study Guide]] — IB comparative essay prep (identity-focused)
 

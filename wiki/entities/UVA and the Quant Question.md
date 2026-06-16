@@ -31,6 +31,14 @@ He's deciding whether to pursue the **quantitative finance** path, gated on a se
 - His incoming **Physics coursework** (being added to `raw/` soon) — a good read on his quantitative depth.
 - Whether he enjoys the *rigor*, not just the results.
 
+## What the senior [[Academic Record|report card]] adds (2026-06)
+The biggest single data point so far, and it **refines** the question:
+- He took **IB Math: Analysis & Approaches at SL**, earning an **A+** — but **SL, not HL**, while choosing HL in Physics, History, and English. So his self-doubt isn't baseless: he excelled at math but **self-selected the less rigorous math track** and hasn't yet been tested against the hardest math available to him.
+- **Physics HL: A** (with one quarter B and an A- on the S2 exam) — solid quantitative ability, not flawless.
+- Translation: the question shifts from *"am I good at math?"* (clearly yes — A+ student, Headmaster's List) to *"can I handle a real step-up in rigor I haven't faced yet?"* AA SL is a notch below the HL/post-calc rigor quant assumes (real analysis, measure-theoretic probability, stochastic calculus).
+
+**Concrete recommendation:** treat **first year at UVA as the real test** — deliberately take the *more rigorous* math track (honors/proof-based calculus & linear algebra, and a probability-theory course) rather than the easier path. How he does, and whether he *enjoys* the proofs, will answer the quant question far better than anything in high school. Strong AA-SL ≠ disqualifying; untested ≠ unable.
+
 > [!note] This is a tracked decision, not a conclusion. Revisit each term with new evidence.
 
 ## See also

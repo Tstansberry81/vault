@@ -41,6 +41,9 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **[[Reading List]]** & **[[Film and TV]]** — an auteur/existentialist/dystopian taste well beyond his years.
 - **[[College Search]]** → committed to **[[UVA and the Quant Question|UVA]]** (Finance major, Math minor; quant route TBD).
 
+## Academics
+**IB Diploma** student; **Headmaster's List** senior year, finals all A- or above ([[Academic Record]]). HLs: **English, Physics, History**; SLs: **Math (AA), Economics, Japanese**; + Theory of Knowledge. Notably took math at **SL**, not HL — relevant to [[UVA and the Quant Question]].
+
 ## Teachers
 - **Mr. Bryant** — [[English Curriculum 2022-2026|English 9 & 10]] (most of the foundational essays)
 - **Dr. Harris** — IB HL English 1 ([[The Iliad]])

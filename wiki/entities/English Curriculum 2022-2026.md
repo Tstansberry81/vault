@@ -27,6 +27,8 @@ Classical and dramatic texts; the IB **Individual Oral (IO)**.
 - [[The Iliad]] · [[A Streetcar Named Desire]]
 - IO texts: [[Antigone]], [[The Lion in Winter]], [[Absalom, Absalom!]] — see [[Individual Oral (IO)]]
 
+> Senior-year full IB load (from his [[Academic Record|report card]]): HL English/Physics/History, SL Math (AA)/Economics/Japanese, + Theory of Knowledge. See [[Academic Record]].
+
 ## IB HL English 2 — Mr. Mezeske (2025–2026)
 Identity-focused unit; the IB **Paper 2** comparative essay.
 - [[Beloved]] · [[The Narrow Road to the Deep North]] · [[The Elephant Vanishes]] (Murakami) · [[Garden of Eden (poem)|Garden of Eden]] & "Wade in the Water" (Tracy K. Smith) · [[The Mower (poem)|The Mower]] (Larkin) · [[Death of a Salesman]]

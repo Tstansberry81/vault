@@ -9,7 +9,7 @@ status: active
 
 # St. Paul's School
 
-The **Episcopal private school** [[Traveler Stansberry]] attended from kindergarten through senior year (Maryland/Baltimore area), and the offerer of the IB program behind [[English Curriculum 2022-2026|HL English 1 & 2]].
+**St. Paul's School for Boys** — an Episcopal, all-boys private school in **Brooklandville, MD** that [[Traveler Stansberry]] attended from kindergarten through graduation (2026), and the offerer of the **IB Diploma Programme** behind his record ([[Academic Record]]). The all-boys setting is useful context for his social notes (the recurring "girls lists" for events come from other schools).
 
 ## Why it recurs
 The school is a steady presence in his personal writing and shapes several readings:

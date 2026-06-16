@@ -43,3 +43,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - User clarified: **graduated HS (2026)**, committed to **UVA, fall 2026** — Finance major (McIntire), Math minor.
 - Created [[UVA and the Quant Question]] (forward plan + open quant-finance decision, to revisit as data arrives). Updated [[College Search]] (outcome), [[Traveler Stansberry]] (status), [[index]].
 - **Pending:** user to drop **History** and **Physics** coursework into `raw/` — ingest like the English corpus; Physics will also inform the quant question.
+
+## [2026-06-15] ingest | Senior-year report card (official)
+- **Source:** report card image saved to `raw/records/`; embedded in [[Senior Year Report Card (2025-26)]]. PII (name/DOB/address) kept in image only, not transcribed to wiki text.
+- **Created:** [[Academic Record]] (entity) + the source page. Updated [[UVA and the Quant Question]], [[St. Paul's School]] (all-boys, Brooklandville), [[English Curriculum 2022-2026]], [[Traveler Stansberry]], [[index]].
+- **Key finding (quant question):** he took **IB Math AA at SL** (A+), not HL, while taking HL Physics/History/English. Refines the quant question from "is he good at math" (yes) to "can he handle untested higher rigor" — recommend the rigorous proof-based math track in UVA year 1 as the real signal.
+- St. Paul's confirmed as **St. Paul's School for Boys**, Brooklandville MD (all-boys) — context for the "girls list" social notes.
