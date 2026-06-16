@@ -83,3 +83,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Created:** [[Naomi]] (full entity page — was previously just a one-line mention) + source page [[Naomi — Relationship Log (2026)]].
 - **Updated:** [[Family and Personal Life]] (Naomi + new half-sibling **baby Briar**), [[Emotional Life and Inner World]] (Naomi as the counter-evidence to his numbness — the key link), [[UVA and the Quant Question]] (long-distance as the personal stake), [[Traveler Stansberry]], [[index]].
 - **Key finding:** Naomi is the one person who breaks through his self-described emotional numbness ("you can get things out of me that most people can't") — directly answering the central tension in [[Emotional Life and Inner World]]. Both atheists; the looming college long-distance is his dominant spring-2026 worry.
+
+## [2026-06-16] ingest | Common App (UVA Early Decision)
+- **Source:** Common App PDF (12pp, CAID 47272004) → text via pypdf; saved to `raw/records/` (PII kept in raw only). Created [[Common App (UVA ED 2026)]] + [[College Essay (Akihabara)]] (his *submitted* personal statement — the surfing essay was a draft/alternate).
+- **Updates:** SAT Math **740 → 790** (retook; 1550 superscore) on [[Academic Record]] + [[UVA and the Quant Question]]; UVA is **Early Decision (binding)**, College of A&S, 1st interest **Commerce**, 2nd **Economics**.
+- **Family (authoritative):** mother **Andrea Shaw** (coach), father **Frank Stansberry**, divorce listed **2021**; siblings **Seaton (14)** and **Reece Fox (3)** — both younger.
+- **Correction:** **Seaton is the YOUNGER brother (14)**, not older — fixes my earlier read of a Senior Speech line; corroborated by the Common App + Naomi log. Flagged on [[Family and Personal Life]] and [[Senior Speech]].

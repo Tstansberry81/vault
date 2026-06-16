@@ -30,7 +30,7 @@ Final grades (St. Paul's scale: A+ = 97–100, A = 93–96, A- = 90–92, B+ = 8
 - **Core:** Theory of Knowledge (+ EE and CAS, referenced elsewhere in his notes)
 
 ## Standardized testing & honors (from [[Traveler Resume|résumé]])
-- **SAT 1500** (760 EBRW, **740 Math**) · **ACT 33** (35 Math, 35 English, 35 Reading) · **AP US History: 5** · **GPA 4.0** (unweighted)
+- **SAT 1550 superscore** (760 EBRW, **790 Math** — Math retaken up to 790 in Oct 2025) · **ACT 33** (35 Math, 35 English, 35 Reading) · **AP US History: 5** · **GPA 4.0** (unweighted), class size 82 (unranked) — per the [[Common App (UVA ED 2026)]]
 - **Cum Laude Society**, **National Merit Commended Scholar**, St. Paul's Scholar, Japanese Honors Society (national level)
 
 ## Subjects (deep dives)

@@ -45,7 +45,7 @@ The biggest single data point so far, and it **refines** the question:
 ## What the full coursework + scores add (2026-06, biggest update yet)
 The 10th–12th coursework gives the clearest read so far, and it points to a consistent picture: **strong, finance-bound, quant-curious — but the raw quantitative signal is "very good," not "elite," and he hasn't trained at the highest rigor.**
 
-**Hard numbers (from his [[Traveler Resume|résumé]]):** SAT **740 Math** (1500 total), ACT **35 Math** (33 composite), AP US History 5, GPA 4.0 UW, National Merit Commended. Excellent — but for *quant specifically*, 740/800 SAT-M + SL (not HL) math is "strong student," not the 800/AA-HL/competition-math profile that flags a natural quant.
+**Hard numbers (updated from the [[Common App (UVA ED 2026)]]):** SAT **790 Math** (he retook it up from 740 — 1550 total), ACT **35 Math** (33 composite), AP US History 5, GPA 4.0 UW, National Merit Commended. The **790 Math** is a notch stronger than the 740 I first had — genuinely strong. The remaining caveat is unchanged: he took math at **SL (not HL)**, so the *rigor* (not the aptitude) is what's untested. He applied to UVA **Commerce** (1st choice) with **Economics** 2nd — i.e. he himself is steering toward markets/finance, not a pure-quant/math track.
 
 **Genuine quantitative ability, demonstrated:**
 - **[[Physics IA]]** — a real lab (friction vs. ramp angle) with free-body diagrams, **uncertainty propagation**, error analysis, and unusually honest critique of his own failed data. This is the most quant-like artifact in the corpus.

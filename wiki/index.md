@@ -71,6 +71,8 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 
 **Personal essays (Drive):** [[God (personal essay)]] · [[Halloween (personal essay)]] · [[November 8th (journal)]] · [[Billionaires (essay)]] · [[William (friend portrait)]] · [[Naomi — Relationship Log (2026)]]
 
+**Records & college:** [[Common App (UVA ED 2026)]] · [[College Essay (Akihabara)]] · [[Senior Year Report Card (2025-26)]] · [[Traveler Resume]]
+
 **Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[History IA (Naval Gunfire on D-Day)]] · [[Economics Debate]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
 
 > [!note] Coverage

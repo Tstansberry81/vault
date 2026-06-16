@@ -21,18 +21,24 @@ The most recurring and emotionally weighted thread in his notes, and it darkens 
 This thread directly underlies his literary affinities — the divorce/avoidance of [[It's Not in My Control]], the trauma-and-return of [[Home (novel)|Home]], and arguably his whole [[Fate and Free Will]] preoccupation.
 
 ## The divorce and "past life"
-- Parents divorced in 6th grade (see [[Life Map]]); a wound he processed by avoidance ([[It's Not in My Control]]).
+- Parents divorced around 6th grade (his framing; the [[Common App (UVA ED 2026)]] lists the divorce as **2021**) — a wound he processed by avoidance ([[It's Not in My Control]]).
 - Two 2025 "writing idea" notes show him still circling it: *why the photo of him with both parents "leans towards my mom"* every time he's at his dad's; and **Scout** (a pet) as "the one remainder from my past life with mom and dad" — i.e. the pre-divorce family. His own [[ideas|name]] note: writing "about my name… in the years since my parents divorce."
 
-## Others
-- **Seaton** — **older brother** ("It's nice having a big brother," [[Senior Speech]]); the brother on the Mexico trip in [[Major Moments Memoir]].
-- **Reece** — younger half-brother (b. when Traveler was 14; see [[Major Moments Memoir]]).
-- **Mom** — a strongly positive presence ("the best mom… you can always tell if something is off"), and the one parent he trusts as truthful ([[God (personal essay)]]); **Maggie** (close family member), **Shannon** (father's wife). *(Resolved: "William" is a **friend** from the Yale NSLC program — see [[William (friend portrait)]] — not a sibling.)*
+## The household (per the official [[Common App (UVA ED 2026)]])
+- **Mother — Andrea M. Shaw** (reverted to her maiden name after the divorce); a **business owner / coach**. The parent he's closest to and trusts as truthful ([[God (personal essay)]]).
+- **Father — Frank Stansberry** (college grad). The fraught central relationship above.
+- **Traveler is the oldest sibling:**
+  - **Seaton Stansberry** — *younger* brother (**age 14**); the brother on the Mexico trip ([[Major Moments Memoir]]).
+  - **Reece Fox** — younger half-brother (**age 3**; surname **Fox** — a different mother, the child from his dad's relationship before Shannon, per [[Major Moments Memoir]]).
+  - **Baby Briar** — a *future* half-sibling (dad & Shannon expecting), first named in the [[Naomi — Relationship Log (2026)|Naomi log]].
+- **Shannon** — his father's wife; **Maggie** — close family member.
+- **[[Naomi]]** — his girlfriend (since ~March 2026) and the most emotionally significant person in his life; the one who breaks through his [[Emotional Life and Inner World|numbness]]. Has her own page.
+
+> [!warning] Correction (birth order)
+> I'd earlier recorded **Seaton as the *older* brother**, from an "it's nice having a big brother" line in his [[Senior Speech]]. The official Common App (Seaton 14) and the Naomi log ("a better older brother for Seaton") both make Seaton **younger** — Traveler is the oldest. The speech line is the outlier.
 
 > [!note] Public vs. private on his dad
 > In the [[Senior Speech]] he thanks his dad warmly ("a great role model… you constantly strive for excellence"); the private notes hold the pain. The gap between the public and private framing is itself revealing.
-- **Reece** — younger half-brother; **baby Briar** — a *future* half-sibling (his dad & Shannon expecting), first named in the [[Naomi — Relationship Log (2026)|Naomi log]].
-- **[[Naomi]]** — his girlfriend (since ~March 2026) and the most emotionally significant person in his life; the one who breaks through his [[Emotional Life and Inner World|numbness]]. Has her own page.
 
 ## See also
 [[Traveler Stansberry]] · [[Self-Discipline and Goals]] · [[Home (novel)]] · [[Memory and Trauma]]
