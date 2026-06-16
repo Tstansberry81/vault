@@ -38,6 +38,7 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **[[Homework Hatch (startup)]]** — his real edtech/AI venture, the operational counterpart to [[The One]].
 - **[[Self-Discipline and Goals]]** — intense self-improvement regimens ("75 Hard," "lock in").
 - **[[Intellectual Interests]]** — private musings on free will, morality, religion, and physics that mirror his essays.
+- **[[Political and Economic Views]]** — free-market/supply-side economically, socially liberal/anti-authoritarian.
 - **[[Reading List]]** & **[[Film and TV]]** — an auteur/existentialist/dystopian taste well beyond his years.
 - **[[College Search]]** → committed to **[[UVA and the Quant Question|UVA]]** (Finance major, Math minor; quant route TBD).
 

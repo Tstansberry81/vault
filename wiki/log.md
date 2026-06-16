@@ -60,3 +60,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-06-15] ingest | Senior Rep campaign speech + failed 11th-grade attempts
 - Recovered [[Senior Rep Campaign Speech (2025)]] (text extracted from a single bloated Word doc); clean text saved to `raw/notes/`, bloated original discarded. Source page created; linked into [[Extracurriculars and Achievements]].
 - **11th-grade coursework STILL not ingested.** Three attempts (`11th.zip`, `11th (1).zip`, `OneDrive_1_6-15-2026.zip`) were each a *single Word document*, not the grade folder; the OneDrive one was also a corrupt/truncated download (won't unzip). Need the actual 11th folder zipped like 10th/12th.
+
+## [2026-06-15] ingest | Year-1 (11th) History & Economics
+- **Sources:** `History.zip` (55M folder: HL History 1 — Authoritarian States, WW1/WW2, the **D-Day IA**) and `Economics.zip` (3M folder: SL Econ 1). `Physics.zip` was again a single empty/image-only doc (no recoverable text — Physics Year 1 still missing).
+- **Created:** [[History IA (Naval Gunfire on D-Day)]], [[Economics Debate]], and **[[Political and Economic Views]]** (new synthesis page). Updated [[IB History (HL)]] (Year-1 content + IA), [[IB Economics (SL)]] (Year-1 + debate; the GTA6 commentary was his Year-1 IA), [[Traveler Stansberry]], [[index]].
+- **Key findings:** HL History IA = a methodical D-Day naval-gunfire investigation (OPCVL + research reflection). The **Economics Debate** (supply-side advocacy), corroborated by an independent note, plus his civil-disobedience essay (pro-trans-rights, anti-book-ban) and atheism, sketch a coherent **free-market + socially-liberal** worldview — captured in [[Political and Economic Views]].
+- 11th English already ingested via the English corpus (Iliad/Streetcar/IO); 11th **Physics/Math** remain the only real gaps.

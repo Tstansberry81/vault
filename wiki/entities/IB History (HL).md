@@ -13,7 +13,8 @@ status: active
 
 ## Content
 - **10th — US History:** the full survey (Reform Era, Civil War & Reconstruction, Gilded Age, Progressivism/imperialism, Roaring Twenties, Depression). Earned the AP USH 5.
-- **HL — 20th-century authoritarian states & conflict:** Mao / the Great Leap Forward / China's transformations, apartheid South Africa, the Korean War, Cambodia (*In the Shadow of the Banyan*), and Gandhi / civil disobedience.
+- **HL Year 1 (11th) — Authoritarian States & the Move to Global War:** the rise of **Stalin, Mussolini, and Hitler** (detailed event timelines, OPCVL source analysis), WW1/WW2, US dollar/moral diplomacy. Flagship: the **[[History IA (Naval Gunfire on D-Day)|HL History IA on D-Day naval gunfire]]**.
+- **HL Year 2 (12th) — 20th-century authoritarian states & conflict:** Mao / the Great Leap Forward / China's transformations, apartheid South Africa, the Korean War, Cambodia (*In the Shadow of the Banyan*), and Gandhi / civil disobedience.
 
 ## Flagship: the [[Civil Disobedience (HL History essay)|Civil Disobedience essay]]
 A sophisticated, opinionated essay tracing Thoreau's theory → Gandhi (South Africa, the Salt March) → the Montgomery Bus Boycott and Selma/MLK → **bold present-day applications** (transgender rights, book bans). Argues civil disobedience is *more* effective now because of social media — but fails under authoritarian regimes (North Korea, China). A full-circle return to the [[Civil Disobedience|Thoreau]] he first met in 10th-grade transcendentalism.

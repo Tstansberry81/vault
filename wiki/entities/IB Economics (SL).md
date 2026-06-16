@@ -21,5 +21,8 @@ Together they show real command of monetary policy, exchange rates, and macro mo
 ## Extended Essay
 His [[Extended Essay (Economics)]] — original research on **U.S. fiscal policy during COVID-19 and its inflationary effects in Maryland** (per his résumé; the document wasn't in the export).
 
+## Year 1 (11th) — and his economic worldview
+The GTA 6 commentary above was actually his **Year-1 IA** (Feb 2025), later folded into the senior portfolio. The Year-1 highlight is the **Economics Debate**, where he argued the **supply-side** position — "which economic policy best promotes long-term growth?" — citing Germany's Hartz reforms, Ireland's corporate tax, South Korea's R&D, and Reagan-vs-Obama GDP, with rebuttals on inequality and deficits. This (plus his independent notes) points to a clear **free-market / supply-side** outlook → see [[Political and Economic Views]].
+
 ## See also
 [[Investment Club]] (he's President) · [[UVA and the Quant Question]] · [[Homework Hatch (startup)]] · [[Academic Record]]

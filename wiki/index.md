@@ -22,6 +22,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 ## Subjects (beyond English)
 - [[IB Physics (HL)]] · [[IB Math (SL)]] · [[IB Economics (SL)]] · [[IB History (HL)]] · [[IB Japanese (SL)]] · [[Theory of Knowledge]] · [[Extended Essay (Economics)]] · [[World Religions (10th)]]
 - Extracurricular: [[Investment Club]] · [[Coding Club]] · [[Extracurriculars and Achievements]]
+- [[Political and Economic Views]] — his demonstrated worldview (free markets, free people)
 - [[Individual Oral (IO)]] — IB oral assessment (Politics, Power & Justice)
 - [[Paper 2 Study Guide]] — IB comparative essay prep (identity-focused)
 
@@ -66,7 +67,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 
 **Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]] · [[Senior Speech]] · [[College Essay (Surfing)]] · [[Senior Rep Campaign Speech (2025)]]
 
-**Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
+**Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[History IA (Naval Gunfire on D-Day)]] · [[Economics Debate]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
 
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
