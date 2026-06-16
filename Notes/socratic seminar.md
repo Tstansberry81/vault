@@ -1,0 +1,5 @@
+# socratic seminar
+
+American foreign policy only changed subtly from 1901-1917. this is due to the fact that imperialism and spreading democracy and american ideals, preached by the roosevelt corollary and moral diplomacy respectively, are intertwined. the only thing that changed is the way they went about achieving the spread of american ideals. for example, by proclaiming the “roosevelt corollary” to the monroe doctrine as explained on page 64 of overthrow, he was essentially perpetuating the american ideals of independence and democracy through imperialism and the idea that countries need our protection to maintain their democracy and independence. but in moral diplomacy, the goal according to page 10 of the document packet was still to spread democracy, but now trying to let countries voluntarily form their own governments under the principles of democracy. 
+
+question: did taft’s presidency truly affect american foreign policy in the long run?

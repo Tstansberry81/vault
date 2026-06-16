@@ -1,0 +1,3 @@
+# writing idea: why does the picture of me and my dad and mom lean everytime…
+
+# writing idea: why does the picture of me and my dad and mom lean everytime i come to my dads. it leans towards my mom

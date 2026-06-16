@@ -1,0 +1,3 @@
+# writing idea: something about scout and how he was the one remainder…
+
+# writing idea: something about scout and how he was the one remainder from my past life with mom and dad

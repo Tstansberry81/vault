@@ -1,0 +1,3 @@
+# why can’t i get away from him? what do i do? i need to talk to mom…
+
+# why can’t i get away from him? what do i do? i need to talk to mom. i’m so lost. i’m the most depressed ive ever been and i don’t know how to get out of it. i don’t have a dad, i have a father, and there’s no way around it.

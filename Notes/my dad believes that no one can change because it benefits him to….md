@@ -1,0 +1,3 @@
+# my dad believes that no one can change because it benefits him to…
+
+# my dad believes that no one can change because it benefits him to believe that. also relates to him believing in objective morality, yet being an atheist 

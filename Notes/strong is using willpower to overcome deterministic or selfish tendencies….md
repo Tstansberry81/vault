@@ -1,0 +1,3 @@
+# strong is using willpower to overcome deterministic or selfish tendencies…
+
+# strong is using willpower to overcome deterministic or selfish tendencies 

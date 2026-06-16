@@ -1,0 +1,3 @@
+# physical movements are waves that create frequencies which can unlock…
+
+# physical movements are waves that create frequencies which can unlock the universe

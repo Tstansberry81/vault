@@ -3,28 +3,56 @@ type: overview
 created: 2026-06-15
 updated: 2026-06-15
 tags: [meta/index]
-status: stub
+status: active
 ---
 
 # Index
 
 Content catalog of the wiki. Read this first when answering a query, then drill into pages.
-Updated on every ingest. Format per category: `- [[Page]] — one-line summary`.
+Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[overview]] for the synthesis and [[log]] for history.
 
-> Tip: with the **Dataview** plugin installed, these lists can be generated automatically from
-> page frontmatter. Until then they're maintained by hand on each ingest.
+## People & places
+- [[Traveler Stansberry]] — the author and subject; determinist, skeptic, individualist
+- [[St. Paul's School]] — his K–12 Episcopal school
 
-## Overview
-- [[overview]] — top-level synthesis / evolving thesis
+## Meta / curriculum
+- [[English Curriculum 2022-2026]] — the four-year timeline (English 9 → 10 → HL1 → HL2)
+- [[Individual Oral (IO)]] — IB oral assessment (Politics, Power & Justice)
+- [[Paper 2 Study Guide]] — IB comparative essay prep (identity-focused)
 
-## Sources
-*(none yet — drop files in `raw/` and ask me to ingest)*
+## Concepts (themes)
+- [[Fate and Free Will]] — his signature theme; hardens then softens over four years
+- [[Identity and Its Collapse]] — the spine of senior year
+- [[Masculinity]] — usually toxic, performed, imprisoning
+- [[Individual vs. Society]] — the rebel almost always loses
+- [[Faith vs. Knowledge]] — religious skepticism; technology vs. religion
+- [[The Moral Impact of Slavery]] — slavery corrupts the enslaver too
+- [[Power, Hierarchy, and Justice]] — power destroys its seeker
+- [[Art as Survival]] — art as a basic human need
+- [[Memory and Trauma]] — the past that won't stay past
+- [[Consumerism and Alienation]] — modernity hollows out the self
+- [[Conformity and Tradition]] — unexamined ritual enables atrocity
 
-## Entities
-*(none yet)*
+## Works — by course
+**English 9 (Mr. Bryant, 2022–23)**
+- [[Maus]] · [[Do Androids Dream of Electric Sheep?]] · [[The Other Wes Moore]] · [[A Sound of Thunder]] · [[The Lottery]] · [[Romeo and Juliet]] · [[Understanding Comics]] · [[A&P]]
 
-## Concepts
-*(none yet)*
+**English 10 (Mr. Bryant, 2023–24)**
+- [[Narrative of the Life of Frederick Douglass]] · [[The Great Gatsby]] · [[One Flew Over the Cuckoo's Nest]] · [[Station Eleven]] · [[Home (novel)|Home]] · [[Self-Reliance]] · [[Civil Disobedience]]
+
+**IB HL English 1 (Dr. Harris, 2024–25)**
+- [[The Iliad]] · [[A Streetcar Named Desire]] · [[Antigone]] · [[The Lion in Winter]] · [[Absalom, Absalom!]]
+
+**IB HL English 2 (Mr. Mezeske, 2025–26)**
+- [[Beloved]] · [[The Narrow Road to the Deep North]] · [[The Elephant Vanishes]] · [[Garden of Eden (poem)|Garden of Eden]] · [[The Mower (poem)|The Mower]] · [[Death of a Salesman]] · [[The One]] · [[The Pearl]]
+
+## Sources (summary pages)
+**Flagship essays:** [[Iliad Essay]] · [[IB HL English 2 Essay]] · [[Narrow Road to the Deep North Response]] · [[DADOES ESSAY]] · [[Nest Essay]] · [[Gatsby Essay]] · [[Station 11 Essay on Art Final]] · [[Home FINAL EXAM]] · [[Maus Essay]] · [[Midterm Essays]] · [[Explicative of Garden of Eden]] · [[Self-Reliance (essay)]] · [[Beloved 257-277 Writeup]] · [[Hinge Points]] · [[The One (short story)]]
+
+**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]]
+
+> [!note] Coverage
+> Full wiki pages exist for all ~28 works and 11 themes. ~20 substantial essays/personal pieces have their own **source** pages; the remaining ~55 minor assignments (quizzes, worksheets, character lists, drafts) are **catalogued inside their work pages** but not yet atomized into individual source pages — see [[log]] for the list of candidates.
 
 ## Analyses
 *(none yet — filed-back query answers will appear here)*

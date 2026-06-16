@@ -1,0 +1,3 @@
+# metaphor of waves with the way my dad buys a shit ton of stuff or…
+
+# metaphor of waves with the way my dad buys a shit ton of stuff or goes manic and then calms down 
