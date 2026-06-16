@@ -1,5 +1,0 @@
-# ib
-
-
-
-ibo question bank

@@ -24,5 +24,8 @@ status: active
 - [[A Sound of Thunder]] — one wrong step rewrites the world (consequence/determinism)
 - [[Do Androids Dream of Electric Sheep?]] — Mercerism vs. the inevitability of technological "evolution"
 
+## The personal resolution
+His private notes show he didn't leave this question on the page. One reads: *"strong is using willpower to overcome deterministic or selfish tendencies"* — effectively his lived answer to the Iliad-vs-Narrow-Road tension: determinism is real, and strength is the act of resisting it. This is the philosophical engine behind his [[Self-Discipline and Goals|self-discipline regimens]]. See [[Intellectual Interests]].
+
 ## Related concepts
-[[Identity and Its Collapse]] · [[Faith vs. Knowledge]] · [[Individual vs. Society]]
+[[Identity and Its Collapse]] · [[Faith vs. Knowledge]] · [[Individual vs. Society]] · [[Intellectual Interests]]

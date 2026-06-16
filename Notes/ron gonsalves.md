@@ -1,3 +1,0 @@
-# ron gonsalves
-
-Snowfall

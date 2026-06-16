@@ -1,2 +1,0 @@
-# psychopaths with williams
-

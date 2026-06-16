@@ -1,3 +1,0 @@
-# trillion dollar triage
-
-calc

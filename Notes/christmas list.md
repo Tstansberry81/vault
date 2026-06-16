@@ -1,9 +1,0 @@
-# christmas list
-
-
-LEGO Speed Champions Pagani Utopia 76915 Race Car
-
-Altec Lansing Mini H2O - Waterproof Bluetooth Speaker, IP67
-
-![18892B96-F7B7-447D-8A60-C859997E2337](images/18892B96-F7B7-447D-8A60-C859997E2337.png)
-![3483C063-9B0A-4561-96D0-F91E7A54FC26](images/3483C063-9B0A-4561-96D0-F91E7A54FC26.png)

@@ -1,3 +1,0 @@
-# flashinvaders
-
-la source

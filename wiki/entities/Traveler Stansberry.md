@@ -32,6 +32,15 @@ A **determinist, skeptic, and individualist** whose interests are remarkably sta
 - **Squash** (started 6th grade), the **gym** (8th grade, for confidence/anxiety), **skiing** (Steamboat, learned black diamonds — [[Steamboat Times]]).
 - **Entrepreneurship & AI**: listens to the *Acquired* podcast; the short story [[The One]] and its abstract reveal firsthand, somewhat disillusioned, experience chasing AI/startup success.
 
+## Beyond coursework (from personal notes)
+His private Apple Notes (2022–2026) fill in the person behind the essays:
+- **[[Family and Personal Life]]** — the central, darkening relationship with his father; the divorce's long aftermath; brothers Will & Reece; Naomi.
+- **[[Homework Hatch (startup)]]** — his real edtech/AI venture, the operational counterpart to [[The One]].
+- **[[Self-Discipline and Goals]]** — intense self-improvement regimens ("75 Hard," "lock in").
+- **[[Intellectual Interests]]** — private musings on free will, morality, religion, and physics that mirror his essays.
+- **[[Reading List]]** & **[[Film and TV]]** — an auteur/existentialist/dystopian taste well beyond his years.
+- **[[College Search]]** — a finance-focused application process.
+
 ## Teachers
 - **Mr. Bryant** — [[English Curriculum 2022-2026|English 9 & 10]] (most of the foundational essays)
 - **Dr. Harris** — IB HL English 1 ([[The Iliad]])

@@ -1,2 +1,0 @@
-# responsibility and impact
-

@@ -1,3 +1,0 @@
-# Jacob went home with host brother and his friend. He told jacob he…
-
-Jacob went home with host brother and his friend. He told jacob he payed a prostitue 16000 for sex Everyone calls him sex now

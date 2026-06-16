@@ -24,5 +24,8 @@ In [[Self-Reliance (essay)|his Self-Reliance response]] ("I do not wish to expia
 ## Connected works
 [[Do Androids Dream of Electric Sheep?]] · [[Self-Reliance]] · [[Station Eleven]] · [[The Lottery]]
 
+## In his private notes
+The skepticism continues off the page ([[Intellectual Interests]]): a note probing whether faith is coercive — *"if you don't repent, then you go to hell… isn't repenting forced?"* — and an interest in **secular humanism, Kantian rationalism, and virtue ethics** as alternative moral frameworks.
+
 ## Related concepts
-[[Individual vs. Society]] · [[Conformity and Tradition]] · [[Fate and Free Will]]
+[[Individual vs. Society]] · [[Conformity and Tradition]] · [[Fate and Free Will]] · [[Intellectual Interests]]

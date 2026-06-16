@@ -1,2 +1,0 @@
-# party hard, work harder
-

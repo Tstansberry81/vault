@@ -1,2 +1,0 @@
-# burnt sperry’s
-

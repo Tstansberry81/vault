@@ -32,6 +32,15 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 - [[Memory and Trauma]] — the past that won't stay past
 - [[Consumerism and Alienation]] — modernity hollows out the self
 - [[Conformity and Tradition]] — unexamined ritual enables atrocity
+- [[Intellectual Interests]] — his private musings (free will, morality, religion, physics)
+
+## Personal life & interests (from Apple Notes, 2022–2026)
+- [[Family and Personal Life]] — father, divorce, brothers, Naomi
+- [[Homework Hatch (startup)]] — his real edtech/AI venture
+- [[Self-Discipline and Goals]] — "75 Hard," "lock in," self-improvement
+- [[College Search]] — finance-focused applications
+- [[Reading List]] — independent reading, with his ratings
+- [[Film and TV]] — auteur/arthouse watchlist
 
 ## Works — by course
 **English 9 (Mr. Bryant, 2022–23)**
@@ -49,10 +58,11 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 ## Sources (summary pages)
 **Flagship essays:** [[Iliad Essay]] · [[IB HL English 2 Essay]] · [[Narrow Road to the Deep North Response]] · [[DADOES ESSAY]] · [[Nest Essay]] · [[Gatsby Essay]] · [[Station 11 Essay on Art Final]] · [[Home FINAL EXAM]] · [[Maus Essay]] · [[Midterm Essays]] · [[Explicative of Garden of Eden]] · [[Self-Reliance (essay)]] · [[Beloved 257-277 Writeup]] · [[Hinge Points]] · [[The One (short story)]]
 
-**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]]
+**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]]
 
 > [!note] Coverage
-> Full wiki pages exist for all ~28 works and 11 themes. ~20 substantial essays/personal pieces have their own **source** pages; the remaining ~55 minor assignments (quizzes, worksheets, character lists, drafts) are **catalogued inside their work pages** but not yet atomized into individual source pages — see [[log]] for the list of candidates.
+> **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
+> **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
 
 ## Analyses
 *(none yet — filed-back query answers will appear here)*
