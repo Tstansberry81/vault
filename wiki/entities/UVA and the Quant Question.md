@@ -11,6 +11,9 @@ status: active
 
 [[Traveler Stansberry]] **graduated high school (2026)** and is matriculating at the **University of Virginia, fall 2026**. This page tracks the plan and the one live decision still open.
 
+> [!note] The personal stakes
+> UVA isn't only an academic decision — it's the start of **long-distance with [[Naomi]]**, the dominant worry of his spring 2026. They've already scouted the DC→Charlottesville train. Worth tracking alongside the academic side.
+
 ## The plan
 - **Major: Finance** — via UVA's **McIntire School of Commerce** (a 3rd-year-entry school; first two years are prerequisites — COMM 1800 Foundations of Commerce, ECON 2010 Micro, the first writing requirement — per [[bs commerce]]).
 - **Minor: Math** (possibly a CS minor too).

@@ -19,6 +19,9 @@ A synthesis of [[Traveler Stansberry]]'s most personal writing — the inner lif
 - **Coping by hiding, then writing.** The [[It's Not in My Control|avoidance]] he names elsewhere, plus [[When I Feel Like an Outsider|writing as his real voice]] — these essays *are* the coping.
 - **Drawn to morally-compromised characters.** His love of *Breaking Bad*/*Dexter*/*Hannibal* ([[Film and TV]]) he reads as self-recognition — "bad people try to do good things" — and "trying to figure out which side I am on."
 
+## The counter-evidence: [[Naomi]]
+The numbness is not the whole story. With his girlfriend [[Naomi]], the guard drops entirely: after a moment of distress he writes that she "reach[es] inside of me and pull[s] out my fears, anxiety, and distress… you can get things out of me that most people can't." Both are self-described logical people who hide feelings; she's the one exception. If the numbness is real, so is the fact that **one person reaches through it** — which makes the looming [[Naomi|college long-distance]] all the heavier.
+
 ## How it connects to the rest of him
 This is the emotional engine under the intellectual machine: the [[Self-Discipline and Goals|relentless discipline]] is partly a defense against the fear of inadequacy; the [[Fate and Free Will|free-will/willpower]] philosophy is partly a way to feel in control; the [[Faith vs. Knowledge|anger at God]] is grief about change he couldn't process. The mind and the feelings are the same story told two ways.
 

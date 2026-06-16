@@ -31,7 +31,8 @@ This thread directly underlies his literary affinities — the divorce/avoidance
 
 > [!note] Public vs. private on his dad
 > In the [[Senior Speech]] he thanks his dad warmly ("a great role model… you constantly strive for excellence"); the private notes hold the pain. The gap between the public and private framing is itself revealing.
-- **Naomi** — important to him in 2026: "naomi has helped me more than she knows" ([[mems]]). *(Kept per his explicit wish; details left as he recorded them.)*
+- **Reece** — younger half-brother; **baby Briar** — a *future* half-sibling (his dad & Shannon expecting), first named in the [[Naomi — Relationship Log (2026)|Naomi log]].
+- **[[Naomi]]** — his girlfriend (since ~March 2026) and the most emotionally significant person in his life; the one who breaks through his [[Emotional Life and Inner World|numbness]]. Has her own page.
 
 ## See also
 [[Traveler Stansberry]] · [[Self-Discipline and Goals]] · [[Home (novel)]] · [[Memory and Trauma]]

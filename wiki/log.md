@@ -77,3 +77,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Updated:** [[Family and Personal Life]] (father as narcissist, the drunk-driving incident, mom's honesty), [[Faith vs. Knowledge]] (the "god" essay), [[Political and Economic Views]] (Billionaires essay), [[Extracurriculars and Achievements]] (William/Yale AI model; **squash cut senior year**), [[Tensions and Open Questions]] (logic-vs-emotion), [[Traveler Stansberry]], [[index]].
 - **Corrections:** **William = friend** (Yale NSLC), not a sibling — resolves the earlier "Will" ambiguity. Résumé says squash co-captain, but he was **cut from Varsity as a senior**.
 - **Care note:** the god/halloween/Nov-8 pieces are emotionally heavy (numbness, perfectionism, a narcissistic-father dynamic, a real drunk-driving safety event). Ingested factually and respectfully, flagged not editorialized.
+
+## [2026-06-16] ingest | Naomi relationship log (pasted)
+- **Source:** Traveler's relationship journal with [[Naomi]] (Mar–Jun 2026), pasted into chat. Saved verbatim to `raw/notes/personal-writing/` (one quoted slur redacted); crude/gossip bits kept in raw only, not surfaced in wiki.
+- **Created:** [[Naomi]] (full entity page — was previously just a one-line mention) + source page [[Naomi — Relationship Log (2026)]].
+- **Updated:** [[Family and Personal Life]] (Naomi + new half-sibling **baby Briar**), [[Emotional Life and Inner World]] (Naomi as the counter-evidence to his numbness — the key link), [[UVA and the Quant Question]] (long-distance as the personal stake), [[Traveler Stansberry]], [[index]].
+- **Key finding:** Naomi is the one person who breaks through his self-described emotional numbness ("you can get things out of me that most people can't") — directly answering the central tension in [[Emotional Life and Inner World]]. Both atheists; the looming college long-distance is his dominant spring-2026 worry.
