@@ -70,3 +70,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-06-15] query | Compiled intellectual-ideology indexes (filed to analyses/)
 - Built the first `analyses/` syntheses on request: [[Intellectual Profile]] (master index by domain + through-lines), [[Core Convictions]] (beliefs as evidenced propositions), [[Intellectual Evolution]] (2022–2026 arc), [[Tensions and Open Questions]] (unresolved conflicts).
 - Cross-linked from [[index]], [[Traveler Stansberry]], [[Intellectual Interests]]. All grounded in existing sources; the headline read is a move from teenage absolutism → pragmatism that keeps the same convictions as livable bets.
+
+## [2026-06-16] ingest | Personal writing (5 pieces, Google Drive)
+- **Source:** `drive-download…3-001.zip` — 5 short docx: Billionaires, god, halloween, William, November 8th (Dom's 18th). Clean text saved to `raw/notes/personal-writing/`.
+- **Created:** 5 source pages + synthesis [[Emotional Life and Inner World]] (the numbness/perfectionism/detachment thread). 
+- **Updated:** [[Family and Personal Life]] (father as narcissist, the drunk-driving incident, mom's honesty), [[Faith vs. Knowledge]] (the "god" essay), [[Political and Economic Views]] (Billionaires essay), [[Extracurriculars and Achievements]] (William/Yale AI model; **squash cut senior year**), [[Tensions and Open Questions]] (logic-vs-emotion), [[Traveler Stansberry]], [[index]].
+- **Corrections:** **William = friend** (Yale NSLC), not a sibling — resolves the earlier "Will" ambiguity. Résumé says squash co-captain, but he was **cut from Varsity as a senior**.
+- **Care note:** the god/halloween/Nov-8 pieces are emotionally heavy (numbness, perfectionism, a narcissistic-father dynamic, a real drunk-driving safety event). Ingested factually and respectfully, flagged not editorialized.

@@ -21,8 +21,8 @@ The full picture of [[Traveler Stansberry]] beyond grades, from his [[Traveler R
 - **[[Coding Club]]** — authored a 9-month coding/AI curriculum.
 - **Volunteer Counselor, Bridges Baltimore** — mentored city middle-schoolers; **named Volunteer of the Year**.
 - **Peer tutor (Japanese)** — took a 6th grader "from failing to top of class."
-- **NSLC Business Program, Yale** — 10-day leadership/business simulation.
-- **[[IB Japanese (SL)|Japan exchange]]** (Rikkyo Niiza); **Choir** (toured Greece); **Squash** 6 years, **Co-Captain** (11th); also played **soccer & lacrosse**.
+- **NSLC Business Program, Yale** — 10-day leadership/business simulation; where he met his close friend [[William (friend portrait)|William]], with whom he later built a proprietary **AI financial-analysis model** (a finance+AI sibling to [[Homework Hatch (startup)]]).
+- **[[IB Japanese (SL)|Japan exchange]]** (Rikkyo Niiza); **Choir** (toured Greece); **Squash** 6 years, **Co-Captain** (11th) — though [[November 8th (journal)|cut from Varsity as a senior]], a real disappointment for him; also played **soccer & lacrosse**.
 - Ran for **Senior Class Representative** ([[Senior Rep Campaign Speech (2025)]]; outcome unconfirmed).
 
 ## Skills

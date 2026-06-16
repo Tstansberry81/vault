@@ -34,7 +34,8 @@ A **determinist, skeptic, and individualist** whose interests are remarkably sta
 
 ## Beyond coursework (from personal notes)
 His private Apple Notes (2022–2026) fill in the person behind the essays:
-- **[[Family and Personal Life]]** — the central, darkening relationship with his father; the divorce's long aftermath; brothers Will & Reece; Naomi.
+- **[[Family and Personal Life]]** — the central, darkening relationship with his father; the divorce's long aftermath; brother Seaton & half-brother Reece; Naomi.
+- **[[Emotional Life and Inner World]]** — the inner life beneath the achievement: numbness, perfectionism, identity-through-intellect (handle with care).
 - **[[Homework Hatch (startup)]]** — his real edtech/AI venture, the operational counterpart to [[The One]].
 - **[[Self-Discipline and Goals]]** — intense self-improvement regimens ("75 Hard," "lock in").
 - **[[Intellectual Interests]]** — private musings on free will, morality, religion, and physics that mirror his essays.

@@ -15,6 +15,7 @@ A synthesis of [[Traveler Stansberry]]'s **demonstrated** positions across his c
 - Argued the **supply-side** case in his [[IB Economics (SL)|Economics Debate]] — productive capacity over stimulus; cites Germany's Hartz reforms, Ireland's corporate tax, South Korea's R&D, and a Reagan-vs-Obama GDP comparison; rebuts the inequality and deficit critiques.
 - This isn't just a debate assignment: an **independent Apple note** ("supply-side policy is superior to demand-side policy for long-term growth… deregulation and decreased corporate taxes") states the same view unprompted.
 - Coheres with his [[Investment Club|markets/finance vocation]] and [[Reading List|reading]] (Friedman's *Capitalism and Freedom*, *The Quants*, *The Outsiders*).
+- His [[Billionaires (essay)]] makes the moral case directly: billionaires aren't obligated to give (ethics are subjective; property rights are individual) — but with a telling carve-out, that a real duty *does* exist to "family, close friends, children." Loyalty to the inner circle is his one binding obligation.
 
 ## Socially: liberal, anti-authoritarian, pro-civil-liberties
 - His HL History [[Civil Disobedience (HL History essay)|Civil Disobedience essay]] explicitly endorses civil disobedience for **transgender rights** and against **book bans**, and condemns authoritarian suppression (North Korea, China).

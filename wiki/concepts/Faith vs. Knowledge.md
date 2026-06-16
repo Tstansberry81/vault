@@ -17,6 +17,8 @@ The grade-9 [[DADOES Essay]] ("How Technology Set Man Free from Religion") is hi
 ## The personal dimension
 In [[Self-Reliance (essay)|his Self-Reliance response]] ("I do not wish to expiate, but to live"), he ties this to his own life: non-religious at an Episcopal school, sitting out chapel, rejecting "original sin." Notably *not* anti-religion — he concedes religion is useful for those "without strong foundations based on education and moral standards." The objection is to **mindless conformity**, not belief itself, which links it to [[Individual vs. Society]].
 
+His rawest treatment is the personal essay [[God (personal essay)|"god"]]: a tilting family photo makes him reconsider a higher power, only to land on anger at a God he doesn't believe in ("he might never have given me a goddamn inch"). Here the atheism is inseparable from grief about his [[Family and Personal Life|family]] — see [[Emotional Life and Inner World]].
+
 ## Religion as manipulation
 - [[Station Eleven]]: Tyler/the Prophet's religious fanaticism as predatory (parallels pre-Reformation indulgences).
 - [[The Lottery]]: tradition as unexamined, lethal ritual ([[Conformity and Tradition]]).

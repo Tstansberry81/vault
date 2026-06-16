@@ -25,7 +25,10 @@ A hard empiricist on religion ([[Faith vs. Knowledge]]) — but privately drawn 
 ## 5. Quant vs. finance
 His standing career fork — strong finance instincts, untested higher-math rigor. Tracked in full at [[UVA and the Quant Question]].
 
-## 6. The public vs. private self
+## 6. Logic vs. emotion (and numbness)
+His most personal writing ([[Emotional Life and Inner World]]) describes **processing emotion through logic** — which he admits "makes utterly no sense" — alongside a recurring **numbness** ("everything feels numb, like I am going through the motions"). The same intellect that powers his [[Intellectual Profile|ideas]] may also be a way of *not feeling*. The most generative unresolved question in the whole vault: is the thinking a tool, a shield, or both?
+
+## 7. The public vs. private self
 The warm, grateful tone toward his father in the [[Senior Speech|public Senior Speech]] vs. the pain in the [[Family and Personal Life|private notes]]. Not a flaw — but a real split between performed and felt, worth being conscious of.
 
 > [!note] These aren't problems to "fix" — they're the live edges of a mind still forming. Revisit as new sources (and college) sharpen them.
