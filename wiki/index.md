@@ -64,7 +64,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 ## Sources (summary pages)
 **Flagship essays:** [[Iliad Essay]] · [[IB HL English 2 Essay]] · [[Narrow Road to the Deep North Response]] · [[DADOES ESSAY]] · [[Nest Essay]] · [[Gatsby Essay]] · [[Station 11 Essay on Art Final]] · [[Home FINAL EXAM]] · [[Maus Essay]] · [[Midterm Essays]] · [[Explicative of Garden of Eden]] · [[Self-Reliance (essay)]] · [[Beloved 257-277 Writeup]] · [[Hinge Points]] · [[The One (short story)]]
 
-**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]] · [[Senior Speech]] · [[College Essay (Surfing)]]
+**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]] · [[Senior Speech]] · [[College Essay (Surfing)]] · [[Senior Rep Campaign Speech (2025)]]
 
 **Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
 

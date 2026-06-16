@@ -22,7 +22,8 @@ The full picture of [[Traveler Stansberry]] beyond grades, from his [[Traveler R
 - **Volunteer Counselor, Bridges Baltimore** — mentored city middle-schoolers; **named Volunteer of the Year**.
 - **Peer tutor (Japanese)** — took a 6th grader "from failing to top of class."
 - **NSLC Business Program, Yale** — 10-day leadership/business simulation.
-- **[[IB Japanese (SL)|Japan exchange]]** (Rikkyo Niiza); **Choir** (toured Greece); **Squash** 6 years, **Co-Captain** (11th).
+- **[[IB Japanese (SL)|Japan exchange]]** (Rikkyo Niiza); **Choir** (toured Greece); **Squash** 6 years, **Co-Captain** (11th); also played **soccer & lacrosse**.
+- Ran for **Senior Class Representative** ([[Senior Rep Campaign Speech (2025)]]; outcome unconfirmed).
 
 ## Skills
 Python, Flask, SQL, automation (n8n, APIs); investment analysis; English (native) + Japanese (conversational).
