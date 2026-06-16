@@ -39,6 +39,20 @@ The biggest single data point so far, and it **refines** the question:
 
 **Concrete recommendation:** treat **first year at UVA as the real test** — deliberately take the *more rigorous* math track (honors/proof-based calculus & linear algebra, and a probability-theory course) rather than the easier path. How he does, and whether he *enjoys* the proofs, will answer the quant question far better than anything in high school. Strong AA-SL ≠ disqualifying; untested ≠ unable.
 
+## What the full coursework + scores add (2026-06, biggest update yet)
+The 10th–12th coursework gives the clearest read so far, and it points to a consistent picture: **strong, finance-bound, quant-curious — but the raw quantitative signal is "very good," not "elite," and he hasn't trained at the highest rigor.**
+
+**Hard numbers (from his [[Traveler Resume|résumé]]):** SAT **740 Math** (1500 total), ACT **35 Math** (33 composite), AP US History 5, GPA 4.0 UW, National Merit Commended. Excellent — but for *quant specifically*, 740/800 SAT-M + SL (not HL) math is "strong student," not the 800/AA-HL/competition-math profile that flags a natural quant.
+
+**Genuine quantitative ability, demonstrated:**
+- **[[Physics IA]]** — a real lab (friction vs. ramp angle) with free-body diagrams, **uncertainty propagation**, error analysis, and unusually honest critique of his own failed data. This is the most quant-like artifact in the corpus.
+- **[[The Logistic Map]]** (10th math exploration) — genuine fascination with **chaos theory, bifurcation, the Feigenbaum constant**. Conceptual mathematical curiosity, not just procedure.
+
+**But his center of gravity is *finance*, not *quant*:**
+- President of [[Investment Club]] (built a 45-week curriculum — valuation, DCF, ROIC, behavioral finance) and three strong [[Economics IA|Econ IAs]] (monetary policy, FX, GDP) + an [[Extended Essay (Economics)|Econ EE]] on COVID fiscal policy & inflation. This is **fundamental/markets finance**, which leans verbal-analytical, not the measure-theory/stochastic-calculus world of quant.
+
+**Refined read:** quant is a *reach he'd have to deliberately close*, not a natural lane — but he's plainly capable of closing it if he wants it. The deciding evidence is still ahead: **how he does in (and whether he enjoys) proof-based college math.** Recommendation stands — take the rigorous first-year math track at UVA and treat it as the experiment. If he loves the proofs, go quant; if he loves the markets/companies more, standard finance + his Investment-Club instincts is the stronger fit.
+
 > [!note] This is a tracked decision, not a conclusion. Revisit each term with new evidence.
 
 ## See also

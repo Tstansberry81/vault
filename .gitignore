@@ -5,3 +5,12 @@
 # OS cruft
 .DS_Store
 .trash/
+
+# Heavy coursework media — kept on disk in raw/ as source of truth, not git-tracked
+raw/coursework/**/*.pdf
+raw/coursework/**/*.pptx
+raw/coursework/**/*.cmbl
+raw/coursework/**/*.xlsx
+raw/coursework/10th/**/*.docx
+raw/coursework/12th/**/*.docx
+raw/coursework/**/*.CMBL

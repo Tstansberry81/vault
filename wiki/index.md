@@ -18,6 +18,10 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 ## Meta / curriculum
 - [[English Curriculum 2022-2026]] — the four-year timeline (English 9 → 10 → HL1 → HL2)
 - [[Academic Record]] — official grades (IB Diploma; senior-year report card)
+
+## Subjects (beyond English)
+- [[IB Physics (HL)]] · [[IB Math (SL)]] · [[IB Economics (SL)]] · [[IB History (HL)]] · [[IB Japanese (SL)]] · [[Theory of Knowledge]] · [[Extended Essay (Economics)]] · [[World Religions (10th)]]
+- Extracurricular: [[Investment Club]] · [[Coding Club]] · [[Extracurriculars and Achievements]]
 - [[Individual Oral (IO)]] — IB oral assessment (Politics, Power & Justice)
 - [[Paper 2 Study Guide]] — IB comparative essay prep (identity-focused)
 
@@ -60,7 +64,9 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 ## Sources (summary pages)
 **Flagship essays:** [[Iliad Essay]] · [[IB HL English 2 Essay]] · [[Narrow Road to the Deep North Response]] · [[DADOES ESSAY]] · [[Nest Essay]] · [[Gatsby Essay]] · [[Station 11 Essay on Art Final]] · [[Home FINAL EXAM]] · [[Maus Essay]] · [[Midterm Essays]] · [[Explicative of Garden of Eden]] · [[Self-Reliance (essay)]] · [[Beloved 257-277 Writeup]] · [[Hinge Points]] · [[The One (short story)]]
 
-**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]]
+**Personal writing:** [[When I Feel Like an Outsider]] · [[Major Moments Memoir]] · [[Life Map]] · [[It's Not in My Control]] · [[Steamboat Times]] · [[Letter to Dad (Dec 2022)]] · [[Note on His Father (July 2025)]] · [[Senior Speech]] · [[College Essay (Surfing)]]
+
+**Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
 
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.

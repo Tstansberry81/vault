@@ -27,5 +27,9 @@ In [[Self-Reliance (essay)|his Self-Reliance response]] ("I do not wish to expia
 ## In his private notes
 The skepticism continues off the page ([[Intellectual Interests]]): a note probing whether faith is coercive — *"if you don't repent, then you go to hell… isn't repenting forced?"* — and an interest in **secular humanism, Kantian rationalism, and virtue ethics** as alternative moral frameworks.
 
+## In his coursework
+- **[[World Religions (10th)]]:** he studied the faiths seriously and gravitated to the *self-determining, anti-dogmatic* strands (Buddhist self-salvation, the Sikh individual path).
+- **[[Theory of Knowledge|ToK exhibition]]:** chose the **Index of Prohibited Books** (the Church censoring Copernicus) as an object — religious values throttling the production of knowledge, the exact thesis of his [[DADOES ESSAY]].
+
 ## Related concepts
 [[Individual vs. Society]] · [[Conformity and Tradition]] · [[Fate and Free Will]] · [[Intellectual Interests]]

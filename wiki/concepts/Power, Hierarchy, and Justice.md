@@ -19,8 +19,10 @@ Two framings of the same idea appear across his IO drafts:
 ## His personal philosophy of justice
 [[Civil Disobedience (essay)|His own essay]] defines justice as "keeping tabs on people and their actions" — restoring balance, "an eye for an eye" — but corrupted by bias (race, ethnicity, politics). Pessimistic conclusion: "Justice should be fair, but we are not fair beings."
 
+His [[IB History (HL)|HL History]] gave this theme real historical teeth — Mao, apartheid, the Korean War — and his [[Civil Disobedience (HL History essay)|Civil Disobedience essay]] turns it toward action (Gandhi, MLK, and present-day rights).
+
 ## Connected works
-[[Antigone]] · [[The Lion in Winter]] · [[Absalom, Absalom!]] · [[The Great Gatsby]] · [[One Flew Over the Cuckoo's Nest]] · [[Civil Disobedience]]
+[[Antigone]] · [[The Lion in Winter]] · [[Absalom, Absalom!]] · [[The Great Gatsby]] · [[One Flew Over the Cuckoo's Nest]] · [[Civil Disobedience]] · [[IB History (HL)]]
 
 ## Related concepts
 [[Masculinity]] · [[Individual vs. Society]] · [[The Moral Impact of Slavery]]

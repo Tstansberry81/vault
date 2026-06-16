@@ -28,7 +28,7 @@ A **determinist, skeptic, and individualist** whose interests are remarkably sta
 ## Personal life (from memoirs & reflections)
 - **Parents divorced** in 6th grade — a defining wound he admits he handled by *avoidance* ([[It's Not in My Control]]); resurfaced at his father's second wedding (~2024) to Shannon, with new Canadian step-family.
 - **Half-brother Reece** born when Traveler was 14 ([[Major Moments Memoir]]) — initial anger giving way to "kinship."
-- **Social anxiety / outsiderness** ([[When I Feel Like an Outsider]]): feels fake at parties, "stays true to my kin"; **writing is his coping mechanism** — "instead of talking to people, I would write to them."
+- **Social anxiety / hyperhidrosis** ([[When I Feel Like an Outsider]], [[Senior Speech]]): diagnosed with social anxiety in 7th grade; severe sweating (hands/feet/armpits) led to people declining to shake his hand at chapel and doctors suggesting Botox. He went public about it in his Senior Speech and college essays, and credits a sophomore-year friend group with letting him "feel like myself." **Writing is his coping mechanism** — "instead of talking to people, I would write to them."
 - **Squash** (started 6th grade), the **gym** (8th grade, for confidence/anxiety), **skiing** (Steamboat, learned black diamonds — [[Steamboat Times]]).
 - **Entrepreneurship & AI**: listens to the *Acquired* podcast; the short story [[The One]] and its abstract reveal firsthand, somewhat disillusioned, experience chasing AI/startup success.
 
@@ -42,7 +42,7 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **[[College Search]]** → committed to **[[UVA and the Quant Question|UVA]]** (Finance major, Math minor; quant route TBD).
 
 ## Academics
-**IB Diploma** student; **Headmaster's List** senior year, finals all A- or above ([[Academic Record]]). HLs: **English, Physics, History**; SLs: **Math (AA), Economics, Japanese**; + Theory of Knowledge. Notably took math at **SL**, not HL — relevant to [[UVA and the Quant Question]].
+**IB Diploma** student; **Headmaster's List** senior year, finals all A- or above ([[Academic Record]]). HLs: [[IB English HL 2|English]], [[IB Physics (HL)|Physics]], [[IB History (HL)|History]]; SLs: [[IB Math (SL)|Math (AA)]], [[IB Economics (SL)|Economics]], [[IB Japanese (SL)|Japanese]]; + [[Theory of Knowledge]]. **SAT 1500 / ACT 33 / AP USH 5 / 4.0 GPA**; Cum Laude & National Merit Commended. Notably took math at **SL**, not HL — relevant to [[UVA and the Quant Question]]. Beyond class: [[Extracurriculars and Achievements|President of Investment Club, co-founder of an AI startup, Bridges Volunteer of the Year]].
 
 ## Teachers
 - **Mr. Bryant** — [[English Curriculum 2022-2026|English 9 & 10]] (most of the foundational essays)

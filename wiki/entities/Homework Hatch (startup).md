@@ -24,6 +24,9 @@ Three tiers — Normal $10 / Premium $20 / Pro $25 — with AI cost modeled at ~
 > [!warning] Security
 > An associated note held **live AWS credentials in plaintext** and was deleted during ingest; those keys should be rotated. (Logged in [[log]].)
 
+## He also taught it
+His [[Coding Club]] curriculum (Python → APIs → "pull Canvas data" → Flask on AWS → AI study-tool generators) is the Homework Hatch skill-stack, taught to others. His résumé title: **"Co-Founder, Central Coder"**; skills listed — Python, Flask, SQL, n8n, APIs.
+
 ## Why it matters
 This is the autobiographical root of [[The One]] — his short story about an MIT student destroyed by AI-startup ambition — and of his lifelong [[Do Androids Dream of Electric Sheep?|fascination with AI]]. Where the fiction is cautionary, the notes are earnest and operational: he's actually building it.
 

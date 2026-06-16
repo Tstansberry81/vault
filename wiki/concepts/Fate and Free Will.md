@@ -27,5 +27,7 @@ status: active
 ## The personal resolution
 His private notes show he didn't leave this question on the page. One reads: *"strong is using willpower to overcome deterministic or selfish tendencies"* — effectively his lived answer to the Iliad-vs-Narrow-Road tension: determinism is real, and strength is the act of resisting it. This is the philosophical engine behind his [[Self-Discipline and Goals|self-discipline regimens]]. See [[Intellectual Interests]].
 
+And it shows up in his *math*, too: his 10th-grade [[The Logistic Map]] exploration is fascinated by a **fully deterministic equation that produces apparent randomness** (chaos, bifurcation, the Feigenbaum constant) — "simplicity can create complexity." Determinism generating unpredictability is the same paradox he keeps circling in literature.
+
 ## Related concepts
 [[Identity and Its Collapse]] · [[Faith vs. Knowledge]] · [[Individual vs. Society]] · [[Intellectual Interests]]

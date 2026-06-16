@@ -29,6 +29,16 @@ Final grades (St. Paul's scale: A+ = 97–100, A = 93–96, A- = 90–92, B+ = 8
 - **Standard Level (SL):** **Math (Analysis & Approaches)**, Economics, Japanese
 - **Core:** Theory of Knowledge (+ EE and CAS, referenced elsewhere in his notes)
 
+## Standardized testing & honors (from [[Traveler Resume|résumé]])
+- **SAT 1500** (760 EBRW, **740 Math**) · **ACT 33** (35 Math, 35 English, 35 Reading) · **AP US History: 5** · **GPA 4.0** (unweighted)
+- **Cum Laude Society**, **National Merit Commended Scholar**, St. Paul's Scholar, Japanese Honors Society (national level)
+
+## Subjects (deep dives)
+- **HL:** [[IB English HL 2|English]] · [[IB Physics (HL)|Physics]] · [[IB History (HL)|History]]
+- **SL:** [[IB Math (SL)|Math AA]] · [[IB Economics (SL)|Economics]] · [[IB Japanese (SL)|Japanese]]
+- **Core:** [[Theory of Knowledge]] · [[Extended Essay (Economics)]] (Econ, on COVID fiscal policy & Maryland inflation)
+- Earlier: 10th-grade [[World Religions (10th)|World Religions]], Math, Science, US History (→ the AP USH 5)
+
 ## Notable for the [[UVA and the Quant Question|quant question]]
 He took **Math at SL (AA SL)**, not HL — while taking HL in Physics, History, and English. He earned an **A+** in AA SL, but did not stress-test himself against the school's most rigorous math track. See [[UVA and the Quant Question]] for what this implies.
 

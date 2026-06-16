@@ -24,9 +24,12 @@ This thread directly underlies his literary affinities — the divorce/avoidance
 - Two 2025 "writing idea" notes show him still circling it: *why the photo of him with both parents "leans towards my mom"* every time he's at his dad's; and **Scout** (a pet) as "the one remainder from my past life with mom and dad" — i.e. the pre-divorce family. His own [[ideas|name]] note: writing "about my name… in the years since my parents divorce."
 
 ## Others
+- **Seaton** — **older brother** ("It's nice having a big brother," [[Senior Speech]]); the brother on the Mexico trip in [[Major Moments Memoir]].
 - **Reece** — younger half-brother (b. when Traveler was 14; see [[Major Moments Memoir]]).
-- **Will** — older brother, leaving for college (a recommendation form and fly-fishing-with-Uncle-Bill notes reference his departure).
-- **Mom**, **Maggie** (close family member), **Shannon** (father's wife).
+- **Mom** — a strongly positive presence ("the best mom… you can always tell if something is off"); **Maggie** (close family member), **Shannon** (father's wife). *("Will," referenced in a recommendation-form note, is unconfirmed as a sibling.)*
+
+> [!note] Public vs. private on his dad
+> In the [[Senior Speech]] he thanks his dad warmly ("a great role model… you constantly strive for excellence"); the private notes hold the pain. The gap between the public and private framing is itself revealing.
 - **Naomi** — important to him in 2026: "naomi has helped me more than she knows" ([[mems]]). *(Kept per his explicit wish; details left as he recorded them.)*
 
 ## See also

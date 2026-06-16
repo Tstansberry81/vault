@@ -23,8 +23,12 @@ Continues his [[Faith vs. Knowledge]] skepticism privately: *"if you don't repen
 ## 4. Physics & metaphysics
 A genuine curiosity about the foundations of reality: the **EPR thought experiment**, **David Bohm**'s books (implicate order / quantum holism), and a mystical aside — *"physical movements are waves that create frequencies which can unlock the universe."*
 
+## In his coursework (the same mind, graded)
+- **Doubt & epistemology:** his [[ToK Essay (Doubt)|ToK essay]] argues doubt drives knowledge through math (Cantor's infinities, non-Euclidean geometry, Descartes) and history (Ranke, the Annales School) — the formal version of *"nobody sees what they don't want to."*
+- **Math/computation:** [[The Logistic Map]] (chaos, the Feigenbaum constant) and his Alan Turing essay (computation, the Turing test, AI) show the conceptual-math and AI curiosity that also drives [[Homework Hatch (startup)]].
+
 ## Adjacent
-Heavy interest in **Gandhi / nonviolence / civil disobedience** ([[gandhi quotes (kirk me)]], for a History/ToK project) — connecting his classwork on [[Civil Disobedience]] to real-world moral action.
+Heavy interest in **Gandhi / nonviolence / civil disobedience** ([[gandhi quotes (kirk me)]], realized in his [[Civil Disobedience (HL History essay)|HL History essay]]) — connecting his classwork on [[Civil Disobedience]] to real-world moral action.
 
 ## See also
 [[Fate and Free Will]] · [[Faith vs. Knowledge]] · [[Reading List]] · [[Film and TV]] · [[Traveler Stansberry]]
