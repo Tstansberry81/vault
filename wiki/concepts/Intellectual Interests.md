@@ -7,6 +7,9 @@ sources: ["[[strong is using willpower to overcome deterministic or selfish tend
 status: active
 ---
 
+> [!tip] Compiled syntheses
+> For the big-picture map of his whole worldview, see **[[Intellectual Profile]]** · **[[Core Convictions]]** · **[[Intellectual Evolution]]** · **[[Tensions and Open Questions]]**.
+
 # Intellectual Interests
 
 [[Traveler Stansberry]]'s private philosophical musings — short notes-to-self that show the same mind as his essays, thinking on its own time. They cluster around four questions:

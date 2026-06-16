@@ -73,5 +73,8 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
 > **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
 
-## Analyses
-*(none yet — filed-back query answers will appear here)*
+## Analyses (compiled syntheses)
+- **[[Intellectual Profile]]** — master index of his ideas, by domain + the through-lines
+- **[[Core Convictions]]** — his beliefs distilled into propositions, with evidence
+- **[[Intellectual Evolution]]** — how his thinking developed, 2022–2026
+- **[[Tensions and Open Questions]]** — where his views conflict or stay unresolved

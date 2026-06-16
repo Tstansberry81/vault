@@ -50,5 +50,8 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **Dr. Harris** — IB HL English 1 ([[The Iliad]])
 - **Mr. Mezeske** — IB HL English 2 ([[Beloved]], [[The Narrow Road to the Deep North]])
 
+## Compiled syntheses of his thought
+[[Intellectual Profile]] (master index) · [[Core Convictions]] · [[Intellectual Evolution]] · [[Tensions and Open Questions]] · [[Political and Economic Views]]
+
 ## See also
 [[English Curriculum 2022-2026]] · [[overview]]

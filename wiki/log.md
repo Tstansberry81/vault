@@ -66,3 +66,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Created:** [[History IA (Naval Gunfire on D-Day)]], [[Economics Debate]], and **[[Political and Economic Views]]** (new synthesis page). Updated [[IB History (HL)]] (Year-1 content + IA), [[IB Economics (SL)]] (Year-1 + debate; the GTA6 commentary was his Year-1 IA), [[Traveler Stansberry]], [[index]].
 - **Key findings:** HL History IA = a methodical D-Day naval-gunfire investigation (OPCVL + research reflection). The **Economics Debate** (supply-side advocacy), corroborated by an independent note, plus his civil-disobedience essay (pro-trans-rights, anti-book-ban) and atheism, sketch a coherent **free-market + socially-liberal** worldview — captured in [[Political and Economic Views]].
 - 11th English already ingested via the English corpus (Iliad/Streetcar/IO); 11th **Physics/Math** remain the only real gaps.
+
+## [2026-06-15] query | Compiled intellectual-ideology indexes (filed to analyses/)
+- Built the first `analyses/` syntheses on request: [[Intellectual Profile]] (master index by domain + through-lines), [[Core Convictions]] (beliefs as evidenced propositions), [[Intellectual Evolution]] (2022–2026 arc), [[Tensions and Open Questions]] (unresolved conflicts).
+- Cross-linked from [[index]], [[Traveler Stansberry]], [[Intellectual Interests]]. All grounded in existing sources; the headline read is a move from teenage absolutism → pragmatism that keeps the same convictions as livable bets.
