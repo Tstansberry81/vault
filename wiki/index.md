@@ -38,7 +38,8 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 - [[Family and Personal Life]] — father, divorce, brothers, Naomi
 - [[Homework Hatch (startup)]] — his real edtech/AI venture
 - [[Self-Discipline and Goals]] — "75 Hard," "lock in," self-improvement
-- [[College Search]] — finance-focused applications
+- [[College Search]] — finance-focused applications → committed to UVA
+- [[UVA and the Quant Question]] — UVA plan (Finance + Math minor) & the open quant decision
 - [[Reading List]] — independent reading, with his ratings
 - [[Film and TV]] — auteur/arthouse watchlist
 

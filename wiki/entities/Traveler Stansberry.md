@@ -9,7 +9,7 @@ status: active
 
 # Traveler Stansberry
 
-The author of nearly every source in this wiki, and its subject. A student at **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year, in the Maryland/Baltimore area. The corpus tracks him from grade 9 (2022) to the end of grade 12 / IB HL English 2 (2026).
+The author of nearly every source in this wiki, and its subject. Attended **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year in the Maryland/Baltimore area, **graduating in 2026**. The coursework corpus tracks him from grade 9 (2022) through IB HL English 2 (2026). **Next: University of Virginia, fall 2026** — Finance major (McIntire), Math minor; see [[UVA and the Quant Question]].
 
 ## Intellectual profile
 
@@ -39,7 +39,7 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **[[Self-Discipline and Goals]]** — intense self-improvement regimens ("75 Hard," "lock in").
 - **[[Intellectual Interests]]** — private musings on free will, morality, religion, and physics that mirror his essays.
 - **[[Reading List]]** & **[[Film and TV]]** — an auteur/existentialist/dystopian taste well beyond his years.
-- **[[College Search]]** — a finance-focused application process.
+- **[[College Search]]** → committed to **[[UVA and the Quant Question|UVA]]** (Finance major, Math minor; quant route TBD).
 
 ## Teachers
 - **Mr. Bryant** — [[English Curriculum 2022-2026|English 9 & 10]] (most of the foundational essays)

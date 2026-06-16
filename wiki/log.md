@@ -38,3 +38,8 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Updated:** [[Traveler Stansberry]] (new "beyond coursework" section), [[Fate and Free Will]] & [[Faith vs. Knowledge]] (personal-note echoes), [[index]].
 - **Key findings:** the father relationship is the dominant private thread (arc from the warm 2022 [[Letter to Dad (Dec 2022)|birthday letter]] to the 2025 low point); a real AI startup ([[Homework Hatch (startup)]]) is the autobiographical root of [[The One]]; his private free-will note ("willpower to overcome deterministic tendencies") resolves his literary [[Fate and Free Will]] tension in his own life.
 - **Handled sensitively:** father/mental-health/therapy notes ingested factually and respectfully per user's "ingest everything else."
+
+## [2026-06-15] update | Post-graduation status + UVA
+- User clarified: **graduated HS (2026)**, committed to **UVA, fall 2026** — Finance major (McIntire), Math minor.
+- Created [[UVA and the Quant Question]] (forward plan + open quant-finance decision, to revisit as data arrives). Updated [[College Search]] (outcome), [[Traveler Stansberry]] (status), [[index]].
+- **Pending:** user to drop **History** and **Physics** coursework into `raw/` — ingest like the English corpus; Physics will also inform the quant question.

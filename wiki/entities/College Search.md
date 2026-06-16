@@ -11,6 +11,9 @@ status: active
 
 [[Traveler Stansberry]]'s college-application process (2025–2026), reconstructed from his planning notes.
 
+## ✅ Outcome: University of Virginia
+He **committed to UVA** (matriculating fall 2026) — **Finance major** (via the [[UVA and the Quant Question|McIntire School of Commerce]]) with a **Math minor**. The forward plan and the open quant-vs-standard-finance question live on **[[UVA and the Quant Question]]**. The rest of this page is the historical record of how he got there.
+
 ## Direction
 **Finance-focused**, with strong secondary interest in **math** and **physics** (and CS). He maps majors-by-school across [[College Stuff|three columns]] (Finance / Mathematics / Physics).
 
