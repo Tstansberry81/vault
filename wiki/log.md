@@ -125,3 +125,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-06-30] event | Haircut with Tony
 - Time: 2026-06-30 21:26
 - Date: 2026-07-01 15:30 | With: Tony
+
+## [2026-06-30] event | UVA Move-In Day
+- Time: 2026-06-30 22:24
+- Date: 2026-08-20 13:00 | With: None
