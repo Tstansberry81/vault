@@ -129,3 +129,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-06-30] event | UVA Move-In Day
 - Time: 2026-06-30 22:24
 - Date: 2026-08-20 13:00 | With: None
+
+## [2026-06-30] event | UVA Orientation
+- Time: 2026-06-30 22:25
+- Date: 2026-07-20 None | With: None
