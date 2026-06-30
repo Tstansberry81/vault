@@ -117,3 +117,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-06-30] event | Flight
 - Time: 2026-06-30 20:39
 - Date: 2026-06-30 15:00 | With: None
+
+## [2026-06-30] event | Work
+- Time: 2026-06-30 20:39
+- Date: 2026-07-01 15:00 | With: None
