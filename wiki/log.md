@@ -89,3 +89,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Updates:** SAT Math **740 → 790** (retook; 1550 superscore) on [[Academic Record]] + [[UVA and the Quant Question]]; UVA is **Early Decision (binding)**, College of A&S, 1st interest **Commerce**, 2nd **Economics**.
 - **Family (authoritative):** mother **Andrea Shaw** (coach), father **Frank Stansberry**, divorce listed **2021**; siblings **Seaton (14)** and **Reece Fox (3)** — both younger.
 - **Correction:** **Seaton is the YOUNGER brother (14)**, not older — fixes my earlier read of a Senior Speech line; corroborated by the Common App + Naomi log. Flagged on [[Family and Personal Life]] and [[Senior Speech]].
+
+## [2026-06-30] event | Hangout with Naomi
+- Time: 2026-06-30 20:11
+- Date: 2026-07-01 10:00 | With: Naomi
