@@ -141,3 +141,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-01] event | Event
 - Time: 2026-07-01 15:03
 - Date: 2026-07-01 19:00 | With: None
+
+## [2026-07-01] event | Haircut with Tony
+- Time: 2026-07-01 19:53
+- Date: 2026-08-11 08:00 | With: Tony
