@@ -304,3 +304,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] delete | beach trip
 - Time: 2026-07-02 16:39
 - Removed 5 GCal + 0 Notion entr(ies)
+
+## [2026-07-02] event | Friends Over
+- Time: 2026-07-02 16:40
+- Date: 2026-07-02 18:00 | With: N/A
