@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 tags: [course/tok, subject, ib, philosophy]
-sources: ["[[ToK Essay (Doubt)]]"]
+sources: ["[[ToK Essay (Doubt)]]", "[[TOK Doubt Essay - Rubric Grading and Surgical Upgrades to Reach a 9 (chat)]]", "[[TOK Essay on Doubt in Mathematics and History - Descartes, Cantor, Ranke (chat)]]"]
 status: active
 ---
 
@@ -20,6 +20,9 @@ A genuinely sophisticated essay — and notice the math examples (Cantor, infini
 
 ## ToK Exhibition — "How do values affect the production of knowledge?"
 Three objects, each extending a theme of his: a **de-extinct Dire Wolf** (gene-editing ethics, "playing god"); the **Index of Prohibited Books** (Catholic censorship of Copernicus — straight into his [[Faith vs. Knowledge]] thread); a **Fox News article** (political misinformation, media skepticism — echoing *"[[Intellectual Interests|nobody sees what they don't want to]]"*).
+
+## How the essay was built (the ChatGPT record)
+The chats show the doubt essay assembled deliberately, AOK by AOK: he built the **mathematics** section around Euclid/non-Euclidean geometry, Descartes, and Cantor, and the **history** section around Ranke, Thucydides, and Bloch, then pasted near-final drafts for rubric-graded critique and "surgical upgrades to reach a 9" ([[TOK Essay on Doubt in Mathematics and History - Descartes, Cantor, Ranke (chat)]], [[TOK Doubt Essay - Rubric Grading and Surgical Upgrades to Reach a 9 (chat)]]). The depth of the math examples again outruns his [[IB Math (SL)|SL track]].
 
 ## See also
 [[Intellectual Interests]] · [[Faith vs. Knowledge]] · [[IB History (HL)]] · [[IB Math (SL)]]

@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 tags: [course/hl-history, subject, ib]
-sources: ["[[Civil Disobedience (HL History essay)]]"]
+sources: ["[[Civil Disobedience (HL History essay)]]", "[[IB HL History Exam Cram - Study Guide, Term Sheet, and Post-Exam Debrief (chat)]]", "[[IB HL History Paper 1 Revision - Cold War, Apartheid, and Maoist China (chat)]]", "[[Civil Disobedience Paper - Gandhi, Selma, and Modern Minority Rights (chat)]]", "[[Korean War Battles Timeline - Soviet UN Boycott to Pork Chop Hill (chat)]]"]
 status: active
 ---
 
@@ -18,6 +18,13 @@ status: active
 
 ## Flagship: the [[Civil Disobedience (HL History essay)|Civil Disobedience essay]]
 A sophisticated, opinionated essay tracing Thoreau's theory → Gandhi (South Africa, the Salt March) → the Montgomery Bus Boycott and Selma/MLK → **bold present-day applications** (transgender rights, book bans). Argues civil disobedience is *more* effective now because of social media — but fails under authoritarian regimes (North Korea, China). A full-circle return to the [[Civil Disobedience|Thoreau]] he first met in 10th-grade transcendentalism.
+
+## The ChatGPT record (~32 chats)
+The export tracks his history work from sophomore year through the final IB exam:
+- **Sophomore US History (pre-IB):** the earliest chats in the whole archive — condensing colonial-America notes, Gilded Age / Populist flashcards, and summarizing Wilson's League of Nations speech (2023–24).
+- **IB Paper 1/2/3 content:** Cold War origins and détente, the Helsinki Accords, apartheid South Africa, Maoist China (Long March, Great Leap), the Korean and Vietnam Wars, Iran-Contra and the 1953 Iran coup, WWI causes (Balkan Wars, Moroccan crises, *Weltpolitik*), and recurring **Mao vs. Pol Pot vs. Hitler** comparisons.
+- **The exam itself:** a days-long cram that built a paper-by-paper study guide and Quizlet term sheet, followed by a candid **post-exam debrief** of his actual answers and factual slips ([[IB HL History Exam Cram - Study Guide, Term Sheet, and Post-Exam Debrief (chat)]], [[IB HL History Paper 1 Revision - Cold War, Apartheid, and Maoist China (chat)]]).
+- **The [[Civil Disobedience (HL History essay)|Civil Disobedience essay]]**, reconstructed: a start-to-finish research/drafting session (Gandhi → Selma → modern minority rights) shows how the flagship essay was assembled ([[Civil Disobedience Paper - Gandhi, Selma, and Modern Minority Rights (chat)]]).
 
 ## See also
 [[Power, Hierarchy, and Justice]] · [[Individual vs. Society]] · [[Conformity and Tradition]] · [[Theory of Knowledge]] (his ToK essay uses history)

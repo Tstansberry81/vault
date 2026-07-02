@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-18
 tags: [meta/index]
 status: active
 ---
@@ -75,9 +75,23 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 
 **Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[History IA (Naval Gunfire on D-Day)]] · [[Economics Debate]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
 
+**ChatGPT chats (2023–2026):** [[_Chats Catalog]] — **293 substantial conversations** as individual source pages + **23 monthly digests** (in `sources/chats/`), grouped by theme: Homework Hatch, IB coursework (History/Econ/Physics/Math/Japanese/English), finance, coding/AI, gaming, personal.
+
+**New pages from the chat ingest (propagated 2026-06-17):**
+- *Finance/quant:* [[Quantitative Finance]] · [[Honeycomb Portfolio]] · [[Sauron Investing]] · [[Bloomberg Terminal]]
+- *Startup/tech:* [[n8n (automation platform)]] · [[Cursor (AI code editor)]] · [[Josh (Homework Hatch co-founder)]]
+- *College:* [[McIntire School of Commerce]]
+- *Projects/hobbies:* [[Capital Climb (board game)]] · [[Gaming and PC Setup]]
+- *People:* [[Porter Stansberry (father)]] (his father, the Porter & Co. founder) · [[Mark Kritzman]]
+
+**Code ingest (2026-06-17):** [[Personal Quant Model]] — a multi-factor quant equity model + Flask app ("Slow Burn") of his design (AI-coded, not hand-written); strong *conceptual* evidence for the [[UVA and the Quant Question|quant question]].
+
+**Code ingest (2026-06-18):** the model split into a product stack — [[The Edge (trading model)]] (the short-horizon momentum/acceleration trader, now its own repo) and [[Vision (Porter Intelligence)]] (the consumer static site that renders it, branded for his father's [[Porter Stansberry (father)|Porter & Co.]]). [[Sauron Investing|Sauron]] is the live product name behind the export.
+
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
 > **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
+> **ChatGPT export (891 chats):** 668 attachments → `raw/assets/chatgpt/`. Source pages + digests + [[_Chats Catalog|catalog]] done; **propagation into entity/concept pages is deferred** (token budget) — see [[log]].
 
 ## Analyses (compiled syntheses)
 - **[[Intellectual Profile]]** — master index of his ideas, by domain + the through-lines

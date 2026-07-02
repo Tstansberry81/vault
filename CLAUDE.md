@@ -28,6 +28,18 @@ writes wiki pages — you do.
 
 ---
 
+## Honest calibration — don't flatter the subject
+
+This wiki is only useful if it's **accurate about what Traveler actually knows and can do** — its job is to show him what to work on, not to agree with him or inflate him. A flattering knowledge base is a broken one.
+
+- **Don't extrapolate skill from adjacent evidence.** Knowing the *ideas* ≠ knowing the *math*; knowing the math ≠ being able to *implement* it; directing an AI to build something ≠ being able to *build it yourself*. Designing a quant model proves design judgment, **not** coding ability — keep those axes separate. (The 2026-06 quant pages are the worked example: ideas ✓, some math ✓, **coding is the real gap**.)
+- **Separate demonstrated from plausible from aspirational.** State plainly what the evidence *shows*, mark what it merely *suggests*, and label what is a goal/intention rather than a proven capability. Use hedged language ("untested," "self-reported," "directed not coded") and don't round a "very good" up to "elite."
+- **Name the gaps explicitly.** Where a skill is missing, weak, or unproven, say so directly and put it where he'll see it — that's the point of the database. A gap unrecorded is a gap he can't work on.
+- **Push back; don't default-agree.** When his self-assessment or a source's claim outruns the evidence, flag the mismatch (`> [!warning]`) and cite what's actually there. Sycophancy is a lint defect.
+- This calibration discipline applies to **every page and every answer**, not just the quant cluster.
+
+---
+
 ## Folder & file map
 
 | Path | Role |
@@ -42,6 +54,7 @@ writes wiki pages — you do.
 | `wiki/entities/` | People, orgs, places, products, works — concrete things. |
 | `wiki/concepts/` | Ideas, topics, themes — abstract things. |
 | `wiki/analyses/` | Filed-back query answers: comparisons, deep-dives, discovered connections. |
+| `wiki/assets/` | Visuals **you generate** for the wiki — charts, diagrams, slide decks (vs. `raw/assets/` for human-supplied source images). |
 
 ---
 
@@ -102,6 +115,14 @@ Scan for and report (with suggested fixes):
 - Orphan pages (no inbound links); important concepts mentioned but lacking their own page.
 - Missing cross-references; thin `stub` pages worth expanding.
 - Data gaps fillable with a web search; good next questions to investigate and sources to find.
+
+**Then close the gaps — don't just list them.** For each knowledge gap you surface, small or big, actively try to fill it:
+- *Small gaps* — a missing definition, an unlinked term, a thin `stub`, an absent backlink: fill them inline.
+- *Big gaps* — a concept/entity the corpus clearly implies but never explains, or important context missing around something Traveler wrote: research it and write the page (or section).
+- **Sourcing:** answer from `raw/` + `wiki/` first; use a **web search** when the answer isn't in the vault. Web-sourced facts get the source-page treatment (`url`, `source_date`, `source_type`) and must be **visibly marked as external** (a fact found online, not from Traveler's own corpus) so the two never blur. Keep `[[wikilinks]]` and `sources:` provenance on everything you add.
+- **Judgment:** prefer high-confidence, clearly-relevant fills. Flag low-confidence facts (`> [!warning]`), and for anything speculative or that would reshape the [[overview]] synthesis, *propose it* rather than silently bake it in.
+- Record every gap you filled (and the source) in the log alongside the gaps you only flagged.
+
 Log the lint pass.
 
 ---
@@ -117,11 +138,20 @@ Log the lint pass.
 
 ---
 
-## Output formats for answers
+## Visual aids & output formats
 
+**Use visual aids freely — on any wiki page, not just query answers.** A diagram, chart, timeline, or table often carries a structure that prose buries. When a page involves a pipeline, a relationship web, a sequence over time, a comparison, a quantity, or a spatial layout, add the matching visual. Don't decorate — add a visual only where it does explanatory work, give it a one-line caption, and keep `[[wikilinks]]`/`sources:` provenance like any other content.
+
+**Prefer native, no-file formats** (they render in Obsidian, version cleanly in git, and need no plugin):
+- **Diagrams — Mermaid** (```mermaid fenced block): flowcharts/pipelines (`graph LR`), sequences, timelines (`timeline`), state machines, mind maps, ER/relationship maps, Gantt. The default for "how does X flow / connect / sequence."
+- **Math/equations — KaTeX** (`$inline$`, `$$block$$`): formulas, model specs, derivations.
+- **Tables** — comparisons, spec sheets, performance grids (already used widely).
+
+**File-based formats** (generate the file, then embed with `![[name]]`):
+- **Charts:** matplotlib (or similar); save the image to **`wiki/assets/`** and embed with `![[name.png]]`. Use for real data — performance curves, distributions, time series. Re-generate when the underlying source changes.
 - **Slides:** Marp (`marp: true` frontmatter, `---` between slides). File decks in `wiki/analyses/`.
-- **Charts:** matplotlib; save the PNG to `raw/assets/` and embed with `![[name.png]]`.
-- **Canvas:** Obsidian `.canvas` (JSON) for spatial / relationship maps.
+- **Canvas:** Obsidian `.canvas` (JSON) for spatial / relationship maps too large or freeform for Mermaid.
+- **Images:** human-dropped/downloaded images live in `raw/assets/` (immutable, the source layer); visuals **you generate** for the wiki go in `wiki/assets/`. Either embeds the same way — `![[filename]]` resolves by name across the vault.
 
 ## Recommended Obsidian plugins (human installs once)
 - **Dataview** — turns the frontmatter above into dynamic tables/lists (e.g. all `stub` pages).

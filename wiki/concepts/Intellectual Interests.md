@@ -1,9 +1,9 @@
 ---
 type: concept
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 tags: [theme/intellectual-life]
-sources: ["[[strong is using willpower to overcome deterministic or selfish tendencies…]]", "[[new idea]]", "[[secular humanism]]", "[[if you don't do this, this- rule or not]]", "[[the epr thought experiment]]", "[[gandhi quotes (kirk me)]]"]
+sources: ["[[strong is using willpower to overcome deterministic or selfish tendencies…]]", "[[new idea]]", "[[secular humanism]]", "[[if you don't do this, this- rule or not]]", "[[the epr thought experiment]]", "[[gandhi quotes (kirk me)]]", "[[Ten Commandments, Free Will, and Morality Without God (chat)]]", "[[Conformal Cyclic Cosmology and Whether Time Is Real (chat)]]", "[[AI Consciousness Paper Brainstorm then Sharpe, Quantum, and Y Combinator (chat)]]", "[[Naming the Rigid-Rule Philosophy and Intelligence vs Curiosity (chat)]]"]
 status: active
 ---
 
@@ -32,6 +32,13 @@ A genuine curiosity about the foundations of reality: the **EPR thought experime
 
 ## Adjacent
 Heavy interest in **Gandhi / nonviolence / civil disobedience** ([[gandhi quotes (kirk me)]], realized in his [[Civil Disobedience (HL History essay)|HL History essay]]) — connecting his classwork on [[Civil Disobedience]] to real-world moral action.
+
+## The ChatGPT record — the private mind, at length
+Where the Apple notes were terse, his ChatGPT chats show these same four clusters worked out in long, unprompted late-night sessions — the clearest evidence yet that this is how he actually thinks for pleasure:
+- **Free will & morality:** a sustained session reasoning aloud through determinism, free will, and **morality without God** (the Ten Commandments as a starting point), and another trying to *name* "the philosophy that says rules have to be rigid" before drifting into intelligence-vs-curiosity ([[Ten Commandments, Free Will, and Morality Without God (chat)]], [[Naming the Rigid-Rule Philosophy and Intelligence vs Curiosity (chat)]]). These directly extend his note that *"strong is using willpower to overcome deterministic tendencies."*
+- **Religion & skepticism:** the Euthyphro dilemma, a close interrogation of **the Bible's defenses of slavery**, and recurring surveillance/government-deception epistemology ("nobody sees what they don't want to," now applied to trust and media) — see [[Faith vs. Knowledge]].
+- **Physics & metaphysics (well past the syllabus):** black holes and the Schwarzschild radius, dark matter vs. dark energy, **conformal cyclic cosmology and whether time is real**, string theory, Noether's theorem, the Schrödinger equation, deterministic chaos and the three-body problem — the recreational-physics habit also noted in [[IB Physics (HL)]].
+- **Computation & AI:** a genuine **machine-consciousness paper brainstorm**, plus the AI-startup thinking behind [[Homework Hatch (startup)]] and his fiction in [[The One]].
 
 ## See also
 [[Fate and Free Will]] · [[Faith vs. Knowledge]] · [[Reading List]] · [[Film and TV]] · [[Traveler Stansberry]]

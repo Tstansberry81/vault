@@ -1,9 +1,9 @@
 ---
 type: project
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-18
 tags: [personal, college, finance, open-question]
-sources: ["[[bs commerce]]", "[[College Stuff]]"]
+sources: ["[[bs commerce]]", "[[College Stuff]]", "[[UVA Quant Finance Pathway and the Math-vs-Finance Decision (chat)]]", "[[Integral of sqrt(pi) and the Quant Pivot Math Roadmap (chat)]]", "[[McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat)]]"]
 status: active
 ---
 
@@ -56,7 +56,27 @@ The 10th–12th coursework gives the clearest read so far, and it points to a co
 
 **Refined read:** quant is a *reach he'd have to deliberately close*, not a natural lane — but he's plainly capable of closing it if he wants it. The deciding evidence is still ahead: **how he does in (and whether he enjoys) proof-based college math.** Recommendation stands — take the rigorous first-year math track at UVA and treat it as the experiment. If he loves the proofs, go quant; if he loves the markets/companies more, standard finance + his Investment-Club instincts is the stronger fit.
 
+## The quant pivot, in his own words (ChatGPT chats, 2025–26) — biggest update yet
+The chat export is the first place the question stops being something *inferred about* him and becomes something **he is actively deciding**, and the arrow points toward quant:
+- **He's chosen the lane and is reverse-engineering the path:** a March 2026 session (already UVA-admitted) interrogates *how to actually become a quant out of UVA* and whether his intended major can get him there ([[UVA Quant Finance Pathway and the Math-vs-Finance Decision (chat)]]); another lays out a deliberate **"quant pivot math roadmap"** from a throwaway calculus question ([[Integral of sqrt(pi) and the Quant Pivot Math Roadmap (chat)]]).
+- **The stacking plan:** he maps a concrete **Commerce + Math minor + targeted CS** degree at [[McIntire School of Commerce|McIntire]], with credit loads and sample schedules — exactly the "deliberately take the rigorous track" experiment recommended above ([[McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat)]]).
+- **The math behind it is already running:** his self-directed, well-above-SL math (Dirichlet/Gaussian integrals, Ramanujan, chaos theory, multivariable previews — see [[IB Math (SL)]]) and his finance reading toward [[Quantitative Finance]] (no-arbitrage, Black-Scholes, RenTech/Medallion via [[Investment Club]]) show he's *enjoying the rigor*, the single signal flagged above as decisive.
+
+**Refined read (2026-06):** the honest "untested at higher rigor" caveat still stands — nothing here is proof-based college math yet — but the *motivation* question is largely answered. He wants quant and is voluntarily doing the prep. The experiment is unchanged; the prior should shift toward "he'll close the gap if first-year proofs don't sour him."
+
+## Strong *conceptual* evidence — the [[Personal Quant Model]] (2026-06)
+He conceived and directed a working multi-factor equity model — cross-sectional factor scoring, **HMM regime detection**, vol-targeting, an honest point-in-time backtest (**IC, t-stats, decile-monotonicity**), and **Carhart 4-factor attribution** testing whether selection alpha survives controlling for momentum and size.
+
+> [!important] What it does and doesn't prove
+> Per Traveler, **the ideas and methodology were his but he did not write the code — it was AI-generated.** So this is strong evidence of quant *fluency and judgment* (he knows what these methods are and how to assemble a serious factor model), but **not** of coding or proof-level math ability. Net: a real positive update on the **conceptual** half of the question; the hands-on-rigor half (college proofs, implementing something himself) remains the deciding test ahead. It also makes the AI-as-scaffolding tension (#8 in [[Tensions and Open Questions]]) very concrete.
+
+### Update (2026-06-18): he split it into a product
+A newer code drop shows the model spun into a two-repo product stack — a standalone short-horizon trader, **[[The Edge (trading model)]]**, and a consumer site, **[[Vision (Porter Intelligence)]]**, branded for his father's [[Porter Stansberry (father)|Porter & Co.]]. This widens the *conceptual* evidence (he now reasons fluently about short-horizon momentum trading, correlation caps, and regime overlays, on top of long-only factor scoring) and shows real product ambition. Two honest checks on the enthusiasm: (1) it's **still AI-coded**, so the deciding hands-on-rigor test is untouched; and (2) his own backtester shows the **headline 2Y return (~50% CAGR) collapses to roughly S&P-matching over 10–20 years** — and he built the tool that exposes that, which is the encouraging part. Net: no change to the verdict, more breadth on the "knows what to build" side.
+
 > [!note] This is a tracked decision, not a conclusion. Revisit each term with new evidence.
+
+## His own read (2026-06): "I need to actually learn to code"
+The most encouraging update of all, and it comes from Traveler directly. After ~a year of **vibe coding**, he's concluded that real software skill — not AI-assisted prompting — is a prerequisite for quant, and plans to **learn to code properly alongside the [[IB Math (SL)|math]] minor** at UVA. This matters more than any single artifact: the deciding test on this page was always "can he do the hands-on rigor himself?", and he has now **diagnosed exactly that gap unprompted** and set a plan to close it. It's the firmer-commitment version of the realization he first voiced in Sept 2025 ([[Learning to Code for Homework Hatch - Beyond Vibe Coding (chat)]]), and it's the beginning of resolving the AI-as-crutch tension (#8 in [[Tensions and Open Questions]]). Self-aware about the gap + motivated to close it is the best leading indicator there is.
 
 ## See also
 [[College Search]] (how he chose) · [[Homework Hatch (startup)]] · [[Self-Discipline and Goals]] · [[Traveler Stansberry]]

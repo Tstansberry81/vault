@@ -3,7 +3,7 @@ type: concept
 created: 2026-06-15
 updated: 2026-06-15
 tags: [theme/power-justice]
-sources: ["[[Global Issue Activity]]", "[[IO Outline and Extracts]]", "[[Outline IB Form]]", "[[Civil Disobedience (essay)]]"]
+sources: ["[[Global Issue Activity]]", "[[IO Outline and Extracts]]", "[[Outline IB Form]]", "[[Civil Disobedience (HL History essay)|Civil Disobedience (essay)]]"]
 status: active
 ---
 
@@ -17,7 +17,7 @@ Two framings of the same idea appear across his IO drafts:
 - **Patriarchy as a tool of hierarchy** ([[IO Outline and Extracts]], [[Outline IB Form]]): in [[Antigone]] and [[The Lion in Winter]], Creon and Henry "use patriarchy as a tool to uphold a hierarchy of power," isolating capable female opponents (Antigone, Eleanor) who threaten them. Links to [[Masculinity]].
 
 ## His personal philosophy of justice
-[[Civil Disobedience (essay)|His own essay]] defines justice as "keeping tabs on people and their actions" — restoring balance, "an eye for an eye" — but corrupted by bias (race, ethnicity, politics). Pessimistic conclusion: "Justice should be fair, but we are not fair beings."
+[[Civil Disobedience (HL History essay)|His own essay]] defines justice as "keeping tabs on people and their actions" — restoring balance, "an eye for an eye" — but corrupted by bias (race, ethnicity, politics). Pessimistic conclusion: "Justice should be fair, but we are not fair beings."
 
 His [[IB History (HL)|HL History]] gave this theme real historical teeth — Mao, apartheid, the Korean War — and his [[Civil Disobedience (HL History essay)|Civil Disobedience essay]] turns it toward action (Gandhi, MLK, and present-day rights).
 

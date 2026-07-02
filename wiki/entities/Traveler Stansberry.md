@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 tags: [person/author, self]
-sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]"]
+sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]"]
 status: active
 ---
 
@@ -51,6 +51,15 @@ His private Apple Notes (2022–2026) fill in the person behind the essays:
 - **Mr. Bryant** — [[English Curriculum 2022-2026|English 9 & 10]] (most of the foundational essays)
 - **Dr. Harris** — IB HL English 1 ([[The Iliad]])
 - **Mr. Mezeske** — IB HL English 2 ([[Beloved]], [[The Narrow Road to the Deep North]])
+
+## What the ChatGPT export adds (2023–2026)
+His 891-conversation ChatGPT archive (catalogued in [[_Chats Catalog]]) is the richest single source in the wiki, and it adds dimensions the coursework only hinted at:
+- **The builder, in detail.** [[Homework Hatch (startup)]] goes from idea to documented build — Flask on AWS, [[n8n (automation platform)|n8n]] automations, [[Cursor (AI code editor)|Cursor]] vibe-coding, a Maryland LLC, co-founder [[Josh (Homework Hatch co-founder)|Josh]] — alongside side projects like [[Sauron Investing]] and the [[Honeycomb Portfolio]].
+- **The quant turn.** A late-senior pivot toward [[Quantitative Finance]] — self-teaching Black-Scholes, RenTech, and above-SL math, and planning a [[McIntire School of Commerce|Commerce + Math + CS]] stack (updates [[UVA and the Quant Question]]).
+- **Physics, finally documented.** ~46 chats fill the wiki's biggest coursework gap ([[IB Physics (HL)]]).
+- **The father, identified.** His dad is **[[Porter Stansberry (father)|Porter Stansberry]]** (Porter & Co.) — reconciling the Common App "Frank Stansberry"; he critiques his father's newsletters rather than absorbing them.
+- **The inner life, in his own real-time words.** A Nov 2025 confessional chat and a candid "over-scaffolding" self-audit deepen [[Emotional Life and Inner World]]; he also discloses a **minor cerebral palsy** ([[Family and Personal Life]]).
+- **Range.** Recreational cosmology/philosophy ([[Intellectual Interests]]), a [[Capital Climb (board game)|poverty-trap board game]], and a [[Gaming and PC Setup|gaming/AI-workstation]] hobby.
 
 ## Compiled syntheses of his thought
 [[Intellectual Profile]] (master index) · [[Core Convictions]] · [[Intellectual Evolution]] · [[Tensions and Open Questions]] · [[Political and Economic Views]]

@@ -16,3 +16,9 @@ raw/coursework/12th/**/*.docx
 raw/coursework/**/*.CMBL
 raw/coursework/History-archive/
 raw/coursework/Economics-archive/
+
+# Secrets — never commit these
+raw/scripts/.env
+*.env
+Notes/*pass*
+Notes/*cred*

@@ -3,6 +3,47 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-02] agent | Pipeline run
+- Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped), Outlook email + calendar (no results)
+- Items processed: 0
+- No new items.
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped), Outlook (no results)
+- Items processed: 0
+- No new items.
+
+## [2026-06-30] agent | Pipeline run
+- Source: Outlook (1 email), Telegram (queue clear), Gmail (connector unavailable)
+- Items processed: 1
+- Task — Sign up for UVA Fall 2026 payment plan (Inbox / School / Medium) — from sfs@virginia.edu re: UVAPay enrollment for fall term
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — all pre-processed), Gmail (connector error: needs reconnection), Outlook email (no results), Outlook calendar (no results)
+- Items processed: 0
+- No new items.
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — all items pre-processed), Gmail (connector requires permission reconnect — skipped), Outlook email (no results), Outlook calendar (no results)
+- Items processed: 0
+- No new items.
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — 1 pre-processed item), Gmail (permissions error — reconnect needed), Outlook (no new emails or calendar items)
+- Items processed: 0
+- No new items.
+
+## [2026-06-29] agent | Pipeline run
+- Source: Telegram (queue clear), Gmail (connector needs reconnection — skipped), Outlook
+- Items processed: 0
+- No new items found.
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — 1 item already processed), Gmail (connector needs reconnection — skipped), Outlook
+- Items processed: 0
+- Outlook email: 1 UVA daily newsletter (not actionable — no task/event/academic signal)
+- Outlook calendar: no upcoming events returned
+
 ```
 grep "^## \[" log.md | tail -5
 ```
@@ -10,6 +51,11 @@ grep "^## \[" log.md | tail -5
 Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ---
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram
+- Items processed: 1
+- Event — "Call with Josh" → GCal event created (June 30, 3–4pm ET) + Notion Events entry (GCal synced ✓)
 
 ## [2026-06-15] setup | Vault initialized
 - Created three-layer architecture: `raw/` (immutable sources), `wiki/` (LLM-owned), `CLAUDE.md` (schema).
@@ -89,3 +135,81 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Updates:** SAT Math **740 → 790** (retook; 1550 superscore) on [[Academic Record]] + [[UVA and the Quant Question]]; UVA is **Early Decision (binding)**, College of A&S, 1st interest **Commerce**, 2nd **Economics**.
 - **Family (authoritative):** mother **Andrea Shaw** (coach), father **Frank Stansberry**, divorce listed **2021**; siblings **Seaton (14)** and **Reece Fox (3)** — both younger.
 - **Correction:** **Seaton is the YOUNGER brother (14)**, not older — fixes my earlier read of a Senior Speech line; corroborated by the Common App + Naomi log. Flagged on [[Family and Personal Life]] and [[Senior Speech]].
+
+## [2026-06-17] ingest | ChatGPT export (891 conversations, 2023–2026)
+- **Source:** OpenAI export zip in `raw/` (614 MB). Extracted **668 attachments** → `raw/assets/chatgpt/` (real filenames); built 891 clean transcripts in scratch.
+- **Tiered ingest:** **293 substantial** chats → individual source pages in `wiki/sources/chats/`; **598 minor** chats → **23 monthly digests** in `wiki/sources/chats/digests/`. Master catalog: [[_Chats Catalog]] (by theme).
+- **Coverage by theme:** Homework Hatch 51 · IB Physics 46 · IB Econ 41 · IB History 32 · Coding/AI 31 · IB Math 25 · Finance 22 · English 18 · Gaming 10 · Personal 8 · Japanese 5 · College 5.
+- **Method:** parallel sub-agent workflow (one source page per substantial chat). Digests + catalog + this log generated **deterministically (no agents)** to conserve tokens after the first full run exhausted the session limit.
+- **DEFERRED (to control token cost):** **propagation** — chat findings have source pages + catalog but are **not yet woven into** existing entity/concept pages ([[Homework Hatch (startup)]], [[IB History (HL)]], [[IB Economics (SL)]], [[Intellectual Profile]], etc.). ~90 new-topic candidates surfaced but not created (e.g. Quantitative Finance, Bloomberg Terminal, n8n, the RTX 5090 gaming-PC build, McIntire School of Commerce, Capital Climb board game, Honeycomb Portfolio). A future low-agent pass can propagate selectively.
+- **Notable surfaced material:** his **Honeycomb Portfolio** working paper (kissing-number geometry + survivorship-bias critique); **Capital Climb** poverty-trap board game; a multi-day HL History exam cram + post-exam debrief; a candid self-audit of his own over-scaffolded ChatGPT use; a critique of his father's **Porter & Co.** newsletter.
+- **Caveat:** chats are AI-assisted Q&A — source pages flag confabulations where present; treat as records of what he was *working on*, not authoritative fact.
+- **Op note:** vault was moved `~/Documents/Obsidian Vault` → `~/Desktop/Obsidian Vault` mid-session; Obsidian's app pointer was stale (re-opened folder as vault). Content path unchanged otherwise.
+
+## [2026-06-17] ingest | ChatGPT propagation pass (no agents) + zip-safety
+- **Propagated** the 298 chat source pages into the curated wiki by hand (main loop, zero sub-agents — done after the agent fleet exhausted the session limit; driven off [[_Chats Catalog]] rather than re-reading sources).
+- **Updated 19 existing pages:** [[Homework Hatch (startup)]] (full build log — Flask/AWS/n8n/Cursor/Maryland LLC/co-founder Josh), [[IB Physics (HL)]] (filled the wiki's biggest coursework gap, ~46 chats), [[IB Economics (SL)]], [[IB History (HL)]], [[IB Math (SL)]], [[Theory of Knowledge]], [[Extended Essay (Economics)]] (reconstructed from chats; stub→active), [[Investment Club]], [[UVA and the Quant Question]] (the quant pivot), [[College Search]], [[Coding Club]], [[IB Japanese (SL)]], [[Political and Economic Views]], [[Intellectual Interests]], [[Emotional Life and Inner World]], [[Family and Personal Life]], [[Traveler Stansberry]], [[Tensions and Open Questions]], [[Intellectual Profile]].
+- **Created 12 new pages:** [[Quantitative Finance]], [[Honeycomb Portfolio]], [[Sauron Investing]], [[Bloomberg Terminal]], [[Capital Climb (board game)]], [[n8n (automation platform)]], [[Cursor (AI code editor)]], [[Gaming and PC Setup]], [[McIntire School of Commerce]], [[Josh (Homework Hatch co-founder)]], [[Mark Kritzman]], and [[Porter Stansberry (father)]].
+- **Key finding — father identified:** his father is **Frank _Porter_ Stansberry** (goes by Porter), founder of Stansberry Research / Porter & Co. This *reconciles* the [[Common App (UVA ED 2026)|Common App]]'s "Frank Stansberry" with the forwarded "Porter Stansberry" newsletters (confirmed via Shannon = both Porter's wife and Traveler's stepmother). Not flagged as a contradiction — it resolves one.
+- **New biographical fact:** Traveler discloses a **minor cerebral palsy** ([[Cerebral Palsy Disclosure then The Shard Restaurants (chat)]]); handled as private. The Nov-1-2025 confessional chat independently corroborates the Halloween drunk-driving event.
+- **New live tension:** added "the intellect as crutch — AI as the new shield" to [[Tensions and Open Questions]], grounded in his own over-scaffolding self-audit.
+- **Data preserved / zip safety:** all 891 conversations now also live as verbatim transcripts in `raw/chatgpt/transcripts/` + canonical JSON in `raw/chatgpt/conversations/`; all 639 unique attachments in `raw/assets/chatgpt/`. The 586 MB export zip in `raw/` is therefore redundant (its only unique file is a duplicate `chat.html`) and **safe to delete on request** — left in place pending the human's go-ahead, since `raw/` is the immutable source of truth.
+- **Cost note:** the initial full agent run (414 agents, 7.2 M tokens) overran the session limit; remaining work was finished with a capped 10-agent batch (~1 M tokens) and this hand-propagation. Future bulk ingests should default to deterministic scripting + small capped agent batches.
+
+## [2026-06-17] ingest | Personal Quant Model (code repo)
+- **Source:** `raw/personal quant model.zip` (~185 MB; code + cached fiscal.ai/yfinance data + git history). Extracted and read the code (not committed to raw beyond the zip).
+- **Created:** [[Personal Quant Model]] — a self-coded multi-factor quant equity model + Flask app, nicknamed "Slow Burn" (long-term portfolio engine split from a sibling "Edge" trading product). Factor library (ROIC/FCF/momentum/52w-high/residual-mom/reversal — each academically sourced), sector-neutral rank scoring with an anti-overfitting equal-weight default, Gaussian-HMM regime detection driving a gold sleeve, vol-targeting crash overlay, honest point-in-time backtest (IC/t-stats/deciles), and Carhart 4-factor attribution. In-app Claude assistant.
+- **Connected:** linked from [[Quantitative Finance]], [[UVA and the Quant Question]] (logged as the hardest capability evidence yet), [[Investment Club]], and [[Sauron Investing]] (likely its earlier scoped concept).
+- **Key read:** this is genuine statistical factor modeling — not the fundamental stock-picking of [[Investment Club]]. Materially updates the quant question from "does he want it" (settled) toward "can he do it" (now leaning yes). Same intellectual-honesty fingerprint as his [[Physics IA]] (self-flagged survivorship bias + HMM lookahead caveat).
+- **Security:** the repo .env + git history previously held a hard-coded Fiscal.ai API key (its own code-comment says to rotate it). Flagged on the page; rotate Fiscal.ai + any Anthropic key if live.
+
+## [2026-06-17] correction | Personal Quant Model authorship
+- **Correction (from Traveler):** the [[Personal Quant Model]] ideas, strategy, factor choices, and methodology are his, but **he did not write the code — it was AI-generated.** The earlier same-day entry called it "self-coded"; that was wrong.
+- **Re-propagated:** softened authorship on [[Personal Quant Model]], [[Quantitative Finance]], [[UVA and the Quant Question]], [[Investment Club]], [[Sauron Investing]], and [[index]] — reframed as evidence of quant *judgment/fluency*, not coding ability. Added it as the concrete example for the AI-as-scaffolding tension (#8) in [[Tensions and Open Questions]].
+
+## [2026-06-17] note | Traveler: needs to learn real coding for quant
+- Traveler reflected that ~1 year of vibe coding isn't enough — real coding skill is a prerequisite for quant, and he plans to learn it properly alongside the math minor at UVA.
+- Filed into [[UVA and the Quant Question]] ("His own read" — strongest leading indicator yet: he diagnosed the gap himself) and [[Tensions and Open Questions]] #8 (the AI-as-crutch tension is now being actively worked, not just observed).
+
+## [2026-06-18] ingest | Quant model split + Vision product site (2 code repos)
+- **Sources:** `raw/quant model.zip` (~550 MB; code + cached data + git history) and `raw/vision.zip` (~55 KB; static site). Both extracted under `raw/` and read (docs, config, git logs, key source files). The older `raw/personal quant model.zip` was left untouched.
+- **What changed in the code:** `quant model.zip` is the earlier model **split into its own repo** — *"this repo is now the Edge product only."* The long-term Slow Burn engine is preserved in `qmodel/` + `qmodel_original/`; the short-horizon trader ("The Edge") is now the active product, with a Sauron export pipeline (`export_sauron.py`) feeding the separate `vision.zip` consumer site.
+- **Created:** [[The Edge (trading model)]] — market-data-only short-horizon trader (momentum / relative-strength / **acceleration** on a 1-month clock; correlation-cap ≤0.50 + 200-day-MA regime overlays; optional YoY-revenue growth-mix; 10-stock equal-weight; ~10 bps cost; Russell-1000-proxy PIT universe). Flask app with KaTeX Model page, Edge Tracker, multi-window backtester (1Y–MAX), grounded Anthropic chat assistant. **[[Vision (Porter Intelligence)]]** — the static consumer front-end that renders the Edge export, styled for his father's [[Porter Stansberry (father)|Porter & Co.]] house ("Porter Intelligence"); internal product name "Sauron".
+- **Updated:** [[Personal Quant Model]] (codebase-split callout + cross-links), [[Sauron Investing]] ("Sauron" survived as the live product name → Vision), [[Quantitative Finance]] (productization section), [[UVA and the Quant Question]] (2026-06-18 update — more conceptual breadth, no new rigor evidence), [[Porter Stansberry (father)]] (he's now building *for* the family brand, not only reasoning against it), [[index]].
+- **Key read (honest performance):** the launch export's headline **2Y CAGR ~49.8% / Sharpe 1.65** is flattered by a recent momentum regime; the **10Y excess vs S&P is ~−0.4%/yr and 20Y ~+3.4%/yr** (Sharpe ~0.71) — i.e. roughly market-matching long-term. The repo's own `DEPLOY.md` warns against quoting short-window returns; the candor matches his [[Physics IA]] fingerprint. Captured on [[The Edge (trading model)]].
+- **Security:** same as the sibling repo — `quant model.zip` carries a `.env` and git history that previously hard-coded the Fiscal.ai API key (code-comment says to rotate). Re-flagged on the page; rotate Fiscal.ai + any Anthropic key if live.
+
+## [2026-06-18] lint | Quant knowledge cluster
+- **Scope:** 13 pages — [[Personal Quant Model]], [[The Edge (trading model)]], [[Vision (Porter Intelligence)]], [[Sauron Investing]], [[Quantitative Finance]], [[UVA and the Quant Question]], [[Honeycomb Portfolio]], [[Bloomberg Terminal]], [[Mark Kritzman]], [[Investment Club]], [[McIntire School of Commerce]], [[Porter Stansberry (father)]], [[index]].
+- **Orphans:** none. Every quant page has ≥4 non-chat inbound links (Quantitative Finance: 16, Honeycomb: 10).
+- **Contradictions:** none found. Authorship ("his design, AI-coded") is consistent across all pages; "top-1000 by mcap" vs "Russell-1000 proxy" are the same universe described two ways (not a conflict); the honest-performance caveat (2Y flatters, 10–20Y ~market) is now stated consistently on [[The Edge (trading model)]], [[Quantitative Finance]], and [[UVA and the Quant Question]].
+- **Fixed — missing cross-references:** [[Investment Club]] (its "his own tools" hub had no link to the new Edge/Vision split — added, + See also + date); [[Honeycomb Portfolio]] (added a callout showing its two ideas — non-correlation packing and the survivorship-bias fix — were operationalized as the Edge's correlation cap and the PIT/delisted-name backtests; + See also).
+- **Stubs noted (not expanded):** [[Mark Kritzman]] (stub; an Econ-EE citation, peripheral to quant — leave). [[Bloomberg Terminal]] and [[Honeycomb Portfolio]] are short but complete for their evidence.
+- **Open question surfaced (analysis candidate, not yet written):** his quant work spans **three different investing philosophies** — Honeycomb's durable/Lindy/low-correlation *packing*, Slow Burn's long-horizon *fundamental factors*, and the Edge's short-horizon *momentum/acceleration*. Worth a focused `analyses/` page (or a new entry in [[Tensions and Open Questions]]) on whether these cohere into one view or are him exploring the space. Recommended next step.
+- **Data-gap note:** little here is web-verifiable (it's his private code); the factor lineage he cites (Carhart, Ardila-Sornette accel, George-Hwang 52w-high, Barroso-Santa-Clara vol-targeting) checks out as real literature — a good signal the methodology isn't invented.
+
+## [2026-06-18] visual aids | First visuals on the quant cluster
+- Added the new **Visual aids & output formats** capability to [[CLAUDE]] (Mermaid/KaTeX native + matplotlib/Marp/Canvas files; `wiki/assets/` for generated visuals). First use:
+- **Chart:** `wiki/assets/edge-cagr-vs-sp500.png` (matplotlib, Vision dark-green theme) — Edge vs S&P 500 CAGR across 2Y/5Y/10Y/20Y windows, embedded on [[The Edge (trading model)]]. Makes the honest "2Y flatters / 10Y ≈ market" read visual. Generated from the launch `vision_data.js` window stats; regenerate if the export changes.
+- **Mermaid (flow):** runtime data-flow (universe → signals → overlays → growth mix → book → export → Vision) on [[The Edge (trading model)]].
+- **Mermaid (timeline):** the idea→engine→split→product lineage on [[Sauron Investing]].
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — all processed), Gmail (connector needs reconnection — skipped), Outlook
+- Items processed: 0
+- Outlook email: 1 UVA Daily Report newsletter (not actionable)
+- Outlook calendar: nothing new
+- Note: Gmail connector requires reconnection with updated permissions
+
+## [2026-06-30] agent | Pipeline run
+- Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped), Outlook email (1 new item), Outlook calendar (no results)
+- Items processed: 1
+- Task — UVA Housing Assignment email from housingassignments@virginia.edu: assigned Fitzhugh-342-A2 (Double, First Year, Alderman Road, Suite-Style) for 2026-2027 → Notion task created (School / Inbox / High priority)
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram (queue clear), Gmail (connector still needs reconnection — skipped), Outlook email (none in last 2h), Outlook calendar (none)
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram (queue clear — 1 pre-processed item), Gmail (connector still needs reconnection — skipped), Outlook email (1 UVA Daily Report newsletter, not actionable), Outlook calendar (none)
