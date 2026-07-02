@@ -280,3 +280,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Beach Trip
 - Time: 2026-07-02 16:13
 - Date: 2026-07-24 09:00 | With: N/A
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-25 09:00 | With: N/A
