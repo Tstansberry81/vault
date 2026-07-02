@@ -312,3 +312,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Wade comes over
 - Time: 2026-07-02 22:03
 - Date: 2026-07-07 08:00 | With: Wade
+
+## [2026-07-02] event | Golf Tournament
+- Time: 2026-07-02 22:23
+- Date: 2026-07-30 09:00 | With: N/A
