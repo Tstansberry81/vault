@@ -272,3 +272,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Pool party
 - Time: 2026-07-02 12:56
 - Date: 2026-07-07 17:30 | With: None
+
+## [2026-07-02] event | Mountain house trip
+- Time: 2026-07-02 14:48
+- Date: 2026-07-10 09:00 | With: None
