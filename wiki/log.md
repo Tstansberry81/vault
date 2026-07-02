@@ -316,3 +316,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Golf Tournament
 - Time: 2026-07-02 22:23
 - Date: 2026-07-30 09:00 | With: N/A
+
+## [2026-07-02] event | Dinner with Dr. Harris
+- Time: 2026-07-02 22:30
+- Date: 2026-07-03 18:00 | With: Dr. Harris
