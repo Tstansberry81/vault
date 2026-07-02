@@ -300,3 +300,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] task | Delete all beach trip events from Notion & Google Calendar
 - Time: 2026-07-02 16:14
 - Due: 2026-07-02 | Priority: High
+
+## [2026-07-02] delete | beach trip
+- Time: 2026-07-02 16:39
+- Removed 5 GCal + 0 Notion entr(ies)
