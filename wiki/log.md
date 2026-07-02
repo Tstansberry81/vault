@@ -308,3 +308,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Friends Over
 - Time: 2026-07-02 16:40
 - Date: 2026-07-02 18:00 | With: N/A
+
+## [2026-07-02] event | Wade comes over
+- Time: 2026-07-02 22:03
+- Date: 2026-07-07 08:00 | With: Wade
