@@ -213,3 +213,62 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] agent | Pipeline run
 - No new items.
 - Sources checked: Telegram (queue clear — 1 pre-processed item), Gmail (connector still needs reconnection — skipped), Outlook email (1 UVA Daily Report newsletter, not actionable), Outlook calendar (none)
+## [2026-06-30] event | Hangout with Naomi
+- Time: 2026-06-30 20:11
+- Date: 2026-07-01 10:00 | With: Naomi
+
+## [2026-06-30] event | Hangout with Naomi
+- Time: 2026-06-30 20:20
+- Date: 2026-07-01 10:00 | With: Naomi
+
+## [2026-06-30] event | Hangout with Naomi
+- Time: 2026-06-30 20:27
+- Date: 2026-07-01 10:00 | With: Naomi
+
+## [2026-06-30] event | Hangout with Naomi
+- Time: 2026-06-30 20:28
+- Date: 2026-07-01 10:00 | With: Naomi
+
+## [2026-06-30] event | Football Practice
+- Time: 2026-06-30 20:30
+- Date: 2026-07-01 09:00 | With: None
+
+## [2026-06-30] event | Flight to Hawaii
+- Time: 2026-06-30 20:38
+- Date: 2026-06-30 15:00 | With: None
+
+## [2026-06-30] event | Flight
+- Time: 2026-06-30 20:39
+- Date: 2026-06-30 15:00 | With: None
+
+## [2026-06-30] event | Work
+- Time: 2026-06-30 20:39
+- Date: 2026-07-01 15:00 | With: None
+
+## [2026-06-30] event | Haircut with Tony
+- Time: 2026-06-30 21:26
+- Date: 2026-07-01 15:30 | With: Tony
+
+## [2026-06-30] event | UVA Move-In Day
+- Time: 2026-06-30 22:24
+- Date: 2026-08-20 13:00 | With: None
+
+## [2026-06-30] event | UVA Orientation
+- Time: 2026-06-30 22:25
+- Date: 2026-07-20 None | With: None
+
+## [2026-06-30] event | UVA Orientation
+- Time: 2026-06-30 22:27
+- Date: 2026-07-20 09:00 | With: None
+
+## [2026-07-01] event | Event
+- Time: 2026-07-01 15:03
+- Date: 2026-07-01 19:00 | With: None
+
+## [2026-07-01] event | Haircut with Tony
+- Time: 2026-07-01 19:53
+- Date: 2026-08-11 08:00 | With: Tony
+
+## [2026-07-02] event | Pool party
+- Time: 2026-07-02 12:56
+- Date: 2026-07-07 17:30 | With: None
