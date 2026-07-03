@@ -1,0 +1,34 @@
+[
+ {
+  "id": "8d920737",
+  "when": "2026-07-03 16:00",
+  "message": "Coming up at 6:00 PM: Dinner with Dr. Harris",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "mcvuub9tb6eu9018arplchep9k"
+ },
+ {
+  "id": "411cc4ad",
+  "when": "2026-07-07 06:00",
+  "message": "Coming up at 8:00 AM: Wade comes over",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "mo16a2esr23qna4rq4ajf2da8o"
+ },
+ {
+  "id": "ac7a2547",
+  "when": "2026-07-07 15:30",
+  "message": "Coming up at 5:30 PM: Pool party",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "3qlgurelepmp8rph1hsamffpkc"
+ },
+ {
+  "id": "5b490f9a",
+  "when": "2026-07-10 07:00",
+  "message": "Coming up at 9:00 AM: Mountain house trip",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "3gd5p88pi4khre7n1ncqoif83c"
+ }
+]
