@@ -1,10 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-03 00:19 EDT.*
-
-## June 2026
-
-- **Tue Jun 30** · 9:25 PM — Flight to Washington (UA 344)
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-03 07:00 EDT.*
 
 ## July 2026
 
