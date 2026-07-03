@@ -324,3 +324,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-03] event | Break up with Naomi
 - Time: 2026-07-03 01:08
 - Date: 2026-07-03 12:30 | With: Naomi
+
+## [2026-07-03] delete | Golf Tournament
+- Time: 2026-07-03 03:55
+- Removed 1 entr(ies) after Telegram confirmation
