@@ -332,3 +332,58 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
 - Gmail: connector error persists — needs reconnect with additional permissions.
+## [2026-07-02] event | Mountain house trip
+- Time: 2026-07-02 14:48
+- Date: 2026-07-10 09:00 | With: None
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-24 09:00 | With: N/A
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-25 09:00 | With: N/A
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-26 09:00 | With: N/A
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-27 09:00 | With: N/A
+
+## [2026-07-02] event | Beach Trip
+- Time: 2026-07-02 16:13
+- Date: 2026-07-28 09:00 | With: N/A
+
+## [2026-07-02] task | Delete all beach trip events from Notion & Google Calendar
+- Time: 2026-07-02 16:14
+- Due: 2026-07-02 | Priority: High
+
+## [2026-07-02] delete | beach trip
+- Time: 2026-07-02 16:39
+- Removed 5 GCal + 0 Notion entr(ies)
+
+## [2026-07-02] event | Friends Over
+- Time: 2026-07-02 16:40
+- Date: 2026-07-02 18:00 | With: N/A
+
+## [2026-07-02] event | Wade comes over
+- Time: 2026-07-02 22:03
+- Date: 2026-07-07 08:00 | With: Wade
+
+## [2026-07-02] event | Golf Tournament
+- Time: 2026-07-02 22:23
+- Date: 2026-07-30 09:00 | With: N/A
+
+## [2026-07-02] event | Dinner with Dr. Harris
+- Time: 2026-07-02 22:30
+- Date: 2026-07-03 18:00 | With: Dr. Harris
+
+## [2026-07-03] event | Break up with Naomi
+- Time: 2026-07-03 01:08
+- Date: 2026-07-03 12:30 | With: Naomi
+
+## [2026-07-03] delete | Golf Tournament
+- Time: 2026-07-03 03:55
+- Removed 1 entr(ies) after Telegram confirmation
