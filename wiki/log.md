@@ -320,3 +320,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Dinner with Dr. Harris
 - Time: 2026-07-02 22:30
 - Date: 2026-07-03 18:00 | With: Dr. Harris
+
+## [2026-07-03] event | Break up with Naomi
+- Time: 2026-07-03 01:08
+- Date: 2026-07-03 12:30 | With: Naomi
