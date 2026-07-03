@@ -391,3 +391,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-03] email | Wassup
 - Time: 2026-07-03 17:08
 - To: joshuahopkins1026@gmail.com
+
+## [2026-07-03] email-purge | older_than:1y
+- Time: 2026-07-03 18:46
+- Trashed 58094 emails (recoverable 30d)
