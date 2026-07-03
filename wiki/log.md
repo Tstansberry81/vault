@@ -272,3 +272,63 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-02] event | Pool party
 - Time: 2026-07-02 12:56
 - Date: 2026-07-07 17:30 | With: None
+
+## [2026-07-02] agent | Pipeline run
+- Source: Outlook email (Telegram queue clear; Gmail connector still needs reconnection — skipped; Outlook calendar empty)
+- Items processed: 3
+- Task — Order micro-fridge from Melvin Corp by Aug 1 (new 2026-27 rule: Melvin Corp exclusive in first-year halls; from UVA Housing "Fall 2026 Move-In Information," 7/1)
+- Task — Set up UVA Mobile ID in wallet + 4-digit door PIN before Aug 20 move-in (same housing email)
+- Task (Inbox) — Review suspicious "Batten School" email (7/2): sender BattenAdmissions@virgina.edu — misspelled domain, likely phishing; legit Batten email (7/1) came from @virginia.edu. Not classified as academic; flagged for Trav.
+- Not actionable: UVA Daily Report newsletters (7/1, 7/2), legit Batten welcome email (7/1), Handshake job digest (7/1)
+
+## [2026-07-02] agent | Pipeline run
+- Source: Outlook
+- Items processed: 1
+- Task — Batten Admissions email re: Social Entrepreneurship minor; created Notion Task (Inbox, School): review SE minor / enroll in ENTP 1010 this fall. Flagged: sender domain misspelled ("virgina.edu") — verify before clicking links.
+- Telegram queue: no unprocessed items. Gmail: connector error (needs reconnection with additional permissions). Outlook calendar: no new items.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Gmail: connector error persists (needs reconnection with additional permissions). Outlook email/calendar: nothing new.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Gmail: connector error persists (needs reconnection with additional permissions). Outlook email/calendar: nothing new since last run.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect"); Gmail could not be checked this run. Telegram queue and Outlook were clean.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Gmail: connector error persists (needs reconnection with additional permissions). Outlook email/calendar: nothing new since last run.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook mail/calendar: nothing new.
+- Gmail: connector error — "requires additional permissions", needs reconnect. Could not check.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail: connector error persists — needs reconnect with additional permissions.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail: connector error persists — needs reconnect with additional permissions.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail: connector error persists — needs reconnect with additional permissions.
+
+## [2026-07-02] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail: connector error persists — needs reconnect with additional permissions.
+
+## [2026-07-03] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail: connector error persists — needs reconnect with additional permissions.
