@@ -411,3 +411,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-04] event | Hangout with Naomi
 - Time: 2026-07-04 21:16
 - Date: 2026-07-04 19:00 | With: Naomi
+
+## [2026-07-04] reschedule | Hangout with Naomi
+- Time: 2026-07-04 21:29
+- Now: 2026-07-05 19:00
