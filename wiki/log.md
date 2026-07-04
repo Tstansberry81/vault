@@ -407,3 +407,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-04] email-purge | category:promotions older_than:2w
 - Time: 2026-07-04 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-04] event | Hangout with Naomi
+- Time: 2026-07-04 21:16
+- Date: 2026-07-04 19:00 | With: Naomi
