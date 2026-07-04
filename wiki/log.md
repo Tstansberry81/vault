@@ -399,3 +399,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-03] capture | Quantum "Magic" Explains How Space-Time Curves (Gravity's Quantum Origin)
 - Time: 2026-07-03 19:41
 - Source: https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/
+
+## [2026-07-04] event | Block Party
+- Time: 2026-07-04 03:11
+- Date: 2026-07-04 09:00 | With: N/A
