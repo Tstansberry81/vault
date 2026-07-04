@@ -403,3 +403,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-04] event | Block Party
 - Time: 2026-07-04 03:11
 - Date: 2026-07-04 09:00 | With: N/A
+
+## [2026-07-04] email-purge | category:promotions older_than:2w
+- Time: 2026-07-04 07:00
+- Trashed 0 emails (recoverable 30d)
