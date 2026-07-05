@@ -426,3 +426,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-05] event | Yubi's
 - Time: 2026-07-05 00:16
 - Date: 2026-07-17 09:00 | With: N/A
+
+## [2026-07-05] event | UV's Grad Party
+- Time: 2026-07-05 00:36
+- Date: 2026-07-19 09:00 | With: N/A
