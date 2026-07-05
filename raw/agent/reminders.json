@@ -38,5 +38,21 @@
   "chat_id": "6594181389",
   "auto": true,
   "event_id": "3gd5p88pi4khre7n1ncqoif83c"
+ },
+ {
+  "id": "a45e0e86",
+  "when": "2026-07-17 07:00",
+  "message": "Coming up at 9:00 AM: Yubi's",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "7eugqejuchfeds9isgiliacna8"
+ },
+ {
+  "id": "e0902b95",
+  "when": "2026-07-18 07:00",
+  "message": "Coming up at 9:00 AM: Dom's Grab Party",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "v3m19qmonu3acfcsvockite318"
  }
 ]
