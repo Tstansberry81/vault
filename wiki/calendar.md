@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-04 20:16 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-04 20:36 EDT.*
 
 ## July 2026
 
@@ -16,6 +16,7 @@
 - **Fri Jul 10** · 9:00 AM — Mountain house trip
 - **Fri Jul 17** · 9:00 AM — Yubi's
 - **Sat Jul 18** · 9:00 AM — Dom's Grab Party
+- **Sun Jul 19** · 9:00 AM — UV's Grad Party
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 
 ## August 2026
