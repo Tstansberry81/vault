@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-04 20:37 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-05 07:00 EDT.*
 
 ## July 2026
 
@@ -8,8 +8,8 @@
 - **Wed Jul 1** · 7:00 PM — Event
 - **Thu Jul 2** · 6:00 PM — Friends Over
 - **Fri Jul 3** · 6:00 PM — Dinner with Dr. Harris — With: Dr. Harris
-- **Sat Jul 4** · 9:00 AM — Block Party ⬅️ **today**
-- **Sun Jul 5** · 7:00 PM — Hangout with Naomi — With: Naomi
+- **Sat Jul 4** · 9:00 AM — Block Party
+- **Sun Jul 5** · 7:00 PM — Hangout with Naomi — With: Naomi ⬅️ **today**
 - **Mon Jul 6** · 9:00 AM — Dom Hangout
 - **Tue Jul 7** · 8:00 AM — Wade comes over — With: Wade
 - **Tue Jul 7** · 5:30 PM — Pool party
