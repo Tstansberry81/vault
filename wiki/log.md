@@ -418,3 +418,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-04] ingest | Nightly auto-ingest (0 sources, journal)
 - Daily journal → `wiki/journal/2026-07-04.md` (3 activity records)
+
+## [2026-07-05] event | Dom Hangout
+- Time: 2026-07-05 00:16
+- Date: 2026-07-06 09:00 | With: N/A
