@@ -438,3 +438,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-05] delete | Yubi's
 - Time: 2026-07-05 00:37
 - Removed 2 entr(ies) after Telegram confirmation
+
+## [2026-07-05] email-purge | category:promotions older_than:2w
+- Time: 2026-07-05 07:00
+- Trashed 0 emails (recoverable 30d)
