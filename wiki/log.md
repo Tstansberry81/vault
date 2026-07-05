@@ -422,3 +422,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-05] event | Dom Hangout
 - Time: 2026-07-05 00:16
 - Date: 2026-07-06 09:00 | With: N/A
+
+## [2026-07-05] event | Yubi's
+- Time: 2026-07-05 00:16
+- Date: 2026-07-17 09:00 | With: N/A
