@@ -15,8 +15,8 @@
 - **Tue Jul 7** · 5:30 PM — Pool party
 - **Fri Jul 10** · 9:00 AM — Mountain house trip
 - **Fri Jul 17** · 9:00 AM — Yubi's
+- **Sat Jul 18** · 9:00 AM — UV's Grad Party
 - **Sat Jul 18** · 9:00 AM — Dom's Grab Party
-- **Sun Jul 19** · 9:00 AM — UV's Grad Party
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 
 ## August 2026
