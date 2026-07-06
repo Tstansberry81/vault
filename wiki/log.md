@@ -461,3 +461,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] email-purge | category:promotions older_than:2w
 - Time: 2026-07-06 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-06] email | You're a Loser
+- Time: 2026-07-06 13:57
+- To: joshuahopkins1026@gmail.com
