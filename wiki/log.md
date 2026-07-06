@@ -477,3 +477,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] task | Watch SIS Tutorial Videos
 - Time: 2026-07-06 15:15
 - Due: 2026-07-08 | Priority: High
+
+## [2026-07-06] task | Check SIS for Pre-Enrolled Courses
+- Time: 2026-07-06 15:15
+- Due: 2026-07-08 | Priority: High
