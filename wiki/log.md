@@ -465,3 +465,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] email | You're a Loser
 - Time: 2026-07-06 13:57
 - To: joshuahopkins1026@gmail.com
+
+## [2026-07-06] task | Complete the Calculus Placement Test
+- Time: 2026-07-06 15:15
+- Due: 2026-07-08 | Priority: High
