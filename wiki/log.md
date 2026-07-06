@@ -454,3 +454,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] delete | Wade comes over
 - Time: 2026-07-06 04:16
 - via dashboard
+
+## [2026-07-06] ingest | Nightly auto-ingest (0 sources, journal)
+- Daily journal → `wiki/journal/2026-07-06.md` (1 activity records)
