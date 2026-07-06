@@ -446,3 +446,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] delete | Hangout with Naomi
 - Time: 2026-07-06 02:45
 - via dashboard
+
+## [2026-07-06] delete | Dom Hangout
+- Time: 2026-07-06 03:45
+- via dashboard
