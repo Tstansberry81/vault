@@ -469,3 +469,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] task | Complete the Calculus Placement Test
 - Time: 2026-07-06 15:15
 - Due: 2026-07-08 | Priority: High
+
+## [2026-07-06] task | Add users in UVAPay
+- Time: 2026-07-06 15:15
+- Due: 2026-07-08 | Priority: High
