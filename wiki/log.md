@@ -493,3 +493,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] task-done | (dashboard)
 - Time: 2026-07-06 19:45
 - 3916c560
+
+## [2026-07-06] email | Hi
+- Time: 2026-07-06 23:15
+- To: andreamariecoaching@gmail.com
