@@ -457,3 +457,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-06] ingest | Nightly auto-ingest (0 sources, journal)
 - Daily journal → `wiki/journal/2026-07-06.md` (1 activity records)
+
+## [2026-07-06] email-purge | category:promotions older_than:2w
+- Time: 2026-07-06 07:00
+- Trashed 0 emails (recoverable 30d)
