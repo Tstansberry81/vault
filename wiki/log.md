@@ -497,3 +497,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-06] email | Hi
 - Time: 2026-07-06 23:15
 - To: andreamariecoaching@gmail.com
+
+## [2026-07-07] email-purge | category:promotions older_than:2w
+- Time: 2026-07-07 07:00
+- Trashed 0 emails (recoverable 30d)
