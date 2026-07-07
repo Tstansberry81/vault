@@ -501,3 +501,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-07] email-purge | category:promotions older_than:2w
 - Time: 2026-07-07 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-07] task | Kiss Josh
+- Time: 2026-07-07 20:23
+- Due: none | Priority: Medium
