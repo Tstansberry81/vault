@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-08 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-08 09:26 EDT.*
 
 ## July 2026
 
@@ -12,6 +12,7 @@
 - **Tue Jul 7** · 5:30 PM — Pool party
 - **Thu Jul 9** · 9:00 AM — Date with Naomi — With: Naomi
 - **Thu Jul 9** · 9:00 AM — Date with Naomi — With: Naomi
+- **Thu Jul 9** · 7:00 PM — Date Night with Naomi — With: Naomi
 - **Fri Jul 10** · 9:00 AM — Mountain house trip
 - **Sat Jul 18** · 9:00 AM — UV's Grad Party
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
