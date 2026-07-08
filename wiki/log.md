@@ -505,3 +505,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-07] task | Kiss Josh
 - Time: 2026-07-07 20:23
 - Due: none | Priority: Medium
+
+## [2026-07-08] task-done | (dashboard)
+- Time: 2026-07-08 00:38
+- 3966c560
