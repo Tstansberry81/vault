@@ -517,3 +517,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-08] email-purge | category:promotions older_than:2w
 - Time: 2026-07-08 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-08] event | Sam Barber Concert
+- Time: 2026-07-08 15:06
+- Date: 2026-09-24 19:00 | With: N/A
