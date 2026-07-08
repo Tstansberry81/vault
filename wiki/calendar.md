@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-08 09:26 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-08 11:06 EDT.*
 
 ## July 2026
 
@@ -21,3 +21,7 @@
 
 - **Tue Aug 11** · 8:00 AM — Haircut with Tony — With: Tony
 - **Thu Aug 20** · 1:00 PM — UVA Move-In Day
+
+## September 2026
+
+- **Thu Sep 24** · 7:00 PM — Sam Barber Concert
