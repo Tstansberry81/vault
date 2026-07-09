@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-09 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-09 10:25 EDT.*
 
 ## July 2026
 
@@ -9,6 +9,7 @@
 - **Sat Jul 4** · 9:00 AM — Block Party
 - **Tue Jul 7** · 5:30 PM — Pool party
 - **Fri Jul 10** · 9:00 AM — Mountain house trip
+- **Fri Jul 10** · 3:00 PM — Leave for Mountain House
 - **Sat Jul 18** · 9:00 AM — UV's Grad Party
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 
