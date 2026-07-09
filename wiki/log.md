@@ -561,3 +561,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-09] task-done | (dashboard)
 - Time: 2026-07-09 14:25
 - 3916c560
+
+## [2026-07-09] event | Leave for Mountain House
+- Time: 2026-07-09 14:25
+- Date: 2026-07-10 15:00 | With: N/A
