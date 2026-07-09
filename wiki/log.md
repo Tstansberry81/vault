@@ -525,3 +525,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-09] task-done | (dashboard)
 - Time: 2026-07-09 01:08
 - 3956c560
+
+## [2026-07-09] task | Take the Japanese placement test
+- Time: 2026-07-09 01:09
+- Due: 2026-07-15 | Priority: Medium
