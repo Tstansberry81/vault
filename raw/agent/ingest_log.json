@@ -1,5 +1,19 @@
 [
  {
+  "ts": "2026-07-10T00:00:02.882199-04:00",
+  "day": "2026-07-10",
+  "sources": [],
+  "sources_count": 0,
+  "prop_applied": 0,
+  "prop_pending": 0,
+  "journal": false,
+  "activity_records": 0,
+  "flagged": [],
+  "reindexed": false,
+  "overflow": 0,
+  "bypassed": false
+ },
+ {
   "ts": "2026-07-09T00:00:02.609838-04:00",
   "day": "2026-07-09",
   "sources": [],
