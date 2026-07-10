@@ -11,7 +11,7 @@ writes wiki pages — you do.
 
 ---
 
-## The three layers
+## The four layers
 
 1. **`raw/` — sources. IMMUTABLE. This is the source of truth.**
    - Articles, papers, exports, images, data files dropped here by the human.
@@ -23,7 +23,14 @@ writes wiki pages — you do.
    - You create pages, update them as sources arrive, maintain cross-references, and keep
      everything internally consistent. The human reads it; you write it.
 
-3. **`CLAUDE.md` — this schema.** It makes you a disciplined wiki maintainer rather than a
+3. **`output/` — deliverables. The final culmination of the raw → wiki pipeline.**
+   - Polished, standalone presentations of wiki knowledge: slide decks, PowerPoints,
+     spreadsheets, diagrams, reports — things meant to be *presented or shared*, not read
+     in the wiki's flow. Built **from wiki pages, never directly from raw**.
+   - Derived and regenerable: the wiki stays canonical; `output/` is the dist/ directory.
+   - Full conventions in **§The output layer** below.
+
+4. **`CLAUDE.md` — this schema.** It makes you a disciplined wiki maintainer rather than a
    generic chatbot. Co-evolve it with the human as conventions for this domain emerge.
 
 ---
@@ -54,7 +61,12 @@ This wiki is only useful if it's **accurate about what Traveler actually knows a
 | `wiki/entities/` | People, orgs, places, products, works — concrete things. |
 | `wiki/concepts/` | Ideas, topics, themes — abstract things. |
 | `wiki/analyses/` | Filed-back query answers: comparisons, deep-dives, discovered connections. |
-| `wiki/assets/` | Visuals **you generate** for the wiki — charts, diagrams, slide decks (vs. `raw/assets/` for human-supplied source images). |
+| `wiki/assets/` | Visuals **you generate** to embed in wiki pages — charts, diagrams (vs. `raw/assets/` for human-supplied source images). |
+| `output/` | **Deliverables** — standalone decks, spreadsheets, diagrams, reports built from the wiki. |
+| `output/decks/` | Slide decks: Marp `.md` and exported `.pptx`. |
+| `output/sheets/` | Spreadsheets / tabular deliverables: `.xlsx`, `.csv`. |
+| `output/diagrams/` | Standalone visuals: exported diagrams, posters, canvases, infographics. |
+| `output/docs/` | Written deliverables: reports, one-pagers, briefs (`.md`, `.pdf`, `.docx`). |
 
 ---
 
@@ -67,7 +79,7 @@ This wiki is only useful if it's **accurate about what Traveler actually knows a
 - **Frontmatter on every wiki page** (powers Dataview and lint):
   ```yaml
   ---
-  type: source | entity | concept | analysis | overview
+  type: source | entity | concept | analysis | overview | output
   created: YYYY-MM-DD
   updated: YYYY-MM-DD
   tags: [topic/subtopic]
@@ -108,6 +120,9 @@ When the human drops a source in `raw/` and asks you to ingest it:
    or an Obsidian canvas.
 4. **File valuable answers back** into `wiki/analyses/` as a new page (and link it in) so the
    exploration compounds instead of vanishing into chat history. Log the query.
+5. If the answer took **deliverable form** (deck, spreadsheet, standalone diagram/report),
+   file the artifact in `output/` per §The output layer — with an `analyses/` page (or the
+   companion note) linking the wiki pages it drew from.
 
 ### 3. Lint — "health-check the wiki"
 Scan for and report (with suggested fixes):
@@ -133,7 +148,7 @@ Log the lint pass.
   current on every ingest: each page listed under its category with a link + one-line summary.
 - **`log.md` is chronological & append-only.** Start every entry with a consistent prefix so
   it stays greppable:
-  `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
+  `## [YYYY-MM-DD] <ingest|query|lint|output> | <title>`
   Then a few bullets on what changed / which pages were touched. Never rewrite history here.
 
 ---
@@ -149,9 +164,44 @@ Log the lint pass.
 
 **File-based formats** (generate the file, then embed with `![[name]]`):
 - **Charts:** matplotlib (or similar); save the image to **`wiki/assets/`** and embed with `![[name.png]]`. Use for real data — performance curves, distributions, time series. Re-generate when the underlying source changes.
-- **Slides:** Marp (`marp: true` frontmatter, `---` between slides). File decks in `wiki/analyses/`.
-- **Canvas:** Obsidian `.canvas` (JSON) for spatial / relationship maps too large or freeform for Mermaid.
+- **Slides:** Marp (`marp: true` frontmatter, `---` between slides). Decks are deliverables — file them in **`output/decks/`** (see §The output layer).
+- **Canvas:** Obsidian `.canvas` (JSON) for spatial / relationship maps too large or freeform for Mermaid. Embedded-in-a-page maps go to `wiki/assets/`; standalone ones to `output/diagrams/`.
 - **Images:** human-dropped/downloaded images live in `raw/assets/` (immutable, the source layer); visuals **you generate** for the wiki go in `wiki/assets/`. Either embeds the same way — `![[filename]]` resolves by name across the vault.
+
+**The dividing line:** if a visual exists to *explain a wiki page*, it lives in `wiki/assets/`
+and is embedded there. If it's a *standalone artifact* someone would present, send, or open
+on its own — deck, spreadsheet, poster, report — it's a deliverable and lives in `output/`.
+
+---
+
+## The output layer — deliverables
+
+`output/` is the **final stage of the pipeline**: `raw/` (sources) → `wiki/` (knowledge) →
+`output/` (presentations of that knowledge). PowerPoints, slideshows, spreadsheets,
+diagrams, reports — any polished packaging of what the wiki knows.
+
+**Rules:**
+
+1. **Build from the wiki, never straight from raw.** A deliverable is a *view over wiki
+   pages*. If the wiki doesn't yet contain what the deliverable needs, ingest/propagate
+   first, then build — that way the knowledge compounds instead of bypassing the wiki.
+2. **The wiki stays canonical; `output/` is derived.** Artifacts are regenerable. When the
+   wiki pages behind an artifact change materially, refresh the artifact or mark it stale —
+   never patch the artifact with facts that aren't in the wiki.
+3. **File by type:** `output/decks/` · `output/sheets/` · `output/diagrams/` ·
+   `output/docs/`. Human-readable filenames per the usual convention; add a `YYYY-MM-DD`
+   suffix when versions matter (e.g. `Quant model overview 2026-07-06.pptx`).
+4. **Provenance travels with the artifact.** Markdown-native deliverables (Marp decks,
+   `.md` reports) carry normal frontmatter with `type: output` and `sources:` listing the
+   wiki pages they were built from. Binary artifacts (`.pptx`, `.xlsx`, `.pdf`, `.png`)
+   get a short **companion note** (same name, `.md`) with that frontmatter, a one-line
+   description, and `[[wikilinks]]` to the underlying pages — binaries can't backlink;
+   the companion note is what keeps them findable in the graph.
+5. **Bookkeeping like everything else:** list each artifact in `wiki/index.md` under an
+   **Output** category, and log every creation/refresh in `wiki/log.md`
+   (`## [YYYY-MM-DD] output | <title>`).
+6. **You own `output/`** the same way you own `wiki/` — create, refresh, and reorganize
+   freely. The human takes the artifacts and uses them.
 
 ## Recommended Obsidian plugins (human installs once)
 - **Dataview** — turns the frontmatter above into dynamic tables/lists (e.g. all `stub` pages).

@@ -3,6 +3,11 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-08] agent | Pipeline run
+- Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped), Outlook email + calendar (no results)
+- Items processed: 0
+- No new items.
+
 ## [2026-07-02] agent | Pipeline run
 - Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped), Outlook email + calendar (no results)
 - Items processed: 0
@@ -518,6 +523,76 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Time: 2026-07-08 07:00
 - Trashed 0 emails (recoverable 30d)
 
+## [2026-07-08] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect"); Gmail could not be checked this run. Telegram queue empty (all processed), Outlook email/calendar empty.
+
+## [2026-07-08] agent | Pipeline run
+- Time: 2026-07-08 16:14
+- No new items.
+- Telegram queue: all items already processed. Outlook email/calendar: empty.
+- Note: Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (same as prior run today). Notion tools unavailable in this session, so no Agent Log entry could be created.
+
+## [2026-07-08] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email: 1 automated MS security notice, not actionable. Outlook calendar: none.
+- ⚠️ Gmail connector failed with a permissions error ("requires additional permissions") — needs reconnecting before the pipeline can check Gmail.
+
+## [2026-07-08] agent | Pipeline run
+- Time: 2026-07-08 18:10
+- Source: Outlook
+- Items processed: 1
+- Task (Inbox) — "Update to Duo on Tuesday, July 14" (UVA IT, nce3kh@massmail.virginia.edu, recv 7/7): Duo two-factor change takes effect Tue 2026-07-14; be ready for a Duo prompt/app update on UVA logins. Notion tools unavailable this session, so no Notion Task page could be created — logged here only.
+- Not actionable: 2× UVA Daily Report newsletters (7/7, 7/8); EHD Orientation info-session marketing invite (7/7, already read, not relevant to McIntire track).
+- Telegram queue: empty (all items already processed). Outlook calendar: no events.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect") — Gmail unchecked again this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-08] agent | Pipeline run
+- Time: 2026-07-08 20:08
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-09] agent | Pipeline run
+- Time: 2026-07-09 09:33
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-09] agent | Pipeline run
+- Time: 2026-07-09 13:33
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-09] agent | Pipeline run
+- Time: 2026-07-09 18:13
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-10 15:49
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 30d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-10 16:08
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect"); Gmail was NOT checked this run. Telegram queue empty (all processed), Outlook email/calendar empty.
 ## [2026-07-08] event | Sam Barber Concert
 - Time: 2026-07-08 15:06
 - Date: 2026-09-24 19:00 | With: N/A

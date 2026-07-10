@@ -22,3 +22,15 @@ raw/scripts/.env
 *.env
 Notes/*pass*
 Notes/*cred*
+
+# Nested git repos — each is its own project/repo, never tracked here
+raw/scripts/
+raw/vision/
+raw/quant model/
+
+# Heavy exports and archives — on-disk only
+raw/assets/chatgpt/
+raw/chatgpt/
+raw/vision.zip
+raw/quant model.zip
+raw/personal quant model.zip
