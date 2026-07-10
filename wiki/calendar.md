@@ -1,15 +1,14 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-09 10:25 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-10 07:00 EDT.*
 
 ## July 2026
 
-- **Thu Jul 2** · 6:00 PM — Friends Over
 - **Fri Jul 3** · 6:00 PM — Dinner with Dr. Harris — With: Dr. Harris
 - **Sat Jul 4** · 9:00 AM — Block Party
 - **Tue Jul 7** · 5:30 PM — Pool party
-- **Fri Jul 10** · 9:00 AM — Mountain house trip
-- **Fri Jul 10** · 3:00 PM — Leave for Mountain House
+- **Fri Jul 10** · 9:00 AM — Mountain house trip ⬅️ **today**
+- **Fri Jul 10** · 3:00 PM — Leave for Mountain House ⬅️ **today**
 - **Sat Jul 18** · 9:00 AM — UV's Grad Party
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 
