@@ -565,3 +565,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-09] event | Leave for Mountain House
 - Time: 2026-07-09 14:25
 - Date: 2026-07-10 15:00 | With: N/A
+
+## [2026-07-10] email-purge | category:promotions older_than:2w
+- Time: 2026-07-10 07:00
+- Trashed 0 emails (recoverable 30d)
