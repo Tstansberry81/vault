@@ -1,5 +1,31 @@
 [
  {
+  "ts": "2026-07-11T00:18:05.808607-04:00",
+  "day": "2026-07-11",
+  "sources": [
+   "75 hard 2025.md",
+   "75 medium.md",
+   "APUSH Notes.md",
+   "College Stuff.md",
+   "College Supplemental Essay Topics.md",
+   "Crusader Discussion.md",
+   "Homework Hatch Stuff.md",
+   "IA Topic for Econ Micro.md"
+  ],
+  "sources_count": 8,
+  "prop_applied": 12,
+  "prop_pending": 10,
+  "journal": false,
+  "activity_records": 0,
+  "flagged": [
+   "raw/apple_notes/david bohm books.md",
+   "raw/apple_notes/doms a dick lol.md"
+  ],
+  "reindexed": true,
+  "overflow": 26,
+  "bypassed": false
+ },
+ {
   "ts": "2026-07-10T00:00:02.882199-04:00",
   "day": "2026-07-10",
   "sources": [],
