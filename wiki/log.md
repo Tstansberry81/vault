@@ -648,3 +648,37 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-10] event | Beer Pong
 - Time: 2026-07-10 19:01
 - Date: 2026-07-10 21:00 | With: N/A
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-10 23:36
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-11 00:05 (UTC)
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (since 10:00): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email/calendar: empty.
+- Gmail connector returned a permissions error ("requires additional permissions — reconnect") and could not be checked.
+- Notion MCP not available in this session; Agent Log entry skipped.
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-10 22:21 EDT
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-10] agent | Pipeline run
+- Time: 2026-07-10 (run at ~03:22 UTC)
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar: first query timed out; UVA-scoped retry empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
