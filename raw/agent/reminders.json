@@ -8,22 +8,6 @@
   "event_id": "gt87o4t6r8r60ku41dq1vutjvs"
  },
  {
-  "id": "2c31969f",
-  "when": "2026-07-12 11:00",
-  "message": "Coming up at 1:00 PM: Leave Mountain House",
-  "chat_id": "6594181389",
-  "auto": true,
-  "event_id": "83kvbrotrukm0tpc7g8ckiht88"
- },
- {
-  "id": "3d2deeca",
-  "when": "2026-07-12 13:00",
-  "message": "Coming up at 3:00 PM: RESOLVE gcal test",
-  "chat_id": "6594181389",
-  "auto": true,
-  "event_id": "9cqgfvqum0anmflupkjnn5bj70"
- },
- {
   "id": "d68cda57",
   "when": "2026-07-12 14:00",
   "message": "Coming up at 4:00 PM: Leave Mountain House",
