@@ -664,3 +664,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-11] email-purge | category:promotions older_than:2w
 - Time: 2026-07-11 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-11] agent | Worker phase live
+- The executor pipeline works
