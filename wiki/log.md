@@ -660,3 +660,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - [[IA Topic for Econ Micro.md]] — from `raw/apple_notes/IA Topic for Econ Micro.md`
 - ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/david bohm books.md`
 - ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/doms a dick lol.md`
+
+## [2026-07-11] email-purge | category:promotions older_than:2w
+- Time: 2026-07-11 07:00
+- Trashed 0 emails (recoverable 30d)
