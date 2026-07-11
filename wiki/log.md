@@ -670,3 +670,21 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-11] agent | Worker phase live
 - the executor pipeline works
+
+## [2026-07-11] agent | Morning Brief – 2026-07-11
+- **Date:** Saturday, July 11, 2026
+- ### 📅 Calendar (next 2 days)
+- - **Sun Jul 12 @ 12:00 PM** — Packing Hour (x2 — possible duplicate event)
+- - **Sun Jul 12 @ 4:00 PM** — Leave Mountain House 🚗
+- - **Mon Jul 13 @ 2:00 PM** — William Dorman is a Good Boy
+- ### ✅ Open Notion Tasks
+- - Pack up mountain house gear (Medium, x2 — possible duplicate)
+- - RESOLVE Notion test (Medium)
+- ### 📬 Email
+- - 26,169 unread messages
+- - **Urgent:** 3x GitHub Actions failures on `Tstansberry81/resolve` — control-plane checks failing on main (commits eeb8ea7, cb986ba, 2cf20d4)
+- - LinkedIn connection request from Jack Rivera
+- - Shutterfly promo (noise)
+- ### ⚠️ Urgent
+- - Fix RESOLVE control-plane CI failures before next deploy
+- - Pack up & be out of Mountain House by 4:00 PM Sunday
