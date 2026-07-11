@@ -1,5 +1,13 @@
 [
  {
+  "id": "3d2deeca",
+  "when": "2026-07-12 13:00",
+  "message": "Coming up at 3:00 PM: RESOLVE gcal test",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "9cqgfvqum0anmflupkjnn5bj70"
+ },
+ {
   "id": "fcb68b63",
   "when": "2026-07-18 07:00",
   "message": "Coming up at 9:00 AM: UV's Grad Party",
