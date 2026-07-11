@@ -682,3 +682,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar: first query timed out; UVA-scoped retry empty.
 - ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
 - ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-11] agent | Pipeline run
+- Time: 2026-07-11 (run at ~04:08 UTC)
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run.
