@@ -1,5 +1,21 @@
 [
  {
+  "id": "09a28997",
+  "when": "2026-07-12 10:00",
+  "message": "Coming up at 12:00 PM: Packing hour",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "9qd5m187n5gbu8b8r8nau56ct0"
+ },
+ {
+  "id": "6f105091",
+  "when": "2026-07-12 10:00",
+  "message": "Coming up at 12:00 PM: Packing hour",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "t924jpk3l5sk4cs8ol0ps48hdo"
+ },
+ {
   "id": "d68cda57",
   "when": "2026-07-12 14:00",
   "message": "Coming up at 4:00 PM: Leave Mountain House",
