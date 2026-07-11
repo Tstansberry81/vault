@@ -1,9 +1,9 @@
 ---
 type: concept
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-08
 tags: [theme/religion-knowledge]
-sources: ["[[DADOES Essay]]", "[[Self-Reliance (essay)]]", "[[Station 11 Essay on Art Final]]"]
+sources: ["[[DADOES Essay]]", "[[Self-Reliance (essay)]]", "[[Station 11 Essay on Art Final]]", "[[Crusader Discussion]]"]
 status: active
 ---
 
@@ -22,6 +22,12 @@ His rawest treatment is the personal essay [[God (personal essay)|"god"]]: a til
 ## Religion as manipulation
 - [[Station Eleven]]: Tyler/the Prophet's religious fanaticism as predatory (parallels pre-Reformation indulgences).
 - [[The Lottery]]: tradition as unexamined, lethal ritual ([[Conformity and Tradition]]).
+
+## Institutional religion: blame the Church, not the individual
+A private note ([[Crusader Discussion]]) addresses the Crusades directly: he argues the **Roman Catholic Church** bears primary moral responsibility — not the individual soldiers who acted under its authority. The Reformation itself is cited as further evidence of that institution's corruption. Anglicanism is named as sharing the same institutional shadow. The logic mirrors his literary reading of [[Conformity and Tradition]]: in [[The Lottery]], the stone-throwers are not the primary moral agents — the *tradition* is. Blame flows upstream to the institution.
+
+> [!warning] Fragment
+> The [[Crusader Discussion]] note ends mid-sentence; the full conclusion is inferred, not confirmed.
 
 ## Connected works
 [[Do Androids Dream of Electric Sheep?]] · [[Self-Reliance]] · [[Station Eleven]] · [[The Lottery]]
