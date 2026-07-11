@@ -648,3 +648,15 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-10] event | Beer Pong
 - Time: 2026-07-10 19:01
 - Date: 2026-07-10 21:00 | With: N/A
+
+## [2026-07-11] ingest | Nightly auto-ingest (8 sources)
+- [[75 hard 2025.md]] — from `raw/apple_notes/75 hard 2025.md`
+- [[75 medium.md]] — from `raw/apple_notes/75 medium.md`
+- [[APUSH Notes.md]] — from `raw/apple_notes/APUSH Notes.md`
+- [[College Stuff.md]] — from `raw/apple_notes/College Stuff.md`
+- [[College Supplemental Essay Topics.md]] — from `raw/apple_notes/College Supplemental Essay Topics.md`
+- [[Crusader Discussion.md]] — from `raw/apple_notes/Crusader Discussion.md`
+- [[Homework Hatch Stuff.md]] — from `raw/apple_notes/Homework Hatch Stuff.md`
+- [[IA Topic for Econ Micro.md]] — from `raw/apple_notes/IA Topic for Econ Micro.md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/david bohm books.md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/doms a dick lol.md`
