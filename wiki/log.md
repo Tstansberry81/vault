@@ -692,3 +692,30 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-12] event | Hangout w/ Naomi
 - Time: 2026-07-12 03:16
 - Date: 2026-08-29 09:00 | With: N/A
+
+## [2026-07-12] ingest | Nightly auto-ingest (23 sources)
+- [[Memory Fragments: Late 2025 – Early 2026]] — from `raw/apple_notes/mems.md`
+- [[metaphor of waves with the way my dad buys a shit ton of stuff or….md]] — from `raw/apple_notes/metaphor of waves with the way my dad buys a shit ton of stuff or….md`
+- [[monroe presidency.md]] — from `raw/apple_notes/monroe presidency.md`
+- [[movies-shows.md]] — from `raw/apple_notes/movies-shows.md`
+- [[my dad believes that no one can change because it benefits him to….md]] — from `raw/apple_notes/my dad believes that no one can change because it benefits him to….md`
+- [[Morality Investigation Seed]] — from `raw/apple_notes/new idea.md`
+- [[opposite action.md]] — from `raw/apple_notes/opposite action.md`
+- [[Are Billionaires Ethically Obligated to Give? (Personal Essay)]] — from `raw/apple_notes/personal-writing/Billionaires.md`
+- [[Naomi - Relationship Log (2026).md]] — from `raw/apple_notes/personal-writing/Naomi - Relationship Log (2026).md`
+- [[November 8th (Dom's 18th).md]] — from `raw/apple_notes/personal-writing/November 8th (Dom's 18th).md`
+- [[The Tilting Picture: On God, Control, and a Divided Home]] — from `raw/apple_notes/personal-writing/god.md`
+- [[halloween.md]] — from `raw/apple_notes/personal-writing/halloween.md`
+- [[william.md]] — from `raw/apple_notes/personal-writing/william.md`
+- [[physical movements are waves that create frequencies which can unlock….md]] — from `raw/apple_notes/physical movements are waves that create frequencies which can unlock….md`
+- [[plan for next week (hwbuddy).md]] — from `raw/apple_notes/plan for next week (hwbuddy).md`
+- [[Subscription Pricing Tiers]] — from `raw/apple_notes/prices.md`
+- [[sayonara speech.md]] — from `raw/apple_notes/sayonara speech.md`
+- [[secular humanism.md]] — from `raw/apple_notes/secular humanism.md`
+- [[US Foreign Policy Continuity 1901–1917: Roosevelt, Taft, and Wilson]] — from `raw/apple_notes/socratic seminar.md`
+- [[strong is using willpower to overcome deterministic or selfish tendencies….md]] — from `raw/apple_notes/strong is using willpower to overcome deterministic or selfish tendencies….md`
+- [[Supply-Side Policy Is Superior to Demand-Side Policy for Long-Term Growth]] — from `raw/apple_notes/supply-side policy is superior to demand-side policy for long term….md`
+- [[why can’t i get away from him- what do i do- i need to talk to mom….md]] — from `raw/apple_notes/why can’t i get away from him- what do i do- i need to talk to mom….md`
+- [[writing idea- something about scout and how he was the one remainder….md]] — from `raw/apple_notes/writing idea- something about scout and how he was the one remainder….md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/nobody sees what they don’t want to.md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/the epr thought experiment.md`
