@@ -723,3 +723,22 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-12] email-purge | category:promotions older_than:2w
 - Time: 2026-07-12 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-12] agent | Morning Brief – 2026-07-12
+- 📅 CALENDAR (next 2 days)
+- - Sun Jul 12 @ 12:00 PM — Packing Hour (appears twice — duplicate worth cleaning up)
+- - Sun Jul 12 @ 4:00 PM — Leave Mountain House
+- - Mon Jul 13 @ 2:00 PM — William Dorman is a Good Boy 🐶
+- 
+- ✅ OPEN TASKS
+- - Pack up mountain house gear (x2 duplicates, Medium priority, no due date)
+- - RESOLVE notion test (Medium priority, no due date)
+- 
+- 📬 EMAIL (26,189 unread)
+- - 🔴 NYT Breaking News: Senator Lindsey Graham has died at 71
+- - Twitch: TryTemperance just went live
+- - Shutterfly: Last day for free shipping
+- - UptimeRobot: Feature upsell
+- - Twitch: oasisonoverwatch is live
+- 
+- ⚠️ URGENT: NYT breaking news alert in inbox — Senator Lindsey Graham died at 71. GitHub CI failures from yesterday still unresolved on resolve/main.
