@@ -719,3 +719,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - [[writing idea- something about scout and how he was the one remainder….md]] — from `raw/apple_notes/writing idea- something about scout and how he was the one remainder….md`
 - ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/nobody sees what they don’t want to.md`
 - ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/the epr thought experiment.md`
+
+## [2026-07-12] email-purge | category:promotions older_than:2w
+- Time: 2026-07-12 07:00
+- Trashed 0 emails (recoverable 30d)
