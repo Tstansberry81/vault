@@ -742,3 +742,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - - Twitch: oasisonoverwatch is live
 - 
 - ⚠️ URGENT: NYT breaking news alert in inbox — Senator Lindsey Graham died at 71. GitHub CI failures from yesterday still unresolved on resolve/main.
+
+## [2026-07-12] agent | Feature Request: Delete Calendar Events
+- Trav wants the ability to delete/remove Google Calendar events from within Resolve.
+- Currently only read and create are supported.
