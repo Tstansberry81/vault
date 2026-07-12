@@ -1,7 +1,7 @@
 ```markdown
 # profile.md
 
-_Last updated: 2026-07-04_
+_Last updated: 2026-07-06_
 
 ---
 
@@ -20,6 +20,8 @@ Trav — details to be filled in as signal accumulates.
 ## Key people
 
 - **Naomi** — social/personal connection; recurring hangouts.
+- **Dom (Dominic Decerbo)** — friend. dominic.decerbo@gmail.com
+- **Wade** — friend; comes over to Trav's place.
 
 ---
 
@@ -31,5 +33,5 @@ Trav — details to be filled in as signal accumulates.
 
 ## Patterns & routines
 
-- _Accumulating — check back as journals build up._
+- Regular in-person hangouts with Naomi (recurring evening plans, ~19:00).
 ```
