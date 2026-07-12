@@ -688,3 +688,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - ### ⚠️ Urgent
 - - Fix RESOLVE control-plane CI failures before next deploy
 - - Pack up & be out of Mountain House by 4:00 PM Sunday
+
+## [2026-07-12] event | Hangout w/ Naomi
+- Time: 2026-07-12 03:16
+- Date: 2026-08-29 09:00 | With: N/A
