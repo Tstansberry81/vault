@@ -749,3 +749,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-13] ingest | Nightly auto-ingest (1 sources)
 - [[writing idea- why does the picture of me and my dad and mom lean everytime….md]] — from `raw/apple_notes/writing idea- why does the picture of me and my dad and mom lean everytime….md`
+
+## [2026-07-13] email-purge | category:promotions older_than:2w
+- Time: 2026-07-13 07:00
+- Trashed 0 emails (recoverable 30d)
