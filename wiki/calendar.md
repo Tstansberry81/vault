@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-12 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-13 07:00 EDT.*
 
 ## July 2026
 
@@ -9,12 +9,13 @@
 - **Fri Jul 10** · 3:00 PM — Leave for Mountain House
 - **Fri Jul 10** · 9:00 PM — Beer Pong
 - **Sat Jul 11** · 1:00 PM — Leave Mountain House
-- **Sun Jul 12** · 12:00 PM — Packing hour ⬅️ **today**
-- **Sun Jul 12** · 12:00 PM — Packing hour ⬅️ **today**
-- **Sun Jul 12** · 4:00 PM — Leave Mountain House ⬅️ **today**
-- **Mon Jul 13** · 2:00 PM — William Dorman is a Good Boy
-- **Sat Jul 18** · 9:00 AM — UV's Grad Party
+- **Sun Jul 12** · 12:00 PM — Packing hour
+- **Sun Jul 12** · 12:00 PM — Packing hour
+- **Sun Jul 12** · 4:00 PM — Leave Mountain House
+- **Mon Jul 13** · 2:00 PM — William Dorman is a Good Boy ⬅️ **today**
+- **Wed Jul 15** · 8:00 AM — Naomi is a Squid
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
+- **Thu Jul 30** · 9:00 AM — UV's Grad Party
 
 ## August 2026
 
