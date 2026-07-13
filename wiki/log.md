@@ -760,3 +760,12 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Open Notion Tasks (3):** 'lol' (Medium, due Aug 3) · 'Pack up mountain house gear' (Medium, no due date) · 'RESOLVE notion test' (Medium, no due date). No urgent/overdue items.
 - **Unread Email:** 26,250 unread. Latest highlights are mostly marketing (Shutterfly, IHOP, Robinhood Snacks), a Twitch live notification for towdan, and a NYT subscription upsell. Nothing that screams urgent.
 - **Action items:** Keep an eye on 'Pack up mountain house gear' — no due date set, worth scheduling. Inbox zero not a priority today 😄
+
+## [2026-07-13] agent | ingest | RESOLVE Daily (2026-07-12)
+- ## [2026-07-12] ingest | RESOLVE Daily (2026-07-12)
+- - New source type: **RESOLVE daily-activity** (AI life-assistant operational log), the first of its kind in the vault. Wrote [[RESOLVE Daily (2026-07-12)]].
+- - Created new entity [[RESOLVE (AI assistant)]] documenting the assistant's capabilities and its calendar-delete limitation (feature request logged).
+- - Facts surfaced: at a **mountain house** ~Jul 12 (summer/family context); calendar events 'Naomi is a squid' (Jul 15 8am, likely inside joke), 'UV's Grad Party' moved to Jul 30, 'William Dorman is a Good Boy' (Jul 13).
+- - **Did not overwrite [[Naomi]]** or [[Family and Personal Life]]: the read tool truncates long page bodies and I could not safely reconstruct the full text without risking content loss. The 'squid' data point lives on the source page + [[RESOLVE (AI assistant)]] instead. Flag for a future pass when full-page reads are reliable.
+- - Calibration: this is consumer/operator use of an AI assistant — no new technical skill demonstrated; consistent with his directing-not-building pattern.
+- - Open: identities of 'UV' and 'William Dorman' unresolved; do not conflate the latter with [[William (friend portrait)]].
