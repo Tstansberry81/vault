@@ -769,3 +769,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - - **Did not overwrite [[Naomi]]** or [[Family and Personal Life]]: the read tool truncates long page bodies and I could not safely reconstruct the full text without risking content loss. The 'squid' data point lives on the source page + [[RESOLVE (AI assistant)]] instead. Flag for a future pass when full-page reads are reliable.
 - - Calibration: this is consumer/operator use of an AI assistant — no new technical skill demonstrated; consistent with his directing-not-building pattern.
 - - Open: identities of 'UV' and 'William Dorman' unresolved; do not conflate the latter with [[William (friend portrait)]].
+
+## [2026-07-13] agent | doom
+- Created folder `doom` on Desktop (~/Desktop/doom) on 2026-07-13.
