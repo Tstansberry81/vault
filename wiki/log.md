@@ -753,3 +753,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-13] email-purge | category:promotions older_than:2w
 - Time: 2026-07-13 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-13] agent | Morning Brief – 2026-07-13
+- **Date:** Monday, July 13, 2026
+- **Calendar (next 2 days):** One event — 'William Dorman is a Good Boy' today at 2:00 PM ET. Nothing on Tuesday.
+- **Open Notion Tasks (3):** 'lol' (Medium, due Aug 3) · 'Pack up mountain house gear' (Medium, no due date) · 'RESOLVE notion test' (Medium, no due date). No urgent/overdue items.
+- **Unread Email:** 26,250 unread. Latest highlights are mostly marketing (Shutterfly, IHOP, Robinhood Snacks), a Twitch live notification for towdan, and a NYT subscription upsell. Nothing that screams urgent.
+- **Action items:** Keep an eye on 'Pack up mountain house gear' — no due date set, worth scheduling. Inbox zero not a priority today 😄
