@@ -1006,3 +1006,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · list my open notion tasks
 - - **Asked:** list my open notion tasks
 - - **Result:** Here are your 3 open Notion tasks: | # | Title | Priority | Due | |---|-------|----------|-----| | 1 | lol | Medium | Aug 3, 2026 | | 2 | Pack up mountain house gear | Medium | — | | 3 | RESOLVE notion test | Medium | — | Everything sitting in Inbox at Medium priority. "lol" as a
+
+## [2026-07-14] agent | agent · do I have any unread email, just summarize
+- - **Asked:** do I have any unread email, just summarize
+- - **Result:** **26,397 unread** — my brother your inbox is a crime scene. 😂 Top 5 latest: 1. **GitHub** — A RESOLVE control-plane check failed (commit `abd7e6b`) 2. **YouTube** — FIFA World Cup 2026 semifinals 3. **Twitch** — shroud just went live 4. **GitHub** — Another RESOLVE control-plane 
