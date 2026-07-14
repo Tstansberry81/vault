@@ -1040,3 +1040,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · delete my notion task called lol
 - - **Asked:** delete my notion task called lol
 - - **Result:** Deletion of **"lol"** is queued — hit the approval banner to confirm and it's gone. RIP to whatever that was. 😂
+
+## [2026-07-14] agent | agent · What's my schedule looking like this week?
+- - **Asked:** What's my schedule looking like this week?
+- - **Result:** You've got a pretty light week, boss: - **Tomorrow (Wednesday, July 15)** at 8:00 AM — "Naomi is a Squid" - **Monday, July 20** at 9:00 AM — "UVA Orientation" That's it. Looks like you're coasting until next week picks up.
