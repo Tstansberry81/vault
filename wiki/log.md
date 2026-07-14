@@ -9,6 +9,11 @@ prefix so the log stays greppable:
 - ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
 
 ## [2026-07-14] agent | Pipeline run
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+
+## [2026-07-14] agent | Pipeline run
 - Source: Telegram (queue clear — 1 pre-processed item), Gmail (connector needs reconnection — skipped since 2026-06-30), Outlook email + calendar (no results)
 - Items processed: 0
 - No new items.
