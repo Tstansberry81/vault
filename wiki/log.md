@@ -981,3 +981,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - ## 🚨 Urgent / Action Items
 - - Reminder on the books to text Naomi at 3 PM today — don't skip it!
 - - 'Pack up mountain house gear' has no due date — worth putting one on it soon
+
+## [2026-07-14] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all items already processed).
+- Gmail: connector error — requires reconnection with additional permissions.
+- Outlook email/calendar: nothing new.
+- Notion Agent Log entry skipped: no Notion connector available this run.
