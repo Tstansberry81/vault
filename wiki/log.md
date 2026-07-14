@@ -1026,3 +1026,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · do a quick bit of web research and write a short overview of
 - - **Asked:** do a quick bit of web research and write a short overview of what a guitar capo is and why beginners use one, then save it
 - - **Result:** Done! Saved to your vault: 📄 [What Is a Guitar Capo (And Why Beginners Use One)](https://github.com/Tstansberry81/vault/blob/main/wiki/research/what-is-a-guitar-capo-and-why-beginners-use-one.md) Here's the quick version: - A **capo** is a clamp that attaches across all strings a
+
+## [2026-07-14] agent | agent · delete my notion task called lol
+- - **Asked:** delete my notion task called lol
+- - **Result:** Deletion of **"lol"** is queued — hit the approval banner to confirm and it's gone. RIP to whatever that was. 😂
