@@ -1010,3 +1010,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · do I have any unread email, just summarize
 - - **Asked:** do I have any unread email, just summarize
 - - **Result:** **26,397 unread** — my brother your inbox is a crime scene. 😂 Top 5 latest: 1. **GitHub** — A RESOLVE control-plane check failed (commit `abd7e6b`) 2. **YouTube** — FIFA World Cup 2026 semifinals 3. **Twitch** — shroud just went live 4. **GitHub** — Another RESOLVE control-plane 
+
+## [2026-07-14] agent | agent · what is my current net worth and this months spending
+- - **Asked:** what is my current net worth and this months spending
+- - **Result:** Here's your financial snapshot: **💰 Net Worth: $5,554.46** - Checking (4311): $1,052.51 - Savings (3973): $4,501.95 **📊 Last 30 Days** - Earnings: $1,850.16 - Expenses: $1,520.34 - Net: **+$329.82** You're cash flow positive which is good — though I see Polymarket and Kalshi in t
