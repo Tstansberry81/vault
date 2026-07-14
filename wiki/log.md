@@ -988,3 +988,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Gmail: connector error — requires reconnection with additional permissions.
 - Outlook email/calendar: nothing new.
 - Notion Agent Log entry skipped: no Notion connector available this run.
+
+## [2026-07-14] agent | Pipeline run
+- No new items. (Run at 17:08 — second empty run today.)
+- Telegram queue: empty (all items already processed).
+- Gmail: connector error — requires reconnection with additional permissions.
+- Outlook email/calendar: nothing new in last 2h / no new UVA calendar items.
