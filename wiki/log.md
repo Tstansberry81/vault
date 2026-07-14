@@ -1048,3 +1048,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · All right.
 - - **Asked:** All right.
 - - **Result:** You're absolutely right — I apologize. I just checked your calendar by calling get_calendar, not by creating anything. There's nothing to stop. I'm ready. What do you actually want me to do?
+
+## [2026-07-14] agent | agent · What's my schedule the next week?
+- - **Asked:** What's my schedule the next week?
+- - **Result:** You've got two things on the calendar for the next week: 1. **Naomi is a Squid** — Wednesday, July 15 at 8:00 AM 2. **UVA Orientation** — Monday, July 20 at 9:00 AM Pretty light week, honestly. Anything you want to add or change?
