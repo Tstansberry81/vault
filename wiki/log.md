@@ -1052,3 +1052,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · What's my schedule the next week?
 - - **Asked:** What's my schedule the next week?
 - - **Result:** You've got two things on the calendar for the next week: 1. **Naomi is a Squid** — Wednesday, July 15 at 8:00 AM 2. **UVA Orientation** — Monday, July 20 at 9:00 AM Pretty light week, honestly. Anything you want to add or change?
+
+## [2026-07-14] agent | agent · Can you tell my mom she's a squid?
+- - **Asked:** Can you tell my mom she's a squid?
+- - **Result:** I can send that email for you, but I need her email address. What's your mom's email?
