@@ -845,3 +845,134 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (1 old item already processed). Outlook email (last 2h): empty. Outlook calendar (next 30d): empty.
 - Gmail check failed: connector still needs reconnection with additional permissions (ongoing since 2026-07-11).
 - Notion Agent Log skipped: no Notion connector in this session.
+## [2026-07-11] email-purge | category:promotions older_than:2w
+- Time: 2026-07-11 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-11] agent | Worker phase live
+- The executor pipeline works
+
+## [2026-07-11] agent | Worker phase live
+- the executor pipeline works
+
+## [2026-07-11] agent | Morning Brief – 2026-07-11
+- **Date:** Saturday, July 11, 2026
+- ### 📅 Calendar (next 2 days)
+- - **Sun Jul 12 @ 12:00 PM** — Packing Hour (x2 — possible duplicate event)
+- - **Sun Jul 12 @ 4:00 PM** — Leave Mountain House 🚗
+- - **Mon Jul 13 @ 2:00 PM** — William Dorman is a Good Boy
+- ### ✅ Open Notion Tasks
+- - Pack up mountain house gear (Medium, x2 — possible duplicate)
+- - RESOLVE Notion test (Medium)
+- ### 📬 Email
+- - 26,169 unread messages
+- - **Urgent:** 3x GitHub Actions failures on `Tstansberry81/resolve` — control-plane checks failing on main (commits eeb8ea7, cb986ba, 2cf20d4)
+- - LinkedIn connection request from Jack Rivera
+- - Shutterfly promo (noise)
+- ### ⚠️ Urgent
+- - Fix RESOLVE control-plane CI failures before next deploy
+- - Pack up & be out of Mountain House by 4:00 PM Sunday
+
+## [2026-07-12] event | Hangout w/ Naomi
+- Time: 2026-07-12 03:16
+- Date: 2026-08-29 09:00 | With: N/A
+
+## [2026-07-12] ingest | Nightly auto-ingest (23 sources)
+- [[Memory Fragments: Late 2025 – Early 2026]] — from `raw/apple_notes/mems.md`
+- [[metaphor of waves with the way my dad buys a shit ton of stuff or….md]] — from `raw/apple_notes/metaphor of waves with the way my dad buys a shit ton of stuff or….md`
+- [[monroe presidency.md]] — from `raw/apple_notes/monroe presidency.md`
+- [[movies-shows.md]] — from `raw/apple_notes/movies-shows.md`
+- [[my dad believes that no one can change because it benefits him to….md]] — from `raw/apple_notes/my dad believes that no one can change because it benefits him to….md`
+- [[Morality Investigation Seed]] — from `raw/apple_notes/new idea.md`
+- [[opposite action.md]] — from `raw/apple_notes/opposite action.md`
+- [[Are Billionaires Ethically Obligated to Give? (Personal Essay)]] — from `raw/apple_notes/personal-writing/Billionaires.md`
+- [[Naomi - Relationship Log (2026).md]] — from `raw/apple_notes/personal-writing/Naomi - Relationship Log (2026).md`
+- [[November 8th (Dom's 18th).md]] — from `raw/apple_notes/personal-writing/November 8th (Dom's 18th).md`
+- [[The Tilting Picture: On God, Control, and a Divided Home]] — from `raw/apple_notes/personal-writing/god.md`
+- [[halloween.md]] — from `raw/apple_notes/personal-writing/halloween.md`
+- [[william.md]] — from `raw/apple_notes/personal-writing/william.md`
+- [[physical movements are waves that create frequencies which can unlock….md]] — from `raw/apple_notes/physical movements are waves that create frequencies which can unlock….md`
+- [[plan for next week (hwbuddy).md]] — from `raw/apple_notes/plan for next week (hwbuddy).md`
+- [[Subscription Pricing Tiers]] — from `raw/apple_notes/prices.md`
+- [[sayonara speech.md]] — from `raw/apple_notes/sayonara speech.md`
+- [[secular humanism.md]] — from `raw/apple_notes/secular humanism.md`
+- [[US Foreign Policy Continuity 1901–1917: Roosevelt, Taft, and Wilson]] — from `raw/apple_notes/socratic seminar.md`
+- [[strong is using willpower to overcome deterministic or selfish tendencies….md]] — from `raw/apple_notes/strong is using willpower to overcome deterministic or selfish tendencies….md`
+- [[Supply-Side Policy Is Superior to Demand-Side Policy for Long-Term Growth]] — from `raw/apple_notes/supply-side policy is superior to demand-side policy for long term….md`
+- [[why can’t i get away from him- what do i do- i need to talk to mom….md]] — from `raw/apple_notes/why can’t i get away from him- what do i do- i need to talk to mom….md`
+- [[writing idea- something about scout and how he was the one remainder….md]] — from `raw/apple_notes/writing idea- something about scout and how he was the one remainder….md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/nobody sees what they don’t want to.md`
+- ⚠️ flagged for manual ingest (binary/complex): `raw/apple_notes/the epr thought experiment.md`
+
+## [2026-07-12] email-purge | category:promotions older_than:2w
+- Time: 2026-07-12 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-12] agent | Morning Brief – 2026-07-12
+- 📅 CALENDAR (next 2 days)
+- - Sun Jul 12 @ 12:00 PM — Packing Hour (appears twice — duplicate worth cleaning up)
+- - Sun Jul 12 @ 4:00 PM — Leave Mountain House
+- - Mon Jul 13 @ 2:00 PM — William Dorman is a Good Boy 🐶
+- 
+- ✅ OPEN TASKS
+- - Pack up mountain house gear (x2 duplicates, Medium priority, no due date)
+- - RESOLVE notion test (Medium priority, no due date)
+- 
+- 📬 EMAIL (26,189 unread)
+- - 🔴 NYT Breaking News: Senator Lindsey Graham has died at 71
+- - Twitch: TryTemperance just went live
+- - Shutterfly: Last day for free shipping
+- - UptimeRobot: Feature upsell
+- - Twitch: oasisonoverwatch is live
+- 
+- ⚠️ URGENT: NYT breaking news alert in inbox — Senator Lindsey Graham died at 71. GitHub CI failures from yesterday still unresolved on resolve/main.
+
+## [2026-07-12] agent | Feature Request: Delete Calendar Events
+- Trav wants the ability to delete/remove Google Calendar events from within Resolve.
+- Currently only read and create are supported.
+
+## [2026-07-13] ingest | Nightly auto-ingest (1 sources)
+- [[writing idea- why does the picture of me and my dad and mom lean everytime….md]] — from `raw/apple_notes/writing idea- why does the picture of me and my dad and mom lean everytime….md`
+
+## [2026-07-13] email-purge | category:promotions older_than:2w
+- Time: 2026-07-13 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-13] agent | Morning Brief – 2026-07-13
+- **Date:** Monday, July 13, 2026
+- **Calendar (next 2 days):** One event — 'William Dorman is a Good Boy' today at 2:00 PM ET. Nothing on Tuesday.
+- **Open Notion Tasks (3):** 'lol' (Medium, due Aug 3) · 'Pack up mountain house gear' (Medium, no due date) · 'RESOLVE notion test' (Medium, no due date). No urgent/overdue items.
+- **Unread Email:** 26,250 unread. Latest highlights are mostly marketing (Shutterfly, IHOP, Robinhood Snacks), a Twitch live notification for towdan, and a NYT subscription upsell. Nothing that screams urgent.
+- **Action items:** Keep an eye on 'Pack up mountain house gear' — no due date set, worth scheduling. Inbox zero not a priority today 😄
+
+## [2026-07-13] agent | ingest | RESOLVE Daily (2026-07-12)
+- ## [2026-07-12] ingest | RESOLVE Daily (2026-07-12)
+- - New source type: **RESOLVE daily-activity** (AI life-assistant operational log), the first of its kind in the vault. Wrote [[RESOLVE Daily (2026-07-12)]].
+- - Created new entity [[RESOLVE (AI assistant)]] documenting the assistant's capabilities and its calendar-delete limitation (feature request logged).
+- - Facts surfaced: at a **mountain house** ~Jul 12 (summer/family context); calendar events 'Naomi is a squid' (Jul 15 8am, likely inside joke), 'UV's Grad Party' moved to Jul 30, 'William Dorman is a Good Boy' (Jul 13).
+- - **Did not overwrite [[Naomi]]** or [[Family and Personal Life]]: the read tool truncates long page bodies and I could not safely reconstruct the full text without risking content loss. The 'squid' data point lives on the source page + [[RESOLVE (AI assistant)]] instead. Flag for a future pass when full-page reads are reliable.
+- - Calibration: this is consumer/operator use of an AI assistant — no new technical skill demonstrated; consistent with his directing-not-building pattern.
+- - Open: identities of 'UV' and 'William Dorman' unresolved; do not conflate the latter with [[William (friend portrait)]].
+
+## [2026-07-13] agent | doom
+- Created folder `doom` on Desktop (~/Desktop/doom) on 2026-07-13.
+
+## [2026-07-14] email-purge | category:promotions older_than:2w
+- Time: 2026-07-14 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-14] agent | Morning Brief – 2026-07-14
+- **Date:** Tuesday, July 14, 2026
+- ## 📅 Calendar (next 2 days)
+- - Today @ 3:00 PM: Text Naomi that you love her ❤️
+- - Tomorrow (Jul 15) @ 8:00 AM: Naomi is a Squid 🦑
+- ## ✅ Open Notion Tasks
+- - 'lol' — Medium priority, due Aug 3
+- - 'Pack up mountain house gear' — Medium priority, no due date
+- - 'RESOLVE notion test' — Medium priority, no due date
+- ## 📬 Email
+- - 26,352 unread (mostly Twitch live notifications + marketing)
+- - Nothing urgent in the latest batch
+- ## 🚨 Urgent / Action Items
+- - Reminder on the books to text Naomi at 3 PM today — don't skip it!
+- - 'Pack up mountain house gear' has no due date — worth putting one on it soon

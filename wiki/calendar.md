@@ -1,22 +1,31 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-10 15:01 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-14 07:00 EDT.*
 
 ## July 2026
 
-- **Fri Jul 3** · 6:00 PM — Dinner with Dr. Harris — With: Dr. Harris
-- **Sat Jul 4** · 9:00 AM — Block Party
 - **Tue Jul 7** · 5:30 PM — Pool party
-- **Fri Jul 10** · 9:00 AM — Mountain house trip ⬅️ **today**
-- **Fri Jul 10** · 3:00 PM — Leave for Mountain House ⬅️ **today**
-- **Fri Jul 10** · 9:00 PM — Beer Pong ⬅️ **today**
-- **Sat Jul 18** · 9:00 AM — UV's Grad Party
+- **Fri Jul 10** · 9:00 AM — Mountain house trip
+- **Fri Jul 10** · 3:00 PM — Leave for Mountain House
+- **Fri Jul 10** · 9:00 PM — Beer Pong
+- **Sat Jul 11** · 1:00 PM — Leave Mountain House
+- **Sun Jul 12** · 12:00 PM — Packing hour
+- **Sun Jul 12** · 12:00 PM — Packing hour
+- **Sun Jul 12** · 4:00 PM — Leave Mountain House
+- **Mon Jul 13** · 2:00 PM — William Dorman is a Good Boy
+- **Tue Jul 14** · 3:00 PM — Text Naomi that you love her ⬅️ **today**
+- **Wed Jul 15** · 8:00 AM — Naomi is a Squid
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
+- **Thu Jul 30** · 9:00 AM — UV's Grad Party
 
 ## August 2026
 
+- **Sat Aug 1** · 9:30 PM — Flight to Dublin
+- **Sat Aug 1** · 9:30 PM — Flight to Dublin
+- **Sat Aug 8** · 8:15 AM — Flight from Dublin
 - **Tue Aug 11** · 8:00 AM — Haircut with Tony — With: Tony
 - **Thu Aug 20** · 1:00 PM — UVA Move-In Day
+- **Sat Aug 29** · 9:00 AM — Hangout w/ Naomi
 
 ## September 2026
 

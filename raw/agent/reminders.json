@@ -1,11 +1,19 @@
 [
  {
-  "id": "fcb68b63",
-  "when": "2026-07-18 07:00",
-  "message": "Coming up at 9:00 AM: UV's Grad Party",
+  "id": "b2926c85",
+  "when": "2026-07-14 13:00",
+  "message": "Coming up at 3:00 PM: Text Naomi that you love her",
   "chat_id": "6594181389",
   "auto": true,
-  "event_id": "24bied1uv7k3e0f5buc8nl7ck0"
+  "event_id": "vvknr0a7egja3fu3gd0i70k8sc"
+ },
+ {
+  "id": "297f527e",
+  "when": "2026-07-15 06:00",
+  "message": "Coming up at 8:00 AM: Naomi is a Squid",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "970q3r6l454aek7lggb7qov7h4"
  },
  {
   "id": "13141d02",
