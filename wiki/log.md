@@ -1002,3 +1002,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · what is on my calendar in the next 7 days
 - - **Asked:** what is on my calendar in the next 7 days
 - - **Result:** Here's what's on deck for the next 7 days: | Date | Time | Event | |------|------|-------| | Tue, Jul 14 | 3:00 PM | Text Naomi that you love her | | Wed, Jul 15 | 8:00 AM | Naomi is a Squid 🦑 | | Sun, Jul 20 | 9:00 AM | UVA Orientation | Three events — two Naomi-related ones (on
+
+## [2026-07-14] agent | agent · list my open notion tasks
+- - **Asked:** list my open notion tasks
+- - **Result:** Here are your 3 open Notion tasks: | # | Title | Priority | Due | |---|-------|----------|-----| | 1 | lol | Medium | Aug 3, 2026 | | 2 | Pack up mountain house gear | Medium | — | | 3 | RESOLVE notion test | Medium | — | Everything sitting in Inbox at Medium priority. "lol" as a
