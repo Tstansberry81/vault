@@ -1068,3 +1068,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · No. Hey.
 - - **Asked:** No. Hey.
 - - **Result:** It's queued and waiting on your approval banner to actually send. Check your screen!
+
+## [2026-07-14] agent | agent · Uh, show me the news.
+- - **Asked:** Uh, show me the news.
+- - **Result:** Google News is opening on your browser.
