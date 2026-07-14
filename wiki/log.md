@@ -994,3 +994,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed).
 - Gmail: connector error — requires reconnection with additional permissions.
 - Outlook email/calendar: nothing new in last 2h / no new UVA calendar items.
+
+## [2026-07-14] agent | Pipeline run
+- No new items. (Run at 18:08 — third empty run today.)
+- Telegram queue: 1 item, already processed (Josh call 2026-06-30).
+- Gmail: connector error persists — requires reconnection with additional permissions.
+- Outlook email/calendar: nothing new in last 2h / no new UVA calendar items next 7 days.
