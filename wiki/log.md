@@ -1022,3 +1022,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · what day and time is it right now
 - - **Asked:** what day and time is it right now
 - - **Result:** It's **Tuesday, July 14, 2026 at 2:10 PM Eastern**. 🕑
+
+## [2026-07-14] agent | agent · do a quick bit of web research and write a short overview of
+- - **Asked:** do a quick bit of web research and write a short overview of what a guitar capo is and why beginners use one, then save it
+- - **Result:** Done! Saved to your vault: 📄 [What Is a Guitar Capo (And Why Beginners Use One)](https://github.com/Tstansberry81/vault/blob/main/wiki/research/what-is-a-guitar-capo-and-why-beginners-use-one.md) Here's the quick version: - A **capo** is a clamp that attaches across all strings a
