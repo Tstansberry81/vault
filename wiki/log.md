@@ -776,3 +776,19 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] email-purge | category:promotions older_than:2w
 - Time: 2026-07-14 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-14] agent | Morning Brief – 2026-07-14
+- **Date:** Tuesday, July 14, 2026
+- ## 📅 Calendar (next 2 days)
+- - Today @ 3:00 PM: Text Naomi that you love her ❤️
+- - Tomorrow (Jul 15) @ 8:00 AM: Naomi is a Squid 🦑
+- ## ✅ Open Notion Tasks
+- - 'lol' — Medium priority, due Aug 3
+- - 'Pack up mountain house gear' — Medium priority, no due date
+- - 'RESOLVE notion test' — Medium priority, no due date
+- ## 📬 Email
+- - 26,352 unread (mostly Twitch live notifications + marketing)
+- - Nothing urgent in the latest batch
+- ## 🚨 Urgent / Action Items
+- - Reminder on the books to text Naomi at 3 PM today — don't skip it!
+- - 'Pack up mountain house gear' has no due date — worth putting one on it soon
