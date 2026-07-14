@@ -1000,3 +1000,38 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: 1 item, already processed (Josh call 2026-06-30).
 - Gmail: connector error persists — requires reconnection with additional permissions.
 - Outlook email/calendar: nothing new in last 2h / no new UVA calendar items next 7 days.
+## [2026-07-14] agent | agent · save a note to my vault titled RESOLVE Vault Save Test with 
+- - **Asked:** save a note to my vault titled RESOLVE Vault Save Test with a paragraph explaining that this verifies full output is saved to the vault by default
+- - **Result:** Saved and confirmed. ✅ 📄 [RESOLVE Vault Save Test](https://github.com/Tstansberry81/vault/blob/main/wiki/notes/resolve-vault-save-test.md) — landed at `wiki/notes/resolve-vault-save-test.md`. Vault pipeline is working perfectly.
+
+## [2026-07-14] agent | agent · what is on my calendar in the next 7 days
+- - **Asked:** what is on my calendar in the next 7 days
+- - **Result:** Here's what's on deck for the next 7 days: | Date | Time | Event | |------|------|-------| | Tue, Jul 14 | 3:00 PM | Text Naomi that you love her | | Wed, Jul 15 | 8:00 AM | Naomi is a Squid 🦑 | | Sun, Jul 20 | 9:00 AM | UVA Orientation | Three events — two Naomi-related ones (on
+
+## [2026-07-14] agent | agent · list my open notion tasks
+- - **Asked:** list my open notion tasks
+- - **Result:** Here are your 3 open Notion tasks: | # | Title | Priority | Due | |---|-------|----------|-----| | 1 | lol | Medium | Aug 3, 2026 | | 2 | Pack up mountain house gear | Medium | — | | 3 | RESOLVE notion test | Medium | — | Everything sitting in Inbox at Medium priority. "lol" as a
+
+## [2026-07-14] agent | agent · do I have any unread email, just summarize
+- - **Asked:** do I have any unread email, just summarize
+- - **Result:** **26,397 unread** — my brother your inbox is a crime scene. 😂 Top 5 latest: 1. **GitHub** — A RESOLVE control-plane check failed (commit `abd7e6b`) 2. **YouTube** — FIFA World Cup 2026 semifinals 3. **Twitch** — shroud just went live 4. **GitHub** — Another RESOLVE control-plane 
+
+## [2026-07-14] agent | agent · what is my current net worth and this months spending
+- - **Asked:** what is my current net worth and this months spending
+- - **Result:** Here's your financial snapshot: **💰 Net Worth: $5,554.46** - Checking (4311): $1,052.51 - Savings (3973): $4,501.95 **📊 Last 30 Days** - Earnings: $1,850.16 - Expenses: $1,520.34 - Net: **+$329.82** You're cash flow positive which is good — though I see Polymarket and Kalshi in t
+
+## [2026-07-14] agent | agent · search my vault for notes about python
+- - **Asked:** search my vault for notes about python
+- - **Result:** Nothing came back — no files in your vault with "python" in the name. Either you haven't taken any Python notes yet, or they're buried under a different keyword. Want me to search something more specific, or just create a new Python note to get the ball rolling?
+
+## [2026-07-14] agent | agent · what day and time is it right now
+- - **Asked:** what day and time is it right now
+- - **Result:** It's **Tuesday, July 14, 2026 at 2:10 PM Eastern**. 🕑
+
+## [2026-07-14] agent | agent · do a quick bit of web research and write a short overview of
+- - **Asked:** do a quick bit of web research and write a short overview of what a guitar capo is and why beginners use one, then save it
+- - **Result:** Done! Saved to your vault: 📄 [What Is a Guitar Capo (And Why Beginners Use One)](https://github.com/Tstansberry81/vault/blob/main/wiki/research/what-is-a-guitar-capo-and-why-beginners-use-one.md) Here's the quick version: - A **capo** is a clamp that attaches across all strings a
+
+## [2026-07-14] agent | agent · delete my notion task called lol
+- - **Asked:** delete my notion task called lol
+- - **Result:** Deletion of **"lol"** is queued — hit the approval banner to confirm and it's gone. RIP to whatever that was. 😂
