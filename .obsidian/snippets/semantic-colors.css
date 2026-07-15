@@ -1,0 +1,96 @@
+/* ============================================================
+   Semantic vault colors — matches graph.json color groups
+   raw/            red     (immutable sources — do not touch)
+   wiki/sources    orange  (ingested source summaries)
+   wiki/entities   blue    (people, orgs, things)
+   wiki/concepts   purple  (ideas, themes)
+   wiki/analyses   teal    (filed-back query answers)
+   wiki/ (rest)    green   (the knowledge layer itself)
+   output/         gold    (deliverables — the shiny stuff)
+   ============================================================ */
+
+/* ---- top-level folders ---- */
+.nav-folder-title[data-path="raw"],
+.nav-folder-title[data-path^="raw/"] {
+  color: #e5484d;
+}
+.nav-folder-title[data-path="raw"] {
+  font-weight: 600;
+}
+
+.nav-folder-title[data-path="wiki"] {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.nav-folder-title[data-path="output"],
+.nav-folder-title[data-path^="output/"] {
+  color: #eab308;
+}
+.nav-folder-title[data-path="output"] {
+  font-weight: 600;
+}
+
+/* ---- wiki subfolders (specific overrides) ---- */
+.nav-folder-title[data-path="wiki/sources"] {
+  color: #f76b15;
+}
+.nav-folder-title[data-path="wiki/entities"] {
+  color: #3b82f6;
+}
+.nav-folder-title[data-path="wiki/concepts"] {
+  color: #8b5cf6;
+}
+.nav-folder-title[data-path="wiki/analyses"] {
+  color: #14b8a6;
+}
+.nav-folder-title[data-path="wiki/assets"] {
+  color: #22c55e;
+  opacity: 0.75;
+}
+
+/* other wiki subfolders inherit the green */
+.nav-folder-title[data-path^="wiki/"] {
+  color: #22c55e;
+}
+/* re-assert specific subfolder colors (specificity via double attr) */
+.nav-folder-title[data-path="wiki/sources"][data-path] { color: #f76b15; }
+.nav-folder-title[data-path="wiki/entities"][data-path] { color: #3b82f6; }
+.nav-folder-title[data-path="wiki/concepts"][data-path] { color: #8b5cf6; }
+.nav-folder-title[data-path="wiki/analyses"][data-path] { color: #14b8a6; }
+
+/* ---- files inside each area get a subtle tint ---- */
+.nav-file-title[data-path^="raw/"] {
+  color: color-mix(in srgb, #e5484d 55%, var(--text-normal));
+}
+.nav-file-title[data-path^="wiki/sources/"] {
+  color: color-mix(in srgb, #f76b15 55%, var(--text-normal));
+}
+.nav-file-title[data-path^="wiki/entities/"] {
+  color: color-mix(in srgb, #3b82f6 55%, var(--text-normal));
+}
+.nav-file-title[data-path^="wiki/concepts/"] {
+  color: color-mix(in srgb, #8b5cf6 55%, var(--text-normal));
+}
+.nav-file-title[data-path^="wiki/analyses/"] {
+  color: color-mix(in srgb, #14b8a6 55%, var(--text-normal));
+}
+.nav-file-title[data-path^="output/"] {
+  color: color-mix(in srgb, #eab308 55%, var(--text-normal));
+}
+
+/* key wiki pages stand out */
+.nav-file-title[data-path="wiki/index.md"],
+.nav-file-title[data-path="wiki/overview.md"] {
+  color: #22c55e;
+  font-weight: 600;
+}
+.nav-file-title[data-path="wiki/log.md"] {
+  color: color-mix(in srgb, #22c55e 55%, var(--text-normal));
+}
+
+/* CLAUDE.md — the schema itself */
+.nav-file-title[data-path="CLAUDE.md"] {
+  color: var(--text-accent);
+  font-weight: 600;
+}
