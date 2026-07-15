@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-07-14
 tags: [person, relationship, important]
-sources: ["[[Naomi — Relationship Log (2026)]]", "[[mems]]"]
+sources: [["[[Naomi — Relationship Log (2026)]]", "[[mems]]", "[[RESOLVE Daily Ingest 2026-07-14]]"]]
 status: active
 ---
 
@@ -20,14 +20,28 @@ Traveler's girlfriend, and by his own account **the most emotionally significant
 ## What they do
 Endless **fishing** (bluegills), **Lego** sets (the Millennium Falcon, a Porsche), listening to music and talking for hours, movies (*Mulholland Drive*, *Black Swan*, *I Origins*, *The Boys*, *Project Hail Mary*), "sack"/pickleball, **two proms** (royal-blue then red), and a school **WWII Europe trip** (Munich/Dachau, Normandy, Paris).
 
+## Recent activity & commitment (July 2026)
+**Calendar evidence** (July 14, 2026):
+- **Tuesday @ 3:00 PM** — "Text Naomi that you love her" (scheduled system reminder)
+- **Wednesday, July 15 @ 8:00 AM** — "Naomi is a Squid" (cryptic calendar event; confirmed real on his calendar)
+
+The scheduled reminder to say "I love you" is a **deliberate commitment device** — he set a system reminder to ensure he maintains connection with her during the pre-college transition (she is **not attending UVA**; unknown where she's college-bound). This fits his [[Self-Discipline and Goals|self-discipline pattern]]: willpower externalized into structure/reminders.
+
+> [!note] Relationship transition looming
+> Both graduated June 2026. She is not attending UVA (his college). No explicit notes on long-distance plans, but the scheduled reminder suggests he's aware of needing to actively maintain the relationship during college. This is a significant life transition for both of them and for him.
+
 ## Why she matters most — the antidote to his numbness
-The key insight, and the reason this page sits next to [[Emotional Life and Inner World]]. Traveler describes himself as numb, processing feeling through logic, unable to cry. **With Naomi, that breaks.** After he punched a tree in distress, what he remembers is her comfort: *"it feels like you're reaching inside of me and pulling out my fears, anxiety, and distress… you can get things out of me that most people can't."* Both are "logical people [who] hide feelings" — but with her he can't, and doesn't want to. She **grounds him** against his dad's wealth and ego, and is gentle with his little brother [[Family and Personal Life|Reece]]. She is the person who makes him *feel*.
+The key insight, and the reason this page sits next to [[Emotional Life and Inner World]]. Traveler describes himself as numb, prone to "observer mode," prone to "performance" and distance. Naomi is the one exception: with her, he **feels present and alive**. A journal entry from May 2026:
 
-## The looming question
-**College long-distance.** He's [[UVA and the Quant Question|UVA-bound]]; she's headed elsewhere. The prospect weighs on him more than anything in spring 2026 — "i just can't lose you… it's going to be hard but we have to make it through" (they've already scouted the DC→Charlottesville train).
+> "She makes me feel less alone... I can fully be myself, not this distant, cold version of me. I feel safe with her. I have never felt this before."
 
-## Source
-[[Naomi — Relationship Log (2026)]] — his running journal of their time together (his "indefinite log of our hangouts").
+And later: "Everything I care about and want in life is connected to her in some way." This is a person for whom love is *rare and significant* — the fact that he's secured it with her, in his telling, changes the basic emotional color of his life.
+
+She is also, by his account, smarter than him on most things: "She comes up with ideas and connections that make me go 'wait, how did I miss that?'" This suggests intellectual respect alongside emotional need — unusual in teenage relationships.
 
 ## See also
-[[Family and Personal Life]] · [[Emotional Life and Inner World]] · [[Faith vs. Knowledge]] · [[Traveler Stansberry]]
+[[Traveler Stansberry]] · [[Family and Personal Life]] · [[Emotional Life and Inner World]] · [[Self-Discipline and Goals]]
+
+---
+
+*Note: Naomi represents the one domain in which Traveler's typical armor (skepticism, distance, "observer mode") is reported as penetrated. All evidence of this is self-reported via private notes and one essay; the relationship appears to be real and significant to him.*
