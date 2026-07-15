@@ -1,96 +1,548 @@
 /* ============================================================
-   Semantic vault colors — matches graph.json color groups
-   raw/            red     (immutable sources — do not touch)
-   wiki/sources    orange  (ingested source summaries)
-   wiki/entities   blue    (people, orgs, things)
-   wiki/concepts   purple  (ideas, themes)
-   wiki/analyses   teal    (filed-back query answers)
-   wiki/ (rest)    green   (the knowledge layer itself)
-   output/         gold    (deliverables — the shiny stuff)
+   SUBJECT color coding — GENERATED from frontmatter tags.
+   Matches graph.json color groups. Regenerate on new ingests.
+   purple #8b5cf6  philosophy/worldview   orange #f76b15  college apps
+   gold   #eab308  finance/quant          teal   #14b8a6  startup/tech
+   pink   #ec4899  personal life          blue   #3b82f6  school
+   green  #22c55e  wiki meta              red    #e5484d  raw/
    ============================================================ */
 
-/* ---- top-level folders ---- */
 .nav-folder-title[data-path="raw"],
-.nav-folder-title[data-path^="raw/"] {
-  color: #e5484d;
-}
-.nav-folder-title[data-path="raw"] {
-  font-weight: 600;
-}
-
-.nav-folder-title[data-path="wiki"] {
-  color: #22c55e;
-  font-weight: 600;
-}
-
-.nav-folder-title[data-path="output"],
-.nav-folder-title[data-path^="output/"] {
-  color: #eab308;
-}
-.nav-folder-title[data-path="output"] {
-  font-weight: 600;
-}
-
-/* ---- wiki subfolders (specific overrides) ---- */
-.nav-folder-title[data-path="wiki/sources"] {
-  color: #f76b15;
-}
-.nav-folder-title[data-path="wiki/entities"] {
-  color: #3b82f6;
-}
-.nav-folder-title[data-path="wiki/concepts"] {
-  color: #8b5cf6;
-}
-.nav-folder-title[data-path="wiki/analyses"] {
-  color: #14b8a6;
-}
-.nav-folder-title[data-path="wiki/assets"] {
-  color: #22c55e;
-  opacity: 0.75;
-}
-
-/* other wiki subfolders inherit the green */
-.nav-folder-title[data-path^="wiki/"] {
-  color: #22c55e;
-}
-/* re-assert specific subfolder colors (specificity via double attr) */
-.nav-folder-title[data-path="wiki/sources"][data-path] { color: #f76b15; }
-.nav-folder-title[data-path="wiki/entities"][data-path] { color: #3b82f6; }
-.nav-folder-title[data-path="wiki/concepts"][data-path] { color: #8b5cf6; }
-.nav-folder-title[data-path="wiki/analyses"][data-path] { color: #14b8a6; }
-
-/* ---- files inside each area get a subtle tint ---- */
+.nav-folder-title[data-path^="raw/"] { color: #e5484d; }
+.nav-folder-title[data-path="raw"] { font-weight: 600; }
 .nav-file-title[data-path^="raw/"] {
   color: color-mix(in srgb, #e5484d 55%, var(--text-normal));
 }
-.nav-file-title[data-path^="wiki/sources/"] {
-  color: color-mix(in srgb, #f76b15 55%, var(--text-normal));
-}
-.nav-file-title[data-path^="wiki/entities/"] {
-  color: color-mix(in srgb, #3b82f6 55%, var(--text-normal));
-}
-.nav-file-title[data-path^="wiki/concepts/"] {
-  color: color-mix(in srgb, #8b5cf6 55%, var(--text-normal));
-}
-.nav-file-title[data-path^="wiki/analyses/"] {
-  color: color-mix(in srgb, #14b8a6 55%, var(--text-normal));
-}
-.nav-file-title[data-path^="output/"] {
-  color: color-mix(in srgb, #eab308 55%, var(--text-normal));
-}
 
-/* key wiki pages stand out */
+.nav-file-title[data-path="CLAUDE.md"] { color: var(--text-accent); font-weight: 600; }
 .nav-file-title[data-path="wiki/index.md"],
-.nav-file-title[data-path="wiki/overview.md"] {
-  color: #22c55e;
-  font-weight: 600;
-}
-.nav-file-title[data-path="wiki/log.md"] {
-  color: color-mix(in srgb, #22c55e 55%, var(--text-normal));
+.nav-file-title[data-path="wiki/overview.md"] { font-weight: 600; }
+
+/* ---- per-file subject colors (generated) ---- */
+
+.nav-file-title[data-path="wiki/agent-memory.md"],
+.nav-file-title[data-path="wiki/calendar.md"],
+.nav-file-title[data-path="wiki/index.md"],
+.nav-file-title[data-path="wiki/log.md"],
+.nav-file-title[data-path="wiki/research/what-is-a-guitar-capo-and-why-beginners-use-one.md"],
+.nav-file-title[data-path="wiki/captures/2026-07-03-quantum-magic-explains-how-space-time-curves-gra.md"],
+.nav-file-title[data-path="wiki/sources/are-billionaires-ethically-obligated-to-give-per.md"],
+.nav-file-title[data-path="wiki/sources/memory-fragments-late-2025-early-2026.md"],
+.nav-file-title[data-path="wiki/sources/morality-investigation-seed.md"],
+.nav-file-title[data-path="wiki/sources/subscription-pricing-tiers.md"],
+.nav-file-title[data-path="wiki/sources/supply-side-policy-is-superior-to-demand-side-po.md"],
+.nav-file-title[data-path="wiki/sources/the-tilting-picture-on-god-control-and-a-divided.md"],
+.nav-file-title[data-path="wiki/sources/us-foreign-policy-continuity-1901-1917-roosevelt.md"],
+.nav-file-title[data-path="wiki/sources/chats/_Chats Catalog.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2023-10 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2023-11 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2023-12 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2024-01 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2024-06 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2024-07 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-02 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-03 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-04 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-05 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-06 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-07 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-08 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-09 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-10 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-11 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2025-12 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-01 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-02 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-03 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-04 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-05 chats.md"],
+.nav-file-title[data-path="wiki/sources/chats/digests/2026-06 chats.md"] {
+  color: color-mix(in srgb, #22c55e 70%, var(--text-normal));
 }
 
-/* CLAUDE.md — the schema itself */
-.nav-file-title[data-path="CLAUDE.md"] {
-  color: var(--text-accent);
-  font-weight: 600;
+.nav-file-title[data-path="wiki/overview.md"],
+.nav-file-title[data-path="wiki/concepts/Adams-Onís Treaty.md"],
+.nav-file-title[data-path="wiki/concepts/Art as Survival.md"],
+.nav-file-title[data-path="wiki/concepts/Conformity and Tradition.md"],
+.nav-file-title[data-path="wiki/concepts/Consumerism and Alienation.md"],
+.nav-file-title[data-path="wiki/concepts/Identity and Its Collapse.md"],
+.nav-file-title[data-path="wiki/concepts/Individual vs. Society.md"],
+.nav-file-title[data-path="wiki/concepts/Intellectual Interests.md"],
+.nav-file-title[data-path="wiki/concepts/James Monroe Presidency.md"],
+.nav-file-title[data-path="wiki/concepts/John Adams Presidency.md"],
+.nav-file-title[data-path="wiki/concepts/Masculinity.md"],
+.nav-file-title[data-path="wiki/concepts/Memory and Trauma.md"],
+.nav-file-title[data-path="wiki/concepts/Missouri Compromise.md"],
+.nav-file-title[data-path="wiki/concepts/Monroe Doctrine.md"],
+.nav-file-title[data-path="wiki/concepts/Power, Hierarchy, and Justice.md"],
+.nav-file-title[data-path="wiki/concepts/The Moral Impact of Slavery.md"],
+.nav-file-title[data-path="wiki/sources/APUSH Notes.md"],
+.nav-file-title[data-path="wiki/sources/Beloved 257-277 Writeup.md"],
+.nav-file-title[data-path="wiki/sources/Civil Disobedience (HL History essay).md"],
+.nav-file-title[data-path="wiki/sources/DADOES ESSAY.md"],
+.nav-file-title[data-path="wiki/sources/Economics Debate.md"],
+.nav-file-title[data-path="wiki/sources/Explicative of Garden of Eden.md"],
+.nav-file-title[data-path="wiki/sources/Gatsby Essay.md"],
+.nav-file-title[data-path="wiki/sources/Hinge Points.md"],
+.nav-file-title[data-path="wiki/sources/History IA (Naval Gunfire on D-Day).md"],
+.nav-file-title[data-path="wiki/sources/Home FINAL EXAM.md"],
+.nav-file-title[data-path="wiki/sources/IB HL English 2 Essay.md"],
+.nav-file-title[data-path="wiki/sources/Iliad Essay.md"],
+.nav-file-title[data-path="wiki/sources/Maus Essay.md"],
+.nav-file-title[data-path="wiki/sources/Midterm Essays.md"],
+.nav-file-title[data-path="wiki/sources/Narrow Road to the Deep North Response.md"],
+.nav-file-title[data-path="wiki/sources/Nest Essay.md"],
+.nav-file-title[data-path="wiki/sources/Physics IA.md"],
+.nav-file-title[data-path="wiki/sources/Self-Reliance (essay).md"],
+.nav-file-title[data-path="wiki/sources/Senior Year Report Card (2025-26).md"],
+.nav-file-title[data-path="wiki/sources/Station 11 Essay on Art Final.md"],
+.nav-file-title[data-path="wiki/sources/The Logistic Map.md"],
+.nav-file-title[data-path="wiki/sources/The One (short story).md"],
+.nav-file-title[data-path="wiki/sources/chats/1950s Tax Policy, the USAID Bribery Scandal, and Government Spending Efficiency (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/2023 IB Math AA SL Paper 1 Full Walkthrough and a MacBook Buying Detour (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/420hp Car Top Speed and a Whale Trivia Tangent (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Alpha Particles, Nuclear Radius, and Mass Defect - HL Physics Nuclear Crash Course (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Alpha Particles, Nuclear Radius, and the Mass-Defect Trap - HL Physics Nuclear Set (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Antiderivatives, Solenoid Field Derivation, and a Drift into Double Integrals (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Antigone Setting, Inquisition, and Supply-Side Economics (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Antimatter, Dark Matter, the Eiffel Tower, and The Last Duel (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Area Between Curves and Signed vs Geometric Area (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Area Under Curves - Definite Integrals and Areas Between Curves (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Asymptotes, Tangent Lines, Extrema, and Bearings - IB Math Review (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Banyan Chapters 25-27, Vietnam War Cram, and Mao vs Marx (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Banyan Chapters 28-30, Double Integrals, and Cold War Marxism (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Battle of Chosin Reservoir Presentation Research (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Bayes Theorem Essay - Study Habits and Music (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Biden vs Trump Corporate Tax, Deregulation, and a Regulatory Certification Idea (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Bipedal Efficiency, Flynn Effect, and Trig Identity Proofs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Black Civil War Units and the 1968 Baltimore Riots (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/COVID Inflation Data Sourcing - BLS CPI and Kritzman Federal Spending (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/COVID Stimulus and Inflation in Maryland - Paper Research (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Capital Climb - Designing a Poverty-Trap Board Game (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Causes of WWI - Balkan Wars, Moroccan Crises, Weltpolitik (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Chandrasekhar Limit, Gravastars, Dark Matter, and the Hawaii Black-Hole Dark-Energy Claim (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Charles Bon's Parentage in Absalom, Absalom! (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Chasing ChatGPT's Interactive Animations - Angular Velocity and a Feature Rollout (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Circular Motion Derivation - Centripetal Acceleration, Torque, and Moment of Inertia (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Circular Motion Lesson - Torque and Angular Momentum (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Circular Motion and Gravitation Homework - Centripetal Force, Kepler, and Gravitational Fields (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cold War Origins, Exponential Equations, and Movie Curiosity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Colonial America Notes Condensing (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Compact History Midterm Review - Pre-Columbus to the Civil War (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Dark Matter vs Dark Energy and the Eddington Limit (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Death of a Salesman Essay - IB HL Criterion Feedback on Fatherhood and Identity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Death of a Salesman Essay Coaching - Iterative Paragraph Revision (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Dekimasu Kanji, Thermal Physics, and a Vietnam War Crash Course (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Denmark Economic Breakdown - Welfare, Flexicurity, and the Krone Peg (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Dirichlet Integral, Binomial Distribution Drilling, and AP Physics C Scope (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Dirichlet Integral, Viscosity, the Schwarzschild Radius, and a Keeper Movie Check (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Drawing Externalities and a Full IB Macro Review (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/EE Submission Tips - Maryland Labor Market Tightness and Federal Debt (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Econ IA - Argentina Peso Exchange-Rate Intervention (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Econ SL Paper 2 Two-Day Cram - Quotas, Currency Math, and the UVA-Credit Calculation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economic Impact of COVID-19 - EE Self-Grading and Wage-Price Spiral (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economics EE - Pandemic Fiscal Policy and Maryland Inflation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economics EE Examiner Feedback and AD-AS Graph (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economics EE Four Arguments and BLS-FRED Data Sourcing (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economics EE Full Draft Edit and MLA Citation Cleanup (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Economics EE Full-Draft Grading - Demand-Pull vs Cost-Push and the 10.6% CPI Fix (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Electric Field Direction and Electron Deflection - HL Physics Fields Set (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Electric Field Strength then an Integration Homework Drill (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Electron in a Field then a Full Magnetism and Induction Drill (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Emancipation Proclamation, Thaddeus Stevens, Plessy, and Jim Crow (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Exchange Rate Mechanics, a u-Substitution Drill, and Middle Passage Numbers (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/FTA vs Customs Union and Chinese Currency Manipulation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Fact-Checking Drake's ICEMAN Ice-Block Melt Math (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Five Stories Tall - Japanese Vocab and Sumo Culture Drilling (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Force, Energy, and Momentum Photo-Drill - HL Physics Mechanics Set (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Free Trade Debate Prep - Tariffs, Subsidies, Reagan, and Trump Inflation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Friction Coefficient IA - Inclined-Plane Excel Formula and Negative-Mu Breakdown (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Friction Coefficient IA - Uncertainty Propagation and Negative-Friction Deep Dive (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Friction Coefficients, Wavelength Reading, and the Alpha-Scattering Closest-Approach Derivation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/GDP Inclusion and Mixed Homework Help (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gilded Age Flashcards - Populist Era Terms and Labor Strikes (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Glitched Screenshot IB Math SL Problems - Trig Tangents and Runner Kinematics (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Graphing a Function from Its Derivative Graph (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gravitational Potential Energy and Work Done by Gravity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/HL Physics Exam Meltdown - Stars, Circuits, Diffraction, and Fields MCQs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/HL Physics Exam Prep Pack - Concept Study Guide and Holy Grail Review Packet (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Helsinki Accords, Mao vs Pol Pot, and a Bayesian Probability Run (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/IB English Paper 1 Prep, the Over-Scaffolding Audit, and Paper 2 Refresh (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/IB HL History Exam Cram - Study Guide, Term Sheet, and Post-Exam Debrief (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/IB HL History Paper 1 Revision - Cold War, Apartheid, and Maoist China (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/IB Math SL Paper 1 and 2 Walkthrough - Binomial, Series, and TI-84 Drills (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Ichiban Kanji Lookups - Japanese Vocabulary Drilling (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Imperialism and WWII History Study Guide (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/In the Shadow of the Banyan Chapters 22-24 and Vietnam Counterinsurgency (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Integrating cos-squared, Trig Identities, Peptides, and Balance of Payments (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Iran-Contra, the 1953 Iran Coup, and Azana in the Spanish Civil War (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japan's Public Debt and Aggregate Supply, then Stalin's Plans and a Physics IA Topic (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Period Dramas Research Paper - Jidaigeki Sources for SL Japanese (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Similarity Expressions for the Jidaigeki Paper (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Jidaigeki Research Paper - Abarenbo Shogun, Mito Komon, and Kara-Made Grammar (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Jishin and the IB Japanese Reading-Comprehension Decoding System (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Jungle Animal Velocity Calculus - Lion-Zebra Chase and Speed vs Velocity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Kiji vs Report - Writing a Japanese Town-Cleanup Article Himself (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Korean War Battles Timeline - Soviet UN Boycott to Pork Chop Hill (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/L'Hopital's Rule, Tariff Welfare Graphs, and a Floor-Function Integral (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/LRAS, PPC, and Macro Schools of Thought (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Life Capital - A Poverty-Trap Board Game for Econ (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Macro AD-AS Review and Japanese Ab Initio Kanji Flashcards (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Maryland Demand-Pull vs Cost-Push EE Research Question and BLS Data (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Math Contest Square Problem - Right-Angle Ambiguity and Side Length (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Measuring Uncertainty and Deriving Orbital Energy - HL Physics Midterm Review (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Mixed Homework - ASAD Graph, Physics MCQs, Math, and Cold War (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Mixed Homework - Average Force, McCarthyism, Japanese Kanji, and Barthes (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Mixed Homework - Japanese, Markov Chains, Chain Rule, Chinese Civil War, and HL Gravitation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Mock Theta Functions and Ramanujan's Greatest Discoveries (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Momentum Conservation Problem Set - 2D Collisions and Recoil (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Momentum Conservation and Projectile MCQs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Momentum Conservation, Pendulum Tension, and Impulse from a Wrecking Ball (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Momentum, Gravitation, and Rolling Without Slipping - HL Physics MCQ Session (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Narrative Disruption and Identity - Beloved vs Murakami Paper 2 (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Narrow Road Free Will Essay - Identity, Darky, and Nakamura (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Narrow Road Identity Essay - IB Grading Across Three Drafts (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Narrow Road Identity Essay - Roles vs Ideology and the IB Rubric Climb (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Noether's Theorem and the Custom ChatGPT Mode System Spec (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Nuclear Technology and the Space Race (History HL Research) (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Nuclear Weapons and the Space Race - History Project Research (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Old Sabine in Absalom, Absalom! (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Optimization Word Problems - Fencing, Cuboid Tanks, and Profit Cubics (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/PTAs and FTAs Explained for IB Econ (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Pandemic Economics and Absalom Image Requests (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Paper 2 Comparison Grid - Beloved, Murakami, Tracy K. Smith, and Salesman (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Paper 2 Prep - Narrative Disruption and Identity in Beloved and Murakami (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Permittivity, Lightning Discharge, and Circuit Derivations - HL Physics Electricity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Phase Angle, Pendulum SHM, and a Geometric Series Solve (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Physics Grade Math, Charge Quantization, and SDG 4 Examples (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Physics IA Friction Analysis - Cosine Dependence and Word Count (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Physics IA Topic Selection - Friction Coefficient and Rotational Energy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Physics Work and Energy then Interwar Nationalism (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Pollster Limitations and Nonresponse Bias for the EE (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Product Rule, Quotient Rule, and Chain Rule Differentiation Drill (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Product Rule, Trig Solving, and Bearings - IB Math SL Photo-Drill (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Projectile Kinematics, Mole Conversions, a Bayes Tree, and Gabriels Horn (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Rational Function Limits and a Trig-Derivatives Midterm Cram (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Rotational Equilibrium and Angular Momentum - IB Physics Statics Problems (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Rotational Motion Crash Course - Torque, Rolling Without Slipping, and a Bombed HL Test (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/SAT Math Cram - Quadratics, Constants, and Stats Traps (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/SDG 4 Quality Education Stats and Finland's Education Economy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Series vs Parallel Circuits and Electric Field MCQs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Square Side Length via Similar Triangles - Competition Geometry (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Standing Waves, Thermodynamic Cycle, and a Pol Pot Aside (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Strong and Weak Nuclear Forces, Particle Tiers, and String Theory (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Summarizing Wilsons League of Nations Speech for a Class Talk (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Symmetric Quartic Solve, Shroud of Turin, and a Japanese Vocab Sprint (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Tangent and Normal Line Problems, then Narrow Road Essay Grading (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Tracy K. Smith's Garden of Eden Analysis then a Nuclear Physics Drift (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Trig Equation Factoring, Sine vs Cosine Rule, and a First Integration Primer (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Trig Equations - Tan-Squared Periodicity and Composite Functions (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Trump Corporate Tax Policy Analysis - Advisor Board Project (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Uneconomic Growth, Sustainable Development, and a Universe-Expansion Loophole (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Unemployment Concepts for Econ SL - Discouraged Workers, Beveridge Curve, LFPR (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Using a Kanji Dictionary then Romaji Vocabulary and Modifier Grammar Drills (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Vernier Cart Explosion Lab - Momentum Conservation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Vietnam War Map, Battles, and Cold War Containment - IB History HL2 (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/What is EMF - Work, Refraction, Interference, Damping, and Escape Velocity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Zamyatin's We - the character S (chat).md"],
+.nav-file-title[data-path="wiki/entities/A Sound of Thunder.md"],
+.nav-file-title[data-path="wiki/entities/A Streetcar Named Desire.md"],
+.nav-file-title[data-path="wiki/entities/A&P.md"],
+.nav-file-title[data-path="wiki/entities/Absalom, Absalom!.md"],
+.nav-file-title[data-path="wiki/entities/Academic Record.md"],
+.nav-file-title[data-path="wiki/entities/Antigone.md"],
+.nav-file-title[data-path="wiki/entities/Beloved.md"],
+.nav-file-title[data-path="wiki/entities/Death of a Salesman.md"],
+.nav-file-title[data-path="wiki/entities/Do Androids Dream of Electric Sheep?.md"],
+.nav-file-title[data-path="wiki/entities/English Curriculum 2022-2026.md"],
+.nav-file-title[data-path="wiki/entities/Extended Essay (Economics).md"],
+.nav-file-title[data-path="wiki/entities/Garden of Eden (poem).md"],
+.nav-file-title[data-path="wiki/entities/Home (novel).md"],
+.nav-file-title[data-path="wiki/entities/IB History (HL).md"],
+.nav-file-title[data-path="wiki/entities/IB Japanese (SL).md"],
+.nav-file-title[data-path="wiki/entities/IB Math (SL).md"],
+.nav-file-title[data-path="wiki/entities/IB Physics (HL).md"],
+.nav-file-title[data-path="wiki/entities/Individual Oral (IO).md"],
+.nav-file-title[data-path="wiki/entities/Maus.md"],
+.nav-file-title[data-path="wiki/entities/One Flew Over the Cuckoo's Nest.md"],
+.nav-file-title[data-path="wiki/entities/Paper 2 Study Guide.md"],
+.nav-file-title[data-path="wiki/entities/Romeo and Juliet.md"],
+.nav-file-title[data-path="wiki/entities/St. Paul's School.md"],
+.nav-file-title[data-path="wiki/entities/Station Eleven.md"],
+.nav-file-title[data-path="wiki/entities/The Elephant Vanishes.md"],
+.nav-file-title[data-path="wiki/entities/The Great Gatsby.md"],
+.nav-file-title[data-path="wiki/entities/The Iliad.md"],
+.nav-file-title[data-path="wiki/entities/The Lion in Winter.md"],
+.nav-file-title[data-path="wiki/entities/The Lottery.md"],
+.nav-file-title[data-path="wiki/entities/The Mower (poem).md"],
+.nav-file-title[data-path="wiki/entities/The Narrow Road to the Deep North.md"],
+.nav-file-title[data-path="wiki/entities/The One.md"],
+.nav-file-title[data-path="wiki/entities/The Pearl.md"],
+.nav-file-title[data-path="wiki/entities/Understanding Comics.md"],
+.nav-file-title[data-path="wiki/entities/World Religions (10th).md"] {
+  color: color-mix(in srgb, #3b82f6 70%, var(--text-normal));
+}
+
+.nav-file-title[data-path="wiki/profile.md"],
+.nav-file-title[data-path="wiki/journal/2026-07-04.md"],
+.nav-file-title[data-path="wiki/journal/2026-07-06.md"],
+.nav-file-title[data-path="wiki/concepts/Film and TV.md"],
+.nav-file-title[data-path="wiki/concepts/Opposite Action (DBT).md"],
+.nav-file-title[data-path="wiki/sources/75 hard 2025.md"],
+.nav-file-title[data-path="wiki/sources/75 medium.md"],
+.nav-file-title[data-path="wiki/sources/Halloween (personal essay).md"],
+.nav-file-title[data-path="wiki/sources/It's Not in My Control.md"],
+.nav-file-title[data-path="wiki/sources/Letter to Dad (Dec 2022).md"],
+.nav-file-title[data-path="wiki/sources/Life Map.md"],
+.nav-file-title[data-path="wiki/sources/Major Moments Memoir.md"],
+.nav-file-title[data-path="wiki/sources/Monroe Presidency (apple note).md"],
+.nav-file-title[data-path="wiki/sources/Naomi — Relationship Log (2026).md"],
+.nav-file-title[data-path="wiki/sources/Note on His Father (July 2025).md"],
+.nav-file-title[data-path="wiki/sources/November 8th (journal).md"],
+.nav-file-title[data-path="wiki/sources/RESOLVE Daily (2026-07-12).md"],
+.nav-file-title[data-path="wiki/sources/RESOLVE Daily Ingest 2026-07-14.md"],
+.nav-file-title[data-path="wiki/sources/Senior Rep Campaign Speech (2025).md"],
+.nav-file-title[data-path="wiki/sources/Senior Speech.md"],
+.nav-file-title[data-path="wiki/sources/Steamboat Times.md"],
+.nav-file-title[data-path="wiki/sources/Waves Metaphor (Apple Note).md"],
+.nav-file-title[data-path="wiki/sources/When I Feel Like an Outsider.md"],
+.nav-file-title[data-path="wiki/sources/William (friend portrait).md"],
+.nav-file-title[data-path="wiki/sources/Writing Idea — Scout (apple note).md"],
+.nav-file-title[data-path="wiki/sources/Writing Idea — Tilting Picture (Apple Note).md"],
+.nav-file-title[data-path="wiki/sources/movies-shows.md"],
+.nav-file-title[data-path="wiki/sources/opposite action (note).md"],
+.nav-file-title[data-path="wiki/sources/chats/AI and Ambition - The One Steinbeck Pastiche Feedback (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/ASUS ROG OLED Monitor - RGB Lighting and Key-Lock Firmware Loop (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cerebral Palsy Disclosure then The Shard Restaurants (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Credit Card Debt Stats, Deep-Sea Creatures, and High-IQ Clubs (chat) (2).md"],
+.nav-file-title[data-path="wiki/sources/chats/Credit Card Debt Stats, Deep-Sea Creatures, and High-IQ Clubs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Emotional Detachment, Antihero TV, and His Father (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Flight vs Lottery Odds, a Lightning Physics Set, and a Beloved Breakdown (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Foreign Policy of the First Six Presidents - Book Research (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gaming PC Setup - ASUS ROG Monitor RGB and Wi-Fi Troubleshooting (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gaming PC Specs and ASUS ROG Monitor Troubleshooting (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/HP EliteBook 845 Dead - 7 Blink Code and a Bad Bunny Violin Tangent (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Kanji Drilling then Peptides and a Body-Recomp Plan (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/MacBook Pro Monitor and Desk Setup for Dad's House (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Macro Econ IA - Japan's Negative Interest Rates and Economic Growth (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/March Cut and Recomp Plan - Incline Cardio, 1800 Calories, and Back Training (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Monitor Wall Mounts for ASUS PG27AQDP and Ninja's PC Specs (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/O'Brien's Role in 1984 then Drake-Kendrick Beef (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/PG27AQDP Green Tint Scare - WOLED Pixel Refresh (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Porter Stansberry Gender-Specialization Essay - Summary and Fact-Check (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Porter Stansberry Newsletter on Gender Specialization, Pilots, and IQ (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Quantitative Theory of Money and Action Figure Prompts (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/RDR2 Debt-Quest Crash Fix on RTX 5090 Build (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/ROG Swift PG27AQDP 480Hz Dual-Monitor Black Screen on RTX 5090 (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Scottie Scheffler Arrest, Scientology, and Porter Stansberry Family (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Shin Splints Mechanism, Human Evolution, and a Schrodinger Equation Deep Dive (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Uninstalling ASUS Armoury Crate to Fix Monitor Detection (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Valentines Day Gift Ideas for a New Girlfriend (chat).md"],
+.nav-file-title[data-path="wiki/entities/Emotional Life and Inner World.md"],
+.nav-file-title[data-path="wiki/entities/Extracurriculars and Achievements.md"],
+.nav-file-title[data-path="wiki/entities/Family and Personal Life.md"],
+.nav-file-title[data-path="wiki/entities/Film and TV.md"],
+.nav-file-title[data-path="wiki/entities/Gaming and PC Setup.md"],
+.nav-file-title[data-path="wiki/entities/Guitar Learning.md"],
+.nav-file-title[data-path="wiki/entities/Naomi.md"],
+.nav-file-title[data-path="wiki/entities/Narrative of the Life of Frederick Douglass.md"],
+.nav-file-title[data-path="wiki/entities/Reading List.md"],
+.nav-file-title[data-path="wiki/entities/Self-Discipline and Goals.md"],
+.nav-file-title[data-path="wiki/entities/The Other Wes Moore.md"],
+.nav-file-title[data-path="wiki/entities/Traveler Stansberry.md"],
+.nav-file-title[data-path="wiki/entities/William.md"],
+.nav-file-title[data-path="wiki/reviews/2026-W27.md"],
+.nav-file-title[data-path="wiki/reviews/2026-W28.md"] {
+  color: color-mix(in srgb, #ec4899 70%, var(--text-normal));
+}
+
+.nav-file-title[data-path="wiki/trading-journal.md"],
+.nav-file-title[data-path="wiki/concepts/Quantitative Finance.md"],
+.nav-file-title[data-path="wiki/sources/Economics IA.md"],
+.nav-file-title[data-path="wiki/sources/chats/Andrew Tate Net Worth and a Liabilities Lesson (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Bloomberg EQS Screening and Insurance Stock Research (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Bloomberg Excel Functions - YoY Revenue, EPS, and Beta (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Bonds-Stocks Inverse Correlation and Day Trading Setup (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Buffett-Davis-Browne Tweet Reformatting and Long-Term Stock Picks (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Building a Custom AI Stock-Ranking Model (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Fiscal.ai API Access and the Sauron Investing App (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Insurance Equity Research - Arch Capital and Palomar (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Travel Vocab, RenTech Medallion Compounding, and a Korean War Venn Diagram (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Kanji Fill-In Worksheet, Work-Energy Theorem, and Compound Interest (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Marlin Sizes then McDonald's FCF and Halozyme ENHANZE (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Masculine Identity in Death of a Salesman, then HW Buddy and P&G Tangents (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Nicotine Withdrawal, Fed Remittances, and the 2008 Crisis (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/No-Arbitrage Principle and What a Derivative Is (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Paint Disposal, ETFs, SoFi, and CAVA High-Protein Bowls (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Porter Stansberry SEC Case and Antidepressant Queries (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Qlik, Payment Processors, and Resolution Quit Rates (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Qualitative Stock Screening - Moats and Market Share Across 20 Companies (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Quant Market Assumptions, the Black-Scholes Derivation, and a Soviet Reform Detour (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Stock Valuation Metrics, Bonds, Options, and Bloomberg ROIC (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Texas Holdem Algorithm then Homework Hatch Valuation and AWS Cost Modeling (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/The Honeycomb Portfolio - Kissing-Number Geometry and a Survivorship-Bias Critique (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Training a Custom AI on AWS with Bloomberg Data (chat).md"],
+.nav-file-title[data-path="wiki/entities/Bloomberg Terminal.md"],
+.nav-file-title[data-path="wiki/entities/Honeycomb Portfolio.md"],
+.nav-file-title[data-path="wiki/entities/IB Economics (SL).md"],
+.nav-file-title[data-path="wiki/entities/Investment Club.md"],
+.nav-file-title[data-path="wiki/entities/Mark Kritzman.md"],
+.nav-file-title[data-path="wiki/entities/Personal Quant Model.md"],
+.nav-file-title[data-path="wiki/entities/Porter Stansberry (father).md"],
+.nav-file-title[data-path="wiki/entities/Sauron Investing.md"],
+.nav-file-title[data-path="wiki/entities/The Edge (trading model).md"],
+.nav-file-title[data-path="wiki/entities/Vision (Porter Intelligence).md"] {
+  color: color-mix(in srgb, #eab308 70%, var(--text-normal));
+}
+
+.nav-file-title[data-path="wiki/concepts/Faith vs. Knowledge.md"],
+.nav-file-title[data-path="wiki/concepts/Fate and Free Will.md"],
+.nav-file-title[data-path="wiki/concepts/Secular Humanism (concept).md"],
+.nav-file-title[data-path="wiki/analyses/Core Convictions.md"],
+.nav-file-title[data-path="wiki/analyses/Intellectual Evolution.md"],
+.nav-file-title[data-path="wiki/analyses/Intellectual Profile.md"],
+.nav-file-title[data-path="wiki/analyses/Tensions and Open Questions.md"],
+.nav-file-title[data-path="wiki/sources/Billionaires (essay).md"],
+.nav-file-title[data-path="wiki/sources/Crusader Discussion.md"],
+.nav-file-title[data-path="wiki/sources/Dad on Change and Morality (Apple Note).md"],
+.nav-file-title[data-path="wiki/sources/God (personal essay).md"],
+.nav-file-title[data-path="wiki/sources/Physical Movements Are Waves (Apple Note).md"],
+.nav-file-title[data-path="wiki/sources/ToK Essay (Doubt).md"],
+.nav-file-title[data-path="wiki/sources/secular humanism (Apple Note).md"],
+.nav-file-title[data-path="wiki/sources/strong is using willpower to overcome deterministic or selfish tendencies.md"],
+.nav-file-title[data-path="wiki/sources/chats/AI Consciousness Paper Brainstorm then Sharpe, Quantum, and Y Combinator (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Antiderivatives, the Long March, and a Narrow Road Circle-Line Essay (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Best of Enemies Civics Worksheet, Cosine Graph, and Econ Notation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Civil Disobedience Paper - Gandhi, Selma, and Modern Minority Rights (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Conformal Cyclic Cosmology and Whether Time Is Real (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Conspiracy Theory Skepticism and a Black Hole Physics Deep Dive (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Death of a Salesman Essay Feedback then Index of Prohibited Books (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Deep Time Dinosaurs, the Epstein Files Vote, and a Multivariable Calculus Preview (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Demand-Side Econ and TOK Values Knowledge Production (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Elon Musk Billionaire Ethics Counterargument - IB English Essay (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gerrymandering, Redlining, and a Trig-Substitution Integral (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Entrance-Ceremony Phrases, Equatorial Gravity, and the Euthyphro Dilemma (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/MCU Timeline Then Surveillance and Government Deception Epistemology (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Monsters University Frats, Free Will, Civil War Battles, and the Bengals (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Morality, Policy, and the Role of Government - Civic Engagement Club Debrief (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Naming the Rigid-Rule Philosophy and Intelligence vs Curiosity (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/New Liberalism, Keynesianism, and the Progressive Policy Institute (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Obama and Trump Attorneys General, Epstein Anxiety, and the Pentagon Budget (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Obemasu, Danish Economics, US GDP, and Crito (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Observing Electrons, Cantor Infinities, and Bible Slavery Defenses (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Oklahoma NFL QBs, the STEP Prayer Study, and Tiger vs Scheffler (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Ranke, Thucydides, and Bloch - Doubt in Historical Method (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Shotgunning, Wuthering Heights, and Philosophical Novels for Men (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Substantive Novels, High-Friendly Films, and True Detective's Flat Circle (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/TOK Doubt Essay - Rubric Grading and Surgical Upgrades to Reach a 9 (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/TOK Essay - Doubt in Mathematics (Euclid, Non-Euclidean, Descartes) (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/TOK Essay Feedback - Doubt and the Pursuit of Knowledge (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/TOK Essay on Doubt in Mathematics and History - Descartes, Cantor, Ranke (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Ten Commandments, Free Will, and Morality Without God (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Thoreau Generosity Quote, Integrals Grab-Bag, and Persepolis (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Three-Body Problem, Chaos Theory, and the Gaussian Integral (chat).md"],
+.nav-file-title[data-path="wiki/entities/Civil Disobedience.md"],
+.nav-file-title[data-path="wiki/entities/Political and Economic Views.md"],
+.nav-file-title[data-path="wiki/entities/Self-Reliance.md"],
+.nav-file-title[data-path="wiki/entities/Theory of Knowledge.md"] {
+  color: color-mix(in srgb, #8b5cf6 70%, var(--text-normal));
+}
+
+.nav-file-title[data-path="wiki/analyses/Autonomous Agent — Pipeline Spec.md"],
+.nav-file-title[data-path="wiki/analyses/Autonomous Agent — Project Infrastructure.md"],
+.nav-file-title[data-path="wiki/sources/Homework Hatch Stuff (apple note).md"],
+.nav-file-title[data-path="wiki/sources/plan for next week (hwbuddy).md"],
+.nav-file-title[data-path="wiki/sources/chats/AI Agents in n8n Explained - Brain-Memory-Tools and the HW Buddy Blueprint (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/AI Startup Bloat and The Pearl - Greed Abstract (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/AWS Identity Center Setup for Homework Hatch and Wikipedia Training Dataset (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Agentic AI, MCP, and LMS Credential Ingestion for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Building a ChatGPT-Powered Discord Bot for HW Buddy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Building a Custom ChatGPT Options Mode System and Mode 5 Essay Editor (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Canvas API Access Audit and Custom ChatGPT Mode System (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Canvas API Key Revoked - Extension Scraper and LMS Access Strategy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Canvas LMS Adoption Research for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Content Filtering and the Elastic Beanstalk Deploy Loop (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cursor and the sisyphus10 Codebase Overview (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Custom LLM Build and SPHW Buddy Terms of Service (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Deploying a Flask App - AWS Elastic Beanstalk, GitHub Actions, and IAM Keys (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Drive-Style File Sorting for Homework Hatch and a Cursor Prompt (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Econ IA on AI and Unemployment - RQ Pivot and Sourcing (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Filing the Maryland LLC for Homework Hatch - Articles, EIN, and Stripe (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Fixing n8n Calendar Date Drift in HW Buddy Anna Assistant (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Fixing the Docker-to-ECR Push Failure for Homework Hatch - App Runner and the 12GB Image (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/GPT-3.5 Token Cost, Apartheid Ideology, and an Exponential Limit (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Gemini vs OpenAI API ToS and Cheating Liability for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/GitHub Copilot vs Cursor - Free Agentic Coding Tools for the Coding Club (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Google Drive Folder Tree Mirroring for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/HW Buddy App Architecture Analysis and GPT-5 Model Choice (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Homework Hatch Codebase Walkthrough and Backslash-Zip EB Deploy Failure (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Homework Hatch Competitor Strategy and the Admin-Free Privacy Pivot (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Launch to AWS Elastic Beanstalk - Flask Deploy and WebSocket Config (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Learning to Code for Homework Hatch - Beyond Vibe Coding (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Maryland LLC Setup, EIN, and Domain Transfer for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Maryland Sexting Law, Yellowstone Eruption, and Felony Speeding (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/OneDrive Azure Integration and the OAuth Consent Wall for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/PC Build, Local LLM Training, and the AI Workstation Ladder (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Realtek Driver Update and Call of Duty Slow Download Fix (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Study Materials Spec for Homework Hatch - Flashcards, Live Quiz, Practice Banks (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/The One Graded 29-30 - Steinbeck Pastiche, Tangent Lines, and Entrepreneur Odds (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/The Pearl as AI Startup Tragedy - Steinbeck Parallels and Research Tangents (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Zyn Air Travel then HW Buddy LMS Scraping Strategy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Automation Crash Course and AI Gmail Workflow (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Command Router for Homework Hatch - Telegram, Calendar, Instagram (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Debugging - Google Calendar Voice Assistant for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Pricing and Instagram Marketing Automation for HW Buddy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Router-Mail-Calendar Agent Debugging for HW Buddy (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/n8n Telegram Voice Assistant for HW Buddy - Calendar Automation (chat).md"],
+.nav-file-title[data-path="wiki/entities/Capital Climb (board game).md"],
+.nav-file-title[data-path="wiki/entities/Coding Club.md"],
+.nav-file-title[data-path="wiki/entities/Cursor (AI code editor).md"],
+.nav-file-title[data-path="wiki/entities/Homework Hatch (startup).md"],
+.nav-file-title[data-path="wiki/entities/Josh (Homework Hatch co-founder).md"],
+.nav-file-title[data-path="wiki/entities/Python Learning.md"],
+.nav-file-title[data-path="wiki/entities/RESOLVE (AI assistant).md"],
+.nav-file-title[data-path="wiki/entities/Rockstar Games.md"],
+.nav-file-title[data-path="wiki/entities/n8n (automation platform).md"] {
+  color: color-mix(in srgb, #14b8a6 70%, var(--text-normal));
+}
+
+.nav-file-title[data-path="wiki/sources/College Essay (Akihabara).md"],
+.nav-file-title[data-path="wiki/sources/College Essay (Surfing).md"],
+.nav-file-title[data-path="wiki/sources/College Stuff.md"],
+.nav-file-title[data-path="wiki/sources/College Supplemental Essay Topics.md"],
+.nav-file-title[data-path="wiki/sources/Common App (UVA ED 2026).md"],
+.nav-file-title[data-path="wiki/sources/Traveler Resume.md"],
+.nav-file-title[data-path="wiki/sources/sayonara speech.md"],
+.nav-file-title[data-path="wiki/sources/chats/Area Between Cubic and Line, Electrostatics, Shodo Vocab, and the UVA Math-for-Quant Pivot (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Binding Early Decision Enforceability and UVA ED vs EA Boost (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Boston University Finance Program and Top Finance Schools (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cold War Detente, University of Austin, and the 2025 Venezuela Crisis (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cornell Finance School and UF Honors AI Essay (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Cross-Platform Code Transfer, Oil Royalty Trusts, and Bitcoin Mining (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Duke, Miami, and Common App Essay Drafting (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Elevator Physics then Finance School Admissions Comparison (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Flywheel Torque Problem, Calculus Derivatives, and a Penn State Admit (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Harvard Cornell UVA Admit Odds and the Rhodes-Merton Daydream (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Integral of sqrt(pi) and the Quant Pivot Math Roadmap (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japan Study Abroad Common App Essay - Getting Lost and Adapting (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Japanese Phrases, College Deadlines, and Kepler's Laws (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Magnetic Fields, IB Diploma Value at UVA, and Sixo's Death in Beloved (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Microeconomics Cheating Refusal then Homework Hatch Logo SVG (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/SAT Math Formulas Review and Adaptive Module Anxiety (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/SAT Practice Test 4 Review and Hard Problems (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/SAT Score Reveal and the UVA ED vs EA McIntire Calculation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Surfing Common App Essay - Dad's Chaos and Adaptation (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Top US College and Finance Undergrad Rankings (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/UT Austin Internal Transfer into McCombs Business (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/UVA Dorm Tiers, IB HL Credits, and a Steam-Calorimetry Thermo Marathon (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/UVA Dorms, IB Credits, and a Thermodynamics Cram (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/UVA ED Application Odds and the Boredom-IQ Self-Assessment (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/UVA Quant Finance Pathway and the Math-vs-Finance Decision (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/Wake Forest Visit Logistics and Mobile App Plan for Homework Hatch (chat).md"],
+.nav-file-title[data-path="wiki/sources/chats/iOS App Release Steps and Duke vs UVA ED Chances (chat).md"],
+.nav-file-title[data-path="wiki/entities/College Search.md"],
+.nav-file-title[data-path="wiki/entities/McIntire School of Commerce.md"],
+.nav-file-title[data-path="wiki/entities/UVA and the Quant Question.md"] {
+  color: color-mix(in srgb, #f76b15 70%, var(--text-normal));
 }

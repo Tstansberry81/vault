@@ -1072,3 +1072,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-14] agent | agent · Uh, show me the news.
 - - **Asked:** Uh, show me the news.
 - - **Result:** Google News is opening on your browser.
+
+## [2026-07-15] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect") — Gmail could not be checked this run.
+- Note: Notion MCP not connected this session — Agent Log entry skipped.

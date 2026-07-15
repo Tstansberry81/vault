@@ -1,0 +1,1583 @@
+{
+  "groups": [
+    {
+      "query": "path:raw",
+      "color": "#e5484d"
+    },
+    {
+      "query": "tag:#beliefs",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#civics",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#civil-disobedience",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#consciousness",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#course/tok",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#determinism",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#epistemology",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#ethics",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#fate-free-will",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#free-will",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#metaphysics",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#moral-philosophy",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#movement/transcendentalism",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#philosophy",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#political-theory",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#politics",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#religion",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#skepticism",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#synthesis",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#theme/ethics",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#theme/fate-free-will",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#theme/philosophy",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#theme/religion-knowledge",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#theory-of-knowledge",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#tok",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#worldview",
+      "color": "#8b5cf6"
+    },
+    {
+      "query": "tag:#admissions",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#applications",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#college",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#college-apps",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#college-search",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#exchange-program",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#mcintire",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#uva",
+      "color": "#f76b15"
+    },
+    {
+      "query": "tag:#bloomberg",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#bloomberg-terminal",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#data-providers",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#equity-research",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#finance",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#investing",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#quant",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#trading",
+      "color": "#eab308"
+    },
+    {
+      "query": "tag:#ai",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#ai-agent",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#ai-agents",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#ai-tools",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#ai/ml",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#ai/training",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#api",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#automation",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#automation/n8n",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#aws",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#business-formation",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#business-operations",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#canvas",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#cloud-integration",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#code",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#coding",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#company",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#competitive-moat",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#compliance",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#deployment",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#devops",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#docker",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#edtech",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#entrepreneurship",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#homework-hatch",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#infrastructure",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#legal",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#llm",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#lms",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#lms-integration",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#machine-learning",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#n8n",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#networking",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#oauth",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#openai-api",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#pipeline",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#product",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#product-spec",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#productivity/prompt-engineering",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#programming",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#project",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#project/autonomous-agent",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#project/startup",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#startup",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#startup/homework-hatch",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#tool",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#web-scraping",
+      "color": "#14b8a6"
+    },
+    {
+      "query": "tag:#dbt",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#career",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#coping",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#creative-writing",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#daily",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#emotional-life",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#family",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#film",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#film-tv",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#fitness",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#friendship",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#game",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#gaming",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#gaming-pc",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#goals",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#habits",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#hardware",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#health",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#hobbies",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#hobby",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#intellectual-interests",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#interests",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#japan",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#life-admin",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#mental-health",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#music",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#naomi",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#nutrition",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#pc-gaming",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#pc-hardware",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#pc-troubleshooting",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#person/family",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#person/friend",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#person/self",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal-writing",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal/apple-note",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal/health",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal/interests",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal/self-improvement",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#personal/writing",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#pets",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#poker",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#pop-culture",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#reading",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#reading-list",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#relationship",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#relationships",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#self",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#self-assessment",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#self-improvement",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#sensitive",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#shopping",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#source/apple-note",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#source/memoir",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#source/personal",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#source/personal-essay",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#sports",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#therapy",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#travel",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#trivia",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#tv",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#work/memoir",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#writing",
+      "color": "#ec4899"
+    },
+    {
+      "query": "tag:#absalom-absalom",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#academic",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#achievements",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#activities",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#american-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#angular-momentum",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#apa",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#apush",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#assessment/ib",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/art-spiegelman",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/arthur-miller",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/emily-st-john-mandel",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/f-scott-fitzgerald",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/frederick-douglass",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/haruki-murakami",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/henry-david-thoreau",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/homer",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/james-goldman",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/john-steinbeck",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/john-updike",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/ken-kesey",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/philip-k-dick",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/philip-larkin",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/ralph-waldo-emerson",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/ray-bradbury",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/richard-flanagan",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/scott-mccloud",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/shakespeare",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/shirley-jackson",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/sophocles",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/tennessee-williams",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/toni-morrison",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/tracy-k-smith",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/traveler-stansberry",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/wes-moore",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#author/william-faulkner",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#calculus",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#calculus/optimization",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#chaos-theory",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#circuits",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#circular-motion",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#citations",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#civil-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#cold-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#conspiracy-skepticism",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#conspiracy-theories",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#cosmology",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/apush",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/english",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/english-10",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/english-9",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/hl-english-1",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/hl-english-2",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/hl-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/hl-physics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/sl-economics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/sl-japanese",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/sl-math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#course/world-religions",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework-english",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework-japanese",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework-math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework-physics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/econ",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/english",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/ib-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/ib-math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/japanese",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#coursework/physics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#covid",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#current-events",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#curriculum",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#death-of-a-salesman",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#debate",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#deregulation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#derivation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#diplomacy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#dystopia",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#econ",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#economics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#economics/balance-of-payments",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#education",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#electricity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#electromagnetism",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#electrostatics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#energy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/absalom",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/beloved",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/death-of-a-salesman",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/essay",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/ib-hl",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/literature",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/murakami",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#english/paper2",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#essay",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#essay-coaching",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#essay-feedback",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#essay-writing",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#essays",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#exam-prep",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#exchange-rates",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#extended-essay",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#externalities",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#extracurricular",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#fact-checking",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#fate-and-free-will",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#federalism",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#fiscal-policy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#foreign-policy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#free-speech",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#free-trade",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#friction",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#gdp",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#geopolitics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#grades",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#grammar",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#gravitation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#historiography",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/civil-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/cold-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/early-republic",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/ib",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/korean-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/reconstruction",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/us",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/us-civil-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#history/vietnam",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#homework",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ia",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-econ",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-economics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-japanese",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib-physics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib/english",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib/history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ib/ia",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#identity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#inflation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#internal-assessment",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#international-economics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#international-trade",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#japanese",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#japanese-language",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#japanese/coursework",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#japanese/grammar",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#jidaigeki",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#kanji",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#knowledge-production",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#lab",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#lab-ia",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#language",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#leadership",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#learning",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#literature",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#macroeconomics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#masculinity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math/calculus",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math/geometry",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math/ib-sl",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math/sat",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#math/trigonometry",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#mathematics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#mechanics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#momentum",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#monetary-policy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#person/author",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#physics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#physics/electricity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#physics/electromagnetism",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#physics/nuclear",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#physics/uncertainty",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#place/school",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#policy",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#policy/corporate-tax",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#polling",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#probability",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#research-methods",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#research-paper",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#rotation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#rotational-motion",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#sat",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#science",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#sectionalism",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#slavery",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#source/coursework",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#source/essay",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#source/ia",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#speech",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#standardized-testing",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#statics",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#subject",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#taxation",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#test-prep",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#the-narrow-road-to-the-deep-north",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#the-pearl",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/art",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/conformity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/consumerism-modernity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/identity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/individual-society",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/intellectual-life",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/masculinity",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/memory-trauma",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/power-justice",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#theme/slavery",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#torque",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#trade",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#trigonometry",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#uncertainty",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#unemployment",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#us-history",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#vietnam-war",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#vocabulary",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#welfare-state",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/epic",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/essay",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/graphic-novel",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/nonfiction",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/novel",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/novella",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/play",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/poem",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#work/short-story",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "tag:#ww1",
+      "color": "#3b82f6"
+    },
+    {
+      "query": "path:wiki/journal",
+      "color": "#ec4899"
+    },
+    {
+      "query": "path:wiki/reviews",
+      "color": "#ec4899"
+    },
+    {
+      "query": "path:wiki/profile.md",
+      "color": "#ec4899"
+    },
+    {
+      "query": "path:wiki/trading-journal.md",
+      "color": "#eab308"
+    },
+    {
+      "query": "path:wiki",
+      "color": "#22c55e"
+    }
+  ],
+  "showTags": false,
+  "showAttachments": false,
+  "hideOrphans": false
+}

@@ -8,45 +8,52 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:wiki/sources",
+      "query": "path:raw",
       "color": {
         "a": 1,
-        "rgb": 16214805
+        "rgb": 15026253
       }
     },
     {
-      "query": "path:wiki/entities",
-      "color": {
-        "a": 1,
-        "rgb": 3900150
-      }
-    },
-    {
-      "query": "path:wiki/concepts",
+      "query": "tag:#philosophy OR tag:#worldview OR tag:#ethics OR tag:#epistemology OR tag:#religion OR tag:#tok OR tag:#course/tok OR tag:#theory-of-knowledge OR tag:#politics OR tag:#synthesis OR tag:#theme/philosophy OR tag:#theme/ethics OR tag:#theme/religion-knowledge OR tag:#moral-philosophy OR tag:#metaphysics OR tag:#free-will OR tag:#determinism OR tag:#theme/fate-free-will OR tag:#beliefs",
       "color": {
         "a": 1,
         "rgb": 9133302
       }
     },
     {
-      "query": "path:wiki/analyses",
+      "query": "tag:#college-apps OR tag:#college OR tag:#uva OR tag:#admissions OR tag:#college-search OR tag:#mcintire",
       "color": {
         "a": 1,
-        "rgb": 1357990
+        "rgb": 16214805
       }
     },
     {
-      "query": "path:output",
+      "query": "tag:#finance OR tag:#investing OR tag:#quant OR tag:#trading OR tag:#equity-research OR tag:#bloomberg OR tag:#bloomberg-terminal",
       "color": {
         "a": 1,
         "rgb": 15381256
       }
     },
     {
-      "query": "path:raw",
+      "query": "tag:#startup OR tag:#homework-hatch OR tag:#startup/homework-hatch OR tag:#project/startup OR tag:#project/autonomous-agent OR tag:#coding OR tag:#ai OR tag:#automation OR tag:#n8n OR tag:#aws OR tag:#edtech OR tag:#entrepreneurship OR tag:#programming OR tag:#llm OR tag:#machine-learning OR tag:#devops OR tag:#legal OR tag:#tool OR tag:#project",
       "color": {
         "a": 1,
-        "rgb": 15026253
+        "rgb": 1357990
+      }
+    },
+    {
+      "query": "tag:#personal OR tag:#source/personal OR tag:#person/family OR tag:#person/friend OR tag:#person/self OR tag:#family OR tag:#sensitive OR tag:#gaming OR tag:#guitar OR tag:#mental-health OR tag:#self-improvement OR tag:#film OR tag:#film-tv OR tag:#hardware OR tag:#fitness OR tag:#health OR tag:#music OR tag:#travel OR tag:#relationships OR tag:#friendship OR tag:#japan OR path:wiki/journal OR path:wiki/reviews OR path:wiki/profile",
+      "color": {
+        "a": 1,
+        "rgb": 15485081
+      }
+    },
+    {
+      "query": "tag:#course OR tag:#coursework OR tag:#coursework-math OR tag:#coursework-english OR tag:#coursework-history OR tag:#coursework-japanese OR tag:#coursework-physics OR tag:#ib OR tag:#ib-history OR tag:#ib-math OR tag:#ib-physics OR tag:#ib-economics OR tag:#ib-econ OR tag:#ib-japanese OR tag:#apush OR tag:#extended-essay OR tag:#exam-prep OR tag:#physics OR tag:#math OR tag:#history OR tag:#english OR tag:#japanese OR tag:#economics OR tag:#econ OR tag:#work OR tag:#essay OR tag:#source/essay OR tag:#source/ia OR tag:#speech OR tag:#author OR tag:#theme OR tag:#literature OR tag:#assessment/ib OR tag:#sat OR tag:#school OR tag:#subject",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
       }
     },
     {
@@ -67,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.07465447461375695,
+  "scale": 0.13901524858958547,
   "close": true
 }
