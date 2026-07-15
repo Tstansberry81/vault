@@ -1097,3 +1097,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-15] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** **Morning brief:** You've got "Naomi is a Squid" starting in an hour at 8 AM — sounds delightfully weird. Three open Notion tasks: "lol" is due August 3rd, then you've got packing up the mountain house gear and a RESOLVE test, both undated and chilled. Email-wise, 26,438 unread (
+
+## [2026-07-15] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new.
+- Note: Gmail connector still returning a permissions error ("requires additional permissions — reconnect") — Gmail could not be checked this run. Needs Trav to reconnect the Gmail connector.
+- Note: Notion MCP not connected this session — Agent Log entry skipped.
