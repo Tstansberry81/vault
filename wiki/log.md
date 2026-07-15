@@ -1084,3 +1084,16 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new in the last 2h.
 - Note: Gmail connector still returning a permissions error ("requires additional permissions — reconnect") — Gmail could not be checked this run. Same as prior run today; needs Trav to reconnect the Gmail connector.
 - Note: Notion MCP not connected this session — Agent Log entry skipped.
+## [2026-07-15] email-purge | category:promotions older_than:2w
+- Time: 2026-07-15 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-15] agent | Morning brief — July 15, 2026
+- **Calendar:** 'Naomi is a Squid' at 8:00 AM today (in 1 hour) — looks fun
+- **Tasks:** 3 open items — 'lol' due Aug 3, plus 'Pack up mountain house gear' and a RESOLVE notion test, both undated
+- **Email:** 26,438 unread (yikes). Latest: Amazon rating request, Shutterfly sale, ASUS deals, UptimeRobot invite, and Snacks/Robinhood promo. Nothing flagged urgent.
+- **Today's vibe:** Got a fun squid thing this morning, couple of admin tasks when you get around to it
+
+## [2026-07-15] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** **Morning brief:** You've got "Naomi is a Squid" starting in an hour at 8 AM — sounds delightfully weird. Three open Notion tasks: "lol" is due August 3rd, then you've got packing up the mountain house gear and a RESOLVE test, both undated and chilled. Email-wise, 26,438 unread (
