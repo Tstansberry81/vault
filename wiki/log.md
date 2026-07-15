@@ -1082,3 +1082,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-15] email-purge | category:promotions older_than:2w
 - Time: 2026-07-15 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-15] agent | Morning brief — July 15, 2026
+- **Calendar:** 'Naomi is a Squid' at 8:00 AM today (in 1 hour) — looks fun
+- **Tasks:** 3 open items — 'lol' due Aug 3, plus 'Pack up mountain house gear' and a RESOLVE notion test, both undated
+- **Email:** 26,438 unread (yikes). Latest: Amazon rating request, Shutterfly sale, ASUS deals, UptimeRobot invite, and Snacks/Robinhood promo. Nothing flagged urgent.
+- **Today's vibe:** Got a fun squid thing this morning, couple of admin tasks when you get around to it
