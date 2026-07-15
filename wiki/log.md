@@ -1078,3 +1078,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new.
 - Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect") — Gmail could not be checked this run.
 - Note: Notion MCP not connected this session — Agent Log entry skipped.
+
+## [2026-07-15] email-purge | category:promotions older_than:2w
+- Time: 2026-07-15 07:00
+- Trashed 0 emails (recoverable 30d)
