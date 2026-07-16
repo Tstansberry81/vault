@@ -1133,3 +1133,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-16] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** Logged to your vault. Have a solid day.
+
+## [2026-07-16] agent | agent · schedule a meeting with dave tomorrow at 1pm
+- - **Asked:** schedule a meeting with dave tomorrow at 1pm
+- - **Result:** **Morning Brief – Thursday, July 16, 2026** **Calendar:** You're completely clear for the next 2 days — wide open. **Tasks:** Three things in your inbox: - "lol" (Medium, due Aug 3) - Pack up mountain house gear (Medium, no due date) - RESOLVE notion test (Medium, no due date) **
