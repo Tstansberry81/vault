@@ -1,5 +1,13 @@
 [
  {
+  "id": "88f81520",
+  "when": "2026-07-17 11:00",
+  "message": "Coming up at 1:00 PM: Therapy with Dave",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "u3ls7u1oo2hmm8j366ci2lhlvs"
+ },
+ {
   "id": "13141d02",
   "when": "2026-07-20 07:00",
   "message": "Coming up at 9:00 AM: UVA Orientation",
