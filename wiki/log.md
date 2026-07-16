@@ -1129,3 +1129,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - 3 open Notion tasks: 'lol' (due Aug 3), pack mountain house gear, RESOLVE notion test
 - 26,518 unread emails; latest are mostly notifications (NYT, Twitch, Anthropic API alert) — no urgent action needed
 - Quiet day — good for tackling mountain house gear or other lower-priority work
+
+## [2026-07-16] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged to your vault. Have a solid day.
