@@ -1137,3 +1137,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-16] agent | agent · schedule a meeting with dave tomorrow at 1pm
 - - **Asked:** schedule a meeting with dave tomorrow at 1pm
 - - **Result:** **Morning Brief – Thursday, July 16, 2026** **Calendar:** You're completely clear for the next 2 days — wide open. **Tasks:** Three things in your inbox: - "lol" (Medium, due Aug 3) - Pack up mountain house gear (Medium, no due date) - RESOLVE notion test (Medium, no due date) **
+
+## [2026-07-16] agent | agent · therapy. put it on my google calendar
+- - **Asked:** therapy. put it on my google calendar
+- - **Result:** Done — **Therapy with Dave** is locked in for tomorrow (Friday) at 1 PM. [Link](https://www.google.com/calendar/event?eid=dTNsczd1MW9vMmhtbThqMzY2Y2kybGhsdnMgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ).
