@@ -1103,3 +1103,19 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new.
 - Note: Gmail connector still returning a permissions error ("requires additional permissions — reconnect") — Gmail could not be checked this run. Needs Trav to reconnect the Gmail connector.
 - Note: Notion MCP not connected this session — Agent Log entry skipped.
+
+## [2026-07-16] agent | ingest | RESOLVE Daily Ingest 2026-07-15
+- **Source:** Morning brief command from RESOLVE autonomous system (calendar, Notion, email snapshot)
+- **Status:** Completed; output truncated mid-delivery
+- **Key facts:**
+-   - Calendar confirmed: 'Naomi is a Squid' @ 8 AM today (July 15)
+-   - Notion tasks: 3 open ('lol', mountain house pack, RESOLVE test)
+-   - Email: 26,438 unread (backlog growing); latest batch marketing noise
+-   - Gmail connector continues failing (gracefully skipped)
+- **Pages touched:**
+-   - NEW: [[RESOLVE Daily Ingest 2026-07-15]] (source summary)
+-   - UPDATED: [[Naomi]] (calendar confirmation; July 15 event)
+- **Notes:**
+-   - Output fragmentary; only partial brief captured before truncation
+-   - No new learning/project/financial data in this ingest
+-   - Confirms Traveler-Naomi calendar integration; no new relationship intel
