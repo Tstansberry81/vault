@@ -1123,3 +1123,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-16] email-purge | category:promotions older_than:2w
 - Time: 2026-07-16 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-16] agent | Morning brief – Thursday, July 16, 2026
+- No calendar events for next 2 days — wide open schedule
+- 3 open Notion tasks: 'lol' (due Aug 3), pack mountain house gear, RESOLVE notion test
+- 26,518 unread emails; latest are mostly notifications (NYT, Twitch, Anthropic API alert) — no urgent action needed
+- Quiet day — good for tackling mountain house gear or other lower-priority work
