@@ -1236,3 +1236,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Gmail: connector permission error — still needs reconnect with appropriate access.
 - Outlook email/calendar: no new items.
 - Notion Agent Log entry skipped: no Notion connector available this run.
+
+## [2026-07-17] agent | agent · Um, can you log, please, a... or can you add to my calendar.
+- - **Asked:** Um, can you log, please, a... or can you add to my calendar...
+- - **Result:** I'm listening — what do you need? Calendar event or a task?
