@@ -3,6 +3,11 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-17] agent | Pipeline run (second run today)
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+
 ## [2026-07-17] agent | Pipeline run
 - No new items.
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
