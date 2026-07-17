@@ -1195,3 +1195,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Tasks:** 3 open — 'lol' (due Aug 3), pack mountain house gear, RESOLVE notion test
 - **Email:** 26,600 unread; latest is promo noise (Lucky Fours, Twitch, Shutterfly, Baltimore Sun, Robinhood)
 - **Vibe:** Light day; 1 PM therapy is your touchstone
+
+## [2026-07-17] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged. Go easy on yourself today.
