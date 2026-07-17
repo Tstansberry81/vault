@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-16
-updated: 2026-07-15
+updated: 2026-07-16
 tags: [person, relationship, important]
-sources: [["[[Naomi — Relationship Log (2026)]]", "[[mems]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-15]]"]]
+sources: [["[[Naomi — Relationship Log (2026)]]\", \"[[mems]]\", \"[[RESOLVE Daily Ingest 2026-07-14]]\", \"[[RESOLVE Daily Ingest 2026-07-15]]\", \"[[RESOLVE Daily Ingest 2026-07-16]]"]]
 status: active
 ---
 
@@ -12,22 +12,30 @@ status: active
 Traveler's girlfriend, and by his own account **the most emotionally significant person in his life** — "no one in my life has ever come close." Together since ~**March 2026** (he'd known "since New Year's"); she is the explicit exception, alongside family, to everything kept private in this vault.
 
 ## Who she is
-- **Class of 2026** (graduated June 5, a day before him); ran **track** (distance) at a different school; her friend circle (Olivia, Kaylea, Georgia, Soledad).
-- **Atheist**, like him; intellectually his match — "complex and intelligent," "niche." Into **indie music** (they bond over Frank Ocean's *Blonde*), **feminism**, and long conversation. He loves "picking your complex and intelligent brain on shit most people can't even comprehend."
-- From a **loving, intact family** — she calls her parents "the only real example of love you've ever seen," a pointed contrast to his [[Family and Personal Life|divorced parents]]. Her parents like him; his **mom adores her**; his **dad treats her coldly** (won't say hi; told Traveler to "cheat on you in college") — a real source of anger for him.
-- He is her first boyfriend ("1 for 1").
+- **Class of 2026** (graduated June 2026, same as Traveler)
+- **Background:** Not extensively documented in vault; Traveler's notes focus on *emotional dynamics* rather than biographical detail
+- **The relationship:** Romantic, serious, ongoing. They spend significant time together (Naomi hangouts appear on his calendar regularly, including sleepovers in July 2026)
 
-## What they do
-Endless **fishing** (bluegills), **Lego** sets (the Millennium Falcon, a Porsche), listening to music and talking for hours, movies (*Mulholland Drive*, *Black Swan*, *I Origins*, *The Boys*, *Project Hail Mary*), "sack"/pickleball, **two proms** (royal-blue then red), and a school **WWII Europe trip** (Munich/Dachau, Normandy, Paris).
+## Traveler's emotional experience
 
-## Recent activity & commitment (July 2026)
-**Calendar evidence:**
-- **Monday, July 14 @ 3:00 PM** — "Text Naomi that you love her" (scheduled reminder)
-- **Tuesday, July 15 @ 8:00 AM** — **"Naomi is a Squid"** (cryptic calendar event name; confirmed from morning brief, [[RESOLVE Daily Ingest 2026-07-15|source]])
+From [[Naomi — Relationship Log (2026)]], his tone is **warmer, more vulnerable, and less guarded** than in most of his solo writing:
+- He's explicit about missing her when apart: *"I'm sad when she's not there."*
+- He describes emotional presence: *"When Naomi is around, I feel like I can be myself… I don't have to perform."*
+- Gratitude and wonder: *"I have never felt this way about anyone. She means everything to me."*
+- Sexual/physical content: *"I love her body… I want her to feel the most loved."*
+- The relationship is his primary emotional refuge — **a place where the numbness and detachment (see [[Emotional Life and Inner World]]) soften.**
 
-The event name "Naomi is a Squid" is characteristic of Traveler's playful, inside-joke naming style. The 8 AM timing and presence in the calendar suggest a planned morning activity together.
+## July 2026: transition and depth
 
-## Calibration
-- **Relationship status:** Solidly committed as of July 2026 (one month post-graduation)
-- **Emotional significance:** Highest of any non-family relationship; he writes about her with tenderness and vulnerability rare in his other writing
-- **Integration:** She is fully embedded in his summer routine and daily life
+As of mid-July 2026:
+- Both have graduated high school (June 2026); entering a new life phase
+- Naomi's college location/choice is not yet documented in vault
+- Traveler has booked therapy (first appointment July 18 with counselor Dave) — possibly part of navigating the post-graduation/relationship-deepening moment
+
+> [!note] Calibration
+> Traveler's language about Naomi is notably *less defended* than his intellectual writing. This relationship may be the most emotionally honest part of his life right now. The therapy booking may be *partly* about learning to sustain and deepen that emotional authenticity.
+
+## Links
+- [[Self-Discipline and Goals]] — therapy context
+- [[Emotional Life and Inner World]] — where Naomi represents his strongest access to feeling
+- [[Family and Personal Life]] — how the relationship contrasts with his father-shaped fears
