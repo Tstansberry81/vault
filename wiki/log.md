@@ -1141,3 +1141,15 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-16] agent | agent · therapy. put it on my google calendar
 - - **Asked:** therapy. put it on my google calendar
 - - **Result:** Done — **Therapy with Dave** is locked in for tomorrow (Friday) at 1 PM. [Link](https://www.google.com/calendar/event?eid=dTNsczd1MW9vMmhtbThqMzY2Y2kybGhsdnMgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ).
+
+## [2026-07-16] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect needed"); Gmail was not checked this run. Telegram queue and Outlook were clean.
+
+## [2026-07-16] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (empty), Outlook email/calendar (empty). Gmail check FAILED — connector needs reconnecting with additional permissions.
+
+## [2026-07-16] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (only previously-processed items), Outlook email/calendar (empty). Gmail check FAILED again — connector still needs reconnecting with additional permissions.
