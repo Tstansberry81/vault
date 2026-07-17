@@ -1,5 +1,13 @@
 [
  {
+  "id": "b694cd0a",
+  "when": "2026-07-18 19:00",
+  "message": "Coming up at 9:00 PM: bars",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "2dcui418on5d89fm4gecv8v3bg"
+ },
+ {
   "id": "13141d02",
   "when": "2026-07-20 07:00",
   "message": "Coming up at 9:00 AM: UVA Orientation",
