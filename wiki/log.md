@@ -1220,3 +1220,19 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | Pipeline run
 - No new items.
 - Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (12th+ consecutive run). Notion Agent Log entry skipped — no Notion connector available this session.
+
+## [2026-07-17] agent | Pipeline run
+- Source: None
+- Items processed: 0
+- Telegram queue: no unprocessed items.
+- Gmail: connector permission error — needs reconnect with appropriate access.
+- Outlook email/calendar: no new items.
+- Notion Agent Log entry skipped: no Notion connector available this run.
+
+## [2026-07-17] agent | Pipeline run
+- Source: None
+- Items processed: 0
+- Telegram queue: no unprocessed items.
+- Gmail: connector permission error — still needs reconnect with appropriate access.
+- Outlook email/calendar: no new items.
+- Notion Agent Log entry skipped: no Notion connector available this run.
