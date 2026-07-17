@@ -1189,3 +1189,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | Pipeline run
 - No new items.
 - Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (9th+ consecutive run).
+
+## [2026-07-17] agent | Morning brief – July 17, 2026
+- **Calendar:** Therapy with Dave at 1 PM today; clear otherwise
+- **Tasks:** 3 open — 'lol' (due Aug 3), pack mountain house gear, RESOLVE notion test
+- **Email:** 26,600 unread; latest is promo noise (Lucky Fours, Twitch, Shutterfly, Baltimore Sun, Robinhood)
+- **Vibe:** Light day; 1 PM therapy is your touchstone
