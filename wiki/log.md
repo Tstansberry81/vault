@@ -1157,3 +1157,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-16] agent | Pipeline run
 - No new items.
 - Note: Telegram queue empty (all processed); Outlook email/calendar clean. Gmail connector returned a permissions error ("requires additional permissions — reconnect") and could not be checked.
+
+## [2026-07-17] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (4th+ consecutive run).
