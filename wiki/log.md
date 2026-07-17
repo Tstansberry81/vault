@@ -1240,3 +1240,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | agent · Um, can you log, please, a... or can you add to my calendar.
 - - **Asked:** Um, can you log, please, a... or can you add to my calendar...
 - - **Result:** I'm listening — what do you need? Calendar event or a task?
+
+## [2026-07-17] agent | agent · I need a calendar event, bars scheduled from 9:00 to 12:00 a
+- - **Asked:** I need a calendar event, bars scheduled from 9:00 to 12:00 a.m. in the morning.
+- - **Result:** Just to clarify — did you mean 9:00 AM to 12:00 PM (noon), or literally 9:00 to 12:00 in the middle of the night? And which day — today (Friday) or another day?
