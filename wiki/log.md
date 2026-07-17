@@ -1185,3 +1185,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] email-purge | category:promotions older_than:2w
 - Time: 2026-07-17 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-17] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (9th+ consecutive run).
