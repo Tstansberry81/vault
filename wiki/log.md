@@ -3,6 +3,11 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-17] agent | Pipeline run
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+
 ## [2026-07-14] agent | Pipeline run
 - No new items.
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
@@ -1169,3 +1174,11 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | Pipeline run
 - No new items.
 - Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (6th+ consecutive run).
+
+## [2026-07-17] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (7th+ consecutive run).
+
+## [2026-07-17] agent | Pipeline run
+- No new items.
+- Sources checked: Telegram queue (all previously processed), Outlook email/calendar (empty). Gmail check FAILED — connector still needs reconnecting with additional permissions (8th+ consecutive run).
