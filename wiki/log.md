@@ -1248,3 +1248,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | agent · I meant-
 - - **Asked:** I meant-
 - - **Result:** I'm all ears — go ahead.
+
+## [2026-07-17] agent | agent · I meant tomorrow, 9:00 p.m. to 12:00 a.m., and call it "bars
+- - **Asked:** I meant tomorrow, 9:00 p.m. to 12:00 a.m., and call it "bars" and add it to my Google Calendar.
+- - **Result:** Just to confirm: tomorrow night, 9:00 PM to 12:00 AM — that's 9 PM Saturday into the early hours of Sunday morning, right? And you want it titled "bars"?
