@@ -1277,3 +1277,8 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-18] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** Done. Logged and ready. That inbox though—whenever you want to triage it, just say the word. 😄
+
+## [2026-07-18] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail connector errored — needs reconnection with additional permissions.
