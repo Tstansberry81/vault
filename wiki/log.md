@@ -1273,3 +1273,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Tasks: 3 inbox items — lol (due Aug 3), pack mountain house gear, RESOLVE notion test
 - Email: 26,684 unread (mostly Twitch & promos in the latest batch) — triage candidate
 - Nothing urgent; relaxed weekend ahead
+
+## [2026-07-18] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Done. Logged and ready. That inbox though—whenever you want to triage it, just say the word. 😄
