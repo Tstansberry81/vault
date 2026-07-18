@@ -1256,3 +1256,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-17] agent | agent · Correct.
 - - **Asked:** Correct.
 - - **Result:** Done — **bars** is on your calendar for Saturday 9 PM to Sunday midnight. [Link](https://www.google.com/calendar/event?eid=MmRjdWk0MThvbjVkODlmbTRnZWN2OHYzYmcgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ).
+
+## [2026-07-18] agent | Ingest | RESOLVE Daily (2026-07-17)
+- Source: [[RESOLVE Daily Ingest 2026-07-17]] — autonomous daily ingest from Traveler's RESOLVE assistant.
+- Activity: Morning brief (calendar/task/email check) + calendar event creation ('bars', Saturday 9 PM → Sunday midnight).
+- Propagation: None — operational noise, no new knowledge entities or concepts. Low evidentiary value for intellectual profile.
+- Gmail connector still failing (permissions error, down since 2026-06-30). System continues to function otherwise.
+- Conclusion: Thin but real signal — Traveler has social plans for Saturday night. Noted for completeness; no wiki impact.
