@@ -1263,3 +1263,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Propagation: None — operational noise, no new knowledge entities or concepts. Low evidentiary value for intellectual profile.
 - Gmail connector still failing (permissions error, down since 2026-06-30). System continues to function otherwise.
 - Conclusion: Thin but real signal — Traveler has social plans for Saturday night. Noted for completeness; no wiki impact.
+
+## [2026-07-18] email-purge | category:promotions older_than:2w
+- Time: 2026-07-18 07:00
+- Trashed 0 emails (recoverable 30d)
