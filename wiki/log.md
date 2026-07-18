@@ -1287,3 +1287,8 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
 - Gmail connector errored — needs reconnection with additional permissions.
+
+## [2026-07-18] agent | Pipeline run
+- No new items. (run 16:08 ET)
+- Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
+- Gmail connector errored — needs reconnection with additional permissions (recurring since earlier runs today).
