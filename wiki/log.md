@@ -1267,3 +1267,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-18] email-purge | category:promotions older_than:2w
 - Time: 2026-07-18 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-18] agent | Morning brief — Saturday, July 18, 2026
+- Calendar: bars at 9 PM tonight; otherwise clear through Sunday
+- Tasks: 3 inbox items — lol (due Aug 3), pack mountain house gear, RESOLVE notion test
+- Email: 26,684 unread (mostly Twitch & promos in the latest batch) — triage candidate
+- Nothing urgent; relaxed weekend ahead
