@@ -1,13 +1,5 @@
 [
  {
-  "id": "b694cd0a",
-  "when": "2026-07-18 19:00",
-  "message": "Coming up at 9:00 PM: bars",
-  "chat_id": "6594181389",
-  "auto": true,
-  "event_id": "2dcui418on5d89fm4gecv8v3bg"
- },
- {
   "id": "13141d02",
   "when": "2026-07-20 07:00",
   "message": "Coming up at 9:00 AM: UVA Orientation",
@@ -22,5 +14,21 @@
   "chat_id": "6594181389",
   "auto": true,
   "event_id": "u269r1eltl8kpe4osv443j623k"
+ },
+ {
+  "id": "6d557372",
+  "when": "2026-08-01 19:30",
+  "message": "Coming up at 9:30 PM: Flight to Dublin",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "5j0cu9pg92es9hl9d65pek8plc"
+ },
+ {
+  "id": "20a7946b",
+  "when": "2026-08-01 19:30",
+  "message": "Coming up at 9:30 PM: Flight to Dublin",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "t6sulftf7krq692ttk81repdvc"
  }
 ]
