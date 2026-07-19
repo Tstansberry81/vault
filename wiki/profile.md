@@ -19,7 +19,7 @@ Trav — details to be filled in as signal accumulates.
 
 ## Key people
 
-- **Naomi** — social/personal connection; recurring hangouts.
+- **Naomi** — friend; regular in-person hangouts.
 - **Dom (Dominic Decerbo)** — friend. dominic.decerbo@gmail.com
 - **Wade** — friend; comes over to Trav's place.
 
@@ -33,5 +33,6 @@ Trav — details to be filled in as signal accumulates.
 
 ## Patterns & routines
 
-- Regular in-person hangouts with Naomi (recurring evening plans, ~19:00).
+- Regular in-person hangouts with Naomi (~19:00).
+- Wade visits Trav at his place periodically.
 ```
