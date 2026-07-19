@@ -1,11 +1,9 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-18 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-19 07:00 EDT.*
 
 ## July 2026
 
-- **Fri Jul 10** · 9:00 AM — Mountain house trip
-- **Sat Jul 11** · 1:00 PM — Leave Mountain House
 - **Sun Jul 12** · 12:00 PM — Packing hour
 - **Sun Jul 12** · 12:00 PM — Packing hour
 - **Sun Jul 12** · 4:00 PM — Leave Mountain House
@@ -13,7 +11,7 @@
 - **Tue Jul 14** · 3:00 PM — Text Naomi that you love her
 - **Wed Jul 15** · 8:00 AM — Naomi is a Squid
 - **Fri Jul 17** · 1:00 PM — Therapy with Dave
-- **Sat Jul 18** · 9:00 PM — bars ⬅️ **today**
+- **Sat Jul 18** · 9:00 PM — bars
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 - **Thu Jul 30** · 9:00 AM — UV's Grad Party
 
