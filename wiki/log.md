@@ -1297,3 +1297,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items. (run 17:08 ET)
 - Telegram queue: empty (all processed). Outlook email/calendar: nothing new.
 - Gmail connector errored — needs reconnection with additional permissions (recurring).
+
+## [2026-07-19] email-purge | category:promotions older_than:2w
+- Time: 2026-07-19 07:00
+- Trashed 0 emails (recoverable 30d)
