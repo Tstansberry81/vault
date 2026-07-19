@@ -1301,3 +1301,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-19] email-purge | category:promotions older_than:2w
 - Time: 2026-07-19 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-19] agent | Morning brief — July 19, 2026
+- **Calendar**: UVA Orientation tomorrow (Monday) at 9 AM — mark it on your radar.
+- **Tasks**: 3 open items in your inbox: 'lol' (due Aug 3), Pack up mountain house gear, and RESOLVE notion test. Nothing urgent.
+- **Email**: 26,744 unread messages (!). Latest is Uber receipt + promo hell (Shutterfly, Audible, Twitch streams). Nothing that looks critical.
+- **Vibe**: Quiet Sunday morning. You're good to chill, or get ahead on that orientation prep if you're feeling it.
