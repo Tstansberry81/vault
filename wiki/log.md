@@ -1475,3 +1475,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · research the uva student health and wellness building and a 
 - - **Asked:** research the uva student health and wellness building and a page into my vault about it
 - - **Result:** Done — research is running in the background. It'll dig up info on the UVA student health and wellness building and save a full page to your vault. You'll see it pop up in the feed once it's done.
+
+## [2026-07-20] agent | agent · um nothings doing anything? do the research
+- - **Asked:** um nothings doing anything? do the research
+- - **Result:** Got it queued — the planner's going to research the UVA student health and wellness building and save a full page to your vault. Should have it in a bit.
