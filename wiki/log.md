@@ -1513,3 +1513,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · check my gmail for the most recent email i received
 - - **Asked:** check my gmail for the most recent email i received
 - - **Result:** Your most recent email is from GitHub (Tstansberry81) and came in today at 11:26 AM: **Subject:** `[Tstansberry81/resolve] Run failed: control-plane checks - main` **From:** notifications@github.com **Summary:** A workflow run for "control-plane checks" failed. The test job(s) ha
+
+## [2026-07-20] agent | agent · Research when the Rotunda at UVA was built using web search,
+- - **Asked:** Research when the Rotunda at UVA was built using web search, then give me the year. This needs a plan.
+- - **Result:** Queued. The planner will research the UVA Rotunda's construction date and get back to you with the year. It'll stream the results in once it's done.
