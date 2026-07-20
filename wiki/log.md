@@ -1446,3 +1446,8 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
 - - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
 - - **Result:** Alright, I've combed through your last 50 emails and compared them to your calendar for the next month. Here's what I found: **Sweep results:** The inbox is full of newsletters, promos, and Twitch notifications—nothing with a real date, RSVP need, or action item. No flights, rese
+
+## [2026-07-20] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook mail/calendar: nothing new.
+- Note: Gmail connector errored (needs reconnect with additional permissions) — Gmail unchecked this run.
