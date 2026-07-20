@@ -1479,3 +1479,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · um nothings doing anything? do the research
 - - **Asked:** um nothings doing anything? do the research
 - - **Result:** Got it queued — the planner's going to research the UVA student health and wellness building and save a full page to your vault. Should have it in a bit.
+
+## [2026-07-20] agent | agent · dont see any agents running do it
+- - **Asked:** dont see any agents running do it
+- - **Result:** It's queued now — the executor will research the UVA student health and wellness building and save a full page to your vault. Should show up in your feed once it's done.
