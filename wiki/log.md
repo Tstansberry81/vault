@@ -1451,3 +1451,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Telegram queue: empty (all processed). Outlook mail/calendar: nothing new.
 - Note: Gmail connector errored (needs reconnect with additional permissions) — Gmail unchecked this run.
+
+## [2026-07-20] agent | agent · Set a reminder for me tonight and tomorrow morning at 6:00 a
+- - **Asked:** Set a reminder for me tonight and tomorrow morning at 6:00 a.m. to have Dom bring me my sweatshirt to work.
+- - **Result:** Done — got your reminders set for tonight at 9 PM and tomorrow morning at 6 AM to get your sweatshirt from Dom.
