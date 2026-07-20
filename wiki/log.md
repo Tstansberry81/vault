@@ -1591,3 +1591,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Research two things and then combine them: (1) what a guitar
 - - **Asked:** Research two things and then combine them: (1) what a guitar capo is, (2) what a barre chord is. Then write a short synthesis explaining how a capo can help a beginner who struggles with barre chords.
 - - **Result:** Queued! The planner will research both capos and barre chords, synthesize them into a clear explanation of how a capo helps beginners tackle barre chord challenges, and save it to your vault. It'll stream the result into your feed once it's done.
+
+## [2026-07-20] agent | executor · Research capos and barre chords, then write and save synthes
+- - ## Complete I've researched guitar capos and barre chords, then written and saved a synthesis to your vault. Here's what I found: ### Key Findings **What a Capo Is:** A guitar capo is a clamp that you
