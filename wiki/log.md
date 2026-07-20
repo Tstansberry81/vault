@@ -1416,3 +1416,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - 3 open Notion tasks: Pack up mountain house gear, RESOLVE test, and 'lol'
 - 26,798 unread emails — mostly Twitch livestream alerts and promos, nothing urgent
 - Health: 7.2h sleep, 54 BPM resting HR — solid recovery
+
+## [2026-07-20] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Brief logged. Now get yourself to that Orientation. 🎓
