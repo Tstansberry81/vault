@@ -1495,3 +1495,12 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Research the UVA Student Health and Wellness building — wher
 - - **Asked:** Research the UVA Student Health and Wellness building — where it is and its main services — using web search, then give me a 3-sentence summary. This is a research test.
 - - **Result:** Queued. The executor will search for the building location and services, then compile a 3-sentence summary for you. It'll stream the result into your feed once it's done.
+
+## [2026-07-20] agent | Pipeline run
+- Source: Telegram / Gmail / Outlook
+- Items processed: 0
+- Telegram queue: no unprocessed items (1 item already marked processed).
+- Gmail: **connector error — requires reconnection with additional permissions.** Could not check. Trav should reconnect the Gmail connector.
+- Outlook email: 2 new messages (SecureW2 "UVA Personal Digital Certificate issued" notifications, 18:03 & 18:08 UTC). Informational confirmations — eduroam cert setup succeeded; not classified as Event/Task/Academic, no action taken.
+- Outlook calendar: no new events.
+- Notion: **no Notion connector available in this run** — Agent Log entry and any DB writes skipped; logged here instead.
