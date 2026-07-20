@@ -1550,3 +1550,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Research the history of the UVA Rotunda: architect, build ye
 - - **Asked:** Research the history of the UVA Rotunda: architect, build years, the 1895 fire, restoration. Write a thorough multi-paragraph summary and save it to my vault.
 - - **Result:** Perfect—research is queued. The planner will dig into the UVA Rotunda's full history (Jefferson's design, construction timeline, the devastating 1895 fire, and restoration), write it up as a solid multi-paragraph summary, and save it straight to your vault. You'll get the link on
+
+## [2026-07-20] agent | executor · Research & write UVA Rotunda history, then save to vault
+- - Perfect! I have comprehensive research on the University of Virginia Rotunda from multiple sources. Now I'll write a thorough multi-paragraph summary covering all aspects and save it to the vault.
