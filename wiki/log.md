@@ -1398,3 +1398,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only: search the vault for Scout via vault_read with qu
 - - **Asked:** Read-only: search the vault for Scout via vault_read with query Scout, and report the contentSearch field VERBATIM plus whether fragments came back. Change nothing.
 - - **Result:** **contentSearch (verbatim):** `"no content hits"` **Fragments:** No fragments came back (fragments object is empty). The search found 2 matches by filename but nothing in the actual file contents.
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Scout (vault_read with query
+- - **Asked:** Read-only: search the vault for Scout (vault_read with query Scout). Report: the source field, how many matches, and ONE fragment verbatim. Change nothing.
+- - **Result:** **Source field:** `"query"` **Matches:** 2 **Fragments:** None returned (fragments object is empty, so no fragment verbatim to report).
