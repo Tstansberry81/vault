@@ -1384,3 +1384,13 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - - Broken wikilink fixed: [[UVA and the Quant Question]] → [[College Search]] (concept page doesn't exist; College Search entity is the canonical link)
 - - All source pages have consistent frontmatter and provenance
 - **Significance:** Eve of UVA college transition. Traveler begins orientation July 20, 2026 at 9 AM. Summer between high school (graduated June 5) and college is being used for skill-building and system iteration. No conflicts or decisions pending.
+
+## [2026-07-20] agent | lint | Broken link fix & concept page creation (2026-07-19 propagation)
+- **Issue identified:** [[McIntire School of Commerce]] and [[Quantitative Finance]] both referenced the non-existent [[UVA and the Quant Question]] concept page (broken wikilinks).
+- **Resolution:** Created [[UVA and the Quant Question]] concept page as the canonical home for the 'will he commit to quant or not?' decision.
+- **Updates:**
+- - [[UVA and the Quant Question]] — new concept page with honest calibration (capable ✓, unproven at implementation ⚠️, commitment uncertain ⚠️)
+- - [[McIntire School of Commerce]] — added orientation date (July 20, 9 AM), linked [[UVA and the Quant Question]]
+- - [[Quantitative Finance]] — updated with link to [[UVA and the Quant Question]], added calibration section (design ✓, coding gap ⚠️), added timeline table with decision points
+- - [[RESOLVE (AI assistant)]] — updated connector status and links
+- **Calibration principles applied:** Separated demonstrated (model design ✓) from unproven (hand-written code ❌) from aspirational (quant career decision 🤔); explicitly named gaps (numerical methods, backtesting rigor, live trading, commitment depth); flagged all uncertainty with warning callouts. Did not round 'very capable designer' up to 'elite quant'—the code gap is real.
