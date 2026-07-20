@@ -1459,3 +1459,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Hey resolve
 - - **Asked:** Hey resolve
 - - **Result:** Yo! What's up? What can I do for you?
+
+## [2026-07-20] agent | agent · set a reminder for me at 10pm tonight to drink water
+- - **Asked:** set a reminder for me at 10pm tonight to drink water
+- - **Result:** I don't have a reminders tool, but I can set up a calendar event for you instead — that'll ping you at 10 PM tonight. Want me to do that?
