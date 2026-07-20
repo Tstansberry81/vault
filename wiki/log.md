@@ -1491,3 +1491,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · fuck okay ill fix it and try the same prompt again
 - - **Asked:** fuck okay ill fix it and try the same prompt again
 - - **Result:** Roger that — hit me up once you've sorted it and we'll run it again.
+
+## [2026-07-20] agent | agent · Research the UVA Student Health and Wellness building — wher
+- - **Asked:** Research the UVA Student Health and Wellness building — where it is and its main services — using web search, then give me a 3-sentence summary. This is a research test.
+- - **Result:** Queued. The executor will search for the building location and services, then compile a 3-sentence summary for you. It'll stream the result into your feed once it's done.
