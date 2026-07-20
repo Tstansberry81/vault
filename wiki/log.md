@@ -1392,3 +1392,57 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all processed). Outlook mail (last 2h) and calendar (next 14d): empty.
 - Gmail check failed: connector permissions error — needs reconnect (5th consecutive run).
 - Notion Agent Log entry skipped: Notion tools unavailable this run.
+## [2026-07-20] agent | agent · Read-only systems check, three parts: (1) call get_health an
+- - **Asked:** Read-only systems check, three parts: (1) call get_health and tell me the sleep hours + resting HR it returns; (2) call get_recent_activity with days 2 and tell me how many day-sections came back and 
+- - **Result:** **Systems check complete:** 1. **Health:** Sleep hours: **7.2**, Resting HR: **54** (also got HRV 61 and 340 steps; note says "shortcut wiring test") 2. **Recent activity:** **2 day-sections** came back (2026-07-18 and 2026-07-19). Example line: `- COMMAND: Morning brief: check m
+
+## [2026-07-20] agent | ingest | RESOLVE Daily Ingest 2026-07-19
+- **Source:** [[RESOLVE Daily Ingest 2026-07-19]] (autonomous system daily brief)
+- **Propagation changes:**
+- - [[RESOLVE (AI assistant)]] — updated with 2026-07-19 ingest data; added connector status table; noted July 20 UVA Orientation as temporal anchor
+- - [[College Search]] — already links ingest source; orientation date confirmed
+- - [[Traveler Stansberry]] — orientation source added to frontmatter; updated timestamp
+- **Lint notes:**
+- - Broken wikilink fixed: [[UVA and the Quant Question]] → [[College Search]] (concept page doesn't exist; College Search entity is the canonical link)
+- - All source pages have consistent frontmatter and provenance
+- **Significance:** Eve of UVA college transition. Traveler begins orientation July 20, 2026 at 9 AM. Summer between high school (graduated June 5) and college is being used for skill-building and system iteration. No conflicts or decisions pending.
+
+## [2026-07-20] agent | lint | Broken link fix & concept page creation (2026-07-19 propagation)
+- **Issue identified:** [[McIntire School of Commerce]] and [[Quantitative Finance]] both referenced the non-existent [[UVA and the Quant Question]] concept page (broken wikilinks).
+- **Resolution:** Created [[UVA and the Quant Question]] concept page as the canonical home for the 'will he commit to quant or not?' decision.
+- **Updates:**
+- - [[UVA and the Quant Question]] — new concept page with honest calibration (capable ✓, unproven at implementation ⚠️, commitment uncertain ⚠️)
+- - [[McIntire School of Commerce]] — added orientation date (July 20, 9 AM), linked [[UVA and the Quant Question]]
+- - [[Quantitative Finance]] — updated with link to [[UVA and the Quant Question]], added calibration section (design ✓, coding gap ⚠️), added timeline table with decision points
+- - [[RESOLVE (AI assistant)]] — updated connector status and links
+- **Calibration principles applied:** Separated demonstrated (model design ✓) from unproven (hand-written code ❌) from aspirational (quant career decision 🤔); explicitly named gaps (numerical methods, backtesting rigor, live trading, commitment depth); flagged all uncertainty with warning callouts. Did not round 'very capable designer' up to 'elite quant'—the code gap is real.
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Scout via vault_read with qu
+- - **Asked:** Read-only: search the vault for Scout via vault_read with query Scout, and report the contentSearch field VERBATIM plus whether fragments came back. Change nothing.
+- - **Result:** **contentSearch (verbatim):** `"no content hits"` **Fragments:** No fragments came back (fragments object is empty). The search found 2 matches by filename but nothing in the actual file contents.
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Scout (vault_read with query
+- - **Asked:** Read-only: search the vault for Scout (vault_read with query Scout). Report: the source field, how many matches, and ONE fragment verbatim. Change nothing.
+- - **Result:** **Source field:** `"query"` **Matches:** 2 **Fragments:** None returned (fragments object is empty, so no fragment verbatim to report).
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Severance (vault_read with q
+- - **Asked:** Read-only: search the vault for Severance (vault_read with query Severance). Report the source field verbatim, the match count, and one fragment verbatim. Change nothing.
+- - **Result:** **Source field (verbatim):** `laptop grep (exact content match)` **Match count:** 5 **One fragment (verbatim):** `# Severance Leadership Overview`
+
+## [2026-07-20] email-purge | category:promotions older_than:2w
+- Time: 2026-07-20 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-20] agent | Morning brief — July 20
+- UVA Orientation at 9 AM — main calendar event for the next 2 days
+- 3 open Notion tasks: Pack up mountain house gear, RESOLVE test, and 'lol'
+- 26,798 unread emails — mostly Twitch livestream alerts and promos, nothing urgent
+- Health: 7.2h sleep, 54 BPM resting HR — solid recovery
+
+## [2026-07-20] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Brief logged. Now get yourself to that Orientation. 🎓
+
+## [2026-07-20] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
+- - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
+- - **Result:** Alright, I've combed through your last 50 emails and compared them to your calendar for the next month. Here's what I found: **Sweep results:** The inbox is full of newsletters, promos, and Twitch notifications—nothing with a real date, RSVP need, or action item. No flights, rese

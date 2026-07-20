@@ -1,18 +1,1 @@
----
-type: entity
-created: 2026-06-17
-updated: 2026-06-17
-tags: [college, uva, finance]
-sources: ["[[McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat)]]", "[[bs commerce]]"]
-status: active
----
-
-# McIntire School of Commerce
-
-The **University of Virginia's** undergraduate business school — [[Traveler Stansberry]]'s intended academic home (Finance) when he matriculates fall 2026.
-
-## How it works (his plan)
-McIntire is a **third-year-entry** school: the first two years are prerequisites (COMM 1800 Foundations of Commerce, ECON 2010 Micro, a writing requirement), then a competitive internal admission. Traveler's chats map a deliberate **Commerce + Math minor + targeted CS** stack — including McIntire's **Quantitative Finance & Analytics / AI** track — designed to build toward [[Quantitative Finance]] ([[McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat)]]).
-
-## See also
-[[UVA and the Quant Question]] · [[College Search]] · [[Quantitative Finance]] · [[Traveler Stansberry]]
+---\ntype: entity\ncreated: 2026-06-17\nupdated: 2026-07-19\ntags: [college, uva, finance]\nsources: [\"[[McIntire Admit Stats and the Commerce-Math-CS Stacking Plan (chat)]]\", \"[[bs commerce]]\", \"[[RESOLVE Daily Ingest 2026-07-19]]\"]\nstatus: active\n---\n\n# McIntire School of Commerce\n\nThe **University of Virginia's** undergraduate business school — [[Traveler Stansberry]]'s intended academic home (Finance) when he matriculates fall 2026 (orientation: July 20, 2026).\n\n## How it works (his plan)\nMcIntire is a **third-year-entry** school: the first two years are prerequisites (COMM 1800 Foundations of Commerce, ECON 2010 Micro, a writing requirement), then a competitive internal transfer to the Commerce school. He's already met many prerequisites via IB coursework and testing.\n\n## The Finance major\nCore courses: Financial Reporting, Financial Management, Investment Analysis, derivative/portfolio management electives. Trajectory: traditional finance career (asset management, investment banking) *or* [[UVA and the Quant Question|quantitative finance]] (which requires a Math or CS double major).\n\n## Major decision point\nThe quant path is ambitious—requires intense math/CS coursework on top of Finance, and he's not yet proven at hand-written production code (his [[Personal Quant Model|first quant model]] was AI-assisted in implementation). By spring 2027, he'll likely choose his internship track, which will signal commitment.\n\n## Related\n- [[College Search]] — how he chose UVA\n- [[UVA and the Quant Question]] — the open decision on whether to pursue quant\n- [[Quantitative Finance]] — the career lane he's exploring\n- [[Intellectual Interests]] — his broader intellectual scope

@@ -1,9 +1,9 @@
 ---
 type: concept
 created: 2026-06-17
-updated: 2026-06-18
+updated: 2026-07-19
 tags: [finance, quant, career]
-sources: ["[[UVA Quant Finance Pathway and the Math-vs-Finance Decision (chat)]]", "[[Integral of sqrt(pi) and the Quant Pivot Math Roadmap (chat)]]", "[[Quant Market Assumptions, the Black-Scholes Derivation, and a Soviet Reform Detour (chat)]]", "[[No-Arbitrage Principle and What a Derivative Is (chat)]]", "[[Japanese Travel Vocab, RenTech Medallion Compounding, and a Korean War Venn Diagram (chat)]]"]
+sources: ["[[UVA Quant Finance Pathway and the Math-vs-Finance Decision (chat)]]", "[[Integral of sqrt(pi) and the Quant Pivot Math Roadmap (chat)]]", "[[Quant Market Assumptions, the Black-Scholes Derivation, and a Soviet Reform Detour (chat)]]", "[[No-Arbitrage Principle and What a Derivative Is (chat)]]", "[[Japanese Travel Vocab, RenTech Medallion Compounding, and a Korean War Venn Diagram (chat)]]", "[[UVA and the Quant Question]]", "[[RESOLVE Daily Ingest 2026-07-19]]"]
 status: active
 ---
 
@@ -17,13 +17,42 @@ The career lane [[Traveler Stansberry]] increasingly orients toward in his late 
 - **The math under it:** his above-SL self-study (Dirichlet/Gaussian integrals, Ramanujan, chaos theory, multivariable previews — see [[IB Math (SL)]]) reads as deliberate quant preparation.
 
 ## He designed one — the [[Personal Quant Model]]
-The key artifact: a **multi-factor equity model** — academically-sourced factors, HMM regime switching, a vol-targeting crash overlay, an honest point-in-time backtest (IC / t-stats / decile staircases), and **Carhart 4-factor attribution**. The **ideas and methodology are his; the code was AI-generated** (he doesn't hand-code), so it demonstrates quant *judgment* — knowing what to build and why — more than implementation skill. See [[Personal Quant Model]].
+The key artifact: a **multi-factor equity model** — academically-sourced factors, HMM regime switching, a vol-targeting crash overlay, an honest point-in-time backtest (IC / t-stats / decile analysis). Deployed as a Flask app ("Slow Burn"); subsequently split into two products:
+- **[[The Edge (trading model)]]** — short-horizon momentum + acceleration trader (independent repo)
+- **[[Vision (Porter Intelligence)]]** — consumer dashboard rendering the model (branded for his father's [[Porter Stansberry (father)|Porter & Co.]])
 
-## The pivot
-Several 2026 chats show him explicitly choosing the lane and reverse-engineering the path — *how to become a quant out of UVA*, a "quant pivot math roadmap," and a **Commerce + Math + CS** stacking plan at [[McIntire School of Commerce]]. The honest open question (untested at proof-based rigor) is unchanged, but the *intent* is now clear.
+> [!note] Calibration: Coding vs. Design  
+> The model **design and conceptual architecture** are entirely his (strong evidence of quant thinking). The **implementation** was AI-assisted (he directed; the AI wrote the code). This is good evidence of judgment and understanding, but **not proof that he can hand-write production code**. That gap is material for a quant career.
 
-## He shipped a product around it (2026-06)
-By June 2026 the model had grown into a small product stack: he split off a short-horizon trading strategy — **[[The Edge (trading model)]]** (momentum/relative-strength/acceleration on a 1-month clock, with correlation-cap and 200-day-MA overlays) — and wrapped its output in a consumer site, **[[Vision (Porter Intelligence)]]**, branded for his father's [[Porter Stansberry (father)|Porter & Co.]] world. Notably, his own backtester surfaces the **honest gap between a flattering 2-year window and a 10–20-year record that barely beats the S&P** — the same anti-overfitting candor seen on the [[Personal Quant Model]]. The productization shows quant *ambition and fluency*; it doesn't move the hands-on-rigor question, since the code stays AI-generated.
+## Known constraints (honest assessment)
+- **Math depth:** HL-track IB student; self-studies advanced topics. Solid, but not yet proven at graduate-level mathematical finance (SDEs, measure theory, optimization).
+- **Coding:** The model is functional and deploys, but he hasn't proven he can write complex numerical/backtest code from scratch.
+- **Domain knowledge:** Fluent in concepts (no-arbitrage, Greeks, regime switching); library-level understanding (e.g., how to use statsmodels for HMM). Not yet tested on design of novel strategies or production risk management.
+- **Commitment:** Quant finance requires 2–3 years of serious coursework before employability. Unclear if he's willing to pay that cost, especially if other paths (traditional finance, startups, teaching) open up.
 
-## See also
-[[UVA and the Quant Question]] · [[Personal Quant Model]] · [[The Edge (trading model)]] · [[Vision (Porter Intelligence)]] · [[Investment Club]] · [[IB Math (SL)]] · [[IB Physics (HL)]] · [[Bloomberg Terminal]] · [[Honeycomb Portfolio]]
+## Timeline & decision points
+
+| Date | Event | Status |
+|------|-------|--------|
+| 2025–26 (senior year) | Intensive self-study; designed first model | ✓ Complete |
+| 2026-06 | Model ingest; code split into product stack | ✓ Complete |
+| 2026-07-20 | **UVA matriculation** (orientation 9 AM, July 20) | ➡️ **In progress** |
+| 2027-01–05 (freshman year) | Upper-level Finance + Math coursework begins | Pending |
+| 2027-05 | **Decision point:** internship track (quant vs. traditional) | Pending |
+
+## The real question
+[[Traveler Stansberry]] will know he's serious about quant when:
+1. He completes a **second model entirely hand-coded** (no AI assist)
+2. He commits to a **Math or CS double major** (significant workload)
+3. His **summer 2027 internship** is at a quant fund or prop shop (not an IB)
+
+Until then: high capability ✓, open commitment ⚠️.
+
+## Related
+- [[UVA and the Quant Question]] — the decision framework
+- [[College Search]] — why he chose UVA/McIntire
+- [[McIntire School of Commerce]] — his Finance major
+- [[Personal Quant Model]] — his first model (design + deployment)
+- [[The Edge (trading model)]] — the momentum trader
+- [[Vision (Porter Intelligence)]] — the product dashboard
+- [[Intellectual Interests]] — his broader thinking on markets, free will, money
