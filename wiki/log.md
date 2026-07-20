@@ -1315,3 +1315,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Quick test, read-only: use get_inbox_recent with limit 5 and
 - - **Asked:** Quick test, read-only: use get_inbox_recent with limit 5 and days 2, and tell me just how many messages came back and the newest subject. Do not archive or change anything.
 - - **Result:** Got 5 messages back, but they're all coming through with empty subject lines and sender info. The data's blank across the board—looks like a formatting issue on the backend. All 5 are marked unread. Can't give you the newest subject since it's not populated.
+
+## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
+- - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
+- - **Result:** Count: 5 messages Newest FROM + SUBJECT: Both are empty strings—the backend isn't returning any sender or subject data for any of the messages. All 5 are blanks.
