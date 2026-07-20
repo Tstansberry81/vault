@@ -1455,3 +1455,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Set a reminder for me tonight and tomorrow morning at 6:00 a
 - - **Asked:** Set a reminder for me tonight and tomorrow morning at 6:00 a.m. to have Dom bring me my sweatshirt to work.
 - - **Result:** Done — got your reminders set for tonight at 9 PM and tomorrow morning at 6 AM to get your sweatshirt from Dom.
+
+## [2026-07-20] agent | agent · Hey resolve
+- - **Asked:** Hey resolve
+- - **Result:** Yo! What's up? What can I do for you?
