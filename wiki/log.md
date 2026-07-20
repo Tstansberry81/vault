@@ -1402,3 +1402,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only: search the vault for Scout (vault_read with query
 - - **Asked:** Read-only: search the vault for Scout (vault_read with query Scout). Report: the source field, how many matches, and ONE fragment verbatim. Change nothing.
 - - **Result:** **Source field:** `"query"` **Matches:** 2 **Fragments:** None returned (fragments object is empty, so no fragment verbatim to report).
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Severance (vault_read with q
+- - **Asked:** Read-only: search the vault for Severance (vault_read with query Severance). Report the source field verbatim, the match count, and one fragment verbatim. Change nothing.
+- - **Result:** **Source field (verbatim):** `laptop grep (exact content match)` **Match count:** 5 **One fragment (verbatim):** `# Severance Leadership Overview`
