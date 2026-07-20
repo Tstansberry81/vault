@@ -13,50 +13,58 @@ The author of nearly every source in this wiki, and its subject. Attended **[[St
 
 ## Current life (July 2026)
 **Status:** on the eve of college orientation. As of July 19 morning briefing:
-- **Orientation:** UVA Orientation **tomorrow (July 20) at 9 AM** — imminent transition to college life.
+- **Orientation:** [[University of Virginia (UVA)|UVA]] Orientation **tomorrow (July 20) at 9 AM** — imminent transition to college life. See [[RESOLVE Daily Ingest 2026-07-19]].
 - Recent activity includes:
   - **[[Python Learning]]** — initiated 6-month self-study (beginner-level; multiple learning guides created; actual practice status unknown)
   - **[[Guitar Learning]]** — initiated 2-week sprint to play country acoustic song ("Wagon Wheel"; practice status unknown)
 - **Relationship:** with [[Naomi]] (girlfriend; most emotionally significant person in his life; together since March 2026)
 - **Finance/work:** involvement in quantitative finance research (S&P 500 put/call ratio data sources) with coworker; see [[UVA and the Quant Question]]
-- **[[RESOLVE]] integration:** daily assistant system providing calendar, email, task, and document generation; heavy testing/iteration through July 14; morning brief command confirmed working on July 19
+- **[[RESOLVE (AI assistant)|RESOLVE]]** integration: daily assistant system providing calendar, email, task, and document generation; heavy testing/iteration through July 14; morning brief command confirmed working on July 19
 
-**Financial snapshot (July 14):** net worth $5,554.46 (checking $1,052.51, savings $4,501.95); positive monthly cash flow (+$329.82); trading activity on Polymarket and Kalshi.
+## Identity & worldview
 
-**Task load (July 19):** 3 open Notion items (none urgent); inbox manageable (mostly promos/receipts).
+Determinist, skeptic, individualist. Drawn to questions of fate vs. free will, identity, power, morality. Intellectually serious; introspective; sensitive; prone to absorbing the mood of books and films. Advocates for free markets, individual liberty, and personal discipline (e.g., "lock in," 75 Hard). Values emotional honesty and rejects performative morality.
 
-## Intellectual profile
+## Key relationships
 
-A **determinist, skeptic, and individualist** — a consistent worldview across four years of coursework. Returns obsessively to a small set of themes: fate vs. free will, identity's fragility, the individual crushed by society, skepticism toward religion and tradition, the corruption wrought by power and hierarchy, art as a basic human need, and the hollowing effect of modernity and capital. See [[Core Convictions]] and [[Intellectual Evolution]].
+- **[[Naomi]]** — girlfriend; the most emotionally significant person in his life (2026)
+- **[[Porter Stansberry (father)|Father]]** — founder of Porter & Co.; critical relationship; see [[Note on His Father (July 2025)]]
+- **Brothers** — mentioned in [[Family and Personal Life]] (limited detail)
 
-## Core traits (from coursework and personal writing)
+## Demonstrated capabilities
 
-**Strengths:**
-- **Clarity under pressure.** Essays tend to stake out a thesis early and build argument with structural discipline — see [[Iliad Essay]], [[Narrow Road to the Deep North Response]], [[DADOES ESSAY]], [[Nest Essay]].
-- **Emotional depth.** Personal writing (memoir, letters, essays) is candid about pain and vulnerability — [[Major Moments Memoir]], [[Letter to Dad (Dec 2022)]], [[Note on His Father (July 2025)]].
-- **Philosophical turn.** Often reaches for universal human questions beneath surface details — fate, identity, power, morality, the meaning of survival — rather than resting in plot summary. See [[Intellectual Profile]].
+### Intellectual
+- **Literary analysis:** strong (IB HL 1–2 coursework yields sophisticated essays on identity, power, morality, art)
+- **Writing:** clear, reflective, sometimes lyrical; essays are his native form
+- **History/economics reasoning:** solid (IB HL History + SL Economics coursework)
+- **Physics concepts:** competent but non-specialist (IB HL Physics)
+- **Mathematics:** solid high-school level (IB SL Math); college-readiness unclear
 
-**Weaknesses / gaps:**
-- **Execution of complex ideas under formal constraints.** Some HL essays (e.g., [[Absalom, Absalom!]] work) stumble when the complexity of the argument exceeds the structural clarity needed to carry it. Flag: his best essays are thematic; his weakest are those that demand sustained literary-technical analysis.
-- **Discipline in revision and polish.** Submits work that is thoughtful but rough — typos, awkward phrasings, unfinished ideas — suggests writing under time pressure. Never revises substantially post-submission.
-- **Breadth in technical/quantitative domains.** See [[honest calibration]] note in CLAUDE.md: he can *direct* an AI to code a quant model and *understand the ideas*, but [[Personal Quant Model|his own code]] is AI-generated, not hand-written. Coding skills are untested. Math understanding is strong but *theoretical* — no evidence of applied mathematics beyond conceptual discussions.
+### Technology & entrepreneurship
+- **Startup instinct:** founded [[Homework Hatch (startup)|Homework Hatch]] (edtech/AI, directed but not hand-coded)
+- **Quant modeling:** has designed multi-factor equity models ([[Personal Quant Model]], [[The Edge (trading model)]]), all AI-coded; shows strong *conceptual* understanding, **no demonstrated coding ability**
+- **Coding:** untested. Declares a 6-month Python self-study goal (July 2026); no evidence of hands-on fluency yet. See [[Python Learning]] and honest calibration note below.
+- **AI tooling:** comfortable with ChatGPT and Cursor (AI code editor); directs effectively
 
-## Ambitions and open questions
+### Personal discipline
+- "75 Hard" completion (mentioned)
+- "Lock in" mentality (self-reported, not independently verified)
+- Self-directed learning initiatives ([[Python Learning]], [[Guitar Learning]])
 
-- **[[UVA and the Quant Question]]** — will he pursue quantitative finance? Or a more traditional finance path? Leaning toward the former but genuine openness.
-- **[[Homework Hatch (startup)]]** — ongoing involvement in his own edtech/AI venture; viability and scope unclear.
-- **Relationship trajectory with [[Naomi]]** — significant relationship; future unclear.
-- **Long-term intellectual direction** — entrepreneurship, finance, philosophy, something else? Not yet determined.
+> [!warning] Honest calibration
+> **Coding:** Traveler has demonstrated *conceptual* strength in quant modeling—he understands the math, the financial logic, and can direct an AI to build products. **He has not demonstrated the ability to code by hand.** His models (Personal Quant, The Edge, etc.) are AI-generated, not self-written. The July 2026 Python self-study goal is aspirational; no evidence yet that it's being executed. Do not conflate "can direct an AI" with "can code." This is the gap most worth documenting as he enters college.
 
----
+## Evolution (2022–2026)
 
-## Chronology
-- **K–8 (2010–2018):** St. Paul's lower school
-- **2018–2022:** St. Paul's middle school (grades 6–8); grades 9–10 English with Mr. Bryant
-- **2022–06-05-2026:** St. Paul's upper school (grades 11–12); IB Diploma (HL English, HL History, HL Physics, SL Math, SL Econ, SL Japanese, ToK); graduated June 5, 2026.
-- **2026-07-20 onward:** University of Virginia (Finance + Math minor)
+See [[Intellectual Evolution]] for the four-year arc of his thinking. In brief: his engagement with literary questions of fate, identity, and power has deepened; his economic views have hardened toward libertarianism; his skepticism of institutional religion has held steady. The summer of 2026 marks a transition from secondary to tertiary education and an unresolved decision about whether to pursue quantitative finance or something else.
 
----
+## Interests & projects
 
-## Family
-See [[Family and Personal Life]] for full context. Key figures: father [[Porter Stansberry (father)|Porter Stansberry]] (Stansberry Research founder, remarried 2024), two brothers (older and younger), parents divorced 2018.
+- **[[Quantitative Finance]]** — active interest; models designed but coding ability untested
+- **[[Homework Hatch (startup)]]** — co-founded edtech/automation venture
+- **[[Reading List]]** — strong independent reader across philosophy, history, science, fiction
+- **[[Film and TV]]** — curated arthouse/auteur taste
+- **[[Guitar Learning]]** — 2-week country acoustic sprint
+- **[[Python Learning]]** — 6-month self-study goal (July 2026–January 2027)
+- **[[Gaming and PC Setup]]** — leisure interest
+- **[[Investment Club]]** — school involvement
