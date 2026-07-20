@@ -1363,3 +1363,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
 - - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
 - - **Result:** **Summary: No calendar-worthy events to add.** **Analysis:** - **50 messages scanned** (last 2 days, July 19-20) - **Real events found:** None - **Calendar conflicts:** None The inbox is dominated by **marketing/promo blasts** (Twitch live notifications, Spotify ticket promotions
+
+## [2026-07-19] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook mail/calendar: empty.
+- Gmail check failed: connector permissions error — needs reconnect.
+- Notion Agent Log entry skipped: Notion tools unavailable this run.
