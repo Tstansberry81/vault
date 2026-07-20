@@ -1319,3 +1319,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
 - - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
 - - **Result:** Count: 5 messages Newest FROM + SUBJECT: Both are empty strings—the backend isn't returning any sender or subject data for any of the messages. All 5 are blanks.
+
+## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
+- - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
+- - **Result:** Count: 5 Newest FROM: (empty) Newest SUBJECT: (empty) The inbox is returning message UIDs but no FROM, SUBJECT, DATE, or SNIPPET data for any of them.
