@@ -1410,3 +1410,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] email-purge | category:promotions older_than:2w
 - Time: 2026-07-20 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-20] agent | Morning brief — July 20
+- UVA Orientation at 9 AM — main calendar event for the next 2 days
+- 3 open Notion tasks: Pack up mountain house gear, RESOLVE test, and 'lol'
+- 26,798 unread emails — mostly Twitch livestream alerts and promos, nothing urgent
+- Health: 7.2h sleep, 54 BPM resting HR — solid recovery
