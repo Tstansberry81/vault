@@ -1369,3 +1369,14 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all processed). Outlook mail/calendar: empty.
 - Gmail check failed: connector permissions error — needs reconnect.
 - Notion Agent Log entry skipped: Notion tools unavailable this run.
+
+## [2026-07-20] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook mail/calendar: empty.
+- Gmail check failed: connector permissions error — needs reconnect (2nd consecutive run).
+
+## [2026-07-20] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all processed). Outlook mail (last 2h) and calendar: empty.
+- Gmail check failed: connector permissions error — needs reconnect (3rd consecutive run).
+- Notion Agent Log entry skipped: Notion tools unavailable this run.
