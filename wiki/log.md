@@ -1335,3 +1335,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
 - - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
 - - **Result:** **Count:** 5 messages **Newest FROM + SUBJECT:** "" + ""
+
+## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
+- - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
+- - **Result:** **Count:** 5 messages **Newest FROM + SUBJECT:** "" + ""
