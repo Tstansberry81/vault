@@ -1394,3 +1394,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - - [[Quantitative Finance]] — updated with link to [[UVA and the Quant Question]], added calibration section (design ✓, coding gap ⚠️), added timeline table with decision points
 - - [[RESOLVE (AI assistant)]] — updated connector status and links
 - **Calibration principles applied:** Separated demonstrated (model design ✓) from unproven (hand-written code ❌) from aspirational (quant career decision 🤔); explicitly named gaps (numerical methods, backtesting rigor, live trading, commitment depth); flagged all uncertainty with warning callouts. Did not round 'very capable designer' up to 'elite quant'—the code gap is real.
+
+## [2026-07-20] agent | agent · Read-only: search the vault for Scout via vault_read with qu
+- - **Asked:** Read-only: search the vault for Scout via vault_read with query Scout, and report the contentSearch field VERBATIM plus whether fragments came back. Change nothing.
+- - **Result:** **contentSearch (verbatim):** `"no content hits"` **Fragments:** No fragments came back (fragments object is empty). The search found 2 matches by filename but nothing in the actual file contents.
