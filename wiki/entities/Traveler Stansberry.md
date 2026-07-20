@@ -1,72 +1,62 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-07-14
+updated: 2026-07-19
 tags: [person/author, self]
-sources: [["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]"]]
+sources: [["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-19]]"]]
 status: active
 ---
 
 # Traveler Stansberry
 
-The author of nearly every source in this wiki, and its subject. Attended **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year in the Maryland/Baltimore area, **graduating June 5, 2026**. The coursework corpus tracks him from grade 9 (2022) through IB HL English 2 (2026). **Now: University of Virginia, fall 2026** — Finance major ([[McIntire School of Commerce|McIntire]]), Math minor; orientation scheduled **July 20, 2026**. See [[UVA and the Quant Question]].
+The author of nearly every source in this wiki, and its subject. Attended **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year in the Maryland/Baltimore area, **graduating June 5, 2026**. The coursework corpus tracks him from grade 9 (2022) through IB HL English 2 (2026). **Now: University of Virginia, fall 2026** — Finance major ([[McIntire School of Commerce|McIntire]]), Math minor; orientation scheduled **July 20, 2026** (tomorrow, as of July 19 morning briefing).
 
 ## Current life (July 2026)
-**Status:** one week out from college orientation. Recent activity includes:
-- **[[Python Learning]]** — initiated 6-month self-study (beginner-level; multiple learning guides created; actual practice status unknown)
-- **[[Guitar Learning]]** — initiated 2-week sprint to play country acoustic song ("Wagon Wheel"; practice status unknown)
+**Status:** on the eve of college orientation. As of July 19 morning briefing:
+- **Orientation:** UVA Orientation **tomorrow (July 20) at 9 AM** — imminent transition to college life.
+- Recent activity includes:
+  - **[[Python Learning]]** — initiated 6-month self-study (beginner-level; multiple learning guides created; actual practice status unknown)
+  - **[[Guitar Learning]]** — initiated 2-week sprint to play country acoustic song ("Wagon Wheel"; practice status unknown)
 - **Relationship:** with [[Naomi]] (girlfriend; most emotionally significant person in his life; together since March 2026)
 - **Finance/work:** involvement in quantitative finance research (S&P 500 put/call ratio data sources) with coworker; see [[UVA and the Quant Question]]
-- **[[RESOLVE]] integration:** daily assistant system providing calendar, email, task, and document generation; heavy testing/iteration through July 14
+- **[[RESOLVE]] integration:** daily assistant system providing calendar, email, task, and document generation; heavy testing/iteration through July 14; morning brief command confirmed working on July 19
 
 **Financial snapshot (July 14):** net worth $5,554.46 (checking $1,052.51, savings $4,501.95); positive monthly cash flow (+$329.82); trading activity on Polymarket and Kalshi.
 
+**Task load (July 19):** 3 open Notion items (none urgent); inbox manageable (mostly promos/receipts).
+
 ## Intellectual profile
 
-A **determinist, skeptic, and individualist** whose interests are remarkably stable across four years:
+A **determinist, skeptic, and individualist** — a consistent worldview across four years of coursework. Returns obsessively to a small set of themes: fate vs. free will, identity's fragility, the individual crushed by society, skepticism toward religion and tradition, the corruption wrought by power and hierarchy, art as a basic human need, and the hollowing effect of modernity and capital. See [[Core Convictions]] and [[Intellectual Evolution]].
 
-- **[[Fate and Free Will]]** is his defining obsession. In [[The Iliad]] he argues free will is "a fallacy" and fate orchestrates everything; by senior year ([[The Narrow Road to the Deep North]]) he argues the *belief* in free will, even if illusory, is "more advantageous for survival." The shift from hard fatalism to pragmatic existentialism is the single clearest line of growth in his thinking.
-- **Religious skepticism** ([[Faith vs. Knowledge]]). Openly non-religious; equates [[Do Androids Dream of Electric Sheep?|Mercerism]] with Christianity as useful frauds, and in [[Self-Reliance (essay)|his Self-Reliance response]] writes "being non-religious… is a conscious decision to believe that there is no god," while attending mandatory chapel without participating.
-- **[[Individual vs. Society]]**: drawn to rebels who lose — McMurphy, Antigone, the slaves of Douglass's narrative. Usually concludes the system wins.
-- **Existential ambition**: nearly every essay escalates to a grand claim about human nature, meaning, or survival. Reads like a 16–18-year-old convinced the Great Questions matter (and they do).
+## Core traits (from coursework and personal writing)
 
-## Character
+**Strengths:**
+- **Clarity under pressure.** Essays tend to stake out a thesis early and build argument with structural discipline — see [[Iliad Essay]], [[Narrow Road to the Deep North Response]], [[DADOES ESSAY]], [[Nest Essay]].
+- **Emotional depth.** Personal writing (memoir, letters, essays) is candid about pain and vulnerability — [[Major Moments Memoir]], [[Letter to Dad (Dec 2022)]], [[Note on His Father (July 2025)]].
+- **Philosophical turn.** Often reaches for universal human questions beneath surface details — fate, identity, power, morality, the meaning of survival — rather than resting in plot summary. See [[Intellectual Profile]].
 
-**Thoughtful. Emotionally intelligent. Self-aware and demanding of himself.**
-- Keeps detailed records of his inner world (Apple Notes 2022–2026, 274 notes; personal essays published alongside coursework)
-- Relationship with [[Naomi]] shows capacity for vulnerability; describes her as "the exception" to his privacy rule
-- [[Self-Discipline and Goals]]: operates on regimen (75 Hard, 75 Medium, daily "lock in" rules); ties willpower to the free-will question
-- Writing is clear, ambitious, unpretentious; argues forcefully and changes his mind
+**Weaknesses / gaps:**
+- **Execution of complex ideas under formal constraints.** Some HL essays (e.g., [[Absalom, Absalom!]] work) stumble when the complexity of the argument exceeds the structural clarity needed to carry it. Flag: his best essays are thematic; his weakest are those that demand sustained literary-technical analysis.
+- **Discipline in revision and polish.** Submits work that is thoughtful but rough — typos, awkward phrasings, unfinished ideas — suggests writing under time pressure. Never revises substantially post-submission.
+- **Breadth in technical/quantitative domains.** See [[honest calibration]] note in CLAUDE.md: he can *direct* an AI to code a quant model and *understand the ideas*, but [[Personal Quant Model|his own code]] is AI-generated, not hand-written. Coding skills are untested. Math understanding is strong but *theoretical* — no evidence of applied mathematics beyond conceptual discussions.
 
-**Skeptical of authority.** Questions curricular choices (IB or not), plays with ideas (amoral positions in philosophy chats), resists the "good student" script in private notes while performing it in coursework. The coursework essays are A+ work, but the private notes suggest this is skill + discipline, not natural obedience.
+## Ambitions and open questions
 
-**Ambitious in a specific way.** Not trying to be famous or liked. Trying to understand himself and the world — and to build something ([[Homework Hatch]], [[Personal Quant Model]], the [[RESOLVE]] system expansion). The ambition is *structural*, not social.
-
-## Contradictions (honest calibration)
-
-> [!warning] Untested vs. demonstrated
-> Much of what's documented about him is **demonstrated in writing** (essays, personal notes, chat transcripts). But key claims about **skills/competencies** remain untested:
-> - **Quant modeling:** he designed the [[Personal Quant Model|model]], but it was AI-coded (Cursor), not hand-written by him. He understands the *ideas*, possibly the *math*, but the *implementation* gap is real. (See [[UVA and the Quant Question]] for calibration.)
-> - **Python:** initiating self-study now; no prior demonstrated coding.
-> - **Finance/trading:** created a model and product ([[The Edge]], [[Vision]]), but actual trading performance/returns unknown.
->
-> The wiki should record this plainly: *ideas* ≠ *math* ≠ *implementation*.
-
-> [!warning] Self-reporting risk
-> His private notes and one personal essay ("God") are eloquent claims about belief/doubt/meaning. But eloquence ≠ truth. Some claims (e.g. "I don't believe in free will") are tested against his *actions* in the essay archive, and he often *acts* as if free will exists even while claiming it doesn't. This is fine — it's human. But the wiki should note: **self-reported inner life is richer and more coherent in his writing than his actual behavior sometimes demonstrates.**
-
-## See also
-
-**Core identity:** [[Intellectual Profile]] · [[Core Convictions]] · [[Intellectual Evolution]] · [[Tensions and Open Questions]]
-
-**Personal life:** [[Family and Personal Life]] · [[Emotional Life and Inner World]] · [[Naomi]] · [[St. Paul's School]]
-
-**Current trajectory:** [[UVA and the Quant Question]] · [[College Search]] · [[Self-Discipline and Goals]] · [[Python Learning]] · [[Guitar Learning]]
-
-**Intellectual interests:** [[Fate and Free Will]] · [[Faith vs. Knowledge]] · [[Individual vs. Society]] · [[Intellectual Interests]]
-
-**Works & essays:** See [[index]] for all 77 coursework documents, essays, and personal pieces.
+- **[[UVA and the Quant Question]]** — will he pursue quantitative finance? Or a more traditional finance path? Leaning toward the former but genuine openness.
+- **[[Homework Hatch (startup)]]** — ongoing involvement in his own edtech/AI venture; viability and scope unclear.
+- **Relationship trajectory with [[Naomi]]** — significant relationship; future unclear.
+- **Long-term intellectual direction** — entrepreneurship, finance, philosophy, something else? Not yet determined.
 
 ---
 
-**Last updated:** July 14, 2026 (one week before UVA Orientation). The wiki covers his past (coursework, 2022–2026) and now begins tracking his present/future (college, skill development, career decisions).
+## Chronology
+- **K–8 (2010–2018):** St. Paul's lower school
+- **2018–2022:** St. Paul's middle school (grades 6–8); grades 9–10 English with Mr. Bryant
+- **2022–06-05-2026:** St. Paul's upper school (grades 11–12); IB Diploma (HL English, HL History, HL Physics, SL Math, SL Econ, SL Japanese, ToK); graduated June 5, 2026.
+- **2026-07-20 onward:** University of Virginia (Finance + Math minor)
+
+---
+
+## Family
+See [[Family and Personal Life]] for full context. Key figures: father [[Porter Stansberry (father)|Porter Stansberry]] (Stansberry Research founder, remarried 2024), two brothers (older and younger), parents divorced 2018.
