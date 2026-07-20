@@ -1406,3 +1406,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only: search the vault for Severance (vault_read with q
 - - **Asked:** Read-only: search the vault for Severance (vault_read with query Severance). Report the source field verbatim, the match count, and one fragment verbatim. Change nothing.
 - - **Result:** **Source field (verbatim):** `laptop grep (exact content match)` **Match count:** 5 **One fragment (verbatim):** `# Severance Leadership Overview`
+
+## [2026-07-20] email-purge | category:promotions older_than:2w
+- Time: 2026-07-20 07:00
+- Trashed 0 emails (recoverable 30d)
