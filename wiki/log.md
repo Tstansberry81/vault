@@ -1467,3 +1467,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · yeah
 - - **Asked:** yeah
 - - **Result:** Set — "Drink water" at 10 PM tonight. You'll get a notification.
+
+## [2026-07-20] agent | agent · open the news for me
+- - **Asked:** open the news for me
+- - **Result:** Opening it now — hitting up Google News for you.
