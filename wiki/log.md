@@ -1369,3 +1369,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all processed). Outlook mail/calendar: empty.
 - Gmail check failed: connector permissions error — needs reconnect.
 - Notion Agent Log entry skipped: Notion tools unavailable this run.
+
+## [2026-07-20] agent | agent · Read-only systems check, three parts: (1) call get_health an
+- - **Asked:** Read-only systems check, three parts: (1) call get_health and tell me the sleep hours + resting HR it returns; (2) call get_recent_activity with days 2 and tell me how many day-sections came back and 
+- - **Result:** **Systems check complete:** 1. **Health:** Sleep hours: **7.2**, Resting HR: **54** (also got HRV 61 and 340 steps; note says "shortcut wiring test") 2. **Recent activity:** **2 day-sections** came back (2026-07-18 and 2026-07-19). Example line: `- COMMAND: Morning brief: check m
