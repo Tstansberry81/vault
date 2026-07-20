@@ -1311,3 +1311,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-19] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** **Morning brief:** You've got **UVA Orientation tomorrow at 9 AM** — that's the main thing on the radar. Three open Notion tasks (nothing urgent), and your inbox is doing that thing where it's somehow 26k unread but it's mostly promos and receipts. Latest unread is just an Uber t
+
+## [2026-07-20] agent | agent · Quick test, read-only: use get_inbox_recent with limit 5 and
+- - **Asked:** Quick test, read-only: use get_inbox_recent with limit 5 and days 2, and tell me just how many messages came back and the newest subject. Do not archive or change anything.
+- - **Result:** Got 5 messages back, but they're all coming through with empty subject lines and sender info. The data's blank across the board—looks like a formatting issue on the backend. All 5 are marked unread. Can't give you the newest subject since it's not populated.
