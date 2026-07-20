@@ -1574,3 +1574,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-20] agent | executor · Research UVA Student Health & Wellness Center and save summa
 - - ## Research Complete ✓ I've successfully researched the **UVA Student Health & Wellness Center** and compiled a comprehensive, well-organized summary saved to your vault. ### Summary of Key Findings: 
+
+## [2026-07-20] agent | agent · research the pathway from the college of arts and sciences t
+- - **Asked:** research the pathway from the college of arts and sciences to mcintire and consider all grad requirements for both. going into my first year at the college of arts and sciences, then applying to mcint
+- - **Result:** Queued. The executor will research both schools' requirements, factor in your 14 credits and physics exemption, build a realistic 4-year pathway, and save a complete summary to your vault. It'll stream results as it goes.
