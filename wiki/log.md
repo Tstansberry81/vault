@@ -1327,3 +1327,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
 - - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
 - - **Result:** **Count:** 5 messages **Newest FROM + SUBJECT:** Both empty strings (blank fields returned by the API). The messages are present (uids 85358–85354) and marked unread, but FROM and SUBJECT data came back empty.
+
+## [2026-07-20] agent | agent · Read-only check: get_inbox_recent limit 5 days 2 — reply wit
+- - **Asked:** Read-only check: get_inbox_recent limit 5 days 2 — reply with count and the newest FROM + SUBJECT verbatim. Change nothing.
+- - **Result:** **Count:** 5 messages **Newest FROM + SUBJECT:** "" + "" (All fields are empty strings.)
