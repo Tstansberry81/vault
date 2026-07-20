@@ -1,5 +1,29 @@
 [
  {
+  "id": "6f63018c",
+  "when": "2026-07-20 19:00",
+  "message": "Coming up at 9:00 PM: Reminder: Have Dom bring sweatshirt to work",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "72dumcl3iqfah49huihikpe6b4"
+ },
+ {
+  "id": "6f972bfc",
+  "when": "2026-07-20 20:00",
+  "message": "Coming up at 10:00 PM: Drink water",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "q9or21f9s72bnvhm79o92hglfo"
+ },
+ {
+  "id": "2ad18b80",
+  "when": "2026-07-21 04:00",
+  "message": "Coming up at 6:00 AM: Reminder: Have Dom bring sweatshirt to work",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "hj0upftisvk0o1n1vhufdvgu2s"
+ },
+ {
   "id": "564830ab",
   "when": "2026-07-30 07:00",
   "message": "Coming up at 9:00 AM: UV's Grad Party",
