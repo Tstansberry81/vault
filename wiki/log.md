@@ -1520,3 +1520,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-20] agent | executor · Research UVA Rotunda completion year
 - - **Answer: The Rotunda at the University of Virginia was completed in 1828** (main structure), with final elements like the south portico steps completed in 1832.
+
+## [2026-07-20] agent | agent · sure
+- - **Asked:** sure
+- - **Result:** Got it — I've handed this off to the background executor. It'll search for the UVA Rotunda construction date and come back with the year. You'll see the result in your feed when it completes.
