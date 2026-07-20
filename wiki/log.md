@@ -1517,3 +1517,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · Research when the Rotunda at UVA was built using web search,
 - - **Asked:** Research when the Rotunda at UVA was built using web search, then give me the year. This needs a plan.
 - - **Result:** Queued. The planner will research the UVA Rotunda's construction date and get back to you with the year. It'll stream the results in once it's done.
+
+## [2026-07-20] agent | executor · Research UVA Rotunda completion year
+- - **Answer: The Rotunda at the University of Virginia was completed in 1828** (main structure), with final elements like the south portico steps completed in 1832.
