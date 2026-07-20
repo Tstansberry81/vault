@@ -1483,3 +1483,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-20] agent | agent · dont see any agents running do it
 - - **Asked:** dont see any agents running do it
 - - **Result:** It's queued now — the executor will research the UVA student health and wellness building and save a full page to your vault. Should show up in your feed once it's done.
+
+## [2026-07-20] agent | agent · ⚠️ Executor Research & Save UVA Student Health and Wellness 
+- - **Asked:** ⚠️ Executor Research & Save UVA Student Health and Wellness Building failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '\'claude-haiku-4-5-20251001\' do
+- - **Result:** My bad — the backend's having issues with the web search tool right now. Let me try a different approach and just save what I can research about UVA's student health building to your vault directly. Actually, I don't have web search on my end either, so I can't pull current detai
