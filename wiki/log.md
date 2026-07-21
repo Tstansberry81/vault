@@ -1602,3 +1602,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-21] agent | agent · open amazon
 - - **Asked:** open amazon
 - - **Result:** Amazon's opening on your screen.
+
+## [2026-07-21] email-purge | category:promotions older_than:2w
+- Time: 2026-07-21 07:00
+- Trashed 0 emails (recoverable 30d)
