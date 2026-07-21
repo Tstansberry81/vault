@@ -1598,3 +1598,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-21] agent | agent · hhman14600@gmail.com. email him and tell him hes a squid
 - - **Asked:** hhman14600@gmail.com. email him and tell him hes a squid
 - - **Result:** Email queued for your approval — waiting on your banner before it ships.
+
+## [2026-07-21] agent | agent · open amazon
+- - **Asked:** open amazon
+- - **Result:** Amazon's opening on your screen.
