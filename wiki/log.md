@@ -1617,3 +1617,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-21] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** Logged. Enjoy your quiet day — you've got breathing room.
+
+## [2026-07-21] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
+- - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
+- - **Result:** Sweep complete. **Nothing calendar-worthy today.** The inbox is all newsletters, promos, and streaming notifications — no real events with concrete dates, no invitations, RSVPs, appointments, or travel that aren't already on your calendar. Your calendar's already locked in (UV's 
