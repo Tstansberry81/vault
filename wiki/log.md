@@ -1606,3 +1606,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-21] email-purge | category:promotions older_than:2w
 - Time: 2026-07-21 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-21] agent | Morning brief – July 21, 2026
+- Clear calendar: no events next 2 days
+- 3 open tasks: 'lol' (due Aug 3), mountain house gear, RESOLVE test (both no date)
+- 26,879 unread emails – latest batch mostly promos
+- Apple Watch data live: sleep, resting HR, steps tracking
+- Finance data unavailable (connector timeout) – try again later
