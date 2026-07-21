@@ -1613,3 +1613,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - 26,879 unread emails – latest batch mostly promos
 - Apple Watch data live: sleep, resting HR, steps tracking
 - Finance data unavailable (connector timeout) – try again later
+
+## [2026-07-21] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged. Enjoy your quiet day — you've got breathing room.
