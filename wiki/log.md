@@ -1648,3 +1648,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - **Pages updated:** [[RESOLVE (AI assistant)]] — added 2026-07-21 operational pattern and status assessment
 - **Index updated:** added new source to RESOLVE Daily Activity log; refreshed Systems & technology section
 - **Calibration note:** this ingest is thin (routine operational data, no new capabilities or major changes), so propagation to other entity/concept pages is minimal. RESOLVE continues as documented; no contradictions or knowledge shifts.
+
+## [2026-07-22] email-purge | category:promotions older_than:2w
+- Time: 2026-07-22 07:00
+- Trashed 0 emails (recoverable 30d)
