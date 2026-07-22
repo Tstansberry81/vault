@@ -1632,3 +1632,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new in last 2h.
 - Gmail connector still failing with a permissions error ("requires additional permissions — reconnect") — Gmail not checked; second consecutive run. Trav should reconnect the Gmail connector.
 - Notion Agent Log entry skipped: no Notion connector available in this session.
+
+## [2026-07-21] agent | Pipeline run
+- No new items.
+- Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new in last 2h.
+- Gmail connector still failing with a permissions error ("requires additional permissions — reconnect") — Gmail not checked; third consecutive run. Trav should reconnect the Gmail connector.
+- Notion Agent Log entry skipped: no Notion connector available in this session.
