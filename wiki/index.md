@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-06-18
+updated: 2026-07-21
 tags: [meta/index]
 status: active
 ---
@@ -9,12 +9,13 @@ status: active
 # Index
 
 Content catalog of the wiki. Read this first when answering a query, then drill into pages.
-Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[overview]] for the synthesis and [[log]] for history.
+Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus systems/automation projects (2026). See [[overview]] for the synthesis and [[log]] for history.
 
 ## People & places
 - [[Traveler Stansberry]] — the author and subject; determinist, skeptic, individualist
 - [[Naomi]] — his girlfriend; the most emotionally significant person in his life
 - [[St. Paul's School]] — his K–12 Episcopal school
+- [[Porter Stansberry (father)]] — founder of Porter & Co.; financial publisher & educator
 
 ## Meta / curriculum
 - [[English Curriculum 2022-2026]] — the four-year timeline (English 9 → 10 → HL1 → HL2)
@@ -51,6 +52,14 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 - [[Reading List]] — independent reading, with his ratings
 - [[Film and TV]] — auteur/arthouse watchlist
 
+## Systems & technology (2026)
+- [[RESOLVE (AI assistant)]] — his personal operating system (calendar, email, tasks, briefs)
+- [[Homework Hatch (startup)]] — edtech/AI venture with Josh
+- [[Personal Quant Model]] — multi-factor equity model + Flask app
+- [[The Edge (trading model)]] — short-horizon momentum/acceleration trader
+- [[Vision (Porter Intelligence)]] — consumer static site for quant outputs; Sauron brand
+- [[Cursor (AI code editor)]] · [[n8n (automation platform)]]
+
 ## Works — by course
 **English 9 (Mr. Bryant, 2022–23)**
 - [[Maus]] · [[Do Androids Dream of Electric Sheep?]] · [[The Other Wes Moore]] · [[A Sound of Thunder]] · [[The Lottery]] · [[Romeo and Juliet]] · [[Understanding Comics]] · [[A&P]]
@@ -73,25 +82,20 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12. See [[ov
 
 **Records & college:** [[Common App (UVA ED 2026)]] · [[College Essay (Akihabara)]] · [[Senior Year Report Card (2025-26)]] · [[Traveler Resume]]
 
-**Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[History IA (Naval Gunfire on D-Day)]] · [[Economics Debate]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]] · [[Traveler Resume]] · [[Senior Year Report Card (2025-26)]]
+**Coursework (10th–12th):** [[Physics IA]] · [[Economics IA]] · [[History IA (Naval Gunfire on D-Day)]] · [[Economics Debate]] · [[The Logistic Map]] · [[Civil Disobedience (HL History essay)]] · [[ToK Essay (Doubt)]]
 
 **ChatGPT chats (2023–2026):** [[_Chats Catalog]] — **293 substantial conversations** as individual source pages + **23 monthly digests** (in `sources/chats/`), grouped by theme: Homework Hatch, IB coursework (History/Econ/Physics/Math/Japanese/English), finance, coding/AI, gaming, personal.
 
-**New pages from the chat ingest (propagated 2026-06-17):**
-- *Finance/quant:* [[Quantitative Finance]] · [[Honeycomb Portfolio]] · [[Sauron Investing]] · [[Bloomberg Terminal]]
-- *Startup/tech:* [[n8n (automation platform)]] · [[Cursor (AI code editor)]] · [[Josh (Homework Hatch co-founder)]]
-- *College:* [[McIntire School of Commerce]]
-- *Projects/hobbies:* [[Capital Climb (board game)]] · [[Gaming and PC Setup]]
-- *People:* [[Porter Stansberry (father)]] (his father, the Porter & Co. founder) · [[Mark Kritzman]]
-
-**Code ingest (2026-06-17):** [[Personal Quant Model]] — a multi-factor quant equity model + Flask app ("Slow Burn") of his design (AI-coded, not hand-written); strong *conceptual* evidence for the [[UVA and the Quant Question|quant question]].
-
-**Code ingest (2026-06-18):** the model split into a product stack — [[The Edge (trading model)]] (the short-horizon momentum/acceleration trader, now its own repo) and [[Vision (Porter Intelligence)]] (the consumer static site that renders it, branded for his father's [[Porter Stansberry (father)|Porter & Co.]]). [[Sauron Investing|Sauron]] is the live product name behind the export.
+**RESOLVE daily activity logs (2026):**
+- [[RESOLVE Daily Activity 2026-07-21]] — routine inbox/calendar sweep; low event load; system healthy
+- [[RESOLVE Daily Activity 2026-07-20]] — connector diagnostics and testing
+- [[RESOLVE Daily Ingest 2026-07-19]] · [[RESOLVE Daily Ingest 2026-07-18]] · [[RESOLVE Daily Ingest 2026-07-17]] · [[RESOLVE Daily Ingest 2026-07-16]] · [[RESOLVE Daily Ingest 2026-07-15]] · [[RESOLVE Daily Ingest 2026-07-14]]
 
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
 > **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
 > **ChatGPT export (891 chats):** 668 attachments → `raw/assets/chatgpt/`. Source pages + digests + [[_Chats Catalog|catalog]] done; **propagation into entity/concept pages is deferred** (token budget) — see [[log]].
+> **RESOLVE daily activity:** ongoing daily logs (2026-07-12 onward), documenting system performance and operational patterns.
 
 ## Analyses (compiled syntheses)
 - **[[Intellectual Profile]]** — master index of his ideas, by domain + the through-lines
