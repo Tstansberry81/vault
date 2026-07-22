@@ -1638,3 +1638,13 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: empty (all items already processed). Outlook email/calendar: nothing new in last 2h.
 - Gmail connector still failing with a permissions error ("requires additional permissions — reconnect") — Gmail not checked; third consecutive run. Trav should reconnect the Gmail connector.
 - Notion Agent Log entry skipped: no Notion connector available in this session.
+
+## [2026-07-22] agent | ingest | RESOLVE Daily Activity 2026-07-21
+- **Source:** RESOLVE agent daily activity log
+- **Activity:** routine task execution (email, browser commands), morning briefing, inbox-to-calendar sweep
+- **Key findings:** inbox well-managed (noise: newsletters/promos); no new real-world events detected; calendar already current for 30d (UVA grad party, Dublin flights, haircut)
+- **System health:** all connectors functional except Gmail (graceful skip); low ambient event load (summer transition period)
+- **Pages created:** [[RESOLVE Daily Activity 2026-07-21]]
+- **Pages updated:** [[RESOLVE (AI assistant)]] — added 2026-07-21 operational pattern and status assessment
+- **Index updated:** added new source to RESOLVE Daily Activity log; refreshed Systems & technology section
+- **Calibration note:** this ingest is thin (routine operational data, no new capabilities or major changes), so propagation to other entity/concept pages is minimal. RESOLVE continues as documented; no contradictions or knowledge shifts.
