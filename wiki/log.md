@@ -1667,3 +1667,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-22] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
 - - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
 - - **Result:** **Nothing calendar-worthy today.** Inbox is all streaming alerts (Twitch), promos (Shutterfly, Uber, Snacks), and newsletters — no invitations, appointments, RSVPs, travel, or deadlines. Your calendar's locked in (UV's grad party, Dublin flights, haircut, move-in day).
+
+## [2026-07-22] agent | Pipeline run
+- No new items.
+- Note: Telegram queue empty (all processed); Outlook email/calendar clean. Gmail connector returned a permissions error ("requires additional permissions — reconnect") and could not be checked.
