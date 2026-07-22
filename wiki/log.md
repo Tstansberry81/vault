@@ -1652,3 +1652,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-22] email-purge | category:promotions older_than:2w
 - Time: 2026-07-22 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-22] agent | Morning brief — Wednesday, July 22, 2026
+- Clear calendar today and tomorrow — no scheduled events
+- Three open tasks: 'lol' (due Aug 3), Pack up mountain house gear, RESOLVE notion test
+- 26,951 unread emails (all promos: Shutterfly sale, Twitch live streams, Robinhood); nothing actionable
+- Month-to-date spending: $1,260.88 of $1,500 budget — on track, $239 remaining
+- Checking balance: $711.97 | Savings: $4,501.95
