@@ -1675,3 +1675,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-23] email-purge | category:promotions older_than:2w
 - Time: 2026-07-23 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-23] agent | Morning brief — July 23, 2026
+- Clear calendar (today & tomorrow)
+- 3 open tasks: 'lol' due Aug 3, mountain house gear & RESOLVE test (no deadlines)
+- Email: Twitch alerts & promos, nothing urgent
+- $259 over budget ($1,759 spent vs $1,500 limit)
+- Checking $214, savings $4,502
