@@ -1671,3 +1671,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-22] agent | Pipeline run
 - No new items.
 - Note: Telegram queue empty (all processed); Outlook email/calendar clean. Gmail connector returned a permissions error ("requires additional permissions — reconnect") and could not be checked.
+
+## [2026-07-23] email-purge | category:promotions older_than:2w
+- Time: 2026-07-23 07:00
+- Trashed 0 emails (recoverable 30d)
