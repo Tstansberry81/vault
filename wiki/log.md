@@ -1682,3 +1682,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Email: Twitch alerts & promos, nothing urgent
 - $259 over budget ($1,759 spent vs $1,500 limit)
 - Checking $214, savings $4,502
+
+## [2026-07-23] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged.
