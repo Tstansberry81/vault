@@ -1,6 +1,6 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-23 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-24 07:00 EDT.*
 
 ## July 2026
 
@@ -17,6 +17,7 @@
 - **Sat Aug 1** · 9:30 PM — Flight to Dublin
 - **Sat Aug 1** · 9:30 PM — Flight to Dublin
 - **Sat Aug 8** · 8:15 AM — Flight from Dublin
+- **Sun Aug 9** · 7:00 PM — Dinner w Naomi
 - **Tue Aug 11** · 8:00 AM — Haircut with Tony — With: Tony
 - **Thu Aug 20** · 1:00 PM — UVA Move-In Day
 - **Sat Aug 29** · 9:00 AM — Hangout w/ Naomi
