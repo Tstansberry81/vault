@@ -1698,3 +1698,9 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-24] email-purge | category:promotions older_than:2w
 - Time: 2026-07-24 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-24] agent | Morning brief — Friday, July 25
+- Calendar: wide open, no events next 2 days
+- Tasks: connector timed out, skipped
+- Email: 27K unread, all promos/streaming alerts, nothing urgent
+- Spending: $86 over budget ($1,586 / $1,500); checking $211, savings $4,502
