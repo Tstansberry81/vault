@@ -1694,3 +1694,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-24] agent | agent · schedule dinner w naomi for august 9th at 7pm
 - - **Asked:** schedule dinner w naomi for august 9th at 7pm
 - - **Result:** Done — dinner with Naomi on August 9th at 7pm is locked in.
+
+## [2026-07-24] email-purge | category:promotions older_than:2w
+- Time: 2026-07-24 07:00
+- Trashed 0 emails (recoverable 30d)
