@@ -1704,3 +1704,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Tasks: connector timed out, skipped
 - Email: 27K unread, all promos/streaming alerts, nothing urgent
 - Spending: $86 over budget ($1,586 / $1,500); checking $211, savings $4,502
+
+## [2026-07-24] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged.
