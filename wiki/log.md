@@ -1690,3 +1690,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-23] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
 - - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
 - - **Result:** **Nothing calendar-worthy today.** Inbox is Twitch live notifications, streaming promos (Shutterfly, Logitech), and newsletters — no invitations, appointments, RSVPs, travel, or deadlines. Your calendar's solid (UV's grad party, Dublin flights, haircut, move-in day).
+
+## [2026-07-24] agent | agent · schedule dinner w naomi for august 9th at 7pm
+- - **Asked:** schedule dinner w naomi for august 9th at 7pm
+- - **Result:** Done — dinner with Naomi on August 9th at 7pm is locked in.
