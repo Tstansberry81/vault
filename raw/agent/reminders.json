@@ -22,5 +22,13 @@
   "chat_id": "6594181389",
   "auto": true,
   "event_id": "t6sulftf7krq692ttk81repdvc"
+ },
+ {
+  "id": "d1c85373",
+  "when": "2026-08-08 06:15",
+  "message": "Coming up at 8:15 AM: Flight from Dublin",
+  "chat_id": "6594181389",
+  "auto": true,
+  "event_id": "l2mlqjpads4uogibkhg3cark84"
  }
 ]
