@@ -1731,3 +1731,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 -   - wiki/index.md (refreshed RESOLVE activity log)
 -   - wiki/overview.md (updated timestamp, refreshed RESOLVE section)
 - **Findings:** No changes to system architecture or capability. Activity is routine and low-event. Traveler's schedule is well-organized with no hidden deadlines or conflicts. Naomi coordination proceeding normally.
+
+## [2026-07-25] email-purge | category:promotions older_than:2w
+- Time: 2026-07-25 07:00
+- Trashed 0 emails (recoverable 30d)
