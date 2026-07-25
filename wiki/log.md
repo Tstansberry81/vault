@@ -1777,3 +1777,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-25] agent | Edge survivorship analysis
 - Quantified the Edge backtest's survivorship handicap with true point-in-time S&P 500 membership (1996->present) + a new delisting-stress knob. 20Y excess vs S&P: +8.5% (top-1000 proxy) vs +2.2% (true-PIT S&P 500); delist drop-rule contributes ~nothing (all delisted data is 2024+). Filed [[Edge Survivorship Analysis]]; research scripts committed to the quant repo (survivorship_stress.py, edge_ic.py, fetch_membership.py).
+
+## [2026-07-25] agent | Pipeline run
+- Source: None
+- Items processed: 0
+- Telegram queue: exists, all items already marked processed.
+- Outlook email (last 2h) and calendar (next 14d): empty.
+- Gmail check failed: connector still needs reconnection with additional permissions.
