@@ -1,10 +1,9 @@
 # 📅 Calendar
 
-*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-24 07:00 EDT.*
+*Auto-generated from Google Calendar — don't edit by hand (updates on every change + daily). Last updated 2026-07-25 07:00 EDT.*
 
 ## July 2026
 
-- **Fri Jul 17** · 1:00 PM — Therapy with Dave
 - **Sat Jul 18** · 9:00 PM — bars
 - **Mon Jul 20** · 9:00 AM — UVA Orientation
 - **Mon Jul 20** · 9:00 PM — Reminder: Have Dom bring sweatshirt to work
