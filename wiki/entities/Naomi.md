@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-16
-updated: 2026-07-16
+updated: 2026-07-24
 tags: [person, relationship, important]
-sources: [["[[Naomi — Relationship Log (2026)]]\", \"[[mems]]\", \"[[RESOLVE Daily Ingest 2026-07-14]]\", \"[[RESOLVE Daily Ingest 2026-07-15]]\", \"[[RESOLVE Daily Ingest 2026-07-16]]"]]
+sources: ["[[Naomi — Relationship Log (2026)]]", "[[mems]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-15]]", "[[RESOLVE Daily Ingest 2026-07-16]]", "[[RESOLVE Daily Activity 2026-07-24]]"]
 status: active
 ---
 
@@ -29,13 +29,13 @@ From [[Naomi — Relationship Log (2026)]], his tone is **warmer, more vulnerabl
 
 As of mid-July 2026:
 - Both have graduated high school (June 2026); entering a new life phase
-- Naomi's college location/choice is not yet documented in vault
-- Traveler has booked therapy (first appointment July 18 with counselor Dave) — possibly part of navigating the post-graduation/relationship-deepening moment
+- Naomi's college location/choice is not documented in the vault
+- Traveler is preparing for [[UVA and the Quant Question|UVA in August 2026]] and the college transition
+- Calendar shows regular hangouts and continued closeness despite transition
 
-> [!note] Calibration
-> Traveler's language about Naomi is notably *less defended* than his intellectual writing. This relationship may be the most emotionally honest part of his life right now. The therapy booking may be *partly* about learning to sustain and deepen that emotional authenticity.
+## Scheduled Plans (2026)
+- **August 9th, 7pm:** Dinner with Traveler (scheduled via [[RESOLVE (AI assistant)|RESOLVE]], 2026-07-24)
 
-## Links
-- [[Self-Discipline and Goals]] — therapy context
-- [[Emotional Life and Inner World]] — where Naomi represents his strongest access to feeling
-- [[Family and Personal Life]] — how the relationship contrasts with his father-shaped fears
+---
+
+See also: [[Traveler Stansberry]], [[Emotional Life and Inner World]], [[Family and Personal Life]]
