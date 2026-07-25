@@ -1717,3 +1717,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Telegram queue: empty (all processed). Outlook mail/calendar: nothing new.
 - Gmail check failed: connector needs reconnection with additional permissions.
+## [2026-07-25] agent | agent · open the news
+- - **Asked:** open the news
+- - **Result:** Opening Google News for you now.
