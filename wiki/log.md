@@ -1746,3 +1746,21 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Source: None (Telegram queue fully processed; Outlook email/calendar checked — only a UVA Today newsletter, not actionable; Gmail connector still failing with a permission error and needs reconnection)
 - Items processed: 0
+## [2026-07-25] email-purge | category:promotions older_than:2w
+- Time: 2026-07-25 07:00
+- Trashed 0 emails (recoverable 30d)
+
+## [2026-07-25] agent | Morning brief — July 25, 2026
+- Calendar: clear for 2 days
+- Tasks: 3 open (1 due Aug 3: 'lol'; 2 no deadline)
+- Email: 27k+ unread, mostly Twitch & promos, nothing urgent
+- Budget: **$14 over** ($1,485.96 / $1,500)
+- Checking: $204 | Savings: $4,502
+
+## [2026-07-25] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** Logged.
+
+## [2026-07-25] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
+- - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
+- - **Result:** **Nothing calendar-worthy today.** Inbox is Uber Eats promo, Twitch live notifications (MrSavage, oasisonoverwatch, towdan, Punz), Shutterfly promo, Anthropic login link, and Amazon Pay receipt — no invitations, appointments, RSVPs, travel, or deadlines. Your calendar's locked (U
