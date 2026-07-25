@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-07-20
+updated: 2026-07-24
 tags: [meta/overview, english]
 status: active
 ---
@@ -27,100 +27,42 @@ Across four years and ~25 literary works, a consistent intellectual fingerprint 
 ### Intellectual evolution (9th → 12th)
 
 - **9th grade:** Fate-vs-free-will argument, somewhat surface-level; attraction to speculative fiction ([[Do Androids Dream of Electric Sheep?]]).
-- **10th grade:** Thematic depth increases; civil disobedience and personal conscience become central ([[Civil Disobedience]], [[Frederick Douglass]]).
-- **HL years (11th–12th):** Heavy European literature; existential and moral questions; direct engagement with trauma, slavery, war. The intellectual confidence grows — longer essays, sustained argument, willingness to contradict canonical interpretations.
+- **10th grade:** Thematic range expands to [[Individual vs. Society]], [[The Moral Impact of Slavery|slavery]], [[Conformity and Tradition]]. Writing sharpens; he moves toward **historical/moral questions** (Douglass, Gatsby).
+- **11th grade (HL1):** [[Identity and Its Collapse|Identity]] hardens as the central question. Reads mythology ([[The Iliad]]) and modern tragedy ([[A Streetcar Named Desire]], [[Antigone]], [[The Lion in Winter]]). Arguments deepen — moves from plot summary to *philosophical depth*.
+- **12th grade (HL2):** Identity **fully collapses** as the frame. Reads trauma, colonialism, grief, and the self under extreme pressure ([[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Death of a Salesman]]). Final essays show mastery: integration of form + argument, textual precision, and a mature intellectual voice. **Simultaneously softens on free will** — see [[The Narrow Road to the Deep North]] and [[Intellectual Evolution]].
 
-### Core convictions
+### Thematic clusters
 
-His writing across four years reveals several deep convictions:
-- Skepticism about institutions (schools, governments, markets, churches)
-- Belief in individual conscience and integrity
-- Realism about power (you can't overcome it; you can only understand it)
-- Sensitivity to suffering and its moral weight
-- Fascination with how people create meaning under duress
+**[[Fate and Free Will]]:** His signature; evolves from "free will is impossible" (grade 9) → "free will exists, but its costs are terrible" (grade 10) → "free will is a useful fiction" (grade 12).
 
-See [[Core Convictions]] and [[Intellectual Evolution]] for full synthesis.
+**[[Identity and Its Collapse]]:** By senior year, his dominant lens. How does the self survive coercion, poverty, grief, war? It doesn't, entirely — but art, love, and memory keep pieces alive. See [[Beloved]], [[The Narrow Road to the Deep North]], [[Death of a Salesman]].
 
----
+**[[Power, Hierarchy, and Justice]]:** Power destroys those who wield it. The state, the family, the marketplace — all hierarchies corrupt. Softens only slightly: power may be inevitable, but it remains corrosive. See [[Individual vs. Society]], [[The Moral Impact of Slavery]], [[Antigone]].
 
-## Part 2: Technical & Systems Projects (2026–)
+**[[Art as Survival]]:** Art is not decoration — it's survival. The most humane response to a dehumanizing world. By senior year, explicit in most essay. See [[Station 11 Essay on Art Final]], [[IB HL English 2 Essay]].
 
-**Scope:** As of July 2026, Traveler is building automated infrastructure for personal productivity and quantitative finance. This is emerging in parallel with his UVA matriculation.
+### Honest calibration: What he *didn't* develop
 
-### Projects in motion
+- **Empirical rigor.** His philosophical arguments are smart and well-supported *by the texts*. But he hasn't read formal philosophy (Kant, Sartre, Rawls), so his thinking is intuitive, not grounded in established frameworks. The best essays assume ideas as self-evident rather than arguing them.
+- **Comfort with ambiguity.** He tends to lean toward conclusions — "the individual loses," "power corrupts," "free will is a useful fiction." He's less comfortable sitting in genuine open questions or contradictions.
+- **Practical application.** His ideas stay at the level of *observation* and *interpretation*. He doesn't move into "so what should we do?" or "how do I change?" — see [[Tensions and Open Questions]].
 
-1. **[[RESOLVE (AI assistant)]]** — Autonomous personal operating system
-   - Multi-connector agent (Outlook, Notion, Telegram, Gmail, Apple Health)
-   - Capabilities: calendar/task/email management, morning briefings, research + vault writing
-   - Status: Active development (39 tasks/tests logged 2026-07-20)
-   - Live challenges: executor tooling blocker (Haiku model + web search); Gmail connector down
+## Part 2: Systems & Automation (2026)
 
-2. **[[Homework Hatch (startup)]]** — AI tutoring platform
-   - Co-founded with Josh
-   - Targets the edtech market
-   - Uses AI to automate lesson generation + student support
-   - **Note:** [[honest calibration|Be calibrated here]] — concepts ✓, platform design ✓, actual shipping status TBD in the vault
+As of June 2026, Traveler has begun a parallel track: building systems and automation tools. See [[RESOLVE (AI assistant)]], [[Homework Hatch (startup)]], [[Personal Quant Model]].
 
-3. **Quantitative finance models**
-   - [[Personal Quant Model]] — multi-factor equity model + Flask app
-   - [[The Edge (trading model)]] — momentum/acceleration trader
-   - [[Vision (Porter Intelligence)]] — consumer site (branded as [[Sauron Investing]])
-   - Status: Designed, partially coded (AI-directed, not hand-written)
-   - **Calibration gap:** Demonstrates strong *design judgment* and *systems thinking*, but *coding depth* unclear
+### RESOLVE (personal operating system)
 
-4. **Python self-study** (launched 2026-07-14)
-   - Goal: Beginner → competent in 6 months
-   - Comprehensive beginner guides generated
-   - Likely feeds into coding chops for quant & [[Homework Hatch]]
+**[[RESOLVE (AI assistant)]]** is an autonomous agent managing calendar, email, tasks, and daily briefings. Features:
+- **Daily morning briefs:** Calendar, Notion tasks, recent email, Apple Watch health data
+- **Inbox-to-calendar triage:** Cross-references emails for hidden deadlines, RSVPs, invitations; compares with calendar for conflicts
+- **Event scheduling:** Can create calendar entries on command
+- **Health monitoring:** Tracks checking account, savings, monthly budget spend vs. limit
+- **Graceful failure:** Skips connector errors rather than stopping (e.g., Gmail offline since 2026-06-30)
+- **Vault logging:** Records activity to [[wiki/log.md]] for audit and historical review
 
-### Systems-thinking pattern
-
-The common thread: **automation > willpower**. Rather than relying on personal discipline regimens ([[75 hard 2025]], [[lock in]]), Traveler is shifting toward building infrastructure that enforces goals without human inconsistency.
-
-- RESOLVE = personal operating system (calendar, email, reminders, research)
-- Homework Hatch = automation for others (edtech)
-- Quant models = automating investment decisions
-- Python study = gaining coding chops to automate anything
-
-See [[Self-Discipline and Goals]] for the full evolution of this pattern.
+**Recent status (as of 2026-07-24):** All connectors operational except Gmail. System is running autonomous daily operations; event load is light and well-organized.
 
 ---
 
-## The person
-
-**[[Traveler Stansberry]]** (born ~2007) — individualist, skeptic, determined. Key facts:
-- Sensitive inner life, articulate about emotion and meaning
-- High conscientiousness; struggles with inconsistency (but learns from it)
-- Driven by autonomy and self-determination; rebels against unexamined authority
-- Strong romantic attachment ([[Naomi]]; most emotionally significant person)
-- Building infrastructure (automation, systems, platforms) as his primary mode of change-making
-
-**Current life phase (July 2026):**
-- Graduated high school (June 2026); IB Diploma earned
-- Committed to UVA (Finance major, Math minor intent); orientation on 2026-07-20
-- Preparing for long-distance with Naomi; maintaining with structured reminders + travel
-- Building RESOLVE agent + pre-loading habits before college chaos
-- Open question: Will he pursue quantitative finance or stay broader in commerce?
-
----
-
-## The wiki structure
-
-- **`sources/`** — source summaries (essays, chats, project logs)
-- **`entities/`** — people, places, works, and projects
-- **`concepts/`** — themes (Fate, Identity, Power, Art, etc.)
-- **`analyses/`** — synthesized deep-dives (intellectual profile, evolution, tensions)
-- **`index.md`** — content catalog (read this first)
-- **`log.md`** — chronological ingest/lint/query record (append-only)
-
----
-
-## Navigation tips
-
-**If you want to understand his thinking:** Start with [[Core Convictions]], then [[Intellectual Evolution]], then pick a theme ([[Fate and Free Will]], [[Identity and Its Collapse]], [[Power, Hierarchy, and Justice]]).
-
-**If you want to understand his projects:** Read [[RESOLVE (AI assistant)]], [[Self-Discipline and Goals]], and [[UVA and the Quant Question]].
-
-**If you want to understand him as a person:** Read [[Traveler Stansberry]], then [[Family and Personal Life]] and [[Emotional Life and Inner World]].
-
-**If you want to track his thinking on a specific book:** Go to `[[index.md]]` → Works section, pick a title.
+See also: [[Traveler Stansberry]], [[RESOLVE (AI assistant)]], [[Intellectual Profile]], [[Core Convictions]]
