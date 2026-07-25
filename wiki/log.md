@@ -3,6 +3,11 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-25] agent | Pipeline run
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+
 ## [2026-07-17] agent | Pipeline run (third run today)
 - No new items.
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 30d): empty.
@@ -1731,3 +1736,13 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 -   - wiki/index.md (refreshed RESOLVE activity log)
 -   - wiki/overview.md (updated timestamp, refreshed RESOLVE section)
 - **Findings:** No changes to system architecture or capability. Activity is routine and low-event. Traveler's schedule is well-organized with no hidden deadlines or conflicts. Naomi coordination proceeding normally.
+
+## [2026-07-25] agent | Pipeline run
+- Source: None (queue empty; Outlook checked; Gmail connector needs reconnection — permission error)
+- Items processed: 0
+- Only new inbox item was a UVA Today newsletter (mass mailing) — no actionable content, skipped.
+
+## [2026-07-25] agent | Pipeline run
+- No new items.
+- Source: None (Telegram queue fully processed; Outlook email/calendar checked — only a UVA Today newsletter, not actionable; Gmail connector still failing with a permission error and needs reconnection)
+- Items processed: 0
