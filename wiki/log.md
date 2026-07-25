@@ -1720,3 +1720,14 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-25] agent | agent · open the news
 - - **Asked:** open the news
 - - **Result:** Opening Google News for you now.
+
+## [2026-07-25] agent | Daily ingest | RESOLVE Daily Activity 2026-07-24
+- **Activity:** Morning brief, dinner scheduling with Naomi (August 9 at 7pm), inbox-to-calendar sweep.
+- **System status:** All connectors operational; Gmail remains offline; no urgent events detected.
+- **Pages created/updated:**
+-   - wiki/sources/RESOLVE Daily Activity 2026-07-24.md (new)
+-   - wiki/entities/RESOLVE (AI assistant).md (updated with 2026-07-24 activity)
+-   - wiki/entities/Naomi.md (updated with August 9 dinner plan)
+-   - wiki/index.md (refreshed RESOLVE activity log)
+-   - wiki/overview.md (updated timestamp, refreshed RESOLVE section)
+- **Findings:** No changes to system architecture or capability. Activity is routine and low-event. Traveler's schedule is well-organized with no hidden deadlines or conflicts. Naomi coordination proceeding normally.
