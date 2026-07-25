@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-07-21
+updated: 2026-07-24
 tags: [meta/index]
 status: active
 ---
@@ -87,6 +87,8 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus sys
 **ChatGPT chats (2023–2026):** [[_Chats Catalog]] — **293 substantial conversations** as individual source pages + **23 monthly digests** (in `sources/chats/`), grouped by theme: Homework Hatch, IB coursework (History/Econ/Physics/Math/Japanese/English), finance, coding/AI, gaming, personal.
 
 **RESOLVE daily activity logs (2026):**
+- [[RESOLVE Daily Activity 2026-07-24]] — routine morning brief, dinner scheduling (Naomi Aug 9), inbox-to-calendar sweep; no urgent events
+- [[RESOLVE Daily Activity 2026-07-23]] — morning brief + email triage; routine load
 - [[RESOLVE Daily Activity 2026-07-21]] — routine inbox/calendar sweep; low event load; system healthy
 - [[RESOLVE Daily Activity 2026-07-20]] — connector diagnostics and testing
 - [[RESOLVE Daily Ingest 2026-07-19]] · [[RESOLVE Daily Ingest 2026-07-18]] · [[RESOLVE Daily Ingest 2026-07-17]] · [[RESOLVE Daily Ingest 2026-07-16]] · [[RESOLVE Daily Ingest 2026-07-15]] · [[RESOLVE Daily Ingest 2026-07-14]]
