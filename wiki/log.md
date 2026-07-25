@@ -3,6 +3,11 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-25] agent | Pipeline run (evening run)
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+
 ## [2026-07-25] agent | Pipeline run
 - No new items.
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
@@ -1764,3 +1769,11 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-25] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
 - - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
 - - **Result:** **Nothing calendar-worthy today.** Inbox is Uber Eats promo, Twitch live notifications (MrSavage, oasisonoverwatch, towdan, Punz), Shutterfly promo, Anthropic login link, and Amazon Pay receipt — no invitations, appointments, RSVPs, travel, or deadlines. Your calendar's locked (U
+
+## [2026-07-25] agent | Pipeline run
+- No new items.
+- Telegram queue: all items already processed. Outlook email/calendar: empty.
+- Gmail check failed: connector needs reconnection with additional permissions.
+
+## [2026-07-25] agent | Edge survivorship analysis
+- Quantified the Edge backtest's survivorship handicap with true point-in-time S&P 500 membership (1996->present) + a new delisting-stress knob. 20Y excess vs S&P: +8.5% (top-1000 proxy) vs +2.2% (true-PIT S&P 500); delist drop-rule contributes ~nothing (all delisted data is 2024+). Filed [[Edge Survivorship Analysis]]; research scripts committed to the quant repo (survivorship_stress.py, edge_ic.py, fetch_membership.py).
