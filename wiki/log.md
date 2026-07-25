@@ -1735,3 +1735,10 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-25] email-purge | category:promotions older_than:2w
 - Time: 2026-07-25 07:00
 - Trashed 0 emails (recoverable 30d)
+
+## [2026-07-25] agent | Morning brief — July 25, 2026
+- Calendar: clear for 2 days
+- Tasks: 3 open (1 due Aug 3: 'lol'; 2 no deadline)
+- Email: 27k+ unread, mostly Twitch & promos, nothing urgent
+- Budget: **$14 over** ($1,485.96 / $1,500)
+- Checking: $204 | Savings: $4,502
