@@ -1798,3 +1798,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-26] agent | executor · Write and save the write-up
 - - Saved: **McIntire Spring Semester Course Plan — First Year** → wiki/research/mcintire-spring-semester-course-plan-first-year.md **TL;DR for Trav:** - **Big shift:** McIntire moved to a **three-year pr
+
+## [2026-07-26] agent | agent · now i want you to add an event titled Japanese Oral Intervie
+- - **Asked:** now i want you to add an event titled Japanese Oral Interview for 11am est time friday august 7th
+- - **Result:** On the calendar: **Japanese Oral Interview**, Friday Aug 7, 11:00am–12:00pm ET (I gave it an hour — say the word if it's shorter). [View event](https://www.google.com/calendar/event?eid=aXE3amZycmZncGp2ZGptdnUzMXAxbDdpamMgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ) がんばれ — try not to freeze u
