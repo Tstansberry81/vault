@@ -1795,3 +1795,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 
 ## [2026-07-26] agent | executor · Research McIntire prerequisites and admissions
 - - Saved to the vault: **wiki/research/mcintire-spring-semester-course-plan-first-year.md** Here's the full research writeup: ## Big finding first McIntire just overhauled its whole model (effective for 
+
+## [2026-07-26] agent | executor · Write and save the write-up
+- - Saved: **McIntire Spring Semester Course Plan — First Year** → wiki/research/mcintire-spring-semester-course-plan-first-year.md **TL;DR for Trav:** - **Big shift:** McIntire moved to a **three-year pr
