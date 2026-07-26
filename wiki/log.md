@@ -1811,3 +1811,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Health: connector not configured — no reading.
 - Flag: checking balance is thin at $151 and net worth trending down ~$1.5k over the month.
 - Pending: McIntire spring-course research project running in background, output to vault.
+
+## [2026-07-26] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** **Morning, Trav — Sunday, July 26.** **Calendar:** completely empty today and tomorrow. Nothing on the books until the Japanese Oral Interview on Aug 7. Enjoy the void. **Tasks (3 open):** "lol" (due Aug 3 — genuinely no idea what past-you meant), "Pack up mountain house gear," a
