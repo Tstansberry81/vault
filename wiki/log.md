@@ -1856,3 +1856,33 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-26] agent | Pipeline run (17:01)
 - No new items.
 - Telegram queue: all processed. Outlook email (last 2h) and calendar (next 14d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring across runs today). Notion MCP unavailable this session; no Agent Log entry written.
+## [2026-07-26] agent | agent · i want you to research classes i should take second semester
+- - **Asked:** i want you to research classes i should take second semester first year for mcintire business school applications at uva. i want you to research and then add a page to my vault locally summarizing the
+- - **Result:** Queued it with the planner — it can actually search the web, which I can't fake my way through. Two steps running in the background: 1. **Research** — official McIntire prereq list (ECON 2020, ACCT 2010, STAT 2120, calc, FWR, COMM), deadlines, GPA expectations, AP credit substitu
+
+## [2026-07-26] agent | executor · Research McIntire prerequisites and admissions
+- - Saved to the vault: **wiki/research/mcintire-spring-semester-course-plan-first-year.md** Here's the full research writeup: ## Big finding first McIntire just overhauled its whole model (effective for 
+
+## [2026-07-26] agent | executor · Write and save the write-up
+- - Saved: **McIntire Spring Semester Course Plan — First Year** → wiki/research/mcintire-spring-semester-course-plan-first-year.md **TL;DR for Trav:** - **Big shift:** McIntire moved to a **three-year pr
+
+## [2026-07-26] agent | agent · now i want you to add an event titled Japanese Oral Intervie
+- - **Asked:** now i want you to add an event titled Japanese Oral Interview for 11am est time friday august 7th
+- - **Result:** On the calendar: **Japanese Oral Interview**, Friday Aug 7, 11:00am–12:00pm ET (I gave it an hour — say the word if it's shorter). [View event](https://www.google.com/calendar/event?eid=aXE3amZycmZncGp2ZGptdnUzMXAxbDdpamMgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ) がんばれ — try not to freeze u
+
+## [2026-07-26] agent | Morning brief — Sunday, July 26, 2026
+- Calendar: nothing scheduled today (Sun 7/26) or tomorrow (Mon 7/27). Next known event: Japanese Oral Interview, Fri Aug 7, 11am ET.
+- Tasks (3 open, all Inbox): 'lol' (due Aug 3, Medium), 'Pack up mountain house gear' (no due date), 'RESOLVE notion test' (no due date).
+- Email: 27,236 unread. Latest are all noise — Twitch live alerts x3, Shutterfly promo, Amazon shipping notice. Nothing urgent.
+- Finance: 30-day expenses $1,539.08 vs $1,500 budget — about $39 over. Earnings $1,080.15, net -$459. Checking $151.18, savings $4,502.10, net worth $4,653.28 (down from ~$6,192 a month ago).
+- Health: connector not configured — no reading.
+- Flag: checking balance is thin at $151 and net worth trending down ~$1.5k over the month.
+- Pending: McIntire spring-course research project running in background, output to vault.
+
+## [2026-07-26] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
+- - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
+- - **Result:** **Morning, Trav — Sunday, July 26.** **Calendar:** completely empty today and tomorrow. Nothing on the books until the Japanese Oral Interview on Aug 7. Enjoy the void. **Tasks (3 open):** "lol" (due Aug 3 — genuinely no idea what past-you meant), "Pack up mountain house gear," a
+
+## [2026-07-26] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
+- - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
+- - **Result:** **Nothing calendar-worthy today.** Swept the last 2 days (50 messages, though the feed cut off after the first batch — everything visible was automated). What's in there: - Twitch live alerts ×3, Twitch sub renewal notice (auto-renews Aug 25 — billing, not an event) - Amazon: 2 o
