@@ -1802,3 +1802,12 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-26] agent | agent · now i want you to add an event titled Japanese Oral Intervie
 - - **Asked:** now i want you to add an event titled Japanese Oral Interview for 11am est time friday august 7th
 - - **Result:** On the calendar: **Japanese Oral Interview**, Friday Aug 7, 11:00am–12:00pm ET (I gave it an hour — say the word if it's shorter). [View event](https://www.google.com/calendar/event?eid=aXE3amZycmZncGp2ZGptdnUzMXAxbDdpamMgdHJhdmVsZXJzdGFuc2JlcnJ5ODFAbQ) がんばれ — try not to freeze u
+
+## [2026-07-26] agent | Morning brief — Sunday, July 26, 2026
+- Calendar: nothing scheduled today (Sun 7/26) or tomorrow (Mon 7/27). Next known event: Japanese Oral Interview, Fri Aug 7, 11am ET.
+- Tasks (3 open, all Inbox): 'lol' (due Aug 3, Medium), 'Pack up mountain house gear' (no due date), 'RESOLVE notion test' (no due date).
+- Email: 27,236 unread. Latest are all noise — Twitch live alerts x3, Shutterfly promo, Amazon shipping notice. Nothing urgent.
+- Finance: 30-day expenses $1,539.08 vs $1,500 budget — about $39 over. Earnings $1,080.15, net -$459. Checking $151.18, savings $4,502.10, net worth $4,653.28 (down from ~$6,192 a month ago).
+- Health: connector not configured — no reading.
+- Flag: checking balance is thin at $151 and net worth trending down ~$1.5k over the month.
+- Pending: McIntire spring-course research project running in background, output to vault.
