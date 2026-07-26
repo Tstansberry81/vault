@@ -3,6 +3,20 @@
 Chronological, append-only record of wiki operations. Each entry starts with a consistent
 prefix so the log stays greppable:
 
+## [2026-07-26] agent | Pipeline run
+- Time: 2026-07-26 15:34
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 30d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
+## [2026-07-26] agent | Pipeline run
+- Time: 2026-07-26 11:12
+- No new items.
+- Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
+- ⚠️ Gmail connector still failing with a permissions error ("requires additional permissions — reconnect"); Gmail unchecked this run (down since 2026-06-30).
+- ⚠️ Notion connector unavailable in this session — no Agent Log entry created.
+
 ## [2026-07-25] agent | Pipeline run (evening run)
 - No new items.
 - Telegram queue: 1 item, already processed. Outlook email (last 2h): empty. Outlook calendar (next 14d): empty.
@@ -1801,3 +1815,44 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - No new items.
 - Telegram queue: all items already processed. Outlook email (last 2h) and calendar (next 14d): empty.
 - Gmail check failed: connector still needs reconnection with additional permissions.
+
+## [2026-07-25] agent | Pipeline run
+- No new items.
+- Telegram queue: all items already processed. Outlook email (last 2h) and calendar (next 14d): empty.
+- Gmail check failed: connector still needs reconnection with additional permissions (second consecutive run).
+
+## [2026-07-26] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect"); Gmail could not be checked this run. Telegram queue and Outlook (email + calendar) were empty.
+
+## [2026-07-26] agent | Pipeline run
+- No new items.
+- Note: Telegram queue empty (all processed); Outlook email/calendar empty. Gmail check failed — connector needs reconnection with additional permissions.
+
+## [2026-07-26] agent | Pipeline run
+- No new items.
+- Note: Gmail connector returned a permissions error ("requires additional permissions — reconnect"); Gmail was not checked this run. Outlook email/calendar: empty. Telegram queue: no unprocessed items. Notion MCP unavailable this session; no Agent Log entry written.
+
+## [2026-07-26] agent | Pipeline run
+- No new items.
+- Telegram queue: all processed. Outlook email (last 2h) and calendar (next 14d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring). Notion MCP unavailable this session; no Agent Log entry written.
+
+## [2026-07-26] agent | Pipeline run (09:12)
+- No new items.
+- Telegram queue: all processed. Outlook email (last 2h) and calendar (next 14d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring across multiple runs). Notion MCP unavailable this session; no Agent Log entry written.
+
+## [2026-07-26] agent | Pipeline run
+- No new items.
+- Note: Telegram queue empty (all processed); Outlook clean. Gmail connector returned a permissions error ("requires additional permissions — reconnect needed") and could not be checked this run.
+
+## [2026-07-26] agent | Pipeline run (13:07)
+- No new items.
+- Telegram queue: all processed. Outlook email (last 2h) and calendar (next 30d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring across runs today). Notion MCP unavailable this session; no Agent Log entry written.
+
+## [2026-07-26] agent | Pipeline run (14:12)
+- No new items.
+- Telegram queue: all processed. Outlook email (last 2h) and calendar (next 14d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring across runs today). Notion MCP unavailable this session; no Agent Log entry written.
+
+## [2026-07-26] agent | Pipeline run (17:01)
+- No new items.
+- Telegram queue: all processed. Outlook email (last 2h) and calendar (next 14d): empty. Gmail check failed — connector still needs reconnection with additional permissions (recurring across runs today). Notion MCP unavailable this session; no Agent Log entry written.

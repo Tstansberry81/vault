@@ -34,3 +34,6 @@ raw/chatgpt/
 raw/vision.zip
 raw/quant model.zip
 raw/personal quant model.zip
+
+# obsidian-git plugin credential input — never commit
+.obsidian/plugins/obsidian-git/.git_credentials*
