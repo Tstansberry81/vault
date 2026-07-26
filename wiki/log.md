@@ -1792,3 +1792,6 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-26] agent | agent · i want you to research classes i should take second semester
 - - **Asked:** i want you to research classes i should take second semester first year for mcintire business school applications at uva. i want you to research and then add a page to my vault locally summarizing the
 - - **Result:** Queued it with the planner — it can actually search the web, which I can't fake my way through. Two steps running in the background: 1. **Research** — official McIntire prereq list (ECON 2020, ACCT 2010, STAT 2120, calc, FWR, COMM), deadlines, GPA expectations, AP credit substitu
+
+## [2026-07-26] agent | executor · Research McIntire prerequisites and admissions
+- - Saved to the vault: **wiki/research/mcintire-spring-semester-course-plan-first-year.md** Here's the full research writeup: ## Big finding first McIntire just overhauled its whole model (effective for 
