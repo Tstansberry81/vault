@@ -1784,3 +1784,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 - Telegram queue: exists, all items already marked processed.
 - Outlook email (last 2h) and calendar (next 14d): empty.
 - Gmail check failed: connector still needs reconnection with additional permissions.
+
+## [2026-07-25] agent | Pipeline run
+- No new items.
+- Note: Gmail connector errored (needs reconnect with additional permissions); Telegram queue empty, Outlook email/calendar empty.
