@@ -1815,3 +1815,7 @@ Entry format: `## [YYYY-MM-DD] <ingest|query|lint> | <title>`
 ## [2026-07-26] agent | agent · Morning brief: check my calendar for the next 2 days, my ope
 - - **Asked:** Morning brief: check my calendar for the next 2 days, my open Notion tasks, and my unread email (skip any connector that errors instead of stopping). Write a short, warm morning brief with the highlig
 - - **Result:** **Morning, Trav — Sunday, July 26.** **Calendar:** completely empty today and tomorrow. Nothing on the books until the Japanese Oral Interview on Aug 7. Enjoy the void. **Tasks (3 open):** "lol" (due Aug 3 — genuinely no idea what past-you meant), "Pack up mountain house gear," a
+
+## [2026-07-26] agent | agent · Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with
+- - **Asked:** Daily inbox-to-calendar sweep. Step 1: get_inbox_recent with limit 50 and days 2. Find emails referencing real-world happenings Trav must know or act on: invitations, RSVPs, appointments, classes/offi
+- - **Result:** **Nothing calendar-worthy today.** Swept the last 2 days (50 messages, though the feed cut off after the first batch — everything visible was automated). What's in there: - Twitch live alerts ×3, Twitch sub renewal notice (auto-renews Aug 25 — billing, not an event) - Amazon: 2 o
