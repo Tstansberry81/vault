@@ -1,79 +1,83 @@
 # Japanese vs Calc II CS sequencing decision — spring 2027
 
-*saved by RESOLVE · 2026-07-30 10:13*
+*saved by RESOLVE · 2026-07-30 10:16*
 
 # Should I keep taking Calc + CS and push Japanese later?
 
+*Rewritten 2026-07-30 after Trav caught an error in v1. Supersedes the earlier version.*
+
 Companion note to `wiki/research/uva-commerce-track-prereq-plan-amp-spring-2027-schedule-opti.md`.
-Written 2026-07-30. Fall 2026 confirmed: CS + Calc I + Micro. No FWR credit.
+Fall 2026 confirmed: CS + Calc I + Micro. No FWR credit.
 
-## Short answer
-No — the priority is backwards. **World language is a hard McIntire prerequisite with a
-multi-semester chain and a hard deadline. Calc II and CS 2100 are optional insurance.**
-Delaying the required thing to protect the optional thing is the one move that can actually
-cost me the seat.
+## CORRECTION to v1 of this note
+v1 said world language is "a hard McIntire prerequisite" and cited
+"Complete World Language through the 1020 level (or 2020 if able)" as evidence of what's
+expected **at application time**. That was wrong. That line sits under
+**"Recommended Courses to Consider,"** which is explicitly prefaced with *"While not strictly
+required for admission to McIntire, we strongly suggest…"* — it is a recommendation, not an
+admission requirement. Language does **not** gate the April application.
 
-## Why language can't be deferred casually
-- McIntire prereqs are "Foreign/World language requirements as defined by the College of
-  Arts & Sciences," and CLAS requires reaching the **2020 (advanced intermediate) level**.
-- The first-year admissions page tells applicants to complete language **through 1020
-  (or 2020 if able)** — i.e. they expect visible progress by the spring you apply.
-- Prereqs must be done **before entering the School** (start of second year). Only exception:
-  language prereq courses may be completed by transfer **the summer before enrollment, with
-  prior approval**. That's a narrow escape hatch, not a plan.
-- Backstop deadline: 54 credits + all prereqs by the **fall of third year**.
-- From zero, Japanese is a **four-semester chain** (1010 → 1020 → 2010 → 2020). Nothing about
-  that compresses. Each course gates the next; there is no testing sideways into the middle.
+## The accurate picture (two different deadlines, don't conflate them)
 
-### The gap I already have
-Fall 2026 has no language in it. So the earliest 1010 is spring 2027 — meaning at application
-time I'd have **1010 only, not 1020**. That's below what McIntire tells applicants to hit.
-Fixes, in order of preference:
-1. Placement (Aug 7 interview) puts me above 1010 — problem shrinks or disappears.
-2. Spring 1010 → **summer 2027 1020** (McIntire's approved-transfer window) → enter with 1020 done.
-3. Spring 1010 → explain the unmet prereq on the application (the app has a field for this)
-   and finish the sequence in second year.
+**1. Application (April 2027) — language is RECOMMENDED, not required.**
+- The 1020/2020 line is in the recommended block, alongside "make progress on Engagements
+  Gen Eds" and "complete one QCDA requirement."
+- McIntire's own FAQ: prereqs must be done by the time you *enter* the School, **not** by the
+  time you apply. Applicants not yet enrolled in a prereq must detail on the application how
+  they plan to finish it and show progress toward completion.
+- UVA's language dept guidance says the same: indicating a plan + showing progress "will in no
+  way have a negative" effect on the application.
+- **Implication: a spring 2027 Japanese 1010 is fine for the application. Zero Japanese is also
+  survivable, with a stated plan.**
 
-**Everything hinges on the Aug 7 Japanese placement result.** Timed written + ~10 min oral
-interview with a Japanese instructor. It cannot be retaken — retaking it is an honor violation.
+**2. Matriculation (August 2027) — language IS a real prerequisite.**
+- The prereq list footnotes it: "Foreign/World language requirements as defined by the College
+  of Arts & Sciences."
+- "After admission, foreign language prerequisite courses may, with prior approval, be
+  completed by transfer during the summer before enrollment, but must be completed **before
+  entering the School**."
+- Under the three-year track, entering the School = **fall of second year (Aug 2027)**, since
+  first-years apply in spring of first year for matriculation the following fall.
 
-## Why Calc II and CS 2100 are NOT load-bearing for Commerce
-- Commerce's quantitative prereqs are the COMM foundations pair, ECON 2010/2020, and a
-  math/stats requirement. **Calc II is not required.** CS 2100 is not required.
-- CS only matters if I target the **Information Technology concentration** — McIntire
-  "encourages" a programming course for that, which the fall CS course already satisfies.
-- Note: AP/transfer credit for STAT 1120 no longer satisfies the stats requirement, so the
-  stats course has to be taken at UVA. That's a real slot, unlike Calc II.
+## The unresolved contradiction (ask advising — do not assume)
+Two things can't both be literally true for me:
+- CLAS defines the world language requirement as reaching **2020** (advanced intermediate).
+- From zero, that's a four-semester chain: 1010 → 1020 → 2010 → 2020, nothing compressible.
+- But I'd have at most spring 2027 (1010) + summer 2027 (1020) before Aug 2027 matriculation.
 
-So Calc II + CS 2100 buy exactly one thing: a **clean CS/Econ fallback** if McIntire says no.
-That's worth something — but it's worth less than the required prereq.
+So **either** the required level for the new three-year track is lower than 2020, **or** admitted
+students with a language gap finish it after entering McIntire, **or** the older
+"all prereqs by the fall of your third year" backstop (which appears on the high-school
+eligibility page) still governs. McIntire's pages read inconsistently on this and I did not
+resolve it. **This is the single highest-value question for walk-in advising**, and it changes
+the answer below.
 
-## The actual tradeoff
+## Why Calc II and CS 2100 are not load-bearing for Commerce
+- Calc II is not a Commerce prereq. Neither is CS 2100.
+- The catalog only says students planning to concentrate in **IT** are *encouraged* to complete a
+  computer programming course — the fall CS course already covers that.
+- AP/transfer credit for STAT 1120 no longer satisfies the stats requirement, so the stats
+  course must be taken at UVA. That's a real slot; Calc II isn't.
+- What they do buy: a clean **CS/Econ fallback** if McIntire says no.
+
+## Revised tradeoff
 | Path | Buys | Costs |
 |---|---|---|
-| Japanese + Calc II (drop CS 2100) | Language chain started; math continuity for an Econ fallback | CS major fallback gets expensive to restart |
-| Japanese + CS 2100 (drop Calc II) | Language started; CS fallback intact; CS also feeds the IT concentration | Calc II slips to summer/second year (cheap — it gates little for me) |
-| Calc II + CS 2100, no Japanese | Both fallbacks fully alive | Language chain starts in second year with McIntire's density on top. Worst option. |
+| Japanese 1010 + CS 2100 (Calc II slides) | Language chain started before the Aug 2027 wall; CS fallback intact; CS feeds IT concentration | Calc II slips to summer or second-year fall (cheap — gates little for me) |
+| Japanese 1010 + Calc II (drop CS 2100) | Language started; math continuity for an Econ fallback | CS fallback gets expensive to restart |
+| Calc II + CS 2100, no Japanese | Both fallbacks fully alive; **costs nothing at application time** | Whole language chain lands in second year, on top of 15 credits of Foundational Core. Only viable if the required level is low or finishable post-entry |
 
-## Decision
-**Japanese 1010 (or wherever Aug 7 places me) + CS 2100. Calc II slides.**
-Reasoning: CS 2100 protects the fallback *and* doubles as IT-concentration prep, so it's the
-higher-value elective of the two. Calc II is the easiest thing in the stack to take in a
-summer term or a second-year fall, and nothing in Commerce is waiting on it.
+## Decision (unchanged conclusion, weaker premise)
+**Japanese + CS 2100 in spring. Calc II slides.**
+But the reason is now matriculation timing, not application optics: the Aug 2027 wall is
+*sooner* than the old fall-of-third-year backstop, and language is the only requirement I hold
+with a multi-semester chain and no way to compress it. Starting it in spring costs me a course I
+can retake any summer; not starting it risks a scramble against a hard gate.
 
-Revisit if: Aug 7 places me at 2010+ (then language is nearly done and Calc II comes back in),
-or if fall Calc I grades come in strong enough that a quant-heavy Econ fallback looks better
-than CS.
+Confidence: **medium**, contingent on the required level question above. If advising says the
+new track only needs 1020 and permits a summer transfer, "Calc II + CS 2100, no Japanese"
+becomes genuinely defensible and I should reconsider.
 
-## To confirm at advising (add to the existing prereq question)
-- Is McIntire's language prereq satisfied at **1020**, or does it require the full CLAS **2020**?
-  The two pages read differently and the answer changes my whole spring.
-- Exact process + deadline for the **summer-before-enrollment** language transfer approval.
-- Whether Calc II is needed for any concentration I'd plausibly pick.
-
-## Sources
-- McIntire eligibility / prereqs: https://www.commerce.virginia.edu/bs-commerce/admissions/eligibility-high-school
-- McIntire first-year process: https://www.commerce.virginia.edu/bs-commerce/admissions/first-years
-- McIntire admissions FAQ (language waivers, unmet prereqs): https://admissions.comm.virginia.edu/Home/FAQ
-- CLAS World Language Requirement FAQ: https://college.as.virginia.edu/world-language-requirement-faqs
-- Japanese placement format: https://college.as.virginia.edu/world-language-requirement-placement-and-contact-information
+## Aug 7 placement still decides the size of the problem
+Timed written + ~10 min oral interview. **Cannot be retaken — retaking it is an honor
+violation.** Placing above 1010 shrinks or erases the chain.
