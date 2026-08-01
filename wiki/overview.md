@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-07-24
+updated: 2026-07-31
 tags: [meta/overview, english]
 status: active
 ---
@@ -27,42 +27,46 @@ Across four years and ~25 literary works, a consistent intellectual fingerprint 
 ### Intellectual evolution (9th → 12th)
 
 - **9th grade:** Fate-vs-free-will argument, somewhat surface-level; attraction to speculative fiction ([[Do Androids Dream of Electric Sheep?]]).
-- **10th grade:** Thematic range expands to [[Individual vs. Society]], [[The Moral Impact of Slavery|slavery]], [[Conformity and Tradition]]. Writing sharpens; he moves toward **historical/moral questions** (Douglass, Gatsby).
-- **11th grade (HL1):** [[Identity and Its Collapse|Identity]] hardens as the central question. Reads mythology ([[The Iliad]]) and modern tragedy ([[A Streetcar Named Desire]], [[Antigone]], [[The Lion in Winter]]). Arguments deepen — moves from plot summary to *philosophical depth*.
-- **12th grade (HL2):** Identity **fully collapses** as the frame. Reads trauma, colonialism, grief, and the self under extreme pressure ([[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Death of a Salesman]]). Final essays show mastery: integration of form + argument, textual precision, and a mature intellectual voice. **Simultaneously softens on free will** — see [[The Narrow Road to the Deep North]] and [[Intellectual Evolution]].
+- **10th grade:** Themes solidify; individual agency begins to matter (Emerson's [[Self-Reliance]] resonates); but social forces remain powerful.
+- **IB HL 1:** The rebel *fails*. Power corrupts everyone, even heroes. Individual will does not overcome historical momentum.
+- **IB HL 2:** The thesis matures: **survival, identity, and art.** After collapse (slavery, war, alienation), what persists? Art becomes a basic human defense, not decoration.
 
-### Thematic clusters
+## Part 2: Technical & Life (2026)
 
-**[[Fate and Free Will]]:** His signature; evolves from "free will is impossible" (grade 9) → "free will exists, but its costs are terrible" (grade 10) → "free will is a useful fiction" (grade 12).
+As of **July 31, 2026**, Traveler's focus has broadened beyond coursework:
 
-**[[Identity and Its Collapse]]:** By senior year, his dominant lens. How does the self survive coercion, poverty, grief, war? It doesn't, entirely — but art, love, and memory keep pieces alive. See [[Beloved]], [[The Narrow Road to the Deep North]], [[Death of a Salesman]].
+**Status:**
+- Graduated St. Paul's (June 5, 2026)
+- Committed to [[University of Virginia (UVA)|University of Virginia]] (McIntire School of Commerce; Finance major + Math minor)
+- Completed orientation at UVA (July 20, 2026)
+- In a relationship with [[Naomi]] (since March 2026)
+- **Imminent:** flight to Dublin, Ireland on August 1 at 9:30 PM (travel destination and purpose not yet documented)
 
-**[[Power, Hierarchy, and Justice]]:** Power destroys those who wield it. The state, the family, the marketplace — all hierarchies corrupt. Softens only slightly: power may be inevitable, but it remains corrosive. See [[Individual vs. Society]], [[The Moral Impact of Slavery]], [[Antigone]].
+**Active projects & interests:**
+- **[[RESOLVE (AI assistant)|RESOLVE]]**: Personal operating system (calendar, email, tasks, briefs) — deployed July 2026; daily activity logs maintained
+- **[[Personal Quant Model]]**: Multi-factor equity model with Flask backend (direction + concept; implementation status unclear)
+- **[[Homework Hatch (startup)|Homework Hatch]]**: Edtech/AI venture with co-founder Josh
+- **Self-directed learning:** Python (initiated late July 2026; beginner; practice status unknown) · Guitar (2-week sprint to play "Wagon Wheel"; status unknown)
 
-**[[Art as Survival]]:** Art is not decoration — it's survival. The most humane response to a dehumanizing world. By senior year, explicit in most essay. See [[Station 11 Essay on Art Final]], [[IB HL English 2 Essay]].
+**Technical capabilities (honest assessment):**
+- **System design:** Strong; can architect complex systems (RESOLVE, quant model, startup concepts)
+- **Finance concepts:** Understands equity analysis, momentum trading, data sourcing; has sourced S&P 500 put/call ratio data
+- **Coding:** Early-stage; self-study in Python; relies on AI (Cursor, ChatGPT) for implementation; **no independent live projects yet**
+- **Quant depth:** Model design OK; math and code implementation gaps unclear (see [[UVA and the Quant Question]])
 
-### Honest calibration: What he *didn't* develop
-
-- **Empirical rigor.** His philosophical arguments are smart and well-supported *by the texts*. But he hasn't read formal philosophy (Kant, Sartre, Rawls), so his thinking is intuitive, not grounded in established frameworks. The best essays assume ideas as self-evident rather than arguing them.
-- **Comfort with ambiguity.** He tends to lean toward conclusions — "the individual loses," "power corrupts," "free will is a useful fiction." He's less comfortable sitting in genuine open questions or contradictions.
-- **Practical application.** His ideas stay at the level of *observation* and *interpretation*. He doesn't move into "so what should we do?" or "how do I change?" — see [[Tensions and Open Questions]].
-
-## Part 2: Systems & Automation (2026)
-
-As of June 2026, Traveler has begun a parallel track: building systems and automation tools. See [[RESOLVE (AI assistant)]], [[Homework Hatch (startup)]], [[Personal Quant Model]].
-
-### RESOLVE (personal operating system)
-
-**[[RESOLVE (AI assistant)]]** is an autonomous agent managing calendar, email, tasks, and daily briefings. Features:
-- **Daily morning briefs:** Calendar, Notion tasks, recent email, Apple Watch health data
-- **Inbox-to-calendar triage:** Cross-references emails for hidden deadlines, RSVPs, invitations; compares with calendar for conflicts
-- **Event scheduling:** Can create calendar entries on command
-- **Health monitoring:** Tracks checking account, savings, monthly budget spend vs. limit
-- **Graceful failure:** Skips connector errors rather than stopping (e.g., Gmail offline since 2026-06-30)
-- **Vault logging:** Records activity to [[wiki/log.md]] for audit and historical review
-
-**Recent status (as of 2026-07-24):** All connectors operational except Gmail. System is running autonomous daily operations; event load is light and well-organized.
+> [!warning] Honest calibration
+> Traveler excels at **idea generation and system direction** but has not yet demonstrated **independent technical execution** in code/quant. The gap is real and should drive his college/summer work strategy. This is not weakness — it's the next frontier.
 
 ---
 
-See also: [[Traveler Stansberry]], [[RESOLVE (AI assistant)]], [[Intellectual Profile]], [[Core Convictions]]
+## Wiki structure
+
+- **Part 1 (English)**: 77+ essays, stories, personal writing, IB coursework across 9th–12th grade
+- **Part 2 (Systems/2026)**: RESOLVE logs, technical projects, startup work, personal life
+- **Analyses & syntheses**: Intellectual profiles, core convictions, evolution, tensions
+
+See [[index]] for the full content catalog and [[log]] for operation history.
+
+---
+
+*Updated 2026-07-31 with Dublin travel and RESOLVE daily activity*
