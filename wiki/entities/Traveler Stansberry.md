@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-07-19
+updated: 2026-07-31
 tags: [person/author, self]
-sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-19]]"]
+sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-19]]", "[[RESOLVE Daily Activity 2026-07-31]]"]
 status: active
 ---
 
@@ -12,65 +12,57 @@ status: active
 The author of nearly every source in this wiki, and its subject. Attended **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year in the Maryland/Baltimore area, **graduating June 5, 2026**. The coursework corpus tracks him from grade 9 (2022) through IB HL English 2 (2026). **Now: University of Virginia, fall 2026** — Finance major ([[McIntire School of Commerce|McIntire]]), Math minor; orientation confirmed **July 20, 2026 at 9 AM** (per [[RESOLVE Daily Ingest 2026-07-19|RESOLVE brief, July 19]]).
 
 ## Current life (July 2026)
-**Status:** on the eve of college orientation. As of July 19 morning briefing:
-- **Orientation:** [[University of Virginia (UVA)|UVA]] Orientation **tomorrow (July 20) at 9 AM** — imminent transition to college life. See [[RESOLVE Daily Ingest 2026-07-19]].
+**Status:** preparing for college, post-orientation. As of July 31:
+- **College:** [[University of Virginia (UVA)|UVA]] McIntire (Finance major, Math minor) — orientation completed July 20
+- **Imminent travel:** **Flight to Dublin, Ireland, Saturday August 1 at 9:30 PM** (per [[RESOLVE Daily Activity 2026-07-31]]). Packing task ("Pack up mountain house gear") remains incomplete as of July 31 (38 hours prior to departure). Calendar has duplicate entry for this flight; flagged by [[RESOLVE (AI assistant)|RESOLVE]] for cleanup.
 - Recent activity includes:
   - **[[Python Learning]]** — initiated 6-month self-study (beginner-level; multiple learning guides created; actual practice status unknown)
   - **[[Guitar Learning]]** — initiated 2-week sprint to play country acoustic song ("Wagon Wheel"; practice status unknown)
 - **Relationship:** with [[Naomi]] (girlfriend; most emotionally significant person in his life; together since March 2026)
 - **Finance/work:** involvement in quantitative finance research (S&P 500 put/call ratio data sources) with coworker; see [[UVA and the Quant Question]]
-- **[[RESOLVE (AI assistant)|RESOLVE]]** integration: daily assistant system providing calendar, email, task, and document generation
+- **[[RESOLVE (AI assistant)|RESOLVE]]** integration: daily assistant system providing calendar, email, task, and briefing management
 
-## Worldview & values (drawn from writing & choices)
-- **Determinist turned skeptic.** Early essays (English 9–10) lean toward existential helplessness; later work (HL) pushes back: agency emerges through discipline, small choices, art.
-- **Free markets, free people.** Individualist strain throughout; skepticism of conformity and tradition; champions rebellion, though nearly always watches the rebel lose in literature.
-- **Anti-consumerism, pro-depth.** Attracted to auteur film, arthouse media, independent projects ([[Homework Hatch]] startup). Suspicious of algorithm-driven entertainment and shallow status-seeking.
-- **Atheist or agnostic.** [[Faith vs. Knowledge|Skeptical of organized religion]]; gravitates toward material/scientific worldview while remaining intellectually humble about unknowns.
+## Core characteristics (from coursework & personal writing, 2022–2026)
 
-## Key themes in his writing
-- **[[Fate and Free Will]]** — signature theme; tension between determinism and choice hardened in English 9–10, softened by HL.
-- **[[Identity and Its Collapse]]** — spine of senior year (HL2 essays on Beloved, Narrow Road, Elephant Vanishes).
-- **[[Masculinity]]** — usually toxic and performed; limits, imprisons, or destroys men in his reading canon.
-- **[[Individual vs. Society]]** — the rebel almost always loses; but rebellion is still meaningful.
-- **[[Art as Survival]]** — art as a basic human need, antidote to alienation.
-- **[[Power, Hierarchy, and Justice]]** — power corrupts; the pursuit of dominance destroys the seeker.
-- **[[Conformity and Tradition]]** — unexamined ritual enables atrocity; tradition needs continual interrogation.
-- **[[Memory and Trauma]]** — the past that won't stay past; how experience shapes identity.
+**Worldview:**
+- Deterministic; skeptical of individual agency (though this softens across the four-year arc)
+- Free-market economics; individualist political views
+- Intellectually restless; draws connections across domains (literature, physics, finance, history, philosophy)
 
-## Skills & demonstrated abilities
-### Writing
-- **Very strong** — all four courses: consistent A–A- grades. HL essays show sophisticated textual analysis, thematic synthesis, and stylistic control. Prose is clear, sometimes elegant; argument is logical and evidence-backed.
-- **Essay length/scope:** IB HL essays ~2–3 pages (within rubric bounds); earlier essays longer and more discursive. Original short story ([[The One]]) shows character voice and narrative structure.
+**Intellectual style:**
+- Works best with **systems thinking and abstraction** (excels at building models, seeing patterns, design-level thinking)
+- **Reading**: voracious and eclectic (auteur film, philosophy, history, science, finance)
+- **Writing**: precise, sometimes austere; strongest in essays where he can argue a thesis
+- **Ideas**: concerned with power, freedom, identity, morality, and how systems corrupt individuals
 
-### Reading & analysis
-- **Strong canonical literacy.** Engaged reader across drama (Shakespeare, Greek tragedy, Williams), modernist/postmodern fiction (Faulkner, Murakami), contemporary novels (Ishiguro). Can parse complexity and extract thematic texture.
-- **Critical distance:** not a romantic or credulous reader; questions authors, notes inconsistencies, resists false uplift.
+**Emotional landscape:**
+- Sensitive and introspective beneath an achievement-oriented surface
+- Family is significant (father's career in publishing and finance, family tension around divorce and expectations)
+- Highly motivated by intellectual engagement and self-improvement ("75 Hard" discipline, "lock in" mentality)
 
-### Quantitative & coding interests (provisional)
-- **Quant model design:** co-created/directed the [[Personal Quant Model|Sauron]] multi-factor equity model; knows conceptual structure, factor selection, backtesting pipeline — but **directed AI, didn't hand-code**. See [[UVA and the Quant Question|quant question page]] for calibration.
-- **Coding:** self-reported beginner (initiated [[Python Learning]] in July 2026); has used AI code editors (Cursor) and n8n for automation, but independent coding ability unproven.
-- **Math:** IB Math SL (not HL) — solid but not advanced. Comfortable with algebra, basic calc; deeper math (linear algebra, multivariable, proofs) untested.
-- ⚠️ **Honest calibration:** design thinking and conceptual fluency ≠ implementation mastery. The quant model is strong conceptual evidence but not proof of coding prowess.
+## Four-year intellectual evolution (2022–2026)
 
-### Other domains
-- **Economics:** IB SL; debate experience; reads finance media; casual interest in markets and investing.
-- **Physics:** IB HL; curious but admits struggle with the math; completed IA successfully.
-- **History:** IB HL; strong analytical essays on US naval history, colonial/postcolonial themes.
-- **Japanese:** IB SL; conversational interest; one essay translation/analysis piece.
-- **Video/board games:** active interest; plays Capital Climb, interested in game design as an art form.
+1. **Grade 9 (2022–23):** **Determinism takes hold.** Fate and free will are central; characters are trapped by circumstance. Strong interest in identity collapse (what happens when the self fractures).
+2. **Grade 10 (2023–24):** **Softening on agency.** *The Great Gatsby* and *Self-Reliance* introduce the possibility that individuals *can* resist, that intention matters.
+3. **IB HL English 1 (2024–25):** **The rebel fails; power corrupts.** *The Iliad* and *Absalom, Absalom!* show that individual will, however noble, is overwhelmed by social/historical forces. Power destroys the powerful.
+4. **IB HL English 2 (2025–26):** **Identity and survival.** *Beloved*, *Murakami*, *Miller*, *Plath* — the through-line shifts to: how do humans survive trauma, alienation, and oppressive systems? What remains of identity after collapse? *Art emerges as a survival mechanism.*
 
-## Self-perception & known gaps
-- **Self-discipline:** values it highly ("75 Hard" challenge, "lock in" mentality); whether practice matches rhetoric is unclear.
-- **Math confidence:** real doubt about "insane at math"; committed to finding out via UVA coursework and the quant track decision.
-- **Long-distance resilience:** nervous about maintaining [[Naomi]] relationship across UVA/girlfriend's location; has set reminders during orientation.
-- **College transition:** quiet confidence on the surface; unknown stress underneath.
+## Skills & capabilities
 
-## References
-- [[English Curriculum 2022-2026]] — coursework timeline
-- [[Academic Record]] — official grades (IB Diploma; senior-year report)
-- [[College Search]] — the application process and UVA commitment
-- [[UVA and the Quant Question]] — the forward-facing decision tree
-- [[Family and Personal Life]] — childhood, father, brothers, Naomi
-- [[Emotional Life and Inner World]] — the sensitive inner world beneath the achievement
-- [[Core Convictions]] — beliefs in propositional form with evidence
-- [[Intellectual Profile]] — master index of ideas by domain
+**Demonstrated:**
+- **Systems & design thinking:** Can architect a quant model, an edtech startup concept, a personal operating system; sees how components fit
+- **Writing:** Strong analytical essays; can sustain argument over 3,000+ words; clear thesis-driven prose
+- **Research:** Synthesizes across disciplines; cites sources meticulously (esp. in IA papers)
+- **Finance/trading:** Understands equity analysis basics, momentum/acceleration trading concepts, data sourcing; has directed AI to build a Flask app (not built it himself; see [[#Honest calibration]] below)
+
+**Untested or emerging:**
+- **Coding:** Self-study (Python, Flask) initiated 2026-07; no live projects or portfolio work yet; reliant on AI/directed coding
+- **Leadership:** Investment Club involvement and senior rep campaign; outcomes unknown
+- **Quant depth:** Understands model concepts but math/implementation gap unclear; see [[UVA and the Quant Question]]
+
+> [!warning] Honest calibration note
+> Traveler excels at **design-level thinking and direction** but has not yet demonstrated **independent implementation** in technical domains (coding, advanced quant math). The distinction matters: directing an AI to write Flask code ≠ being able to write it himself. Know the difference; don't round the one up to the other.
+
+---
+
+*Entity page updated 2026-07-31; last activity logged [[RESOLVE Daily Activity 2026-07-31]]*
