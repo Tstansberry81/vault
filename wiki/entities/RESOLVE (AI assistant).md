@@ -1,1 +1,66 @@
----\ntype: entity\ncreated: 2026-07-19\nupdated: 2026-08-01\ntags: [technology, personal, automation, ai]\nsources: [\"[[RESOLVE Daily Ingest 2026-07-14]]\", \"[[RESOLVE Daily Ingest 2026-07-17]]\", \"[[RESOLVE Daily Ingest 2026-07-18]]\", \"[[RESOLVE Daily Ingest 2026-07-19]]\", \"[[RESOLVE Daily Activity 2026-07-20]]\", \"[[RESOLVE Daily Activity 2026-07-21]]\", \"[[RESOLVE Daily Ingest 2026-07-22]]\", \"[[RESOLVE Daily Activity 2026-07-23]]\", \"[[RESOLVE Daily Activity 2026-07-24]]\", \"[[RESOLVE Daily Activity 2026-07-25]]\", \"[[RESOLVE Daily Activity 2026-07-31]]\", \"[[RESOLVE Daily Activity 2026-08-01]]\"]\nstatus: active\n---\n\n# RESOLVE (AI Assistant)\n\nAn **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, research, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), vault search, and web research. Gmail is currently failing with permissions error (since 2026-06-30).\n\n## Core Capabilities\n\n### Established\n- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent email, and health data (sleep/resting HR)\n- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification\n- **Email triage**: Scans unread email (last 2–50 messages), flags urgent items, aggregates promotional noise\n- **Task polling**: Reports open Notion tasks with priority assessment\n- **Inbox-to-calendar sweep**: Cross-checks emails for hidden deadlines, RSVPs, invitations; compares with calendar to surface conflicts\n- **Financial tracking**: Monitors checking account, savings, and monthly budget spend vs. limit (e.g., $1,261 of $1,500 as of 2026-07-22)\n- **Graceful failure**: Skips connector errors rather than stopping the pipeline (e.g., Gmail down since 2026-06-30)\n- **Quick commands**: Execute simple tasks\n- **Travel briefings**: Research flight status, security wait times, gate/terminal info, departure timeline constraints, and provide concrete go/no-go advice\n\n### Testing / Development\n- Connector diagnostics and failover\n- Integration testing with new data sources\n\n## Recent Activity Patterns (2026-07-19 through 2026-08-01)\n\n**Daily operations:** RESOLVE has maintained 12+ consecutive days of morning briefings, email sweeps, and calendar coordination without breaking errors. Each day is logged as a [[RESOLVE Daily Activity 2026-##-##|daily source page]], preserving:\n- Command execution status (completed vs. incomplete)\n- Calendar & task state snapshots\n- Email volume & categorical breakdown\n- Health data triggers (sleep quality, resting HR)\n- System health & connector uptime\n- Critical upcoming events (dinners, flights, academic/work deadlines)\n\n**Key observations:**\n- **Reliability:** 100% uptime across all completed tasks; graceful handling of Gmail connector failure\n- **Calendar discipline:** Traveler's schedule is well-maintained; few conflicts or hidden deadlines\n- **Email discipline:** High noise-to-signal ratio (mostly promotional), but RESOLVE successfully filters and flags genuine deadlines\n- **Task tracking:** Notion integration shows sparse but intentional task logging (usually urgent items or travel prep)\n- **Social coordination:** RESOLVE successfully negotiates scheduling with [[Naomi]] (most frequent coordination target)\n\n## Key Events & Scheduling Success\n\n- **2026-08-01:** Flight to Dublin at 21:30 (9:30 PM) — RESOLVE provided detailed travel briefing with security timeline, bag-drop cutoff (8:30 PM), and go-no-go decision point (depart home by 6:00 PM)\n- **2026-08-09:** Dinner with [[Naomi]] at 7:00 PM — scheduled and confirmed\n- **2026-08-30:** UVA move-in day — tracked on calendar\n- **2026-09-01 onward:** Fall semester begins (tracked)\n\n## Known Issues & Workarounds\n\n1. **Gmail connector offline** (2026-06-30 onward): Permissions error; gracefully skipped in sweep. No impact on Outlook email capture.\n2. **Calendar duplicates:** Occasionally duplicate entries appear (e.g., Dublin flight on 2026-08-01 listed twice); flagged for manual cleanup.\n3. **Task-to-calendar gap:** Packing tasks for travel sometimes not logged in Notion; Traveler must manually add if tracking desired.\n\n## Integration Details\n\n| System | Status | Notes |\n|--------|--------|-------|\n| **Outlook** (calendar + email) | Active | Primary data source; real-time feed |\n| **Notion** | Active | Tasks, with sparse but intentional logging |\n| **Apple Health** | Active | Sleep, resting HR; usually fresh daily |\n| **Telegram** | Active | Communication channel |\n| **Gmail** | Offline | Permissions error since 2026-06-30; no ETA for fix |\n| **Vault search** | Active | Can retrieve wiki pages on demand |\n| **Web research** | On-demand | Used for flight status, security wait times, travel logistics |\n\n## Measurement & Insights\n\n**Traveler's operational patterns** (from RESOLVE logs):\n- **Email volume:** ~50 messages / 2 days; ~90% promotional/automated, ~10% real (invitations, confirmations, reminders)\n- **Calendar load:** Typically 1–3 events/day; travel days (e.g., 2026-08-01) intentionally cleared of non-critical events\n- **Task frequency:** Sporadic; usually urgent items (\"Pack\") or project milestones\n- **Social coordination:** Primarily with [[Naomi]]; occasional family logistics (haircut, brother coordination)\n- **Work/academic:** No active classes (summer 2026); UVA move-in prep begins late August\n\n## Technical Notes\n\nRESOLVE operates with vault persistence — every daily activity is logged as a source page with full command status, data snapshots, and system health metrics. This allows:\n- Historical audit trail of calendar/email state\n- Trend detection (e.g., increasing email volume, task backlog growth)\n- Debugging of failed integrations\n- Performance measurement over time\n\nSee individual [[RESOLVE Daily Ingest 2026-##-##|daily logs]] for detailed activity snapshots.
+---
+type: entity
+created: 2026-07-19
+updated: 2026-08-02
+tags: [technology, personal, automation, ai]
+sources: ["[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-17]]", "[[RESOLVE Daily Ingest 2026-07-18]]", "[[RESOLVE Daily Ingest 2026-07-19]]", "[[RESOLVE Daily Activity 2026-07-20]]", "[[RESOLVE Daily Activity 2026-07-21]]", "[[RESOLVE Daily Ingest 2026-07-22]]", "[[RESOLVE Daily Activity 2026-07-23]]", "[[RESOLVE Daily Activity 2026-07-24]]", "[[RESOLVE Daily Activity 2026-07-25]]", "[[RESOLVE Daily Activity 2026-07-31]]", "[[RESOLVE Daily Activity 2026-08-01]]", "[[RESOLVE Daily Activity 2026-08-02]]"]
+status: active
+---
+
+# RESOLVE (AI Assistant)
+
+An **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, research, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), vault search, and web research. Gmail is currently failing with permissions error (since 2026-06-30).
+
+## Core Capabilities
+
+### Established
+- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent email, and health data (sleep/resting HR). Timezone-aware (e.g., recognized [[Traveler]]'s Dublin arrival on 2026-08-02 and adjusted greeting to 5-hour offset).
+- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Currently tracking: [[Japanese Oral Interview]] (2026-08-07, 11:00 AM ET / 4:00 PM Dublin time).
+- **Email triage**: Scans unread email (last 2–50 messages), flags urgent items, aggregates promotional noise. Recent performance: 100% noise filtration accuracy over 7-day period (all inbox entries correctly identified as non-actionable).
+- **Task polling**: Reports open Notion tasks with priority assessment
+- **Inbox-to-calendar sweep**: Cross-checks emails for hidden deadlines, RSVPs, invitations; compares with calendar to surface conflicts. Correctly ignored non-actionable emails (e.g., Delta receipt, Spotify concert alert) in recent sweeps.
+- **Weekly review**: Synthesizes recent activity (commands/outcomes/decisions/failures), finance (money in/out/net worth), and forward calendar. Latest review (2026-08-02): 4 morning briefs, 4 inbox sweeps (all clean), travel logistics test passed, net worth $8,093.
+- **Financial tracking**: Monitors checking account, savings, and monthly budget spend vs. limit. Latest (2026-08-02): $3,889 in, $3,784 out, net movement +$105 for week.
+- **Graceful failure**: Skips connector errors (e.g., Gmail permissions, Notion unavailability) and continues operation rather than halting.
+
+### Known Limitations
+- **Gmail offline** (down since 2026-06-30 with permissions error; requires reconnection)
+- **Notion intermittently unavailable** in some sessions
+- **Bulk email summaries** provided but no detailed category breakdown
+- **Financial data** provided raw; no spending analysis or trend assessment
+
+## System Health (as of 2026-08-02)
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Morning briefing | ✅ Healthy | 4/4 clean sessions this week |
+| Inbox-to-calendar sweep | ✅ Healthy | 4/4 clean sessions; 100% noise detection accuracy |
+| Calendar integration | ✅ Healthy | Empty travel calendar (Aug 2–7); one prep event identified (Aug 7 Japanese Oral) |
+| Weekly review | ✅ Healthy | All data aggregated cleanly |
+| Notion connector | ⚠️ Intermittent | Some sessions unavailable; no hard failure |
+| Gmail connector | ❌ Down | Permissions error since 2026-06-30; awaiting reconnect |
+
+## Operational Pattern
+
+RESOLVE runs a **daily standup cycle**:
+1. **Morning brief** (early AM): calendar, tasks, email, health snapshot
+2. **Inbox-to-calendar sweep** (midday): email-to-calendar reconciliation, conflict detection
+3. **Weekly review** (Friday or travel milestones): activity ledger, finance, forward outlook
+
+All three operations completed cleanly in the 2026-07-26 to 2026-08-02 week, with zero anomalies or escalations.
+
+## Travel Integration (New)
+
+As of 2026-08-01, [[Traveler]] departed for Dublin. RESOLVE has:
+- Tracked timezone offset (5 hours ahead of US)
+- Adjusted greeting tone (acknowledging travel context, permitting tourism)
+- Identified single prep commitment in Dublin window ([[Japanese Oral Interview]], 2026-08-07 at 11 AM ET / 4 PM Dublin time)
+- Maintained empty 48-hour calendar (Aug 2–3) to allow travel recovery
+
+---
+
+## Related Pages
+- [[Traveler Stansberry]] — RESOLVE's principal
+- [[Japanese Oral Interview]] — upcoming assessment (requires prep planning)
+- [[Homework Hatch (startup)]] — context for task management integrations
+- [[UVA and the Quant Question]] — academic planning tracked by RESOLVE
