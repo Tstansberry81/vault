@@ -1,9 +1,24 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-02
+updated: 2026-08-03
 tags: [technology, personal, automation, ai]
-sources: ["[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-17]]", "[[RESOLVE Daily Ingest 2026-07-18]]", "[[RESOLVE Daily Ingest 2026-07-19]]", "[[RESOLVE Daily Activity 2026-07-20]]", "[[RESOLVE Daily Activity 2026-07-21]]", "[[RESOLVE Daily Ingest 2026-07-22]]", "[[RESOLVE Daily Activity 2026-07-23]]", "[[RESOLVE Daily Activity 2026-07-24]]", "[[RESOLVE Daily Activity 2026-07-25]]", "[[RESOLVE Daily Activity 2026-07-31]]", "[[RESOLVE Daily Activity 2026-08-01]]", "[[RESOLVE Daily Activity 2026-08-02]]"]
+sources: [
+  "[[RESOLVE Daily Ingest 2026-07-14]]",
+  "[[RESOLVE Daily Ingest 2026-07-17]]",
+  "[[RESOLVE Daily Ingest 2026-07-18]]",
+  "[[RESOLVE Daily Ingest 2026-07-19]]",
+  "[[RESOLVE Daily Activity 2026-07-20]]",
+  "[[RESOLVE Daily Activity 2026-07-21]]",
+  "[[RESOLVE Daily Ingest 2026-07-22]]",
+  "[[RESOLVE Daily Activity 2026-07-23]]",
+  "[[RESOLVE Daily Activity 2026-07-24]]",
+  "[[RESOLVE Daily Activity 2026-07-25]]",
+  "[[RESOLVE Daily Activity 2026-07-31]]",
+  "[[RESOLVE Daily Activity 2026-08-01]]",
+  "[[RESOLVE Daily Activity 2026-08-02]]",
+  "[[RESOLVE Daily Activity 2026-08-03]]"
+]
 status: active
 ---
 
@@ -18,49 +33,42 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 - **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Currently tracking: [[Japanese Oral Interview]] (2026-08-07, 11:00 AM ET / 4:00 PM Dublin time).
 - **Email triage**: Scans unread email (last 2–50 messages), flags urgent items, aggregates promotional noise. Recent performance: 100% noise filtration accuracy over 7-day period (all inbox entries correctly identified as non-actionable).
 - **Task polling**: Reports open Notion tasks with priority assessment
-- **Inbox-to-calendar sweep**: Cross-checks emails for hidden deadlines, RSVPs, invitations; compares with calendar to surface conflicts. Correctly ignored non-actionable emails (e.g., Delta receipt, Spotify concert alert) in recent sweeps.
-- **Weekly review**: Synthesizes recent activity (commands/outcomes/decisions/failures), finance (money in/out/net worth), and forward calendar. Latest review (2026-08-02): 4 morning briefs, 4 inbox sweeps (all clean), travel logistics test passed, net worth $8,093.
-- **Financial tracking**: Monitors checking account, savings, and monthly budget spend vs. limit. Latest (2026-08-02): $3,889 in, $3,784 out, net movement +$105 for week.
-- **Graceful failure**: Skips connector errors (e.g., Gmail permissions, Notion unavailability) and continues operation rather than halting.
+- **Inbox-to-calendar sweep**: Automated scan for emails referencing real-world events (invitations, RSVPs, appointments, deadlines, travel, reservations); creates calendar entries where needed
+- **Health integration**: Pulls Apple Watch data (sleep, resting HR) and incorporates into morning briefing
+- **Graceful error handling**: When a connector fails (e.g., Gmail permissions), continues processing other sources instead of halting the brief
 
-### Known Limitations
-- **Gmail offline** (down since 2026-06-30 with permissions error; requires reconnection)
-- **Notion intermittently unavailable** in some sessions
-- **Bulk email summaries** provided but no detailed category breakdown
-- **Financial data** provided raw; no spending analysis or trend assessment
-
-## System Health (as of 2026-08-02)
-
-| Component | Status | Notes |
-|-----------|--------|-------|
-| Morning briefing | ✅ Healthy | 4/4 clean sessions this week |
-| Inbox-to-calendar sweep | ✅ Healthy | 4/4 clean sessions; 100% noise detection accuracy |
-| Calendar integration | ✅ Healthy | Empty travel calendar (Aug 2–7); one prep event identified (Aug 7 Japanese Oral) |
-| Weekly review | ✅ Healthy | All data aggregated cleanly |
-| Notion connector | ⚠️ Intermittent | Some sessions unavailable; no hard failure |
-| Gmail connector | ❌ Down | Permissions error since 2026-06-30; awaiting reconnect |
-
-## Operational Pattern
-
-RESOLVE runs a **daily standup cycle**:
-1. **Morning brief** (early AM): calendar, tasks, email, health snapshot
-2. **Inbox-to-calendar sweep** (midday): email-to-calendar reconciliation, conflict detection
-3. **Weekly review** (Friday or travel milestones): activity ledger, finance, forward outlook
-
-All three operations completed cleanly in the 2026-07-26 to 2026-08-02 week, with zero anomalies or escalations.
-
-## Travel Integration (New)
-
-As of 2026-08-01, [[Traveler]] departed for Dublin. RESOLVE has:
-- Tracked timezone offset (5 hours ahead of US)
-- Adjusted greeting tone (acknowledging travel context, permitting tourism)
-- Identified single prep commitment in Dublin window ([[Japanese Oral Interview]], 2026-08-07 at 11 AM ET / 4 PM Dublin time)
-- Maintained empty 48-hour calendar (Aug 2–3) to allow travel recovery
+### Known issues & limitations
+- **Gmail connector**: Permissions error since 2026-06-30; Outlook email functioning normally, so no loss of coverage
+- **Notion task summaries**: Inconsistently included in morning briefs (present some days, omitted others; unknown reason — possible no open tasks)
+- **Prep plan tracking**: Successfully flags when upcoming events have no attached plan (e.g., Japanese Oral Interview flagged on 2026-08-02 as "4 days out, no plan"). **Does not yet auto-create or auto-schedule prep plans** — flagging is sufficient, human must act on it.
 
 ---
 
-## Related Pages
-- [[Traveler Stansberry]] — RESOLVE's principal
-- [[Japanese Oral Interview]] — upcoming assessment (requires prep planning)
-- [[Homework Hatch (startup)]] — context for task management integrations
-- [[UVA and the Quant Question]] — academic planning tracked by RESOLVE
+## Operational Patterns (July–August 2026)
+
+| Date | Context | Activity |
+|------|---------|----------|
+| 2026-07-12–25 | Routine (home) | Daily morning briefs, routine inbox sweeps, email → calendar classification |
+| 2026-07-31 | Pre-travel | Full day briefing; travel planning coordination |
+| 2026-08-01 | Travel day | Morning brief + full inbox-to-calendar sweep; Dublin arrival confirmed |
+| 2026-08-02 | Early travel (day 2) | Morning brief + inbox sweep; flagged Japanese Oral Interview prep needed |
+| 2026-08-03 | Travel (day 3) | Morning brief + inbox sweep; **no new actionables** |
+
+**Pattern:** Inbox is extremely clean (promotional noise + social alerts only); calendar fills only when Traveler is doing exam prep or has scheduled commitments. Current state (Aug 3): **calendar empty, exam 4 days away, no prep schedule created**.
+
+---
+
+## Design & Rationale
+
+RESOLVE is intentionally **minimal** in scope (no decision-making, no proactive scheduling without approval) and **transparent** in output (always explains what it found and what it did). It succeeds at its core job (calendar + email triage) and gracefully degrades when connectors fail. The morning brief is designed to be **short, warm, and actionable** — flags anything urgent, summarizes open tasks, then gets out of the way.
+
+**Dependency tracking:** The system demonstrates awareness of dependencies (e.g., Japanese Oral Interview requires prep) and correctly identifies when prep hasn't been scheduled, but leaves action to the human. See [[Japanese Oral Interview]] for prep recommendations.
+
+---
+
+## Related
+
+- [[Traveler Stansberry]] — user
+- [[Japanese Oral Interview]] — current flagged upcoming event
+- [[Homework Hatch (startup)]] — another Traveler project; comparison use case for task management
+- [[Personal Quant Model]] — another project RESOLVE has helped coordinate
