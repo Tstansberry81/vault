@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-08-03
+updated: 2026-08-11
 tags: [meta/overview, english]
 status: active
 ---
@@ -14,84 +14,92 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 **Scope:** 77 documents spanning four courses ([[English Curriculum 2022-2026|the curriculum]]): essays, responses, quizzes, study guides, memoirs, and one original short story. Sources are mostly Traveler's own writing, so the wiki doubles as a portrait of an evolving thinker.
 
-### The evolution at a glance
-- **English 9 (2022–23):** *[[Fate and Free Will]]* enters, argued through sci-fi dystopias and classical tragedy
-- **English 10 (2023–24):** *[[Individual vs. Society]]* crystallizes; the rebel protagonist fails; Thoreau and Emerson offer some counterargument
-- **IB HL English 1 (2024–25):** *[[Identity and Its Collapse]]* emerges alongside *Masculinity* and *Power*; tragic texts dominate; the person who tries to become someone (Oedipus, Blanche DuBois) gets destroyed
-- **IB HL English 2 (2025–26):** *[[Memory and Trauma]]*, *[[Art as Survival]]*, and a hardened view on *[[Conformity and Tradition]]* (Beloved, Deep North); the essay voice tightens and becomes more skeptical; fiction turn (The Pearl, The One)
+### The evolution in four moves
 
-### The throughlines
-1. **Power corrupts its seeker** — explicit from IB HL onwards; see [[Core Convictions]]
-2. **Identity is fragile and contingent** — grows from Oedipus through Beloved; the person you think you are is smaller than the forces that shape you
-3. **Conformity enables atrocity** — Beloved (slavery), Deep North (war), Antigone (blind obedience to law)
-4. **Art is a basic human survival function, not luxury** — strongest in senior-year texts and essays; appears in [[Station Eleven Essay on Art Final|Art essay]] and again in Deep North analysis
-5. **The individual almost always loses to the system** — unresolved tension with his libertarian leanings; see [[Political and Economic Views]]
+**Grade 9 (2022–23): Fate**
+- **Works:** [[Maus]], [[Do Androids Dream of Electric Sheep?]], [[The Other Wes Moore]], [[A Sound of Thunder]], [[The Lottery]], [[Romeo and Juliet]], [[Understanding Comics]], [[A&P]]
+- **Through-line:** Determinism hardens. Fate is inescapable; the individual is trapped. Characters are crushed by circumstance (Wes Moore, Romeo, Maus's Vladek). Technology (DADOES) doesn't save anyone.
+- **Assignment signature:** Long analytical essays; developing argument structure and evidence discipline.
 
-### Key texts
-- Classical: *[[The Iliad]]*, *[[Antigone]]*, *[[Romeo and Juliet]]* → power dynamics & inevitability
-- Modern tragedy: *[[A Streetcar Named Desire]]*, *[[One Flew Over the Cuckoo's Nest]]*, *[[Death of a Salesman]]* → system crushes individual
-- Dystopia & sci-fi: *[[Do Androids Dream of Electric Sheep?]]*, *[[Station Eleven]]* → what makes us human?
-- Literature of trauma: *[[Beloved]]*, *[[The Narrow Road to the Deep North]]*, *[[Absalom, Absalom!]]* → memory, violence, endurance
-- Short fiction: *[[The One (short story)|The One]]* (his original), *[[The Elephant Vanishes]]*, *[[The Pearl]]* — tight, symbolic, often tragic
+**Grade 10 (2023–24): Self-Reliance and its Costs**
+- **Works:** [[Narrative of the Life of Frederick Douglass]], [[The Great Gatsby]], [[One Flew Over the Cuckoo's Nest]], [[Station Eleven]], [[Home (novel)|Home]], [[Self-Reliance]], [[Civil Disobedience]]
+- **Through-line:** The rebel is necessary but doomed. Douglass & Thoreau counsel self-trust; but Gatsby's self-making is hollow, McMurphy loses to the institution, and Station Eleven's survival is art (not individual will).
+- **Shift:** Fate softens slightly. Agency is possible but expensive. The issue isn't determinism anymore — it's power and hierarchy crushing the autonomous self.
 
----
+**IB HL English 1 (2024–25): Power and Tragedy**
+- **Works:** [[The Iliad]], [[A Streetcar Named Desire]], [[Antigone]], [[The Lion in Winter]], [[Absalom, Absalom!]]
+- **Through-line:** Power corrupts and isolates. Kings (Agamemnon, Peleus) destroy their own houses. Antigone's defiance is ethically right but politically helpless. Desire (Blanche) is weaponized by patriarchy. Identity fragments in modernity (Faulkner).
+- **Signature:** Philosophical essays on power, identity, and moral knowledge. Dense, ambitious close reading.
 
-## Part 2: Systems & Personal Projects (2026)
+**IB HL English 2 (2025–26): Identity and Its Collapse**
+- **Works:** [[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Garden of Eden (poem)|Garden of Eden]], [[The Mower (poem)|The Mower]], [[Death of a Salesman]], [[The One]], [[The Pearl]]
+- **Through-line:** The self is a fiction. Trauma (Sethe), war (Kiyoko), modernity (Murakami), history (Didion), death (Frost) dismantle the coherent subject. No escape except through art or acceptance.
+- **Signature:** Intimate analysis of fragmentation; some of his most mature prose. Less anger, more sorrow.
 
-As of late July–early August 2026, the wiki is expanding to capture Traveler's **technical work and life systems.**
+### Themes (Traveler's persistent obsessions)
 
-### RESOLVE — Personal Operating System
-**[[RESOLVE (AI assistant)]]** is an AI-driven calendar, task, and email management system deployed since mid-July 2026. Handles:
-- Daily morning briefings (calendar + tasks + email + health data)
-- Inbox-to-calendar sweeps (flags real events, ignores promotional noise)
-- Timezone-aware greeting and smart error handling
+| Theme | Grade 9 | Grade 10 | HL1 | HL2 | Trajectory |
+|-------|---------|----------|-----|-----|-----------|
+| **[[Fate and Free Will]]** | Hard determinism | Softening; agency possible | Choice under constraint | Acceptance; sorrow | Hardens → softens → matures |
+| **[[Individual vs. Society]]** | Crushed | Impossible hero | Powerless | Dissolved self | Consistent: individual loses |
+| **[[Masculinity]]** | Implicit | Toxic performance (Gatsby) | Patriarchal violence (Peleus, Stanley) | Fragmented (Didion, Murakami) | Increasingly critical & nuanced |
+| **[[Power, Hierarchy, and Justice]]** | Circumstance | Institutional | Structural | Internalized | Deepens; becomes omnipresent |
+| **[[Identity and Its Collapse]]** | Character = fate | Self-invention fails | Power shatters selfhood | Trauma/modernity dissolves the subject | Accelerates; culminates in HL2 |
+| **[[Art as Survival]]** | Implicit (comics) | Station Eleven's art | Catharsis of tragedy | Central: art as the only coherent act | Becomes paramount |
 
-**Current status (Aug 3, 2026):** Healthy. Traveler is in Dublin on day 3 of trip; calendar is empty; next event is [[Japanese Oral Interview]] (Aug 7). Email volume is 100% promotional/non-actionable.
+## Part 2: Systems & Technology (2026)
 
-> [!warning] Prep Gap
-> The Japanese Oral Interview (Aug 7, 4:00 PM Dublin time) has no prep schedule attached as of Aug 3. RESOLVE flagged this on Aug 2 ("4 days out, no plan"); recommended creating prep schedule Aug 3–4. **Still unstarted.** See [[Japanese Oral Interview]] for recommended prep timeline.
+**Scope:** Traveler's three active projects, plus one research-level quant model.
 
-### Other projects (brief mentions; will expand)
-- **[[Homework Hatch (startup)]]** — edtech/AI venture with Josh; active discussion in ChatGPT chats
-- **[[Personal Quant Model]]** — multi-factor equity trading model; in development
-- **[[The Edge (trading model)]]** — short-horizon momentum trader
-- **[[Vision (Porter Intelligence)]]** — consumer-facing static site for quant outputs
+### 1. [[RESOLVE (AI assistant)]]
+A **personal operating system** (calendar, email, task management, morning briefs, inbox triage) powered by Claude + integrations (Outlook, Notion, Telegram, Apple Health, web search). Launched mid-July 2026; now running daily autonomous briefings and sweeps. **Status:** Stable; Gmail connector down (permissions error since 2026-06-30); Outlook/Telegram healthy.
 
----
+**Recent activity (2026-08-11):** Morning brief generated for haircut appointment (8 AM EST), flagged two high-priority UVA admin tasks (advisor call, SIS verification). Inbox sweep returned 9 promotional emails; calendar remains clear post-travel. System is functioning well.
 
-## Knowledge gaps & priorities
+### 2. [[Homework Hatch (startup)]]
+**Edtech/AI venture** with friend Josh. Idea: AI tools for high school students (homework help, study coaching, etc.). **Status:** Active; code & prototyping underway. **Deployment:** Unknown (likely still in prototype/testing phase).
 
-### From English corpus
-- *Unresolved:* the tension between his libertarian *[[Political and Economic Views]]* (individual rights, free markets) and his repeated literary observation that individuals lose to systems. He acknowledges the tension (see [[Intellectual Profile]]) but hasn't written a synthesis. Worth pursuing.
-- *Weak:* connection between his *[[Art as Survival]]* observation and his actual creative work (or lack thereof). The idea is strong; the practice is unclear.
+### 3. [[Personal Quant Model]]
+**Multi-factor equity model** + Flask web app. Untested in live trading. **Capabilities demonstrated:** design, math, API integration (directed implementation via AI). **Gaps:** No proof of solo coding, no live trading results, no stress-testing under real market conditions. See [[UVA and the Quant Question]] for explicit calibration.
 
-### From systems/2026 projects
-- *To expand:* detailed architecture & capability profiles of RESOLVE, Homework Hatch, quant models — these are live projects with forward momentum
-- *Flagged:* [[Japanese Oral Interview]] prep (real, immediate)
-- *To investigate:* college plan ([UVA Finance + Math minor](wiki/entities/UVA%20and%20the%20Quant%20Question.md)) and how the quant/startup work fits into freshman year
+### 4. [[The Edge (trading model)]]
+**Short-horizon momentum/acceleration trader.** Status: Conceptual; implementation status unclear. Not yet a running system.
 
 ---
 
-## Honesty notes
+## Structure of the wiki
 
-**This is an ambitious portrait.** Traveler is demonstrably:
-- A strong writer (essays tighten visibly over four years; voice hardens from romantic to skeptical)
-- A deep reader (engages actively with texts; makes original connections)
-- A systems thinker (RESOLVE shows real design judgment; the quant models show structure-building instinct)
+**The entry points:**
+- **[[index]]** — catalog of every page, by category (read this first on queries)
+- **[[log]]** — chronological, append-only record of ingests, queries, lint passes
 
-**But** — honest gaps:
-- **Coding:** He has directed AI to build things (RESOLVE, Homework Hatch prototypes) but has not *himself* coded them end-to-end. This is different from the written/analytical work above. Coding ability is unproven; design/direction ability is demonstrated.
-- **Quant implementation:** He has designed models; the math is partially understood (see [[Personal Quant Model]] for details). Implementation, backtesting, and live trading are all *in progress* — outcomes unknown. Don't confuse design with execution.
-- **Japanese fluency claim:** Lifelong study is genuine; the assertion "native-level" is self-reported. IB A- in coursework suggests high competence, but oral exam hasn't been taken yet (scheduled Aug 7).
+**The layers:**
+1. **`raw/`** — immutable sources (essays, ChatGPT exports, Apple Notes, RESOLVE logs)
+2. **`wiki/`** — this knowledge base: entities, concepts, analyses, overviews
+3. **`output/`** — derived deliverables (decks, spreadsheets, diagrams, reports)
 
-The wiki's job is to show what he actually knows and can prove, mark what's promising, and flag what remains to be demonstrated. See [[Core Convictions]] for the rigorously-evidenced version.
+**Key pages:**
+- **Entities (people, works, projects):** [[Traveler Stansberry]] · [[Naomi]] · [[Porter Stansberry (father)]] · [[St. Paul's School]]
+- **Concepts (ideas, themes):** [[Fate and Free Will]] · [[Identity and Its Collapse]] · [[Power, Hierarchy, and Justice]] · [[Art as Survival]]
+- **Analyses (syntheses):** [[Intellectual Profile]] · [[Core Convictions]] · [[Intellectual Evolution]]
 
 ---
 
-## Navigation
+## Honest calibration
 
-- **[[index]]** — full content catalog by category (start here if searching for a topic)
-- **[[log]]** — chronological record of ingests, queries, and lint passes
-- **[[Traveler Stansberry]]** — the subject; top-level biography
-- **[[Intellectual Profile]]** — synthesis of his ideas across domains
-- **[[Core Convictions]]** — his beliefs distilled, with evidence strength marked
+**This wiki is only useful if it tells the truth about what Traveler knows and can do.** See [[CLAUDE.md]] for operating principles, but the core rule:
+- **Don't flatter.** Separate demonstrated from plausible from aspirational. (Example: designing a quant model ≠ building one; directing an AI to code it ≠ coding it yourself. [[UVA and the Quant Question]] names this gap explicitly.)
+- **Name gaps openly.** If something is untested, unproven, or missing, say so and put it where he'll see it.
+- **Calibrate the narrative.** High school English: clear evidence of sophisticated thinking over 4 years. Quant/coding: ideas + design ✓, math ✓, implementation ✗. UVA Finance path: committed; quant path: still open, uncertain.
+
+---
+
+## Next questions to investigate
+
+1. **The Amazon subscription flagged on 2026-08-11** — what is it, and why did RESOLVE flag it for attention? (Source text truncated; full context needed.)
+2. **[[Japanese Oral Interview]] status** — was it completed as scheduled (Aug 7 in Dublin), rescheduled, or canceled? (Affects IB record.)
+3. **Calendar after travel** — why is it bare? Intentional clearing, or sync issue?
+4. **Quant model status for fall 2026** — will Traveler continue developing it, or focus on Commerce coursework & Homework Hatch?
+5. **Homework Hatch progress** — prototype status, timeline to MVP, fundraising plans (if any)?
+
+See [[log]] for a full operational history of the wiki.
