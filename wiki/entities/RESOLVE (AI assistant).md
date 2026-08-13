@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-11
+updated: 2026-08-12
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -18,7 +18,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-01]]",
   "[[RESOLVE Daily Activity 2026-08-02]]",
   "[[RESOLVE Daily Activity 2026-08-03]]",
-  "[[RESOLVE Daily Activity 2026-08-11]]"
+  "[[RESOLVE Daily Activity 2026-08-11]]",
+  "[[RESOLVE Daily Activity 2026-08-12]]"
 ]
 status: active
 ---
@@ -31,50 +32,40 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 
 ### Established
 - **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent email, and health data (sleep/resting HR). Timezone-aware and warm-toned. Example from 2026-08-11: flagged haircut appointment (8:00 AM deadline) and two high-priority UVA tasks with runway (advisor call due Aug 28, SIS credit confirmation due Sep 1).
-- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Post-travel (return from Dublin, 2026-08-11), calendar remains exceptionally clear — only routine commitments scheduled.
-- **Email triage**: Scans unread email (limit 50 messages, last 2 days), flags urgent/actionable items, aggregates promotional noise. Recent performance (2026-08-11): 9 promotional messages returned (Twitch live notifications, Shutterfly, UptimeRobot, Robinhood Snacks, MyClaw); zero calendar-worthy events; one item (Amazon subscription-related) flagged for human attention but not calendar-assigned.
-- **Connector resilience**: Skips failed connectors without stopping (as of 2026-08-11; Gmail remains unavailable but inbox sweep proceeds with Outlook/Telegram intact).
+- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Post-travel (return from Dublin, 2026-08-11), calendar remains exceptionally clear — only routine commitments scheduled. As of 2026-08-12, next 48 hours are completely blank (no events Aug 12–13).
+- **Email triage**: Scans unread email (limit 50 messages, last 2 days) to identify actionable calendar items (invitations, RSVPs, appointments, reservations, deliveries). Daily inbox-to-calendar sweep compares email against 30-day calendar lookout. Since mid-July, sweep consistently surfaces only promotional noise (Twitch alerts, newsletters, marketing); no real events missed in last 4 weeks.
+- **Notion task visibility**: Reads open tasks with high/medium/low priority flags; reports on tasks with explicit deadlines (e.g., UVA advising deadlines Aug 28 and Sep 1–4).
+- **Health data integration**: Apple Watch check (sleep, resting heart rate) included in morning brief when available.
+- **Web research**: Can search external sources (e.g., weather, upcoming events) as needed.
 
-### In Development
-- **Web research**: Available but not frequently used in daily briefings (assumed to be triggered on-demand).
-- **Task routing**: Routes email-sourced tasks into Notion; priority classification (High/Medium/Low).
+### System Health (as of 2026-08-12)
+- **All connectors operational**: No errors during Aug 11–12 operations.
+- **Email accumulation**: ~28,359 unread messages (typical due to promotional subscriptions). Last 2 days produced zero actionable signals.
+- **Graceful error handling**: Now configured to skip connector errors rather than halt the entire brief (Aug 12 update).
 
-## Recent Operational Performance (July–August 2026)
+### Known Issues
+- **Gmail integration broken** since 2026-06-30 (OAuth/permissions issue); Outlook is the primary email system.
 
-| Date | Activity | Load | Notes |
-|------|----------|------|-------|
-| 2026-07-20 | Connector diagnostics | Low | Testing phase |
-| 2026-07-21 | Routine sweep | Low | Healthy state |
-| 2026-08-01 | Travel briefing | Medium | Transatlantic departure coordination (Dublin) |
-| 2026-08-02 | Travel logistics | Low | Arrival in Dublin; brief generated with +5h offset |
-| 2026-08-03 | Post-arrival routine | Low | Day 3 Dublin; next event [[Japanese Oral Interview]] |
-| 2026-08-11 | Return-to-US routine | Low | Back in EST; haircut + UVA admin tasks |
+## Operational Patterns
 
-## System Health
+**Morning rhythm:** Brief arrives early (pre-8 AM typical), summarizes next 48h, flags urgent deadlines.
 
-**Strong:**
-- Morning brief generation stable and warm.
-- Email filtering accurate; noise rejection consistent.
-- Calendar integration reliable; event creation & RSVP drafting on request.
-- Timezone handling robust (Dublin offset recognized and applied).
-- Connector error-handling non-blocking (skips failed connectors, logs issue).
+**Daily inbox sweep:** Routine post-brief, focuses on real-world events vs. noise. Over the past 4 weeks, sweep accuracy is high — consistently identifies actual calendar needs while filtering promotional clutter.
 
-**Weak / Known Issues:**
-- Gmail connector: permissions error (requires re-authentication or reconnect), non-functional since 2026-06-30. Workaround: Outlook + Telegram remain functional; no mission-critical loss to date.
-- Calendar after travel: currently bare (all events past or far-future); may indicate calendar clearing during/after trip or lack of new scheduling.
+**Pre-event reminders:** When calendar contains critical events (haircut, travel, meetings), system flags them in the brief 48h+ ahead.
 
-## Integration Ecosystem
-- **[[Cursor (AI code editor)]]** — code generation & debugging (used by [[Traveler]] for personal projects)
-- **[[Homework Hatch (startup)]]** — could benefit from RESOLVE's automation patterns (not yet integrated)
-- **UVA planning** — RESOLVE tracking Commerce prerequisite workflow (advisor call + SIS verification)
+**Move-in countdown:** As of 2026-08-12, system is tracking UVA move-in (Aug 20, 8 days away) and has flagged "pack mountain house gear" as an undated task that needs attention before move-out.
 
-## Next Investigation Points
-- What is the Amazon subscription item flagged on 2026-08-11? (Source text truncated; resolve full context.)
-- Is the [[Japanese Oral Interview]] completed or rescheduled? (Calendar reference from earlier logs suggests Aug 7; now likely past.)
-- Why is calendar so bare? Intentional clearing, or calendar not fully synced post-travel?
+## Design Philosophy
+
+- **Brevity + warmth**: Briefs are short, conversational, and human-readable; designed to be read in 2–3 minutes.
+- **Signal over noise**: System explicitly filters promotional email and low-value notifications; only surfaces items requiring Traveler's decision or action.
+- **Proactive**: Flags upcoming deadlines and time-sensitive tasks before they become urgent.
+- **Reliable**: Operates on a routine cadence (daily morning + sweep); when a component fails, falls back gracefully rather than breaking.
 
 ## Related Pages
-- [[Traveler Stansberry]] — the user
-- [[Cursor (AI code editor)]] — complements RESOLVE's automation (manual coding)
-- [[Homework Hatch (startup)]] — potential automation target
-- [[UVA and the Quant Question]] — current administrative workflow
+- [[Traveler Stansberry]] — primary user
+- [[Homework Hatch (startup)]] — another AI automation project
+- [[Personal Quant Model]] — system that may integrate with RESOLVE in future
+- [[Self-Discipline and Goals]] — 75 Hard and goal-setting context
+- [[College Search]] — UVA move-in and transition tracking
