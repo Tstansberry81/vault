@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-08-11
+updated: 2026-08-12
 tags: [meta/overview, english]
 status: active
 ---
@@ -28,78 +28,53 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 **IB HL English 1 (2024–25): Power and Tragedy**
 - **Works:** [[The Iliad]], [[A Streetcar Named Desire]], [[Antigone]], [[The Lion in Winter]], [[Absalom, Absalom!]]
-- **Through-line:** Power corrupts and isolates. Kings (Agamemnon, Peleus) destroy their own houses. Antigone's defiance is ethically right but politically helpless. Desire (Blanche) is weaponized by patriarchy. Identity fragments in modernity (Faulkner).
-- **Signature:** Philosophical essays on power, identity, and moral knowledge. Dense, ambitious close reading.
+- **Through-line:** Power doesn't survive ambition. Achilles, Blanche, Antigone, Henry, Quentin—all are destroyed by their attempts to *matter* (to lead, seduce, rule, endure). The pattern is inescapable. Yet Traveler's engagement deepens: tragedy becomes less fatalistic, more humanistic. The *choice* (Antigone's defiance, Blanche's survival) matters even if the outcome doesn't.
+- **Shift:** Fate returns but darkened. Not random anymore—tragic, structural. Agency exists but is consumed by the system. The question becomes: what's worth the cost?
 
 **IB HL English 2 (2025–26): Identity and Its Collapse**
-- **Works:** [[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Garden of Eden (poem)|Garden of Eden]], [[The Mower (poem)|The Mower]], [[Death of a Salesman]], [[The One]], [[The Pearl]]
-- **Through-line:** The self is a fiction. Trauma (Sethe), war (Kiyoko), modernity (Murakami), history (Didion), death (Frost) dismantle the coherent subject. No escape except through art or acceptance.
-- **Signature:** Intimate analysis of fragmentation; some of his most mature prose. Less anger, more sorrow.
-
-### Themes (Traveler's persistent obsessions)
-
-| Theme | Grade 9 | Grade 10 | HL1 | HL2 | Trajectory |
-|-------|---------|----------|-----|-----|-----------|
-| **[[Fate and Free Will]]** | Hard determinism | Softening; agency possible | Choice under constraint | Acceptance; sorrow | Hardens → softens → matures |
-| **[[Individual vs. Society]]** | Crushed | Impossible hero | Powerless | Dissolved self | Consistent: individual loses |
-| **[[Masculinity]]** | Implicit | Toxic performance (Gatsby) | Patriarchal violence (Peleus, Stanley) | Fragmented (Didion, Murakami) | Increasingly critical & nuanced |
-| **[[Power, Hierarchy, and Justice]]** | Circumstance | Institutional | Structural | Internalized | Deepens; becomes omnipresent |
-| **[[Identity and Its Collapse]]** | Character = fate | Self-invention fails | Power shatters selfhood | Trauma/modernity dissolves the subject | Accelerates; culminates in HL2 |
-| **[[Art as Survival]]** | Implicit (comics) | Station Eleven's art | Catharsis of tragedy | Central: art as the only coherent act | Becomes paramount |
-
-## Part 2: Systems & Technology (2026)
-
-**Scope:** Traveler's three active projects, plus one research-level quant model.
-
-### 1. [[RESOLVE (AI assistant)]]
-A **personal operating system** (calendar, email, task management, morning briefs, inbox triage) powered by Claude + integrations (Outlook, Notion, Telegram, Apple Health, web search). Launched mid-July 2026; now running daily autonomous briefings and sweeps. **Status:** Stable; Gmail connector down (permissions error since 2026-06-30); Outlook/Telegram healthy.
-
-**Recent activity (2026-08-11):** Morning brief generated for haircut appointment (8 AM EST), flagged two high-priority UVA admin tasks (advisor call, SIS verification). Inbox sweep returned 9 promotional emails; calendar remains clear post-travel. System is functioning well.
-
-### 2. [[Homework Hatch (startup)]]
-**Edtech/AI venture** with friend Josh. Idea: AI tools for high school students (homework help, study coaching, etc.). **Status:** Active; code & prototyping underway. **Deployment:** Unknown (likely still in prototype/testing phase).
-
-### 3. [[Personal Quant Model]]
-**Multi-factor equity model** + Flask web app. Untested in live trading. **Capabilities demonstrated:** design, math, API integration (directed implementation via AI). **Gaps:** No proof of solo coding, no live trading results, no stress-testing under real market conditions. See [[UVA and the Quant Question]] for explicit calibration.
-
-### 4. [[The Edge (trading model)]]
-**Short-horizon momentum/acceleration trader.** Status: Conceptual; implementation status unclear. Not yet a running system.
+- **Works:** [[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Garden of Eden (poem)|Garden of Eden]], [[The Mower (poem)|The Mower]], [[Death of a Salesman]], [[The One]] (original short story), [[The Pearl]]
+- **Through-line:** Who are we when trauma, modernity, or choice erases us? Sethe loses her past and kills what she loves (Beloved); Rabbit-ears survivors of rape lose language and body; Traveler's Dino (The One) loses his identity to a game; Willy Loman's self is the sales pitch, nothing underneath. Yet Basho, the mower, the pearl find recovery *in* the loss—in art, labor, letting go.
+- **Signature moment:** His senior speech and extended essays grapple with the paradox that meaning is both impossible and essential.
+- **Final stance:** Not fatalistic; tragic-realistic. You become yourself through what breaks you and what you choose to do with that.
 
 ---
 
-## Structure of the wiki
+## Part 2: Technical & Systems Projects (2026 onward)
 
-**The entry points:**
-- **[[index]]** — catalog of every page, by category (read this first on queries)
-- **[[log]]** — chronological, append-only record of ingests, queries, lint passes
+As of summer 2026, the wiki now includes Traveler's autonomous systems and technical work:
 
-**The layers:**
-1. **`raw/`** — immutable sources (essays, ChatGPT exports, Apple Notes, RESOLVE logs)
-2. **`wiki/`** — this knowledge base: entities, concepts, analyses, overviews
-3. **`output/`** — derived deliverables (decks, spreadsheets, diagrams, reports)
+### RESOLVE AI Assistant
+**Status:** Operational; daily activity logs 2026-07-12 onward.
 
-**Key pages:**
-- **Entities (people, works, projects):** [[Traveler Stansberry]] · [[Naomi]] · [[Porter Stansberry (father)]] · [[St. Paul's School]]
-- **Concepts (ideas, themes):** [[Fate and Free Will]] · [[Identity and Its Collapse]] · [[Power, Hierarchy, and Justice]] · [[Art as Survival]]
-- **Analyses (syntheses):** [[Intellectual Profile]] · [[Core Convictions]] · [[Intellectual Evolution]]
+[[RESOLVE (AI assistant)]] is an AI-powered personal operating system handling Traveler's calendar, email (Outlook), task management (Notion), and health integration (Apple Watch). Since mid-July 2026, RESOLVE has been running a daily rhythm: morning briefings (next 48h calendar, open tasks, key emails), inbox-to-calendar sweeps (detect real events vs. noise), and routine health checks. As of 2026-08-12, the system is fully operational with no connector failures; email triage is accurate and low-signal (promotional noise filtered consistently). Key upcoming deadline: UVA move-in (Aug 20, 2026) with packing task flagged but not yet started.
+
+### Planned Expansions
+- **Homework Hatch:** Edtech/AI venture (partner: Josh); early-stage design phase.
+- **Personal Quant Model:** Multi-factor equity model with Flask backend; in active development.
+- **The Edge:** Short-horizon momentum/acceleration trader (speculative, early).
 
 ---
 
-## Honest calibration
+## The Core Through-Line
 
-**This wiki is only useful if it tells the truth about what Traveler knows and can do.** See [[CLAUDE.md]] for operating principles, but the core rule:
-- **Don't flatter.** Separate demonstrated from plausible from aspirational. (Example: designing a quant model ≠ building one; directing an AI to code it ≠ coding it yourself. [[UVA and the Quant Question]] names this gap explicitly.)
-- **Name gaps openly.** If something is untested, unproven, or missing, say so and put it where he'll see it.
-- **Calibrate the narrative.** High school English: clear evidence of sophisticated thinking over 4 years. Quant/coding: ideas + design ✓, math ✓, implementation ✗. UVA Finance path: committed; quant path: still open, uncertain.
+**Across all work (2022–2026):**
+
+Traveler's intellectual signature is the tension between **determinism and agency**. He begins convinced that circumstance crushes the individual (fate, 2022–23). He discovers that agency is real but costly and often futile (2023–24). He learns that tragedy is structural and beautiful (2024–25). And by 2026, he settles on a tragic-realist position: *you* become yourself through what breaks you and what you choose to do in response. The individual matters *because* the system will destroy them.
+
+This through-line runs through his essays, personal writing, college applications, and even his technical work—designing systems (RESOLVE, Homework Hatch) that extend personal agency rather than diminish it.
 
 ---
 
-## Next questions to investigate
+## Status & Coverage
 
-1. **The Amazon subscription flagged on 2026-08-11** — what is it, and why did RESOLVE flag it for attention? (Source text truncated; full context needed.)
-2. **[[Japanese Oral Interview]] status** — was it completed as scheduled (Aug 7 in Dublin), rescheduled, or canceled? (Affects IB record.)
-3. **Calendar after travel** — why is it bare? Intentional clearing, or sync issue?
-4. **Quant model status for fall 2026** — will Traveler continue developing it, or focus on Commerce coursework & Homework Hatch?
-5. **Homework Hatch progress** — prototype status, timeline to MVP, fundraising plans (if any)?
+**Coursework:** Complete. 28 works have detailed entity pages; 11 major themes have concept pages; ~80 essays/assignments documented.
 
-See [[log]] for a full operational history of the wiki.
+**Personal writing:** Comprehensive. 6 synthesis pages cover his inner life, goals, family, and evolution.
+
+**Technical work:** In progress. RESOLVE is catalogued daily (source pages + entity); Homework Hatch and quant models are stubs awaiting development documentation.
+
+**Apple Notes (2022–2026):** 274 notes triaged; 43 kept and woven into pages; 231 deleted (routine/repetitive/personal).
+
+**ChatGPT exports (891 chats):** Catalogued with 23 monthly digests and a [[_Chats Catalog|master catalog]]; full propagation deferred to future sprints.
+
+See [[log]] for the detailed ingest history.
