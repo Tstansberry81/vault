@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-12
+updated: 2026-08-13
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -19,7 +19,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-02]]",
   "[[RESOLVE Daily Activity 2026-08-03]]",
   "[[RESOLVE Daily Activity 2026-08-11]]",
-  "[[RESOLVE Daily Activity 2026-08-12]]"
+  "[[RESOLVE Daily Activity 2026-08-12]]",
+  "[[RESOLVE Daily Activity 2026-08-13]]"
 ]
 status: active
 ---
@@ -31,41 +32,51 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 ## Core Capabilities
 
 ### Established
-- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent email, and health data (sleep/resting HR). Timezone-aware and warm-toned. Example from 2026-08-11: flagged haircut appointment (8:00 AM deadline) and two high-priority UVA tasks with runway (advisor call due Aug 28, SIS credit confirmation due Sep 1).
-- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Post-travel (return from Dublin, 2026-08-11), calendar remains exceptionally clear — only routine commitments scheduled. As of 2026-08-12, next 48 hours are completely blank (no events Aug 12–13).
-- **Email triage**: Scans unread email (limit 50 messages, last 2 days) to identify actionable calendar items (invitations, RSVPs, appointments, reservations, deliveries). Daily inbox-to-calendar sweep compares email against 30-day calendar lookout. Since mid-July, sweep consistently surfaces only promotional noise (Twitch alerts, newsletters, marketing); no real events missed in last 4 weeks.
-- **Notion task visibility**: Reads open tasks with high/medium/low priority flags; reports on tasks with explicit deadlines (e.g., UVA advising deadlines Aug 28 and Sep 1–4).
-- **Health data integration**: Apple Watch check (sleep, resting heart rate) included in morning brief when available.
-- **Web research**: Can search external sources (e.g., weather, upcoming events) as needed.
+- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent email, and health data (sleep/resting HR). Timezone-aware and warm-toned. 
+- **Calendar integration**: Real-time access to upcoming events; event creation with optional clarification. Gracefully falls back when connectors error (skips them rather than halting the session).
+- **Inbox-to-calendar sweep**: Identifies real-world events from unread email (appointments, invitations, RSVPs, travel, deadlines) and creates calendar events for those that require action; filters marketing/notification noise.
+- **Task monitoring**: Pulls open Notion tasks and highlights high-priority items with concrete deadlines.
+- **Health logging**: Accesses Apple Watch data (sleep, resting heart rate) and adds one recovery line to daily briefs when data is fresh.
 
-### System Health (as of 2026-08-12)
-- **All connectors operational**: No errors during Aug 11–12 operations.
-- **Email accumulation**: ~28,359 unread messages (typical due to promotional subscriptions). Last 2 days produced zero actionable signals.
-- **Graceful error handling**: Now configured to skip connector errors rather than halt the entire brief (Aug 12 update).
+### Operational Patterns (as of 2026-08-13)
 
-### Known Issues
-- **Gmail integration broken** since 2026-06-30 (OAuth/permissions issue); Outlook is the primary email system.
+**Daily routine:** Morning brief → inbox-to-calendar sweep → event creation as needed. Typical session time: early morning.
 
-## Operational Patterns
+**Email signal quality:** Marketing/notification blasts dominate (Twitch, newsletters, promotions); genuine operational signals (appointments, invites) are sparse, particularly during travel or low-event periods. Pre-move-in period (Aug 13–20) shows extremely light email load.
 
-**Morning rhythm:** Brief arrives early (pre-8 AM typical), summarizes next 48h, flags urgent deadlines.
+**Calendar clarity:** Follows [[Traveler Stansberry|Traveler]]'s availability and travel patterns. Post-Dublin return (Aug 11+), calendar is exceptionally sparse — only move-in (Aug 20) and occasional appointments (med check Aug 14). This is the expected pre-matriculation state (two weeks before [[UVA]] arrival).
 
-**Daily inbox sweep:** Routine post-brief, focuses on real-world events vs. noise. Over the past 4 weeks, sweep accuracy is high — consistently identifies actual calendar needs while filtering promotional clutter.
+**Connector reliability:**
+- **Outlook (email + calendar):** Stable (tested daily)
+- **Notion (tasks):** Stable (tested daily)
+- **Apple Health (via Watch):** Dependent on watch sync; data sparse during low-activity periods
+- **Gmail:** Down since 2026-06-30 (permissions error; reconnect required)
+- **Telegram:** Functional but not heavily used in recent logs
 
-**Pre-event reminders:** When calendar contains critical events (haircut, travel, meetings), system flags them in the brief 48h+ ahead.
+### Demonstrated Limitation
+- **Graceful fallback only:** System skips erroring connectors rather than attempting retry/recovery. Gmail has remained down for 2+ weeks without automatic re-connection.
+- **Health data dependency:** If Apple Watch is not synced or the user is sedentary, no recovery data to log — the system has no fallback source.
 
-**Move-in countdown:** As of 2026-08-12, system is tracking UVA move-in (Aug 20, 8 days away) and has flagged "pack mountain house gear" as an undated task that needs attention before move-out.
+## Technical Infrastructure
 
-## Design Philosophy
+**Integration points:**
+- Google Calendar (event creation, read)
+- Outlook (email read, calendar access)
+- Notion API (task read)
+- Apple Health via Watch sync
+- Internal vault (search, link generation)
 
-- **Brevity + warmth**: Briefs are short, conversational, and human-readable; designed to be read in 2–3 minutes.
-- **Signal over noise**: System explicitly filters promotional email and low-value notifications; only surfaces items requiring Traveler's decision or action.
-- **Proactive**: Flags upcoming deadlines and time-sensitive tasks before they become urgent.
-- **Reliable**: Operates on a routine cadence (daily morning + sweep); when a component fails, falls back gracefully rather than breaking.
+**Output formats:**
+- Prose briefs (warm, conversational tone)
+- Calendar events (Google Calendar link generation)
+- Wiki log entries (vault append, dated)
 
-## Related Pages
+## Relationship to Traveler's Workflows
+
+[[RESOLVE (AI assistant)]] is the **operational backbone** of Traveler's 2026 systems work. It handles the daily/weekly coordination tasks that free cognitive load for deeper work ([[Homework Hatch (startup)]], [[Personal Quant Model]], coursework). The system's health and reliability directly impact Traveler's ability to track deadlines, manage his relationship with [[Naomi]], and stay on top of pre-UVA administrative tasks.
+
+## Related Entities
 - [[Traveler Stansberry]] — primary user
-- [[Homework Hatch (startup)]] — another AI automation project
-- [[Personal Quant Model]] — system that may integrate with RESOLVE in future
-- [[Self-Discipline and Goals]] — 75 Hard and goal-setting context
-- [[College Search]] — UVA move-in and transition tracking
+- [[UVA and the Quant Question]] — major life context for RESOLVE's task tracking (pre-move-in period)
+- [[Homework Hatch (startup)]] — project RESOLVE may support with calendar/research integration
+- [[Naomi]] — calendar coordination (dinner scheduling, relationship events)
