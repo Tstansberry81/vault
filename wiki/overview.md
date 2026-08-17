@@ -1,8 +1,8 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-08-12
-tags: [meta/overview, english]
+updated: 2026-08-16
+tags: [meta/overview, english, systems]
 status: active
 ---
 
@@ -28,53 +28,94 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 **IB HL English 1 (2024–25): Power and Tragedy**
 - **Works:** [[The Iliad]], [[A Streetcar Named Desire]], [[Antigone]], [[The Lion in Winter]], [[Absalom, Absalom!]]
-- **Through-line:** Power doesn't survive ambition. Achilles, Blanche, Antigone, Henry, Quentin—all are destroyed by their attempts to *matter* (to lead, seduce, rule, endure). The pattern is inescapable. Yet Traveler's engagement deepens: tragedy becomes less fatalistic, more humanistic. The *choice* (Antigone's defiance, Blanche's survival) matters even if the outcome doesn't.
-- **Shift:** Fate returns but darkened. Not random anymore—tragic, structural. Agency exists but is consumed by the system. The question becomes: what's worth the cost?
+- **Through-line:** The catastrophe is relational. Power corrupts and destroys. Sophocles names it directly: those who wield power destroy themselves. Faulkner shows power's legacy (racism, family trauma) as inheritable. Shakespeare's Henry II's masculinity is performative and killing his sons. Blanche's fall is her sisters' tragedy too.
+- **Shift:** Sympathy deepens for those trapped in hierarchies not of their making. The moral weight shifts toward *structures*, not individuals.
 
 **IB HL English 2 (2025–26): Identity and Its Collapse**
-- **Works:** [[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Garden of Eden (poem)|Garden of Eden]], [[The Mower (poem)|The Mower]], [[Death of a Salesman]], [[The One]] (original short story), [[The Pearl]]
-- **Through-line:** Who are we when trauma, modernity, or choice erases us? Sethe loses her past and kills what she loves (Beloved); Rabbit-ears survivors of rape lose language and body; Traveler's Dino (The One) loses his identity to a game; Willy Loman's self is the sales pitch, nothing underneath. Yet Basho, the mower, the pearl find recovery *in* the loss—in art, labor, letting go.
-- **Signature moment:** His senior speech and extended essays grapple with the paradox that meaning is both impossible and essential.
-- **Final stance:** Not fatalistic; tragic-realistic. You become yourself through what breaks you and what you choose to do with that.
+- **Works:** [[Beloved]], [[The Narrow Road to the Deep North]], [[The Elephant Vanishes]], [[Death of a Salesman]], [[The Pearl]], and poems ([[Garden of Eden (poem)|Garden of Eden]], [[The Mower (poem)|The Mower]])
+- **Through-line:** What happens when identity is stolen, imposed, or melts under pressure? Sethe murders her child to preserve her motherhood; Takeshi and Yardley lose themselves in the war and its aftermath; Murakami's stories are about dissociation and the self's fragility; Loman is a hollow performance. Identity is not a essence — it's relational, vulnerable, and can vanish.
+- **Assignment signature:** Close-reading essays with thematic synthesis; comparative analysis; understanding ambiguity and moral complexity.
+- **Intellectual maturity:** Reads against type. Questions his own assumptions. Sees both victim and perpetrator; neither wholly one nor the other.
+
+### What he proved in four years
+
+**On reading & thinking:**
+- Can sustain deep engagement with hard texts (Faulkner, Homer, Murakami, Morrison).
+- Argues with nuance; resists the easy take.
+- Evolves his thinking in the face of evidence.
+- Interrogates the relationship between power and identity as a unifying obsession.
+
+**On writing:**
+- Essays are analytical, well-structured, and supported by evidence from text.
+- Can write across modes: analytical, personal, comparative.
+- Voice is honest and (increasingly) self-aware about what he doesn't know.
+
+**On himself:**
+- Skeptic of simple narratives (including about himself).
+- Values individualism but has learned it's expensive.
+- Drawn to tragic figures and to the question of what is "natural" vs. imposed.
 
 ---
 
-## Part 2: Technical & Systems Projects (2026 onward)
+## Part 2: Systems & Technology (2026)
 
-As of summer 2026, the wiki now includes Traveler's autonomous systems and technical work:
+**Scope:** Operational systems and automation projects launched or maintained in 2026. The shift from English-only to a broader knowledge base begins here.
 
-### RESOLVE AI Assistant
-**Status:** Operational; daily activity logs 2026-07-12 onward.
+### [[RESOLVE (AI assistant)]]
 
-[[RESOLVE (AI assistant)]] is an AI-powered personal operating system handling Traveler's calendar, email (Outlook), task management (Notion), and health integration (Apple Watch). Since mid-July 2026, RESOLVE has been running a daily rhythm: morning briefings (next 48h calendar, open tasks, key emails), inbox-to-calendar sweeps (detect real events vs. noise), and routine health checks. As of 2026-08-12, the system is fully operational with no connector failures; email triage is accurate and low-signal (promotional noise filtered consistently). Key upcoming deadline: UVA move-in (Aug 20, 2026) with packing task flagged but not yet started.
+A daily-operational personal assistant. Handles calendar management, email triage (inbox-to-calendar sweep), Notion task tracking, Apple Health integration, and morning briefing generation. Integrations include Outlook (calendar + email), Notion, Telegram, Apple Watch. **Known issues:** Gmail offline since 2026-06-30 (permissions error); three infrastructure failures flagged Aug 9 but unresolved as of Aug 16; API credit exhaustion on Aug 9 caused brief outage.
 
-### Planned Expansions
-- **Homework Hatch:** Edtech/AI venture (partner: Josh); early-stage design phase.
-- **Personal Quant Model:** Multi-factor equity model with Flask backend; in active development.
-- **The Edge:** Short-horizon momentum/acceleration trader (speculative, early).
+**Operational status (Aug 2026):** Light load pre-move-in to [[UVA]] (Aug 20). Routine daily operations: 4–5 inbox sweeps/week (all empty pre-move-in), 6–7 morning briefs, 1 weekly review. Weekly operational time: ~20–30 min. System is gracefully handling connector failures. No actionable events until post-move-in.
+
+**Outstanding administrative tasks (as of Aug 16):**
+1. 🔴 Confirm spring 2027 Commerce prereqs with advisor — due Aug 28
+2. 🔴 Confirm First Writing / language / AP credit in SIS + McIntire list — due Sep 4
+
+See [[RESOLVE (AI assistant)]] for full operational details, system health, and unresolved failures.
+
+### [[Homework Hatch (startup)]]
+
+AI-powered tutoring / homework help SaaS (co-founded with Josh). Status as of June 2026: in development; unintegrated with RESOLVE. Current focus on product; operational status and recent progress not yet detailed in wiki.
+
+### [[Personal Quant Model]]
+
+Multi-factor equity pricing model. Coded in Python with Flask web app. Status as of July 2026: developed; not currently managed by RESOLVE. Manual operation.
+
+### [[The Edge (trading model)]]
+
+Short-horizon momentum/acceleration trader. Status as of July 2026: model exists; operation status unclear from current wiki pages.
+
+### [[Vision (Porter Intelligence)]]
+
+Consumer-facing static website for quant outputs. Branded "Sauron." Status as of July 2026: exists; operational status and recent updates not detailed.
 
 ---
 
-## The Core Through-Line
+## Intellectual Throughlines (2022–2026)
 
-**Across all work (2022–2026):**
+See [[Intellectual Profile]], [[Core Convictions]], [[Intellectual Evolution]], and [[Tensions and Open Questions]] for detailed analysis.
 
-Traveler's intellectual signature is the tension between **determinism and agency**. He begins convinced that circumstance crushes the individual (fate, 2022–23). He discovers that agency is real but costly and often futile (2023–24). He learns that tragedy is structural and beautiful (2024–25). And by 2026, he settles on a tragic-realist position: *you* become yourself through what breaks you and what you choose to do in response. The individual matters *because* the system will destroy them.
-
-This through-line runs through his essays, personal writing, college applications, and even his technical work—designing systems (RESOLVE, Homework Hatch) that extend personal agency rather than diminish it.
+**Key themes across coursework + personal life:**
+- **Fate vs. agency** — starts as hard determinism, softens to: agency is possible but expensive and often crushing.
+- **Power and its corruptions** — who holds it, what it does to them and others, whether it can ever be wielded justly.
+- **Identity as relational** — not a stable essence; shaped by circumstance, trauma, relationship, imposed hierarchies.
+- **Individual vs. society** — the rebel is necessary and doomed; conformity enables atrocity; art offers a third way (survival, not victory).
+- **Skepticism as intellectual posture** — questions his own assumptions; resistant to easy answers; drawn to paradox and ambiguity.
 
 ---
 
-## Status & Coverage
+## Coverage & Gaps
 
-**Coursework:** Complete. 28 works have detailed entity pages; 11 major themes have concept pages; ~80 essays/assignments documented.
+**Complete:**
+- English coursework (K–12, all 4 years, 77 documents, 28 works, ~20 essays/personal pieces catalogued, ~55 assignments inside work pages)
+- Personal writing (memoirs, letters, journals, relationship log)
+- ChatGPT export triage (668 attachments; 293 substantial chats catalogued as source pages; 23 monthly digests; [[_Chats Catalog]])
+- RESOLVE daily operational logs (2026-07-12 onward; ongoing)
 
-**Personal writing:** Comprehensive. 6 synthesis pages cover his inner life, goals, family, and evolution.
+**Partially covered:**
+- [[Homework Hatch (startup)]] — exists in index but no deep operational history
+- Quant/finance projects ([[Personal Quant Model]], [[The Edge]], [[Vision (Porter Intelligence)]]) — noted in index; details and recent progress deferred
 
-**Technical work:** In progress. RESOLVE is catalogued daily (source pages + entity); Homework Hatch and quant models are stubs awaiting development documentation.
+**Deferred (per schema):**
+- ChatGPT propagation into entity/concept pages (668 attachments, ~55 chats per monthly digest — token budget deferred; marked as next pass)
 
-**Apple Notes (2022–2026):** 274 notes triaged; 43 kept and woven into pages; 231 deleted (routine/repetitive/personal).
-
-**ChatGPT exports (891 chats):** Catalogued with 23 monthly digests and a [[_Chats Catalog|master catalog]]; full propagation deferred to future sprints.
-
-See [[log]] for the detailed ingest history.
