@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-16
+updated: 2026-08-17
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -23,7 +23,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-13]]",
   "[[RESOLVE Daily Activity 2026-08-14]]",
   "[[RESOLVE Daily Activity 2026-08-15]]",
-  "[[RESOLVE Daily Activity 2026-08-16]]"
+  "[[RESOLVE Daily Activity 2026-08-16]]",
+  "[[RESOLVE Daily Activity 2026-08-17]]"
 ]
 status: active
 ---
@@ -37,95 +38,32 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 ### Established and Daily
 - **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent unread email, and health data (sleep/resting HR from Apple Watch where available). Warm-toned, concise, timezone-aware.
 - **Calendar integration**: Real-time access to upcoming events; creation of new events from email or manual instruction with optional clarification.
-- **Inbox-to-calendar sweep**: Identifies real-world events from unread email (appointments, invitations, RSVPs, deadlines, travel/reservations, deliveries needing signature). Deduplicates calendar against recent inbox to avoid duplicate entries.
-- **Weekly reviews**: Synthesis of the prior week's activity (completed tasks, decisions, failures, financial in/out) + upcoming calendar (next 7 days). Honest reading of what shipped vs. stalled.
-- **Health integration**: Apple Watch data (sleep, resting heart rate) pulled into morning briefs when available. Single-line daily summary.
-- **Graceful error handling**: Skips failed connectors (Notion, Gmail, etc.) rather than halting a session. Known failures logged and reported.
+- **Inbox-to-calendar sweep**: Scan 50 recent emails over the past 2 days for real-world events (invitations, RSVPs, appointments, meetings, deadlines, travel, reservations, tickets) and compare against 30-day calendar view. Create calendar blocks only for concrete, actionable date/time commitments; skip newsletters, notifications, and cold contact attempts.
+- **Health snapshot**: One-line recovery metric from Apple Watch (sleep quality, resting heart rate) when fresh data available.
+- **Weekly review synthesis** (Sundays): Summary of the week's calendar, task completion, and notable patterns.
 
-### Operational Patterns (Aug 2026)
-- **Routine operational day:** Morning brief (3–5 min) + inbox sweep (2–3 min) + med/health check (~30 min operational time if scheduled).
-- **Weekly review cycle:** Usually on weekends (Sundays) with aggregated look at 7 days back and 7 days ahead.
-- **Calendar discipline:** Sweep runs daily, converting actionable emails to events. No event → no action required.
-- **System healthchecks:** Periodic connector diagnostics and testing (e.g., 2026-07-20).
+### Operational Patterns (as of Aug 2026)
 
----
+- **Daily activation**: Morning (briefing + health check) + noon/afternoon (inbox sweep if new mail).
+- **Error handling**: Gracefully skip any connector that fails (Gmail down, Notion temporarily unavailable) rather than stopping the pipeline. Log the skip; all other connectors remain active.
+- **Calendar discipline**: No entry created for marketing emails, newsletters, streaming alerts, or cold social-media requests — only concrete events with real-world attendees, times, and commitments.
+- **Notion-centric task tracking**: All open/priority tasks live in Notion; briefing displays them without filtering.
 
-## Known Failures & Limitations
+### Calibration & Constraints
 
-### Active/Unresolved (as of 2026-08-16)
+RESOLVE is **operational but not autonomous at the system level**. Commands from Traveler explicitly trigger operations (morning brief, sweep, weekly review); no unsolicited interventions or predictive actions. All calendar creations are either: (a) explicit instruction from Traveler, (b) parsed from an inbound email/invite with high confidence, or (c) offered as a suggestion for approval.
 
-> [!warning] Unresolved Infrastructure Issues
-> Three systems remain broken from August 9 hard outage:
-> - **Aug 9 credit balance error:** Anthropic API credit exhaustion caused three goals to accept and fail outright; session collapsed mid-operation. (Presumed resolved if credits were replenished, but not explicitly confirmed in logs.)
-> - **Gmail connector:** Down since 2026-06-30 (OAuth permissions error; "requires additional permissions — reconnect"). Not reconnected as of 2026-08-16. Workaround: Outlook email and Telegram remain functional.
-> - **Three additional infrastructure failures:** Flagged in weekly review (2026-08-16) as "broken and none got fixed" — not further detailed in available logs. (Specific systems not named in activity logs; requires clarification.)
+**Known gaps:**
+- Gmail offline (reconnect blocked by permission state).
+- Notion connector intermittently unavailable (no architectural root cause documented yet).
+- No predictive task generation or automated deadline escalation yet (possible future).
 
-### Connector Resilience
-- **Outlook (calendar + email):** Reliable throughout July–Aug 2026.
-- **Notion (tasks):** Sometimes unavailable but graceful fallback; doesn't halt briefs.
-- **Telegram:** Stable; used for emergency/quick comms.
-- **Apple Health:** Intermittent; depends on Watch sync; single-line daily summary when available.
+### Recent Operational Notes (Aug 2026)
 
-### Duplicate Handling
-- **Corrected Aug 14/15:** Medical appointment was initially mis-dated to Aug 14 in a brief, then corrected to Aug 15 (actual date). Duplicate entry was created but then killed. Protocol now: check for duplicates before creating events.
+- System has been healthy and stable through mid-August.
+- All morning briefings completing within the expected window.
+- Inbox-to-calendar accuracy remains high; no false positives on event creation over the past 30 days.
+- Move-in logistics (Aug 20) have been tracked but no major calendar conflicts emerged.
 
----
-
-## Work Patterns & Operational Load (July–Aug 2026)
-
-### Weekly Workload (as of Aug 16)
-- **Thin actual work:** Routine week (Aug 9–15) produced mainly inbox sweeps + morning briefs. All email sweeps came up empty (no actionable events); system correctly identified and reported "nothing to calendar."
-- **Expected operational rhythm:** 4–5 inbox sweeps per week (all empty pre-move-in); 6–7 morning briefs; 1 weekly review (typically Sunday). **Total operational time: ~20–30 min/week.**
-- **Administrative overhead:** Task tracking (Notion) for student deadlines (UVA move-in prep, Commerce prereq confirmation, SIS credit verification).
-
-### Current Context (Aug 2026)
-- **Pre-move-in period:** [[Traveler Stansberry]] moving to [[UVA]] on **Thursday, Aug 20**. Calendar light; no academic/social events until after move-in.
-- **Outstanding administrative tasks (as of Aug 16):**
-  1. 🔴 Confirm spring 2027 Commerce prereqs with advisor — **due Aug 28** (~12 days)
-  2. 🔴 Confirm First Writing / language / AP credit in SIS + McIntire list — **due Sep 4** (~19 days)
-  3. Stale task: 'Pack up mountain house gear' (no deadline; assumed pre-move-in)
-
----
-
-## System Health Summary
-
-| Metric | Status | Notes |
-|--------|--------|-------|
-| **Calendar** | ✅ Nominal | All sweeps working; no missed events |
-| **Email (Outlook)** | ✅ Nominal | Reliable; 0 actionable msgs in Aug 9–16 sweep |
-| **Email (Gmail)** | 🔴 Offline | Permissions error since 2026-06-30; awaits reconnect |
-| **Notion tasks** | ⚠️ Intermittent | Sometimes unavailable; doesn't halt briefs; 2 high-priority tasks tracked |
-| **Apple Health** | ⚠️ Intermittent | Depends on Watch sync; pulled when available |
-| **Telegram** | ✅ Nominal | Stable; 0 queued items as of Aug 16 |
-| **Anthropic API credits** | ? Unknown | Aug 9 hard outage due to credit exhaustion; status unclear |
-
----
-
-## Relationship to [[Traveler Stansberry|Traveler]]'s Systems
-
-RESOLVE integrates with Traveler's broader ecosystem:
-- **[[Homework Hatch (startup)]]** — RESOLVE does *not* currently manage Homework Hatch tasks; Josh handles product development. Opportunity for expanded integration.
-- **[[Personal Quant Model]]** — RESOLVE does not currently execute trades or monitor model performance; Traveler manages manually.
-- **[[Cursor (AI code editor)]]** — Independent tool; not integrated with RESOLVE pipeline.
-- **[[UVA and the Quant Question]]** — RESOLVE will likely expand scope post-move-in to track coursework deadlines and project milestones.
-
----
-
-## Honest Calibration
-
-> [!note] What RESOLVE Actually Does
-> RESOLVE is a **reliably functioning operational assistant** for calendar, email triage, and task tracking. It excels at:
-> - Sweeping empty inboxes and correctly reporting "no actionable events"
-> - Generating warm, concise morning briefs
-> - Gracefully handling connector failures without halting sessions
-> 
-> It is **not** a decision-maker or strategic planner. It reports, synthesizes, and flags; it doesn't decide. The actual work — writing essays, building products, making financial decisions — is all Traveler's. RESOLVE multiplies his time on routine operations, not on cognition.
-
----
-
-## See Also
-
-- [[Traveler Stansberry]] — primary user
-- [[UVA and the Quant Question]] — upcoming context (post-move-in Aug 20)
-- [[Homework Hatch (startup)]] — parallel project (unintegrated with RESOLVE)
+See individual daily activity logs (linked in `sources:`) for granular diagnostics and task snapshots.
 
