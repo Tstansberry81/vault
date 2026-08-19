@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-17
+updated: 2026-08-18
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -24,7 +24,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-14]]",
   "[[RESOLVE Daily Activity 2026-08-15]]",
   "[[RESOLVE Daily Activity 2026-08-16]]",
-  "[[RESOLVE Daily Activity 2026-08-17]]"
+  "[[RESOLVE Daily Activity 2026-08-17]]",
+  "[[RESOLVE Daily Activity 2026-08-18]]"
 ]
 status: active
 ---
@@ -37,33 +38,40 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 
 ### Established and Daily
 - **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent unread email, and health data (sleep/resting HR from Apple Watch where available). Warm-toned, concise, timezone-aware.
-- **Calendar integration**: Real-time access to upcoming events; creation of new events from email or manual instruction with optional clarification.
-- **Inbox-to-calendar sweep**: Scan 50 recent emails over the past 2 days for real-world events (invitations, RSVPs, appointments, meetings, deadlines, travel, reservations, tickets) and compare against 30-day calendar view. Create calendar blocks only for concrete, actionable date/time commitments; skip newsletters, notifications, and cold contact attempts.
-- **Health snapshot**: One-line recovery metric from Apple Watch (sleep quality, resting heart rate) when fresh data available.
-- **Weekly review synthesis** (Sundays): Summary of the week's calendar, task completion, and notable patterns.
+- **Calendar integration**: Real-time access to upcoming events; creation of new events from email or manual instruction with optional attendee notification.
+- **Inbox-to-calendar sweeps**: Scan recent email for real-world happenings (invitations, RSVPs, appointments, meetings, deadlines, travel, deliveries) and create calendar entries for events requiring Traveler's action or attention.
+- **Task synthesis**: Querying Notion for open tasks and surfacing urgent/overdue items in morning briefs.
+- **Health briefing**: Integration with Apple Watch data (sleep duration, resting heart rate, recovery) when available.
 
-### Operational Patterns (as of Aug 2026)
+### Advanced / Experimental
+- **Connector diagnostics**: Testing and reporting on the health of integrated services (Outlook, Notion, Gmail, Telegram, Apple Health).
+- **Graceful degradation**: Morning briefs and sweeps skip broken connectors (e.g., Gmail) rather than halt, ensuring partial data is still useful.
 
-- **Daily activation**: Morning (briefing + health check) + noon/afternoon (inbox sweep if new mail).
-- **Error handling**: Gracefully skip any connector that fails (Gmail down, Notion temporarily unavailable) rather than stopping the pipeline. Log the skip; all other connectors remain active.
-- **Calendar discipline**: No entry created for marketing emails, newsletters, streaming alerts, or cold social-media requests — only concrete events with real-world attendees, times, and commitments.
-- **Notion-centric task tracking**: All open/priority tasks live in Notion; briefing displays them without filtering.
+## Integration Status
 
-### Calibration & Constraints
+| Connector | Status | Last Working |
+|-----------|--------|--------------|
+| **Outlook (calendar + email)** | ✅ Active | Current |
+| **Notion (tasks)** | ✅ Active | Current |
+| **Telegram** | ✅ Active | Current |
+| **Apple Health (Watch)** | ✅ Active | Current |
+| **Gmail** | ❌ Offline | 2026-06-30 (permissions error; awaits user reconnection) |
 
-RESOLVE is **operational but not autonomous at the system level**. Commands from Traveler explicitly trigger operations (morning brief, sweep, weekly review); no unsolicited interventions or predictive actions. All calendar creations are either: (a) explicit instruction from Traveler, (b) parsed from an inbound email/invite with high confidence, or (c) offered as a suggestion for approval.
+## Operational Patterns (Jul–Aug 2026)
 
-**Known gaps:**
-- Gmail offline (reconnect blocked by permission state).
-- Notion connector intermittently unavailable (no architectural root cause documented yet).
-- No predictive task generation or automated deadline escalation yet (possible future).
+**Frequency:** Daily at ~8 AM, with ad-hoc scheduling tasks on demand (e.g., dinner with [[Naomi]]).
 
-### Recent Operational Notes (Aug 2026)
+**Modal activity (routine):**
+- Morning brief: 5–10 min summary of day + open tasks
+- Inbox-to-calendar: 1–2 messages/week requiring event creation; most email is marketing/notifications (no action)
+- Calendar: average 1–2 events/day during high season; dropped to 0 in late July (post-graduation, pre-move-in)
 
-- System has been healthy and stable through mid-August.
-- All morning briefings completing within the expected window.
-- Inbox-to-calendar accuracy remains high; no false positives on event creation over the past 30 days.
-- Move-in logistics (Aug 20) have been tracked but no major calendar conflicts emerged.
+**Recent pattern (late August 2026):** The calendar has emptied as [[College Search|move-in day]] (August 20) approaches. Days are now open blocks (packing, final prep). The critical path shifted to **pre-arrival administrative tasks** with firm deadlines ([[College Search#🚨 Outstanding Pre-Arrival Tasks|see College Search]]): advisor confirmation (Aug 28) and SIS/credit validation (Sep 4).
 
-See individual daily activity logs (linked in `sources:`) for granular diagnostics and task snapshots.
+## Vault Integration
 
+RESOLVE can search the wiki and reference back to [[Traveler Stansberry]] when composing briefs. The morning brief vaults itself (via `vault_append_log`) under the title "Morning brief" with today's date. This archive becomes a time-series record of Traveler's calendar and task state.
+
+---
+
+**Related:** [[College Search]] · [[Self-Discipline and Goals]] · [[Homework Hatch (startup)]]
