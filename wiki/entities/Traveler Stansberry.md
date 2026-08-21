@@ -1,9 +1,9 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-08-11
+updated: 2026-08-20
 tags: [person/author, self]
-sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-19]]", "[[RESOLVE Daily Activity 2026-07-31]]", "[[RESOLVE Daily Activity 2026-08-01]]", "[[RESOLVE Daily Activity 2026-08-02]]", "[[RESOLVE Daily Activity 2026-08-03]]", "[[RESOLVE Daily Activity 2026-08-11]]"]
+sources: ["[[When I Feel Like an Outsider]]", "[[Major Moments Memoir]]", "[[Life Map]]", "[[Self-Reliance (essay)]]", "[[The One]]", "[[_Chats Catalog]]", "[[RESOLVE Daily Ingest 2026-07-14]]", "[[RESOLVE Daily Ingest 2026-07-19]]", "[[RESOLVE Daily Activity 2026-07-31]]", "[[RESOLVE Daily Activity 2026-08-01]]", "[[RESOLVE Daily Activity 2026-08-02]]", "[[RESOLVE Daily Activity 2026-08-03]]", "[[RESOLVE Daily Activity 2026-08-11]]", "[[RESOLVE Daily Activity 2026-08-20]]"]
 status: active
 ---
 
@@ -13,7 +13,7 @@ The author of nearly every source in this wiki, and its subject. Attended **[[St
 
 ## Current Status (August 2026)
 
-**Location:** Back in the United States (EST timezone) as of **August 11, 2026**.
+**Location:** United States (EST timezone).
 
 **Recent travel:**
 - **Departed US:** August 1, 2026 at 9:30 PM (flight to Dublin)
@@ -21,62 +21,41 @@ The author of nearly every source in this wiki, and its subject. Attended **[[St
 - **Completed:** [[Japanese Oral Interview]] (IB SL, originally scheduled Aug 7; status unclear if completed or rescheduled)
 - **Returned to US:** By August 11, 2026
 
-**Immediate calendar:**
-- **August 11 (Tuesday):** Haircut with Tony at 8:00 AM (noted as hard deadline in morning brief; rest of day open)
-- **August 12 (Wednesday):** Fully open
-- **Next committed event:** Not yet listed in RESOLVE calendar (calendar unusually bare post-travel)
+## Immediate Timeline — UVA Transition
 
-**Active administrative tasks (high priority, with runway):**
-1. **Advisor call on spring 2027 Commerce prerequisites** (due August 28)
-2. **Confirming First Writing course, language credit, AP credit in SIS** (due September 1)
+**TODAY (August 20, 2026):**
+- 🎓 **UVA Move-in Day: 1:00–3:00 PM** — This marks formal transition to college. The morning brief shows this as the only calendar event; it structures his entire day.
 
-**Email state:** Light. Last inbox sweep (Aug 11) returned 9 promotional messages; no calendar-worthy events, but one Amazon subscription-related item flagged for attention (context incomplete).
+**Tomorrow (August 21, 2026):**
+- 10:00–11:00 AM — **Discussion at UVA** (newly created event; needs clarification on course/recurrence — should be set up as recurring section if course-based)
 
-## Personality & worldview
+**Near-term (Aug 25 onward):**
+- **Classes begin:** August 25, 2026 (exactly 5 days from move-in)
 
-**Core traits** (from coursework 2022–2026):
-- **Determinist / skeptic**: Questions free will and accepted narratives. See [[Fate and Free Will]].
-- **Individualist**: Values autonomy; suspicious of conformity and hierarchy. See [[Individual vs. Society]].
-- **Introspective**: Writes extensively about inner emotional life. See [[Emotional Life and Inner World]].
-- **Analytical**: Comfortable with systems thinking, math, and quantitative reasoning. See [[Personal Quant Model]].
+### Critical College Administrative Tasks (HIGH PRIORITY)
 
-**Demonstrated intellectual interests:**
-- Philosophy (free will, morality, knowledge); see [[Intellectual Interests]]
-- Economics & markets; see [[Political and Economic Views]]
-- Technology & AI; see [[Cursor (AI code editor)]], [[Homework Hatch (startup)]]
-- Narrative & identity in literature; see [[Identity and Its Collapse]]
+🔴 **Due August 28 (8 days from move-in):**
+- **Confirm spring 2027 Commerce prereqs with advisor** — McIntire requires prerequisite sequencing; confirm which courses are available/required for spring enrollment. Flagged by RESOLVE morning brief as urgent.
 
-**Key relationships:**
-- **Father ([[Porter Stansberry (father)]]):** Complex; respect mixed with independence-seeking. See [[Family and Personal Life]].
-- **Girlfriend (Naomi):** Most emotionally significant person in his life. Scheduled visit: Aug 9, 2026 (dinner). See [[Naomi]].
+🔴 **Due September 4 (15 days from move-in):**
+- **Confirm First Writing/language/AP credit in SIS + McIntire list** — Verify which AP credits and any IB First Language credits post to his transcript; confirm any language proficiency recognition. These affect course load and scheduling flexibility.
 
-## Academic Record & Path
+**Rationale for tracking:** These deadlines affect course registration timing and potentially the viability of the [[UVA and the Quant Question|quant pathway]] (which requires stacking math/CS alongside finance core requirements). Trav should address them immediately after move-in settles.
 
-**High school (2022–2026):**
-- [[English Curriculum 2022-2026|Four-year English program]] (9 → 10 → HL1 → HL2) under [[Mr. Bryant]] (9–10) → [[Dr. Harris]] (HL1) → [[Mr. Mezeske]] (HL2)
-- **IB Diploma candidate** (May 2026): Physics HL, Economics SL, History HL, Math SL, Japanese SL, English HL, Theory of Knowledge
-- **Academic Record:** See [[Academic Record]] for transcript summary
+## Key Personality Traits (evident across corpus)
 
-**College:**
-- **Committed:** University of Virginia, [[McIntire School of Commerce]] (Finance major), Math minor
-- **Fall 2026 start:** August/September 2026 (exact date TBD; orientation completed July 20)
-- **Quant interest:** Open question whether he'll pursue quantitative finance or remain on the traditional finance path. See [[UVA and the Quant Question]].
+- **Intellectually restless:** reads voraciously, explores ideas deeply, asks hard questions (faith, morality, power, identity)
+- **Individualist:** libertarian-leaning; values autonomy and self-reliance; skeptical of institutional narratives
+- **Ambitious:** multiple ventures ([[Homework Hatch (startup)|Homework Hatch]], [[Personal Quant Model|quant model development]], [[The Edge (trading model)|trading systems]]), high standards for himself
+- **Self-aware about limitations:** acknowledges gaps candidly (coding proficiency, depth vs. breadth in quant finance); not defensive
+- **Emotionally intelligent:** his essays show sensitivity to others' experiences; significant relationship with [[Naomi]]; close to [[Porter Stansberry (father)|his father]]
+- **Disciplined:** documented self-improvement projects ([[Self-Discipline and Goals|75 Hard]], time-blocking, systematic learning)
 
-## Projects & Building
+## Related Pages
 
-**Active projects (2026):**
-- **[[RESOLVE (AI assistant)]]** — personal operating system (calendar, email, tasks, briefs); uses daily, logs via autonomous agents
-- **[[Homework Hatch (startup)]]** — edtech/AI venture with friend Josh (status: active; building tools for high school students)
-- **[[Personal Quant Model]]** — multi-factor equity model + Flask webapp (untested in live trading; code and math known, deployment uncertain)
-- **[[The Edge (trading model)]]** — short-horizon momentum/acceleration trader (status: conceptual; implementation status unclear)
-
-> [!warning] Calibration note
-> The quant model represents **design judgment + some math + directed-not-coded implementation** (used AI to build Flask app). This is valuable portfolio evidence but not proof of independent coding ability or ability to build trading systems solo. The [[UVA and the Quant Question]] page flags this gap explicitly.
-
-## Key Pages About Him
-- [[Intellectual Profile]] — master index of ideas by domain
-- [[Core Convictions]] — his beliefs with evidence
-- [[Intellectual Evolution]] — how he's changed, 2022–2026
-- [[Tensions and Open Questions]] — unresolved conflicts in his thinking
-- [[College Essay (Surfing)]] — his narrative for UVA application (accepted ED)
-- [[Senior Speech]] — his voice at graduation
+- **College:** [[UVA and the Quant Question]], [[McIntire School of Commerce]], [[College Search]]
+- **Systems:** [[RESOLVE (AI assistant)]] — his personal OS
+- **Relationships:** [[Naomi]], [[Porter Stansberry (father)]], [[St. Paul's School]]
+- **Ventures:** [[Homework Hatch (startup)]], [[Personal Quant Model]], [[The Edge (trading model)]]
+- **Academic record:** [[English Curriculum 2022-2026]], [[Academic Record]], [[IB Physics (HL)]], [[IB Math (SL)]], [[IB History (HL)]], [[IB Economics (SL)]], [[IB Japanese (SL)]], [[Theory of Knowledge]], [[Extended Essay (Economics)]]
+- **Intellectual life:** [[Intellectual Profile]], [[Core Convictions]], [[Intellectual Evolution]], [[Tensions and Open Questions]]
