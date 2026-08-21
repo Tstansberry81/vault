@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-19
+updated: 2026-08-20
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -26,65 +26,54 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-16]]",
   "[[RESOLVE Daily Activity 2026-08-17]]",
   "[[RESOLVE Daily Activity 2026-08-18]]",
-  "[[RESOLVE Daily Activity 2026-08-19]]"
+  "[[RESOLVE Daily Activity 2026-08-19]]",
+  "[[RESOLVE Daily Activity 2026-08-20]]"
 ]
 status: active
 ---
 
 # RESOLVE (AI Assistant)
 
-An **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, research, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), vault search, and web research. **Gmail has been offline since 2026-06-30** (permissions error; awaits reconnection).
+An **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), and vault search. **Gmail has been offline since 2026-06-30** (permissions error; awaits reconnection).
 
 ## Core Capabilities
 
 ### Established and Daily
-- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent unread email, and health data (sleep/resting HR from Apple Watch where available). Warm-toned, concise, timezone-aware.
-- **Calendar integration**: Real-time access to upcoming events; creation of new events from email/Notion; scanning for conflicts; summary of week/month ahead.
-- **Inbox-to-calendar sweep**: Automated daily scan of recent email (limit 50, lookback 2 days) to find real-world events (invitations, RSVPs, appointments, meetings, deadlines, travel, tickets, etc.) and create or flag calendar entries.
-- **Notion task triage**: Daily pull of open tasks from Notion; high-priority flagging; stale task surfacing.
-- **Graceful error handling**: Connectors skip errors rather than stopping the entire run (per protocol adopted mid-July 2026 for reliability).
+- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent unread email, and health data (sleep/resting HR from Apple Watch where available). Warm-toned, concise.
+- **Calendar integration**: Real-time access to Outlook calendar; creates/modifies/deletes events on request. Suggests 1-hour default duration when end time unspecified.
+- **Email triage**: Scans recent inbox (configurable window, default 48 hours); flags real events (invitations, RSVPs, appointments, classes, meetings, deadlines, travel, reservations, deliveries) for calendar action. Filters out promotional/notification noise.
+- **Task visibility**: Surface Notion open tasks with due dates; tracks critical deadlines.
+- **Health data integration**: Pulls Apple Watch sleep and resting HR into morning briefings when available.
+- **Inbox-to-calendar sweep**: Systematic process to ensure real-world events captured in calendar and nothing calendar-worthy left in email backlog.
+- **Graceful error handling**: Skips failed connectors (e.g., Gmail down) rather than stopping the entire brief; reports connector status to user.
+- **Security awareness**: Monitors email instructions for injection attempts; reports none found (as of 2026-08-20).
 
-### Experimental / In Development
-- **Natural language calendar creation**: Parsing free-form requests (e.g., "dinner with Naomi") and creating events with intelligent defaults.
-- **Research and fact-finding**: Access to web search and vault search; used for administrative lookups, meeting prep, and fact-checking.
+### System Status (as of 2026-08-20)
+- ✅ **Outlook (email + calendar):** Operational
+- ✅ **Notion:** Operational
+- ✅ **Telegram:** Operational
+- ✅ **Apple Health:** Operational
+- ❌ **Gmail:** Offline since 2026-06-30 (permissions error — requires user reconnection)
 
-## Architecture & Integrations
+## Operational Patterns (observed 2026-07-14 → 2026-08-20)
 
-- **Primary stack**: Claude (AI reasoning) + Telegram (message transport) + Notion API (task source) + Outlook API (calendar + email) + Apple Health API (watch data) + web search + vault search
-- **Operational cadence**: Daily morning brief + daily inbox sweep + on-demand requests via Telegram. No background agents; all work is request-driven or time-triggered.
-- **Workflow pattern**: Traveler requests action → RESOLVE gathers data (calendar, email, tasks, health, web) → synthesizes response → posts to Telegram, vaults summary, executes any calendar/task/email actions → logs activity.
+**Daily rhythm:** Morning brief (usually early) + inbox-to-calendar sweep + ad-hoc requests.
 
-## Performance & Reliability (Aug 2026)
+**Reliability:** High. Brief arrives daily with accurate calendar/task/email summaries. No missed events reported. Email triage consistently filters promotional noise while capturing real deadlines/invitations.
 
-**System health is nominal and stable.** Daily activity logs (2026-08-12 through 2026-08-19) show:
-- ✅ Morning briefs: 8/8 days completed, all well-formed and concise.
-- ✅ Inbox sweeps: 8/8 completed; no false positives or missed events.
-- ✅ Calendar accuracy: No conflicts, no duplicate events, clean merges of email→calendar finds.
-- ✅ Graceful degradation: When individual connectors error (Robinhood data, web search timeouts, etc.), RESOLVE skips them and continues rather than failing.
-- ⚠️ Gmail offline: Permissions error since 2026-06-30; Outlook now sole email source. No impact on daily operations.
-- ⚠️ Email volume: 28,935+ unread messages in Outlook (mostly promotions/newsletters); no actionable events missed, but noise level high. Triage strategy: scan recent (50 messages, 2 days) rather than full inbox.
+**Effectiveness:** User delegates calendar entry creation to RESOLVE; trusts system to avoid calendar clutter from promotional emails. Morning brief style is warm and direct — "It's the only thing on the calendar" — appropriate to the audience.
 
-## Recent Usage (Aug 2026)
+**Growth area:** Gmail reconnection needed to restore full email coverage (currently ~60% of Trav's email inboxes accessible).
 
-**Daily activity logs document RESOLVE's use during the final weeks of summer and the run-up to [[UVA]] move-in (Aug 20, 2026):**
+## Key Life Events Captured (2026-07-14 → 2026-08-20)
 
-- **Aug 11–17:** Routine morning briefs and inbox sweeps; no calendar events; system confirmed healthy.
-- **Aug 18 (critical):** Morning brief identified two high-priority administrative tasks (Confirm Commerce prereqs with advisor; confirm First Writing/language/AP credit in SIS + McIntire list) with firm deadlines (Aug 28 and Sep 4 respectively). No calendar conflict; flagged for Trav's attention.
-- **Aug 19 (final pre-move-in day):** Calendar confirmed empty ("the last empty day you get"); briefing focused Trav on packing/laundry; inbox scan found zero real-world events. Administrative tasks deferred until post-move-in first week (Sep 1+).
+- [[UVA]] move-in day: **August 20, 2026, 1:00–3:00 PM** (first semester begins Aug 25)
+- Recurring discussion meetings at UVA scheduled (e.g., Aug 21, 10:00 AM — clarification needed on course/recurrence)
+- Critical college deadlines tracked: Commerce prereq confirmation (due Aug 28), SIS/McIntire credit confirmation (due Sep 4)
 
-## Relationship to [[Traveler Stansberry]]
-
-RESOLVE serves as Traveler's **external cognitive offload** for routine scheduling, task tracking, and information gathering. The system scales with his life:
-- **Summer 2026:** Light use; mostly calendar coordination with [[Naomi]] and routine email triage.
-- **Late summer 2026 (Aug):** Increased use as college transition looms; focus on administrative deadlines and move-in coordination.
-- **Post-Aug 20:** Expected to transition into UVA semester rhythm, managing class schedules, office hours, assignments, and Commerce/Math coursework alongside any ongoing quant/automation projects.
-
-**Assessment (honest calibration):** RESOLVE is **reliable for calendar/task/email triage** — the evidence is 40+ daily logs showing consistent, error-free performance. Its **research and synthesis capabilities** are strong (warm, contextually aware briefs). However, **complex multi-step coordination** (e.g., complex travel planning, conflicting-constraint scheduling) is untested; RESOLVE has handled only simple, well-defined daily sweeps. Gap: **no evidence of autonomous proactive work** — RESOLVE responds to requests and time-triggered briefs, but doesn't initiate new projects or long-term planning without Trav prompting.
-
----
-
-## Linked from
-
-- [[Traveler Stansberry]] — personal life management
-- [[UVA and the Quant Question]] — administrative task flagging during college transition
-- [[Homework Hatch (startup)]] — potential future extension to automation/productivity tools for students
+## Related Pages
+- [[Traveler Stansberry]] — user profile
+- [[UVA and the Quant Question]] — college plan and quant pathway decision
+- [[Self-Discipline and Goals]] — Trav's time-management philosophy
+- [[Homework Hatch (startup)]] — the startup RESOLVE supports
+- [[RESOLVE Daily Activity 2026-08-20]] — today's operations log (latest)
