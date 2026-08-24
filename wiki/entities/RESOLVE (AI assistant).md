@@ -1,1 +1,95 @@
----\ntype: entity\ncreated: 2026-07-19\nupdated: 2026-08-22\ntags: [technology, personal, automation, ai]\nsources: [\n  \"[[RESOLVE Daily Ingest 2026-07-14]]\",\n  \"[[RESOLVE Daily Ingest 2026-07-17]]\",\n  \"[[RESOLVE Daily Ingest 2026-07-18]]\",\n  \"[[RESOLVE Daily Ingest 2026-07-19]]\",\n  \"[[RESOLVE Daily Activity 2026-07-20]]\",\n  \"[[RESOLVE Daily Activity 2026-07-21]]\",\n  \"[[RESOLVE Daily Ingest 2026-07-22]]\",\n  \"[[RESOLVE Daily Activity 2026-07-23]]\",\n  \"[[RESOLVE Daily Activity 2026-07-24]]\",\n  \"[[RESOLVE Daily Activity 2026-07-25]]\",\n  \"[[RESOLVE Daily Activity 2026-07-31]]\",\n  \"[[RESOLVE Daily Activity 2026-08-01]]\",\n  \"[[RESOLVE Daily Activity 2026-08-02]]\",\n  \"[[RESOLVE Daily Activity 2026-08-03]]\",\n  \"[[RESOLVE Daily Activity 2026-08-11]]\",\n  \"[[RESOLVE Daily Activity 2026-08-12]]\",\n  \"[[RESOLVE Daily Activity 2026-08-13]]\",\n  \"[[RESOLVE Daily Activity 2026-08-14]]\",\n  \"[[RESOLVE Daily Activity 2026-08-15]]\",\n  \"[[RESOLVE Daily Activity 2026-08-16]]\",\n  \"[[RESOLVE Daily Activity 2026-08-17]]\",\n  \"[[RESOLVE Daily Activity 2026-08-18]]\",\n  \"[[RESOLVE Daily Activity 2026-08-19]]\",\n  \"[[RESOLVE Daily Activity 2026-08-20]]\",\n  \"[[RESOLVE Daily Activity 2026-08-21]]\",\n  \"[[RESOLVE Daily Activity 2026-08-22]]\"\n]\nstatus: active\n---\n\n# RESOLVE (AI Assistant)\n\nAn **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), and vault search. **Gmail has been offline since 2026-06-30** (permissions error; awaits reconnection).\n\n## Core Capabilities\n\n### Established and Daily\n- **Morning briefings**: Daily summary of next 2 days' calendar, open Notion tasks, recent unread email, and health data (sleep/resting HR from Apple Watch where available). Warm-toned, conversational. Logged to vault each session.\n- **Inbox-to-calendar sweep**: Daily review of inbox (limit 50, last 48h) for calendar-worthy events (invitations, RSVPs, appointments, deadlines, travel, reservations). Cross-referenced against 30-day calendar. Logs findings and action items.\n- **Calendar management**: Add/modify/delete events; add recurring series; handle multi-week syllabus integration (e.g., course readings, exam dates).\n- **Health tracking**: Pull sleep and resting heart rate from Apple Watch; summarize recovery metrics in morning brief when data is fresh.\n- **Vault integration**: Write morning brief to `wiki/log.md` daily; search wiki for context (rarely used as of 2026-08-22).\n\n### Partial/In-Flux Capabilities\n- **Email triage**: Outlook connector functional; Gmail offline (permissions error). Processing accuracy ~90% on Outlook (promotional noise occasional).\n- **Task management**: Notion connector occasionally unavailable in a session; when online, returns \"open\" tasks with due dates for prioritization.\n- **Error handling**: Skip connectors on error (per standing command) rather than halting; report failures in activity log.\n\n## Observed Behavior & Patterns\n\n### Strengths\n1. **Consistency**: Shows up daily without prompting; calendar/email integration seamless for non-error cases.\n2. **Tone**: Conversational, human-like morning briefs (e.g., \"Saturday the 22nd, and your calendar is a beautiful blank void — enjoy it\").\n3. **Attention to detail**: Flags deadlines, distinguishes urgent items (🔴 markers), notes system health issues.\n4. **Calendar API integration**: Bulk-adds recurring course schedules (reading dates, exams, meeting times) from syllabus text; handles no-class exceptions (with some API failures on edge cases).\n\n### Known Issues & Gaps\n1. **Gmail offline (2026-06-30)**: Persistent permissions error; remains unchecked. No ETA for reconnection.\n2. **Notion connector flakiness**: Occasionally unavailable in a session; no clear error pattern documented.\n3. **API edge cases**: Failed to delete recurring event exceptions (404 errors) when trying to exclude specific dates from a series (e.g., Nov 3, Nov 26 for no-class days on 2026-08-22).\n4. **Limited integration scope**: No connection to SMS, iCal feeds, or academic systems (SIS, course portals); currently relies on manual email/calendar flow.\n\n## Use Cases in Practice\n\n### Morning Workflow (2026-08 typical)\n- **5–10 min session**: Check calendar, Notion, email, Apple Watch. Receive warm brief. Log to vault.\n- **Frequency**: Daily, typically 6–8 AM\n- **Utility**: Spot urgent items (College deadlines, flights, meeting RSVPs); identify free time for tasks\n\n### Course & Academic Calendar Integration (Aug 22 example)\n- **Input:** Full week-by-week reading schedule + two exam dates (pasted as syllabus text or structured data)\n- **Output:** Calendar series added with readings in event descriptions, exam slots blocked, no-class dates marked\n- **Time to execute**: ~2–5 min per course\n- **Quality:** ~95% success (all reading dates added; minor API failures on exceptions)\n\n## System Health (as of 2026-08-22)\n\n| Component | Status | Last checked |\n|-----------|--------|---------------|\n| Outlook (calendar + email) | ✅ Nominal | 2026-08-22 morning |\n| Notion (tasks) | ⚠️ Intermittent | 2026-08-22 session |\n| Telegram | ✅ Nominal | 2026-08-21 |\n| Apple Health | ✅ Nominal | 2026-08-22 (no fresh data on 8/22) |\n| Gmail | 🔴 Offline (permissions error) | Since 2026-06-30 |\n| Google Calendar API | ⚠️ Minor: 404 on recurring series exceptions | 2026-08-22 |\n| Vault integration | ✅ Nominal | 2026-08-22 |\n\n## Operational Philosophy\n\nRESOLVE is designed as a **\"skip on error, report always\"** system: when a connector fails or returns incomplete data (e.g., Notion unavailable, Gmail offline, response cut off), the morning brief and daily logs flag the issue transparently rather than silently degrading. This keeps [[Traveler Stansberry|Traveler]] aware of system state and prevents missed deadlines due to hidden failures.\n\nThe system is **opt-in for elaboration**: default is concise (one-line summaries, 5 min to consume); the human can ask for deeper dives or manual intervention as needed.\n\n## See Also\n\n- [[UVA and the Quant Question]] — context for Traveler's college integration and task load\n- [[College Search]] — enrollment and first-semester planning\n- [[Homework Hatch (startup)]] — another personal system Traveler is building\n
+---
+type: entity
+created: 2026-07-19
+updated: 2026-08-23
+tags: [technology, personal, automation, ai]
+sources: [
+  "[[RESOLVE Daily Ingest 2026-07-14]]",
+  "[[RESOLVE Daily Ingest 2026-07-17]]",
+  "[[RESOLVE Daily Ingest 2026-07-18]]",
+  "[[RESOLVE Daily Ingest 2026-07-19]]",
+  "[[RESOLVE Daily Activity 2026-07-20]]",
+  "[[RESOLVE Daily Activity 2026-07-21]]",
+  "[[RESOLVE Daily Ingest 2026-07-22]]",
+  "[[RESOLVE Daily Activity 2026-07-23]]",
+  "[[RESOLVE Daily Activity 2026-07-24]]",
+  "[[RESOLVE Daily Activity 2026-07-25]]",
+  "[[RESOLVE Daily Activity 2026-07-31]]",
+  "[[RESOLVE Daily Activity 2026-08-01]]",
+  "[[RESOLVE Daily Activity 2026-08-02]]",
+  "[[RESOLVE Daily Activity 2026-08-03]]",
+  "[[RESOLVE Daily Activity 2026-08-11]]",
+  "[[RESOLVE Daily Activity 2026-08-12]]",
+  "[[RESOLVE Daily Activity 2026-08-13]]",
+  "[[RESOLVE Daily Activity 2026-08-14]]",
+  "[[RESOLVE Daily Activity 2026-08-15]]",
+  "[[RESOLVE Daily Activity 2026-08-16]]",
+  "[[RESOLVE Daily Activity 2026-08-17]]",
+  "[[RESOLVE Daily Activity 2026-08-18]]",
+  "[[RESOLVE Daily Activity 2026-08-19]]",
+  "[[RESOLVE Daily Activity 2026-08-20]]",
+  "[[RESOLVE Daily Activity 2026-08-21]]",
+  "[[RESOLVE Daily Activity 2026-08-22]]",
+  "[[RESOLVE Daily Activity 2026-08-23]]"
+]
+status: active
+---
+
+# RESOLVE (AI Assistant)
+
+An **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), and vault search. **Gmail has been offline since 2026-06-30** (permissions error; awaits reconnection).
+
+## Core Capabilities
+
+### Established and Daily
+
+1. **Morning briefing** — checks calendar (configurable window), Notion tasks, unread email; writes warm, actionable brief with highlights and urgent items. Skips connector errors gracefully.
+2. **Inbox-to-calendar sweep** — extracts time-sensitive emails (invitations, RSVPs, appointments, deadlines, flights, deliveries) and cross-references with GCal; flags new events or conflicts.
+3. **Calendar coordination** — can schedule social events (e.g., dinner with [[Naomi]]) by checking both parties' free time.
+4. **Task/assignment harvesting** — pulls new assignments from email and files them into Notion databases (assignments, exams, lectures) with dates, readings, and context preserved.
+5. **Brief generation** — synthesizes system state (activity, finance, calendar) into readable narratives with honest callouts of what's working and what stalled.
+
+### Advanced Operations
+
+- **Coursework infrastructure build:** Full course scheduling (ECON 2010, PHIL 1730 on 2026-08-23) — exams to GCal, lecture schedules, reading lists, all with proper tagging.
+- **Notion database management:** Can create/populate databases, add rows with readings/dates, tag by unit. **Cannot modify view sorts** (API limitation) without a running local worker.
+- **Weekly + monthly reviews:** Aggregates activity, finance (SimpleFIN), calendar, and stalled tasks into structured reviews.
+- **Vault operations:** Can read from and append to the wiki; logs daily activity; propagates scheduling info.
+
+## System Health & Status (as of 2026-08-23)
+
+| Connector | Status | Notes |
+|-----------|--------|-------|
+| **Outlook (Calendar + Email)** | ✅ Healthy | Primary conduit for calendar/email. Working reliably. |
+| **Notion** | ⚠️ Partial | API write access works (create databases, add rows). View sort changes blocked (API limitation); require local worker. |
+| **Telegram** | ✅ Healthy | Communication channel; working. |
+| **Apple Health** | ✅ Limited | Watch data pulls when available; used for recovery metrics in briefs. |
+| **Gmail** | ❌ Offline | Offline since 2026-06-30 due to permissions error. Awaits reconnection. |
+| **Local worker** | ⚠️ Offline | Was online during early week; offline by 2026-08-23. Needed for in-browser Notion edits (view sorts). Restart: `launchctl kickstart -k gui/$(id -u)/com.resolve.localworker`. |
+
+## Known Gaps & Calibrations
+
+> [!warning] Operational constraints
+> - **Gmail:** Offline for ~2 months (since 2026-06-30). Non-blocking but reduces email coverage; Outlook is the primary path.
+> - **Notion API limits:** Cannot change view sorts programmatically; requires browser + local worker. As of 2026-08-23, local worker is offline and awaiting restart signal from Traveler.
+> - **Second-half course schedules:** ECON 2010 has full first half (8 lectures Aug–Sep), but second half (9/28 onward) only partially transcribed in recent logs; should be cross-checked against syllabus/Notion DB.
+> - **Four stalled tasks:** Mentioned in [[weekly-review-2026-08-23.md]] but not detailed in activity logs; worth reviewing in context of next week's priorities.
+
+## Operational Pattern (Jul–Aug 2026)
+
+RESOLVE has evolved from **raw ingest of daily schedules** (mid-July) to **intelligent course infrastructure** (late August). The system now:
+
+- Handles routine briefing + triage with high reliability.
+- Builds complex scheduling infrastructure (exams, lectures, readings) without human data-entry.
+- Gracefully skips connector errors instead of halting.
+- Generates structured weekly/monthly reviews with honest assessment of progress and stalled work.
+- Maintains backlinks between systems (GCal ↔ Notion ↔ vault).
+
+**Peak activity:** Late August 2026, as Traveler moved from orientation → residence → semester start. School scheduling (ECON, PHIL) took priority.
+
+## Related Pages
+- [[Traveler Stansberry]] — the user
+- [[UVA and the Quant Question]] — the broader context (Traveler's UVA commitment)
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — recent course scheduled
+- [[Moral and Political Philosophy (UVA Fall 2026)]] — concurrent course
+- [[weekly-review-2026-08-23.md]] — latest review; full week context
