@@ -1,23 +1,26 @@
 ---
 type: entity
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-23
 tags: [college, uva, course, philosophy, fall-2026]
 status: active
-sources: ["[[RESOLVE Daily Activity 2026-08-22]]"]
+sources: [
+  "[[RESOLVE Daily Activity 2026-08-22]]",
+  "[[RESOLVE Daily Activity 2026-08-23]]"
+]
 ---
 
 # Moral and Political Philosophy (UVA Fall 2026)
 
-**Course:** Moral and Political Philosophy, [[Traveler Stansberry]]'s first formal philosophy course at [[UVA and the Quant Question|UVA]]. Registered and scheduled via [[RESOLVE (AI assistant)|RESOLVE]] on 2026-08-22.
+**Course:** Moral and Political Philosophy (PHIL 1730), [[Traveler Stansberry]]'s first formal philosophy course at [[UVA and the Quant Question|UVA]]. Registered and scheduled via [[RESOLVE (AI assistant)|RESOLVE]] on 2026-08-22 and fully calendared on 2026-08-23.
 
 ## Course Overview
 
-**Format:** Seminar-style, two-per-week sessions (Tuesday & Thursday, 3:30–4:20 PM)
-**Duration:** 8 weeks, Fall 2026 (Weeks 1–4 syllabus confirmed; subsequent weeks partially documented)
+**Format:** Seminar-style, two-per-week sessions (Tuesday & Thursday, 3:30–4:20 PM)  
+**Duration:** 8 weeks, Fall 2026 (first half calendar confirmed, second half outlined)  
 **Assessment:** **Exams only** — no essays or papers in this syllabus (three exams total)
 
-## Syllabus
+## Syllabus: First Half (Aug 25 — Sep 17)
 
 ### Week 1: Why Moral and Political Philosophy? (Aug 25 & 27)
 - **Readings:**
@@ -38,58 +41,44 @@ sources: ["[[RESOLVE Daily Activity 2026-08-22]]"]
 - **Themes:** Courage, temperance, generosity, pride; types of friendship and their moral value
 - **Calendar:** Sep 8 & 10, 3:30–4:20 PM
 
-### Week 4: Kant's Deontology and the Categorical Imperative (Sep 15 & 17)
-- **Readings:** *(partially documented; full readings deferred)*
-- **Themes:** Duty-based ethics; universalizability; the distinction between categorical and hypothetical imperatives
+### Week 4: Kant's Deontology: Categorical Imperative (Sep 15 & 17)
+- **Readings:** (first half; full syllabus cuts off in 2026-08-23 activity log)
+- **Themes:** Duty-based ethics; maxims and universalizability
 - **Calendar:** Sep 15 & 17, 3:30–4:20 PM
 
-### Subsequent Weeks
-Syllabus details for weeks 5–8 not yet fully imported to wiki (activity log cut off). **Action item:** Retrieve complete syllabus from course materials and update this page.
+## Syllabus: Second Half (Sep 22+)
 
-> [!note] Syllabus status
-> Week 1–4 readings and exam dates confirmed from [[RESOLVE Daily Activity 2026-08-22]]. Remaining weeks pending full syllabus import.
+> [!note] Incomplete coverage
+> The 2026-08-23 activity log confirms the course was scheduled through at least 8 weeks, with dates and readings through Sep 17 fully documented. Further weeks beyond "Kant's Deontology" are referenced (topic names visible in the log: "Consequentialism," "Social Contract," "Applied Ethics") but full reading lists are cut off in the ingested activity. Full syllabus should be cross-checked with the course GCal or a PDF syllabus document once available.
 
-## Assessment
+## Reading Schedule Overview
 
-### Exams (3 total; no papers)
-- **First Exam:** Tuesday, September 29, 3:30–4:20 PM
-- **Second Exam:** Thursday, November 5, 3:30–4:20 PM
-- **Third Exam:** *(date not yet documented)*
+| Week | Topic | Primary Text | Secondary |
+|------|-------|--------------|-----------|
+| 1 | Intro to Moral & Political Philosophy | Plato, *Apology* | Rachels, "Cultural Relativism" |
+| 2 | Virtue Ethics & Eudaimonia | Aristotle, *NE* I–III.4 | — |
+| 3 | Virtues & Friendship | Aristotle, *NE* III.4–V, VIII–IX | — |
+| 4 | Kant & Deontology | (partially documented) | — |
+| 5+ | (Second half: further modules) | (incomplete in activity log) | — |
 
-**Format:** Likely in-class, timed; specifics (essay, multiple-choice, etc.) not yet confirmed
+## Calendar Status
 
-> [!warning] Exam 3 date pending
-> First two exams are on calendar; third exam date needs to be added once confirmed from full syllabus or course materials.
+**GCal:** All confirmed dates (Aug 25–Sep 17) added to [[Traveler Stansberry|Traveler]]'s primary calendar on 2026-08-23.
 
-## Calendar Integration
+**Notion:** Course readings logged into [[RESOLVE (AI assistant)|RESOLVE]]'s lectures database (same infrastructure as ECON 2010).
 
-**Status:** Partially integrated via RESOLVE (2026-08-22)
-- ✅ Week 1 sessions (Aug 25 & 27) added to Google Calendar with readings
-- ✅ First two exams added to Google Calendar
-- ⚠️ Remaining weeks and third exam pending full syllabus import
-- ⚠️ Two recurring-series deletions (Nov 3 & Nov 26 no-class exceptions) failed with 404 errors; manual verification recommended
+## Context & Significance
 
-## Significance
+This is [[Traveler Stansberry|Traveler]]'s **first formal philosophy course**, aligning with his documented [[Intellectual Interests|intellectual interests]] in free will, morality, and faith vs. knowledge (see [[Core Convictions]] and [[Intellectual Evolution]]). The course sits at the intersection of his worldview themes ([[Individual vs. Society]], [[Power, Hierarchy, and Justice]]), making it a natural intellectual fit.
 
-This course represents Traveler's first systematic engagement with **formal philosophy outside the English curriculum**. His prior philosophy exposure came through literature ([[The Iliad]], [[Antigone]], [[Death of a Salesman]], etc.) and IB courses ([[Theory of Knowledge]], [[Individual Oral (IO)|Individual Oral on Politics, Power & Justice]]). This course moves from **literary philosophy to direct primary sources** in the Western canon, starting with [[Plato]], [[Aristotle]], and [[Immanuel Kant]].
+**Concurrent course:** [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] (MW 10:00–10:50 AM).
 
-**Relevance to his intellectual profile:**
-- His [[Core Convictions]] and [[Intellectual Evolution]] show deep interest in **free will, morality, and the nature of a well-lived life** — all central to this course
-- The virtue ethics focus (Aristotle) aligns with his private musings on character and self-discipline ([[Self-Discipline and Goals]])
-- The deontological turn (Kant) touches on his recurring tension between **rules/duty and individual autonomy**
+**Urgent prep:** On 2026-08-23, [[RESOLVE (AI assistant)|RESOLVE]]'s morning brief recommended [[Traveler Stansberry|Traveler]] read Plato's *Apology* that day — the last free day before the course opens Tuesday 8/26 — to start grounded rather than panicked.
 
-## To Do
-
-- [ ] Retrieve complete syllabus (weeks 5–8) and import to this page
-- [ ] Confirm format of exams (essay, MC, etc.)
-- [ ] Document third exam date once available
-- [ ] Manual check of calendar series for Nov 3 & Nov 26 issues
-
----
-
-**See also:**
-- [[RESOLVE (AI assistant)]] — course registration via RESOLVE
-- [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — college/academic context
-- [[Core Convictions]] — his philosophical framework
-- [[Intellectual Evolution]] — how his thinking has developed
+## Related Pages
+- [[RESOLVE (AI assistant)]] — scheduled the course
+- [[Traveler Stansberry]] — the student
+- [[UVA and the Quant Question]] — his UVA context
+- [[Intellectual Interests]] — his philosophy interests
+- [[Core Convictions]] — his worldview
+- [[Intellectual Evolution]] — how his thinking developed
