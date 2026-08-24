@@ -1,7 +1,7 @@
 ---
-type: project
+type: entity
 created: 2026-06-15
-updated: 2026-08-17
+updated: 2026-08-23
 tags: [personal, college, finance, open-question]
 sources: [
   "[[bs commerce]]",
@@ -13,84 +13,90 @@ sources: [
   "[[RESOLVE Daily Ingest 2026-07-19]]",
   "[[RESOLVE Daily Activity 2026-07-20]]",
   "[[RESOLVE Daily Activity 2026-08-13]]",
-  "[[RESOLVE Daily Activity 2026-08-17]]"
+  "[[RESOLVE Daily Activity 2026-08-17]]",
+  "[[RESOLVE Daily Activity 2026-08-23]]"
 ]
 status: active
 ---
 
 # UVA and the Quant Question
 
-[[Traveler Stansberry]] **graduated high school (June 2026)** and is matriculating at the **University of Virginia, fall 2026**. **Move-in: Thursday, August 20, 2026, 1–3 PM.** This page tracks the plan, the live decision still open, and his pre-arrival research & administrative tasks.
+[[Traveler Stansberry]] **moved into residence at UVA on Thursday, August 20, 2026** and begins coursework **Tuesday, August 26, 2026**. This page tracks his academic plan, his open quant decision, and the live state of his first semester.
 
 > [!note] The personal stakes
-> UVA isn't only an academic decision — it's the start of **long-distance with [[Naomi]]** (most emotionally significant person in his life), the dominant worry of his spring 2026. They've already scouted the DC→Charlottesville train. Worth tracking alongside the academic side. He has set [[RESOLVE]] reminders to maintain connection while at orientation.
+> UVA isn't only an academic decision — it's the start of **long-distance with [[Naomi]]** (most emotionally significant person in his life), the dominant worry of his spring 2026. They've already scouted the DC→Charlottesville train. Worth tracking alongside the academic side. He has set [[RESOLVE]] reminders to maintain connection while at UVA.
 
 ## The Plan
 
 - **Major: Finance** — via UVA's **[[McIntire School of Commerce]]** (a 3rd-year-entry school; first two years are prerequisites — COMM 1800 Foundations of Commerce, ECON 2010 Micro, the first writing requirement — per [[bs commerce]]).
 - **Minor: Math** (possibly a CS minor too).
 - McIntire offers concentrations (Finance, IT) and **tracks including Quantitative Finance & Analytics / AI** — which is where the open question lives.
-- **Entering with 14 AP/IB credits** (Physics exemption confirmed)
+- **Entering with 14 AP/IB credits** (Physics exemption confirmed).
 
-## 🚨 Pre-Arrival Administrative Deadlines (Aug 17 Status)
+## Fall 2026 Coursework (First Semester)
 
-**Move-in is in 3 days (Aug 20).** Two critical tasks are open:
+As of **2026-08-23**, Traveler's schedule includes:
 
-1. **Confirm spring 2027 Commerce prerequisites with advisor — due Aug 28** (11 days out)
-   - Spring course registration likely opens mid-to-late August or early September.
-   - Must confirm prerequisites to ensure he can register for target spring 2027 Finance/Math courses.
-   - **Deliverable:** Advisor meeting / email response with prerequisite checklist.
+### [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010: Principles of Microeconomics]]
+- **When:** Monday & Wednesday, 10:00–10:50 AM
+- **Start:** August 26, 2026
+- **Assessment:** 3 in-class exams (9/23, 10/28, 12/2) + comprehensive final (12/12, 7:00–10:00 PM)
+- **Scope:** 8+ lectures, full semester, foundational microeconomics
+- **Infrastructure:** All exams on GCal; 25+ lecture rows in Notion database tagged by unit; syllabus imported 2026-08-23
+- **Status:** Ready to go; all dates + readings scheduled
 
-2. **Confirm First Writing, language, and AP credit in SIS + McIntire registrar — due Sep 4** (18 days out)
-   - Validate AP/IB scores and credits in UVA's Student Information System.
-   - Ensure McIntire registrar has matching data.
-   - Critical for accurate distribution requirements and course sequencing.
-   - **Deliverable:** SIS verification + McIntire registrar confirmation.
+### [[Moral and Political Philosophy (UVA Fall 2026)|PHIL 1730: Moral and Political Philosophy]]
+- **When:** Tuesday & Thursday, 3:30–4:20 PM
+- **Start:** August 25, 2026 (first session before ECON, the final free day)
+- **Assessment:** Three exams; no papers/essays in this iteration
+- **Scope:** 8-week seminar covering ethics (Plato, Aristotle, Kant, consequentialist/deontological/virtue frameworks), second half likely extending to political theory and applied ethics (readings cut off in 2026-08-23 activity)
+- **Infrastructure:** All dates + readings (first half confirmed through Sep 17) on GCal; second half reading list in progress
+- **Prep:** [[RESOLVE (AI assistant)|RESOLVE]] recommended Traveler read Plato's *Apology* on Aug 23 (last free day) to start the course grounded
+- **Significance:** His **first formal philosophy course**; aligns with documented [[Intellectual Interests|interests]] in free will, morality, faith vs. knowledge
 
-> [!warning] Action Window
-> Both deadlines fall within the first 3 weeks of arrival. Traveler should **contact advisors before Aug 20** or **immediately after arrival** to avoid registration delays.
+### Other Courses (Fall 2026)
 
-## 🔍 Open Question: Quant Route or Standard Finance?
+> [!note] Incomplete roster
+> Two flagship courses are now confirmed and scheduled. Traveler's full Fall 2026 schedule (including any GENEDs, writing requirement, or other electives) is not yet visible in the vault. The [[McIntire School of Commerce|Commerce prerequisites]] mention COMM 1800, but whether that is Fall 2026 or a later requirement is unclear. Should be cross-checked against his official course registration (likely accessible via SIS or email confirmation).
 
-The big choice, still unresolved as of Aug 13:
+## The Quant Decision (Open as of 2026-08-23)
 
-**Quant Path:**
-- Double down on **math** (pure + applied): Linear Algebra, PDEs, Numerical Methods, Statistics.
-- Parallel finance track: Financial Engineering, Quantitative Analysis, Machine Learning in Finance.
-- Likely requires **CS minor** (or electives) for implementation.
-- **Risk:** Extremely heavy course load (math + CS + finance); requires high math aptitude over 4 years. He has proven math ability ([[Physics IA]], SAT math, [[IB Math (SL)]], self-study via chat), but has **never coded a substantial quant model from scratch** (a core gap; see **[[Intellectual Profile#calibration|calibration]]** on that).
-- **Upside:** Quant finance is higher-ceiling, more selective, better-compensated path. Aligns with his interest in markets, modeling, and intellectual rigor.
-- **Timing:** Must decide course-load early (fall 2026–spring 2027) to stay on track.
+**Status:** **Open.** Traveler has not yet committed to the Quantitative Finance track within McIntire. The decision hinges on:
+- **Math readiness:** Does he want to go deeper into quant modeling, or stay finance-focused?
+- **Coding depth:** Quant requires solid programming; he has **untested** self-taught coding (directed AI, not coded solo).
+- **Time/energy:** Full course load + the quant track demands are substantial.
 
-**Standard Finance Path:**
-- **ECON 2010 (Micro), ECON 3400 (Macro), maybe ECON 3710 (Econometrics)**, plus Finance courses (Corporate Finance, Investments, Fixed Income, Derivatives).
-- **Math minor** stays but is lighter: Linear Algebra + Multivariable Calculus + one or two applied courses (Numerical Methods, Optimization, or Stats).
-- **No CS requirement**, though individual finance electives (Machine Learning, Python for Finance) would be optional.
-- **Risk:** Less differentiated; high supply of standard finance majors.
-- **Upside:** Lighter load; more time for other interests (physics, coding projects, non-course learning).
+**What he's doing to resolve it:**
+- Working on his [[Personal Quant Model|multi-factor equity model]] (live Flask app; decision made in spring 2026 to pursue it).
+- Taking ECON 2010 (foundation for quant models).
+- Next: likely advanced Finance or Math electives to test appetite + capability.
 
-**Decision factors (to be resolved early in fall 2026):**
-- AP/IB placement and credit awards (likely saves 1–2 courses).
-- Advisor guidance on course sequencing and quant-track prerequisites.
-- First-semester math performance (likely a strong indicator).
-- Naomi factor: long-distance + course load. (No data yet on how much this will matter empirically.)
-- Actual interest in the math/CS grind once college begins (the "prove-it-to-yourself" test).
+> [!warning] Calibration note
+> The "quant question" is not a technical problem — it's a **judgment call about depth of commitment**. He has demonstrated strong design judgment ([[Homework Hatch (startup)]], [[Personal Quant Model]]) and analytical thinking, but **coding ability is untested** (he directs AI, doesn't code solo). The real gap is execution and sustained technical depth. Starting ECON 2010 is smart; the question will crystallize over Fall 2026 as he either dives into math or pivots back to core Finance.
 
-**Current stance (as of Aug 13):** Quant is appealing but unproven. Standard Finance is a safe, intelligent default. Decision can wait until September/October when he has felt the rhythm of UVA courses.
+## Pre-Arrival & In-Progress (as of 2026-08-23)
 
-## Timeline & Milestones
+### Completed
+- ✅ Orientation (July 20, 2026)
+- ✅ Move-in (August 20, 2026)
+- ✅ Course registration (via [[RESOLVE (AI assistant)|RESOLVE]], Aug 22–23)
+- ✅ ECON 2010 + PHIL 1730 fully scheduled (GCal + Notion, Aug 23)
 
-| Date | Event | Status |
-|------|-------|--------|
-| **2026-08-20** | Move-in, 1–3 PM | 3 days out (as of Aug 17) |
-| **2026-08-28** | Commerce preq advisor meeting | 11 days, red-priority |
-| **2026-09-04** | AP/IB credit + SIS confirmation due | 18 days, red-priority |
-| **2026-09-15** | Classes begin (estimated) | ~30 days |
-| **2026-10-01** | Course-load / quant decision (estimated) | TBD |
-| **2026-12-01** | Fall course results → spring course planning | Likely decision point |
+### In Progress / Urgent
+- **⚠️ Advisor conversation (Commerce prerequisites for Spring 2027):** Due Friday, August 28, 2026 → Traveler must email Monday, August 25 to confirm the conversation
+- **⚠️ PHIL 1730 prep:** Read Plato's *Apology* before Tuesday, August 26 (recommended Aug 23)
 
-## Framing: This is a Plausible-but-Unproven Path
+### Outstanding / TBD
+- Full Fall 2026 course roster (COMM 1800, any GENEDs or other electives) — not yet in vault
+- Second half of PHIL 1730 syllabus (Sep 22+ readings)
+- Confirmation: is COMM 1800 (Commerce Foundations) Fall 2026 or later?
+- Quant decision timeline: when does Traveler commit or pivot?
 
-> [!warning] Honest calibration
-> **Quant finance is intellectually aligned with Traveler's interests (markets, models, physics-style rigor).** He has demonstrated math ability (good SAT, IB Physics IA, independent math study via chat). **But he has never coded a quant model start-to-finish himself.** He has designed (ChatGPT-guided), debugged others' code, and directed AI to build — that is valuable, but is not the same as independent implementation. Quant finance at UVA will require both the math AND the coding, done well. The path is realistic; it is not yet *proven*. Fall 2026 will be the test.
-
+## Related Pages
+- [[Traveler Stansberry]] — main entity
+- [[McIntire School of Commerce]] — his school
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — flagship first course
+- [[Moral and Political Philosophy (UVA Fall 2026)]] — flagship first course
+- [[Personal Quant Model]] — his model project; drives the quant question
+- [[RESOLVE (AI assistant)]] — scheduling + infrastructure
+- [[Naomi]] — long-distance relationship impact on UVA experience
