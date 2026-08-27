@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-23
+updated: 2026-08-26
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -30,7 +30,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-20]]",
   "[[RESOLVE Daily Activity 2026-08-21]]",
   "[[RESOLVE Daily Activity 2026-08-22]]",
-  "[[RESOLVE Daily Activity 2026-08-23]]"
+  "[[RESOLVE Daily Activity 2026-08-23]]",
+  "[[RESOLVE Daily Activity 2026-08-26]]"
 ]
 status: active
 ---
@@ -43,53 +44,87 @@ An **AI-powered personal assistant system** serving [[Traveler Stansberry]], han
 
 ### Established and Daily
 
-1. **Morning briefing** — checks calendar (configurable window), Notion tasks, unread email; writes warm, actionable brief with highlights and urgent items. Skips connector errors gracefully.
-2. **Inbox-to-calendar sweep** — extracts time-sensitive emails (invitations, RSVPs, appointments, deadlines, flights, deliveries) and cross-references with GCal; flags new events or conflicts.
-3. **Calendar coordination** — can schedule social events (e.g., dinner with [[Naomi]]) by checking both parties' free time.
-4. **Task/assignment harvesting** — pulls new assignments from email and files them into Notion databases (assignments, exams, lectures) with dates, readings, and context preserved.
-5. **Brief generation** — synthesizes system state (activity, finance, calendar) into readable narratives with honest callouts of what's working and what stalled.
+1. **Morning briefing** — checks calendar (configurable window), Notion tasks, unread email (skips failed connectors); generates warm, structured summary with urgent flags. Run daily at 7:00 AM (approx).
+2. **Inbox-to-calendar sweep** — 48-hour email window (limit 50), extracting real-world events (invitations, RSVPs, appointments, deadlines, travel, tickets, deliveries). Compares against 30-day calendar; flags gaps and contradictions.
+3. **Google Calendar management** — create recurring series, restore deleted events, sync exam dates and due dates across GCal ↔ Notion.
+4. **Notion sync** — bidirectional (GCal → Notion and vice versa). Exams & Deadlines database kept current with Type, Status, and GCal Synced fields.
+5. **Connector error handling** — skips failed connectors (e.g., Gmail) rather than stopping; logs the skip and carries on.
 
-### Advanced Operations
+### Demonstrated (High-Confidence Skills)
 
-- **Coursework infrastructure build:** Full course scheduling (ECON 2010, PHIL 1730 on 2026-08-23) — exams to GCal, lecture schedules, reading lists, all with proper tagging.
-- **Notion database management:** Can create/populate databases, add rows with readings/dates, tag by unit. **Cannot modify view sorts** (API limitation) without a running local worker.
-- **Weekly + monthly reviews:** Aggregates activity, finance (SimpleFIN), calendar, and stalled tasks into structured reviews.
-- **Vault operations:** Can read from and append to the wiki; logs daily activity; propagates scheduling info.
+- **Calendar recurrence design** — creates efficient recurring series (e.g., MATH 1310 Tue/Thu lectures weekly through 12/8, with holiday skips, as one series not 30 rows).
+- **Memory verification vs. truth-checking** — as of 2026-08-26, RESOLVE re-checks GCal rather than relying on cached knowledge before confirming dates (reliability improvement).
+- **Structured brief generation** — "Classes Today" section with time, topic, readings, and urgent deadlines; warm and encouraging tone.
+- **Multi-step command execution** — handles chains of 4–6 consecutive calendar/Notion goals in one session without failures (2026-08-26: 6 goals completed).
 
-## System Health & Status (as of 2026-08-23)
+### In Development / Partial
 
-| Connector | Status | Notes |
-|-----------|--------|-------|
-| **Outlook (Calendar + Email)** | ✅ Healthy | Primary conduit for calendar/email. Working reliably. |
-| **Notion** | ⚠️ Partial | API write access works (create databases, add rows). View sort changes blocked (API limitation); require local worker. |
-| **Telegram** | ✅ Healthy | Communication channel; working. |
-| **Apple Health** | ✅ Limited | Watch data pulls when available; used for recovery metrics in briefs. |
-| **Gmail** | ❌ Offline | Offline since 2026-06-30 due to permissions error. Awaits reconnection. |
-| **Local worker** | ⚠️ Offline | Was online during early week; offline by 2026-08-23. Needed for in-browser Notion edits (view sorts). Restart: `launchctl kickstart -k gui/$(id -u)/com.resolve.localworker`. |
+- **Gmail connector** — offline since 2026-06-30; needs human reconnection to restore email scanning.
+- **Syllabus parsing** — some course details extracted and structured (lectures, checkpoints, exams), but full curricula not yet systematized.
+- **Notion Lectures database sync** — exam dates synced, but full lecture schedules + readings not yet flowing into Notion consistently.
 
-## Known Gaps & Calibrations
+## Integration Points
 
-> [!warning] Operational constraints
-> - **Gmail:** Offline for ~2 months (since 2026-06-30). Non-blocking but reduces email coverage; Outlook is the primary path.
-> - **Notion API limits:** Cannot change view sorts programmatically; requires browser + local worker. As of 2026-08-23, local worker is offline and awaiting restart signal from Traveler.
-> - **Second-half course schedules:** ECON 2010 has full first half (8 lectures Aug–Sep), but second half (9/28 onward) only partially transcribed in recent logs; should be cross-checked against syllabus/Notion DB.
-> - **Four stalled tasks:** Mentioned in [[weekly-review-2026-08-23.md]] but not detailed in activity logs; worth reviewing in context of next week's priorities.
+| System | Status | Purpose | Notes |
+|--------|--------|---------|-------|
+| **Outlook** (calendar + email) | ✅ Active | Primary calendar/email source | Reliable; tested daily |
+| **Notion** | ✅ Active | Task + deadline tracking | Bidirectional sync (GCal ↔ Notion Exams & Deadlines) |
+| **Telegram** | ✅ Active | Communication/notifications | Tested but low volume in logs |
+| **Apple Health** (Watch) | ✅ Passive | Health metrics | Used for context; not primary driver |
+| **Vault search** | ✅ Active | Knowledge lookup | Used in briefing context; tested on 2026-08-26 |
+| **Gmail** | ⚠️ Offline | Email scanning | Down since 2026-06-30; awaits reconnect |
+| **MyClaw** | ✅ Passive | UVA student portal | Mentioned in email sweep; role TBD |
+| **Robinhood** | ✅ Passive | Market notifications | Mentioned in email sweep; low priority |
 
-## Operational Pattern (Jul–Aug 2026)
+## Operational Tempo
 
-RESOLVE has evolved from **raw ingest of daily schedules** (mid-July) to **intelligent course infrastructure** (late August). The system now:
+**Daily operations (as of Aug 2026):**
+- Morning brief: ~7:00 AM
+- Inbox-to-calendar sweep: varies, typically morning or early afternoon
+- Ad-hoc calendar corrections: on-demand (e.g., re-syncing exam dates)
 
-- Handles routine briefing + triage with high reliability.
-- Builds complex scheduling infrastructure (exams, lectures, readings) without human data-entry.
-- Gracefully skips connector errors instead of halting.
-- Generates structured weekly/monthly reviews with honest assessment of progress and stalled work.
-- Maintains backlinks between systems (GCal ↔ Notion ↔ vault).
+**Session durability:** Handles 4–6 concurrent goals without context loss or connector failure cascades.
 
-**Peak activity:** Late August 2026, as Traveler moved from orientation → residence → semester start. School scheduling (ECON, PHIL) took priority.
+## Reliability & Gaps
+
+### Strengths
+- **Error resilience:** skips failed connectors rather than crashing.
+- **Calendar consistency:** now re-checks truth (GCal) rather than relying on cached memory.
+- **Multi-goal batching:** executes command chains efficiently.
+- **Friendly tone:** morning briefing is warm and encouraging, especially on high-stakes days (first day of classes, 2026-08-26).
+
+### Gaps & Limitations
+
+> [!warning] Gmail offline — 57 days
+> Gmail connector has been down since 2026-06-30. No email inbox scans include Gmail; inbox-to-calendar sweep is **incomplete**. Traveler should reconnect when able.
+
+> [!note] Notion lecture sync partial
+> Course lecture schedules (full curriculum, readings, discussion topics) are entered in Notion manually or via human direction, but RESOLVE does not yet automatically parse syllabi or pull readings from course management systems. Checkpoint dates + exam dates synced; full lecture flow is not yet automated.
+
+> [!note] Syllabus parsing not yet deployed
+> RESOLVE can extract dates and times from messages/emails, but cannot (yet) parse .pdf syllabus files to auto-populate course calendars. Traveler currently enters syllabi manually or directs RESOLVE to do so.
+
+> [!warning] Stored context window
+> RESOLVE has no persistent memory of prior conversations (each session starts fresh). It relies on vault search, Outlook history, Notion database state, and GCal state — not on dialogue history. Long-term planning requires artifacts (Notion, GCal, vault) to stay current.
+
+## Recent Activity (Aug 2026)
+
+**2026-08-23:** Full Fall 2026 semester scheduled (ECON 2010, CS 1110, MATH 1310, electives, discussion sections, checkpoint dates, exam dates). Last pre-semester day.
+
+**2026-08-26 (first day of classes):** 
+- Morning brief confirmed "Classes Today" with ECON 2010 (L1 delivered), CS 1110 (L1 + Quiz-0 dropped), discussion sections.
+- Inbox sweep found no calendar-worthy events (all promotional).
+- Synced CS 1110 Exam 2 & 3 (missing from GCal).
+- Re-confirmed MATH 1310 checkpoint dates (all 5 accounted for).
+- Restored MATH 1310 Tue/Thu recurring lecture series (2:00–3:15 PM, Monroe 134, weekly 8/27–12/8 with Thanksgiving skip).
+- Synced 4 "app" deadlines to Notion (Seed App 8/28, MII App 8/30, AIF App early Sep, +1 more).
+
+> [!note] High operational load, zero failures
+> 2026-08-26 was heavy on calendar coordination (6 concurrent goals) and completed cleanly. Suggests RESOLVE is stable and reliable enough for high-volume academic admin work.
 
 ## Related Pages
-- [[Traveler Stansberry]] — the user
-- [[UVA and the Quant Question]] — the broader context (Traveler's UVA commitment)
-- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — recent course scheduled
-- [[Moral and Political Philosophy (UVA Fall 2026)]] — concurrent course
-- [[weekly-review-2026-08-23.md]] — latest review; full week context
+- [[Traveler Stansberry]]
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]]
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]]
+- [[MATH 1310 (Calculus II, UVA Fall 2026)]]
+- [[UVA and the Quant Question]]
