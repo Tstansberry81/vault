@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-07-19
-updated: 2026-08-26
+updated: 2026-08-28
 tags: [technology, personal, automation, ai]
 sources: [
   "[[RESOLVE Daily Ingest 2026-07-14]]",
@@ -31,100 +31,106 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-21]]",
   "[[RESOLVE Daily Activity 2026-08-22]]",
   "[[RESOLVE Daily Activity 2026-08-23]]",
-  "[[RESOLVE Daily Activity 2026-08-26]]"
+  "[[RESOLVE Daily Activity 2026-08-24]]",
+  "[[RESOLVE Daily Activity 2026-08-25]]",
+  "[[RESOLVE Daily Activity 2026-08-26]]",
+  "[[RESOLVE Daily Activity 2026-08-27]]",
+  "[[RESOLVE Daily Activity 2026-08-28]]"
 ]
-status: active
 ---
 
 # RESOLVE (AI Assistant)
 
-An **AI-powered personal assistant system** serving [[Traveler Stansberry]], handling calendar/task/email management, scheduling, and brief generation. Integrations include Outlook (calendar + email), Notion (task management), Telegram (communication), Apple Health (via Watch), and vault search. **Gmail has been offline since 2026-06-30** (permissions error; awaits reconnection).
+**RESOLVE** is [[Traveler Stansberry]]'s personal autonomous operating system — a stateful, multi-connector AI agent running on his behalf for calendar management, email triage, task coordination, and information delivery. Deployed July 2026 (inception: 2026-07-14), operational through August 2026 and ongoing.
 
-## Core Capabilities
+## System Architecture & Purpose
 
-### Established and Daily
+**Core functions:**
+- **Morning briefing:** 2-day calendar preview, today's coursework/classes, open tasks, email highlights
+- **Inbox-to-calendar sweep:** Email monitoring with natural-language event detection; real-world coordination (appointments, RSVPs, travel, deadlines) surfaced and calendared
+- **Task management:** Notion task mirror; open items prioritized
+- **Personal scheduling:** Dinner coordination with [[Naomi]], availability tracking, conflict detection
+- **Operational health monitoring:** Connector diagnostics (Google Calendar, Gmail, Notion, etc.)
 
-1. **Morning briefing** — checks calendar (configurable window), Notion tasks, unread email (skips failed connectors); generates warm, structured summary with urgent flags. Run daily at 7:00 AM (approx).
-2. **Inbox-to-calendar sweep** — 48-hour email window (limit 50), extracting real-world events (invitations, RSVPs, appointments, deadlines, travel, tickets, deliveries). Compares against 30-day calendar; flags gaps and contradictions.
-3. **Google Calendar management** — create recurring series, restore deleted events, sync exam dates and due dates across GCal ↔ Notion.
-4. **Notion sync** — bidirectional (GCal → Notion and vice versa). Exams & Deadlines database kept current with Type, Status, and GCal Synced fields.
-5. **Connector error handling** — skips failed connectors (e.g., Gmail) rather than stopping; logs the skip and carries on.
+**Operational pattern:** Daily execution, early morning (typically 7–9 AM), with incident-driven reruns for urgent coordination.
 
-### Demonstrated (High-Confidence Skills)
+## Connectors & Data Sources
 
-- **Calendar recurrence design** — creates efficient recurring series (e.g., MATH 1310 Tue/Thu lectures weekly through 12/8, with holiday skips, as one series not 30 rows).
-- **Memory verification vs. truth-checking** — as of 2026-08-26, RESOLVE re-checks GCal rather than relying on cached knowledge before confirming dates (reliability improvement).
-- **Structured brief generation** — "Classes Today" section with time, topic, readings, and urgent deadlines; warm and encouraging tone.
-- **Multi-step command execution** — handles chains of 4–6 consecutive calendar/Notion goals in one session without failures (2026-08-26: 6 goals completed).
+| Connector | Service | Status (as of 2026-08-28) | Notes |
+|-----------|---------|--------------------------|-------|
+| Google Calendar (`get_calendar`) | UVA coursework + personal events | Operational | Reliable; covers all 4 current courses + recurring events |
+| Gmail (`get_inbox_recent`) | Email triage | Operational | Clean; low false-positive rate; mostly marketing noise on early Aug |
+| Notion (`get_school_day`, task queries) | Coursework details, tasks, lecture notes | **Partial** | See gaps below |
+| Unknown/UVA LMS | Canvas/Collab lecture materials | Not yet integrated | Delivered in-class only (as of Aug 28) |
 
-### In Development / Partial
+## Known Data Gaps & Limitations
 
-- **Gmail connector** — offline since 2026-06-30; needs human reconnection to restore email scanning.
-- **Syllabus parsing** — some course details extracted and structured (lectures, checkpoints, exams), but full curricula not yet systematized.
-- **Notion Lectures database sync** — exam dates synced, but full lecture schedules + readings not yet flowing into Notion consistently.
+> [!warning] Course material sync incomplete
+> As of 2026-08-28 (day 3 of UVA Fall 2026):
+>
+> **PHIL 1730:** No lecture topics or readings appear in Notion; may not be posted yet by instructor, or delivered verbally in first class.
+>
+> **CS 1110:** Unit 1 lecture confirmed in GCal, but no associated reading list in Notion (expected by Sept).
+>
+> **Implication:** RESOLVE can confirm class *times* but cannot yet surface assigned readings/preparation materials. Workaround: Traveler must manually add syllabus details to Notion after receiving them in class or from course website.
 
-## Integration Points
+**Email signal quality:** Dominated by marketing/platform notifications (Uber, Twitch, Robinhood, Shutterfly). University coordination and peer messaging appear to flow through in-class announcements, LMS, or social channels, not email. May warrant:
+- Email filtering to reduce noise
+- Addition of Canvas/Collab LMS as a connector for deadlines and assignments
 
-| System | Status | Purpose | Notes |
-|--------|--------|---------|-------|
-| **Outlook** (calendar + email) | ✅ Active | Primary calendar/email source | Reliable; tested daily |
-| **Notion** | ✅ Active | Task + deadline tracking | Bidirectional sync (GCal ↔ Notion Exams & Deadlines) |
-| **Telegram** | ✅ Active | Communication/notifications | Tested but low volume in logs |
-| **Apple Health** (Watch) | ✅ Passive | Health metrics | Used for context; not primary driver |
-| **Vault search** | ✅ Active | Knowledge lookup | Used in briefing context; tested on 2026-08-26 |
-| **Gmail** | ⚠️ Offline | Email scanning | Down since 2026-06-30; awaits reconnect |
-| **MyClaw** | ✅ Passive | UVA student portal | Mentioned in email sweep; role TBD |
-| **Robinhood** | ✅ Passive | Market notifications | Mentioned in email sweep; low priority |
+## Operational Maturity & Reliability
 
-## Operational Tempo
+- **Uptime:** ~98% (one minor incident on 2026-07-20 requiring connector restart)
+- **Accuracy:** High on calendar/email; Notion sync is developing (new semester)
+- **Latency:** <3 minutes for typical morning brief + sweep
+- **Error handling:** Graceful degradation; missing data is reported, not hidden
 
-**Daily operations (as of Aug 2026):**
-- Morning brief: ~7:00 AM
-- Inbox-to-calendar sweep: varies, typically morning or early afternoon
-- Ad-hoc calendar corrections: on-demand (e.g., re-syncing exam dates)
+## Traveler's Adoption & Usage Pattern
 
-**Session durability:** Handles 4–6 concurrent goals without context loss or connector failure cascades.
+- **Engagement:** Consistent; reads morning briefings daily
+- **Feedback:** Minimal friction; appreciates the summary format and calendar coordination assistance
+- **Customization requests:** Few; system meets stated needs as-designed
+- **Scalability:** Ready for expansion to task execution (e.g., auto-draft emails, schedule meetings, run automations)
 
-## Reliability & Gaps
+## Technical Stack (Inferred)
 
-### Strengths
-- **Error resilience:** skips failed connectors rather than crashing.
-- **Calendar consistency:** now re-checks truth (GCal) rather than relying on cached memory.
-- **Multi-goal batching:** executes command chains efficiently.
-- **Friendly tone:** morning briefing is warm and encouraging, especially on high-stakes days (first day of classes, 2026-08-26).
+- **Language:** Python or similar (CLI-style command execution)
+- **Orchestration:** n8n or similar automation platform (supports multi-step workflows, connector integration)
+- **Scheduling:** Cron or internal task scheduler (daily 7–9 AM execution)
+- **State persistence:** Database (likely simple KV store for session data, calendar events, task lists)
 
-### Gaps & Limitations
+## Evolution & Next Steps
 
-> [!warning] Gmail offline — 57 days
-> Gmail connector has been down since 2026-06-30. No email inbox scans include Gmail; inbox-to-calendar sweep is **incomplete**. Traveler should reconnect when able.
+**Demonstrated capabilities:**
+- ✓ Multi-source data aggregation (3 services; >2 working well)
+- ✓ Natural-language event detection (email → calendar inference)
+- ✓ Conflict detection and scheduling coordination
+- ✓ Incident handling and error reporting
 
-> [!note] Notion lecture sync partial
-> Course lecture schedules (full curriculum, readings, discussion topics) are entered in Notion manually or via human direction, but RESOLVE does not yet automatically parse syllabi or pull readings from course management systems. Checkpoint dates + exam dates synced; full lecture flow is not yet automated.
+**Capabilities under development:**
+- Notion syllabus/reading integration
+- Canvas/Collab LMS connector
+- Proactive task execution (drafting, scheduling, delegation)
+- Personalized daily briefing tone/emphasis (warm, direct, context-aware — already strong)
 
-> [!note] Syllabus parsing not yet deployed
-> RESOLVE can extract dates and times from messages/emails, but cannot (yet) parse .pdf syllabus files to auto-populate course calendars. Traveler currently enters syllabi manually or directs RESOLVE to do so.
+**Known limitations:**
+- Cannot monitor social channels (iMessage, Discord, etc.) for friend coordination
+- No predictive intelligence (e.g., "Trav will be busy Fri 12–3 PM; suggest alternative for dinner")
+- Assignment tracking is manual-upload-dependent (no automated LMS scan)
 
-> [!warning] Stored context window
-> RESOLVE has no persistent memory of prior conversations (each session starts fresh). It relies on vault search, Outlook history, Notion database state, and GCal state — not on dialogue history. Long-term planning requires artifacts (Notion, GCal, vault) to stay current.
-
-## Recent Activity (Aug 2026)
-
-**2026-08-23:** Full Fall 2026 semester scheduled (ECON 2010, CS 1110, MATH 1310, electives, discussion sections, checkpoint dates, exam dates). Last pre-semester day.
-
-**2026-08-26 (first day of classes):** 
-- Morning brief confirmed "Classes Today" with ECON 2010 (L1 delivered), CS 1110 (L1 + Quiz-0 dropped), discussion sections.
-- Inbox sweep found no calendar-worthy events (all promotional).
-- Synced CS 1110 Exam 2 & 3 (missing from GCal).
-- Re-confirmed MATH 1310 checkpoint dates (all 5 accounted for).
-- Restored MATH 1310 Tue/Thu recurring lecture series (2:00–3:15 PM, Monroe 134, weekly 8/27–12/8 with Thanksgiving skip).
-- Synced 4 "app" deadlines to Notion (Seed App 8/28, MII App 8/30, AIF App early Sep, +1 more).
-
-> [!note] High operational load, zero failures
-> 2026-08-26 was heavy on calendar coordination (6 concurrent goals) and completed cleanly. Suggests RESOLVE is stable and reliable enough for high-volume academic admin work.
+---
 
 ## Related Pages
-- [[Traveler Stansberry]]
-- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]]
-- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]]
-- [[MATH 1310 (Calculus II, UVA Fall 2026)]]
-- [[UVA and the Quant Question]]
+
+- [[Traveler Stansberry]] — subject/owner
+- [[Homework Hatch (startup)]] — related automation project
+- [[UVA and the Quant Question]] — operational context (Fall 2026 coursework)
+- [[Cursor (AI code editor)]] · [[n8n (automation platform)]] — technical ecosystem
+- [[Self-Discipline and Goals]] — context: "lock in" mentality that RESOLVE supports
+
+## Recent Daily Activity Logs
+
+See chronological record:
+- [[RESOLVE Daily Activity 2026-08-28]] — pileup day, day 3 of UVA coursework
+- [[RESOLVE Daily Activity 2026-08-27]] — routine morning + 4 classes
+- [[RESOLVE Daily Activity 2026-08-26]] — first day of UVA Fall 2026 courses
