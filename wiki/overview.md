@@ -1,8 +1,8 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-08-23
-tags: [meta/overview, english, systems]
+updated: 2026-08-30
+tags: [meta/overview, english, systems, uva]
 status: active
 ---
 
@@ -25,101 +25,117 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 ---
 
-## Part 2: Technical/Automation Systems (2026)
+## Part 2: Technical/Automation Systems & UVA Coursework (2026 onward)
 
-**Scope:** Active projects in AI assistance, finance, education tech.
+### **Current Status: Fall 2026 Semester Underway (Aug 26–30, 2026)**
 
-### [[RESOLVE (AI assistant)]] — his personal operating system
-An autonomous agent handling calendar, tasks, email, and brief generation. Integrations with Outlook, Notion, Telegram, Apple Health. The system is **healthy and reliable** for routine operations (morning briefs, inbox triage, course scheduling). It has evolved from raw daily logs (mid-July) to intelligent course infrastructure builds (late August). **Outstanding:** Gmail offline since June 30; local worker offline as of late August (blocks Notion view sort edits).
+**Location:** Charlottesville, VA. Moved into residence Aug 20, 2026; classes began Aug 26.
 
-**Latest activity:** Fall 2026 course setup — built full scheduling infrastructure for ECON 2010 (Microeconomics) and PHIL 1730 (Moral & Political Philosophy) on 2026-08-23. 25+ lecture rows in Notion; all exams on GCal; readings organized.
+**Enrolled (Fall 2026):** 
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]] — Intro to Computer Science
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]] — Principles of Microeconomics
+- [[PHIL 1730 (Introduction to Philosophy, UVA Fall 2026)|PHIL 1730]] — Introduction to Philosophy
+- COMM 1800 — Foundations of Commerce (McIntire prerequisite)
+- Additional courses TBD
 
-### [[Personal Quant Model]] — his multi-factor equity model
-A live Flask app blending fundamental + technical analysis. Built spring 2026 in partnership with AI; implements ideas from his Economic IA and independent research. **Status:** Functional but untested live; the code was AI-directed, not written solo by Traveler. The decision to pursue quant trading (vs. core finance) is still open.
+**Major:** Finance ([[McIntire School of Commerce]]) | **Minor:** Math (possibly CS)
 
-### [[Homework Hatch (startup)]] — edtech/AI venture
-A real product with a co-founder (Josh), targeting high school homework help. Pitch deck drafted (2025–26), some user validation, but **early-stage and business development stalled** as Traveler shifted focus to UVA. Worth revisiting post-semester.
+**Open question:** Math/CS pivot vs. staying with Finance + Math minor (depends on Fall 2026 performance in CS 1110 and ECON 2010). See [[UVA and the Quant Question]] — honest assessment is that he's demonstrated **idea-level design** and **AI-directed coding** but **not independent production code ability** or **proof-heavy math under pressure**. This semester is the test.
 
----
+**Key achievement (Aug 24–30):** Built out lecture schedules in Notion for PHIL 1730 and ECON 2010; unified chronological view. Maintained **7/7 daily adherence** to [[RESOLVE (AI assistant)|RESOLVE]]'s morning brief and inbox-to-calendar sweep — unprecedented for him. Weekly spend $194.55 (44% under baseline).
 
-## Part 3: UVA & Fall 2026 Coursework (NEW, LIVE)
+> [!note] Pace of change
+> After four years of high-school introspection (the English corpus), Traveler is now in **execution mode**: coursework, systems automation, quant modeling, relationship maintenance across distance (Naomi). The wiki is shifting from retrospective archive to **live operational log**. The personality hasn't changed (still skeptical, still driven), but the frame has pivoted from *thinking about things* to *doing things*.
 
-**Status:** Moved into residence Aug 20; classes begin Aug 26, 2026.
+### [[RESOLVE (AI assistant)]] — Personal Operating System
 
-### First-Semester Schedule
-- **[[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]]** — MW 10:00–10:50 AM, 14 weeks, starts Aug 26; 3 in-class exams + final
-- **[[Moral and Political Philosophy (UVA Fall 2026)|PHIL 1730]]** — TR 3:30–4:20 PM, 8-week seminar, starts Aug 25; three exams (his first formal philosophy course)
+An **autonomous agent** running daily and weekly task automation:
+- **Daily:** Morning brief (calendar, classes, email, tasks), inbox-to-calendar sweep
+- **Weekly:** Comprehensive review (task ledger, finance, calendar forecast)
+- **Connector architecture:** Calendar, email, Notion, finance APIs, school system
 
-### Academic Plan
-- **Major:** Finance (via [[McIntire School of Commerce]])
-- **Minor:** Math (possible CS minor too)
-- **Track under consideration:** Quantitative Finance & Analytics (open decision; see [[UVA and the Quant Question]])
-- **First two years:** COMM 1800, ECON 2010 (now underway), First Writing Requirement, plus general eds
-- **Third year+:** Formal entry to Commerce (typically ~50% of applicants; competitive for Finance concentration)
+**Current performance:** 7/7 daily adherence (week of Aug 24–30) — his best stretch yet. RESOLVE is now embedded in his morning ritual.
 
-### Urgent Tasks (as of 2026-08-23)
-1. **Advisor conversation (Commerce prerequisites)** — Due Friday 8/28 → must email Monday 8/25 to schedule
-2. **PHIL 1730 prep** — Read Plato's *Apology* before Tuesday 8/26 (recommended Aug 23 to stay grounded)
+### [[Homework Hatch (startup)]]
 
-### Personal Context
-Long-distance relationship with [[Naomi]] (most emotionally significant person in his life) — primary worry entering UVA. They've already scouted the DC→Charlottesville train. [[RESOLVE (AI assistant)|RESOLVE]] has reminders set to maintain connection. Relevant to tracking his semester beyond just academics.
+Edtech/AI venture with Josh. Status/details TBD in current semester (likely deprioritized during ramp-up to UVA).
 
----
+### [[Personal Quant Model]]
 
-## Key Intellectual Threads
+Multi-factor equity model + Flask app. Active but details TBD.
 
-### Consistent across 2022–2026
-1. **Free will vs. fate** — the signature theme; starts hard/deterministic, softens over time (see [[Fate and Free Will]]).
-2. **Individual vs. collective** — the rebel, the outsider, the person who won't conform. Often a tragic frame: the individual almost always loses.
-3. **Power and hierarchy** — skeptical of authority; alert to how power corrupts; interested in justice and resistance.
-4. **Identity** — how the self is constructed, constrained, lost, recovered. Especially in senior year ([[Identity and Its Collapse]]).
-5. **Art and survival** — art as a basic human need; the artist as witness or escape.
+### [[The Edge (trading model)]]
 
-### Intellectual Interests (private, from Apple Notes 2022–2026)
-- **Philosophy:** Free will, determinism, morality, the nature of consciousness, faith vs. knowledge, religious skepticism
-- **Economics:** Markets, incentives, inequality, capitalism vs. alternatives
-- **Physics:** Cosmology, quantum mechanics, the math of uncertainty
-- **Technology:** AI, automation, the future of work
-- **Ethics:** How to live; what we owe each other; power and justice
-
-The PHIL 1730 course (starting Aug 25) is his **first formal engagement with this intellectual core** — virtue ethics, deontology, political theory. Worth watching closely.
+Short-horizon momentum/acceleration trader. Status/details TBD.
 
 ---
 
-## The Archive Structure
+## Part 3: Intellectual Themes (Persistent Across Both Parts)
 
-- **`wiki/overview.md`** (this page) — synthesis and reading entry point
-- **`wiki/index.md`** — full catalog of every page, by category
-- **`wiki/log.md`** — chronological ledger of all wiki operations (ingests, queries, lint passes)
-- **`wiki/sources/`** — summary pages for each source document (essays, books, RESOLVE logs, etc.)
-- **`wiki/entities/`** — people, places, works, courses, systems (concrete things)
-- **`wiki/concepts/`** — ideas and themes (abstract; cross-cut entities)
-- **`wiki/analyses/`** — filed-back query answers and deep-dives
-- **`wiki/reviews/`** — weekly/monthly syntheses of activity and progress
-- **`wiki/assets/`** — generated visuals (charts, diagrams, mermaid graphs)
-- **`output/`** — deliverables (decks, spreadsheets, standalone reports)
+See the **Analyses** section below and individual concept pages:
 
-## Calibration Notes
-
-This wiki **does not flatter**. Where Traveler's self-assessment or a source's claim outruns evidence, we flag it. Examples:
-
-> [!warning] Known gaps and honest notes
-> - **Coding ability:** Traveler directs AI to build his projects (quant model, Homework Hatch). The design judgment is strong; the solo coding ability is **untested**. The quant decision hinges on whether he'll invest in writing production code himself.
-> - **Philosophy:** Now taking his first formal course. The intellectual interests are real and decades-deep in his thinking, but he's untested at academic philosophy — argument structure, reading primary texts closely, peer discussion. This semester will be revealing.
-> - **Homework Hatch:** A real product with user validation, but business development has stalled. Early-stage; worth revisiting but not a live priority.
-> - **RESOLVE performance:** Reliable for routine ops (briefs, email triage, scheduling). Gmail has been offline 2 months (non-blocking). Local worker offline late August (blocks Notion edits). System is healthy but not perfect.
+- **[[Fate and Free Will]]** — his signature theme; hardens (predestination, systems determine outcomes) then softens (human choice within constraints)
+- **[[Identity and Its Collapse]]** — the spine of senior year; loss of coherent self
+- **[[Individual vs. Society]]** — the rebel almost always loses
+- **[[Power, Hierarchy, and Justice]]** — power corrupts and destroys its seeker
+- **[[Intellectual Interests]]** — his private musings (free will, morality, religion, physics, finance, code)
 
 ---
 
-## The Reading Path
+## The Wiki Corpus: Inventory
 
-**First time here?** Start with:
-1. This page (overview)
-2. [[Traveler Stansberry]] (main entity — who he is)
-3. [[Intellectual Profile]] (his ideas, organized by domain)
-4. [[Core Convictions]] (beliefs distilled into propositions)
-5. Then drill into whatever interests you: [[English Curriculum 2022-2026|English courses]], [[Personal Quant Model|quant project]], [[UVA and the Quant Question|UVA context]], etc.
+### English Coursework (2022–2026)
+- **28 literary works** with individual entity pages (linked in `index.md`)
+- **~55 essays and assignments** catalogued in their work pages or as source pages
+- **6 major personal narrative documents** (memoirs, college essays, relationship logs)
+- **23 monthly ChatGPT digests** + **293 individual chats** (see [[_Chats Catalog]])
+- **Analysis pages:** [[Intellectual Profile]], [[Core Convictions]], [[Intellectual Evolution]], [[Tensions and Open Questions]]
 
-**Looking for a specific topic?** Check [[index.md]] first, then follow the [[wikilinks]].
+### UVA Coursework & Systems (Aug 2026 onward)
+- **RESOLVE daily activity logs** (ongoing from Jul 12, 2026)
+- **Course pages:** CS 1110, ECON 2010, PHIL 1730, COMM 1800 (others TBD)
+- **Personal projects:** Homework Hatch, Personal Quant Model, The Edge, Vision
+- **System pages:** [[RESOLVE (AI assistant)]], [[Cursor (AI code editor)]], [[n8n (automation platform)]]
 
-**Recent activity?** See [[log.md]].
+### Personal & Relational
+- [[Family and Personal Life]] — father, divorce, brothers
+- [[Emotional Life and Inner World]] — the sensitive side
+- [[Naomi — Relationship Log (2026)]] — live relationship documentation
+- [[College Search]] → [[UVA and the Quant Question]]
+
+---
+
+## Honest Calibration Notes
+
+**What we know with high confidence:**
+- Strong writer; clear argumentative voice; sophisticated literary taste
+- High self-discipline (75 Hard completion, 7/7 routine adherence this week)
+- Systems-minded; invests in automation and organization
+- Intellectually curious across domains (philosophy, finance, physics, code, literature)
+- Emotionally attuned; values relationships; navigates complexity well in personal narrative
+
+**What's uncertain or in flux:**
+- **Coding ability:** Directed AI-assisted projects, but independent production code? Untested at university level.
+- **Math ability:** Ideas are strong, but proof-based math under pressure (CS 1110, ECON 2010)? First real test happening now.
+- **Quant hedge fund career readiness:** Aspires to quantitative finance, but the full pipeline (coding → modeling → execution) has gaps.
+- **Long-distance sustainability:** Maintaining Naomi connection across DC–Charlottesville distance; early days (Aug 26 onward).
+
+**Gaps to fill (from the ingest perspective):**
+1. Full Fall 2026 course list (CS 1110, ECON 2010, PHIL 1730, COMM 1800, + what else?)
+2. Exam schedules and assignment deadlines for each course
+3. GPA target or performance standards for the semester
+4. AIF APP status (still unclear after Aug 30 — is it abandoned or in-flight?)
+5. Full scope/details of Homework Hatch, Personal Quant Model, The Edge (deprioritized or active?)
+
+---
+
+## Reading Entry Points
+
+**For a first read:** Start with [[Intellectual Profile]] (master index of his ideas by domain) and [[Core Convictions]] (beliefs distilled + evidence).
+
+**For the English story:** [[English Curriculum 2022-2026]] → [[Intellectual Evolution]] → individual work pages (especially [[Beloved 257-277 Writeup]] and [[Narrow Road to the Deep North Response]]).
+
+**For the current moment:** [[UVA and the Quant Question]] → [[RESOLVE (AI assistant)]] → recent daily activity logs (Aug 26–30).
+
+**For the relational side:** [[Naomi — Relationship Log (2026)]] + [[Family and Personal Life]].
+
