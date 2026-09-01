@@ -1,1 +1,66 @@
----\ntype: entity\ncreated: 2026-06-15\nupdated: 2026-08-29\ntags: [personal, college, planning]\nsources: [\n  \"[[College Stuff]]\",\n  \"[[College Supplemental Essay Topics]]\",\n  \"[[college questions]]\",\n  \"[[bs commerce]]\",\n  \"[[SAT Score Reveal and the UVA ED vs EA McIntire Calculation (chat)]]\",\n  \"[[UVA ED Application Odds and the Boredom-IQ Self-Assessment (chat)]]\",\n  \"[[Binding Early Decision Enforceability and UVA ED vs EA Boost (chat)]]\",\n  \"[[RESOLVE Daily Ingest 2026-07-19]]\",\n  \"[[RESOLVE Daily Activity 2026-08-17]]\",\n  \"[[RESOLVE Daily Activity 2026-08-18]]\",\n  \"[[RESOLVE Daily Activity 2026-08-19]]\",\n  \"[[RESOLVE Daily Activity 2026-08-29]]\"\n]\nstatus: active\n---\n\n# College Search\n\n[[Traveler Stansberry]]'s college-application process (2025–2026), concluded with commitment to **University of Virginia**, matriculating **fall 2026**. As of **August 20, 2026, move-in completed** (arrival Aug 20, 1–3 PM). Classes and orientation underway; administrative deadlines remain open through August 31.\n\n## ✅ Outcome: University of Virginia\n\nHe **committed to UVA** — **Finance major** (via the [[McIntire School of Commerce]]) with a **Math minor**. The forward plan and the open quant-vs-standard-finance question live on **[[UVA and the Quant Question]]**.\n\n## 🚨 Outstanding Administrative Tasks (Late August 2026)\n\nAs of **August 29, 2026**, two remaining UVA administrative deadlines:\n\n### 1. MII Application\n- **Due:** Sunday, August 30, 2026 (all-day deadline)\n- **Status:** On calendar; no email notifications flagged in recent inbox sweep\n- **Context:** Likely UVA internal administrative form or application component (MII = Materials/Intake/Initial or similar); first class day was Aug 20, now 9 days in\n- **Source:** [[RESOLVE Daily Activity 2026-08-29]]\n\n### 2. Engagement Swap Deadline\n- **Due:** Monday, August 31, 2026 (final day)\n- **Status:** On calendar; no recent communications flagged\n- **Context:** Final deadline to modify housing or commitment arrangements (academic, residential, or organizational engagement)\n- **Source:** [[RESOLVE Daily Activity 2026-08-29]]\n\n> [!note] Update 2026-08-29\n> AIF (likely an earlier administrative item) no longer appears on the calendar — only MII App does. This suggests AIF was either completed or dropped from the sequence. [[RESOLVE]] sweep confirmed clean inbox with no invitations, appointments, or calendar-worthy messages related to these deadlines.\n\n## Earlier Context (Aug 17–19)\n\nPrevious RESOLVE logs (2026-08-18, 2026-08-19) flagged two **critical administrative items** as red-priority before classes began:\n\n### 1. Confirm Spring 2027 Commerce Prerequisites with Advisor\n- **Deadline (from earlier source):** August 28, 2026\n- **Status:** Not mentioned in 2026-08-29 log; likely completed or superseded by MII/swap deadlines\n\n### 2. Residential Life / Housing Form\n- **Deadline (from earlier source):** August 26, 2026 (reported critical)\n- **Status:** Not mentioned in 2026-08-29 log; likely completed\n\n## Related\n- [[UVA and the Quant Question]] — finance major + math minor planning; quant direction decision\n- [[RESOLVE (AI assistant)]] — administrative coordinator for deadlines and task tracking\n- [[Traveler Stansberry]] — subject
+---
+type: entity
+created: 2026-06-15
+updated: 2026-08-31
+tags: [personal, college, planning]
+sources: [
+  "[[College Stuff]]",
+  "[[College Supplemental Essay Topics]]",
+  "[[college questions]]",
+  "[[bs commerce]]",
+  "[[SAT Score Reveal and the UVA ED vs EA McIntire Calculation (chat)]]",
+  "[[UVA ED Application Odds and the Boredom-IQ Self-Assessment (chat)]]",
+  "[[Binding Early Decision Enforceability and UVA ED vs EA Boost (chat)]]",
+  "[[RESOLVE Daily Ingest 2026-07-19]]",
+  "[[RESOLVE Daily Activity 2026-08-17]]",
+  "[[RESOLVE Daily Activity 2026-08-18]]",
+  "[[RESOLVE Daily Activity 2026-08-19]]",
+  "[[RESOLVE Daily Activity 2026-08-29]]",
+  "[[RESOLVE Daily Activity 2026-08-30]]",
+  "[[RESOLVE Daily Activity 2026-08-31]]"
+]
+status: active
+---
+
+# College Search
+
+[[Traveler Stansberry]]'s college-application process (2025–2026), concluded with commitment to **University of Virginia**, matriculating **fall 2026**. As of **August 20, 2026, move-in completed** (arrival Aug 20, 1–3 PM). Classes ongoing; administrative deadlines concluded by August 31.
+
+## ✅ Outcome: University of Virginia
+
+He **committed to UVA** — **Finance major** (via the [[McIntire School of Commerce]]) with a **Math minor**. The forward plan and the open quant-vs-standard-finance question live on **[[UVA and the Quant Question]]**.
+
+## ✅ Administrative Milestones (Completed August 2026)
+
+### MII Application
+- **Due:** Sunday, August 30, 2026 (all-day deadline)
+- **Status:** ✅ **Completed by end of Aug 30** (no mention in Aug 31 RESOLVE brief, indicating deadline passed without incident)
+- **Context:** UVA internal administrative form or application component; likely housing/profile information
+- **Source:** [[RESOLVE Daily Activity 2026-08-30]] (all-day task focus)
+
+### First Class Day
+- **Date:** Tuesday, August 26, 2026 (Orientation continued; classes began)
+- **First Week Pattern:** Back-to-back morning classes (ECON 2010 10:00–10:50, CS 1110 11:00–11:50)
+- **Status:** ✅ **Underway** — classes confirmed through August 31 ([[RESOLVE Daily Activity 2026-08-31]])
+
+---
+
+## Administrative Timeline (Past)
+
+| Milestone | Date | Status | Notes |
+|-----------|------|--------|-------|
+| Orientation arrival | Aug 20, 2026 (Wed) | ✅ | Move-in 1–3 PM |
+| Orientation & course selection | Aug 20–25 | ✅ | 5-day orientation week |
+| **First class day** | Aug 26, 2026 (Tue) | ✅ | [[ECON 2010]] and [[CS 1110]] scheduled |
+| **MII Application** | Aug 30, 2026 (Sun) | ✅ | All-day deadline; completed |
+| **Classes established** | Aug 31, 2026 (Mon) | ✅ | Lecture 2 of both courses; RESOLVE brief confirmed schedule |
+
+---
+
+## Related Pages
+
+- [[Traveler Stansberry]] — primary subject
+- [[UVA and the Quant Question]] — academic plan (ongoing; quant decision still open)
+- [[McIntire School of Commerce]] — his business school
+- [[Naomi]] — long-distance partner; major personal logistics factor (see [[Naomi — Relationship Log (2026)]])
+
