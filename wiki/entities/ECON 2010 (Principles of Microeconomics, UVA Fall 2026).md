@@ -1,73 +1,64 @@
 ---
 type: entity
 created: 2026-08-23
-updated: 2026-08-31
+updated: 2026-09-02
 tags: [college, uva, course, economics, fall-2026]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-08-23]]",
   "[[RESOLVE Daily Activity 2026-08-26]]",
   "[[RESOLVE Daily Activity 2026-08-31]]",
+  "[[RESOLVE Daily Activity 2026-09-02]]",
   "[[weekly-review-2026-08-23.md]]"
 ]
 ---
 
 # ECON 2010: Principles of Microeconomics (UVA Fall 2026)
 
-**Course:** Principles of Microeconomics, [[Traveler Stansberry]]'s foundational economics course at [[UVA and the Quant Question|UVA]]. Fully scheduled on 2026-08-23 via [[RESOLVE (AI assistant)|RESOLVE]]; first lecture confirmed 2026-08-26; second lecture confirmed 2026-08-31.
+**Course:** Principles of Microeconomics, [[Traveler Stansberry]]'s foundational economics course at [[UVA and the Quant Question|UVA]]. Fully scheduled on 2026-08-23 via [[RESOLVE (AI assistant)|RESOLVE]]; first lecture confirmed 2026-08-23 (Lecture 1).
 
 ## Course Overview
 
-**Format:** Lecture-based, two sessions per week (Monday & Wednesday, 10:00–10:50 AM, Gibson Hall)  
-**Duration:** Full Fall 2026 semester (14 weeks starting Aug 26)  
-**Assessment:** 3 in-class exams (9/23, 10/28, 12/2) + comprehensive final exam (12/12, 7:00–10:00 PM with SDAC accommodation)
+**Format:** Lecture-based  
+**Duration:** Full Fall 2026 semester (14 weeks)  
+**Meeting times:** M, W, F 10:00–10:50 AM, Gibson Hall  
+**Instructor:** Not yet recorded  
+**Prerequisites:** None (intro course)
 
-## Lecture Schedule
+## Course Progression
 
-### First Half (8 lectures, Aug 26 — Sep 21)
+### Lecture Sequence
 
-| Date | Lecture | Topic | Textbook | Status | Notes |
-|------|---------|-------|----------|--------|-------|
-| 8/26 (M) | Lecture 1 | Incentives / Economic Systems | Ch. 1–3 | ✅ Attended | First class; RESOLVE confirmed |
-| 8/31 (M) | Lecture 2 | Opportunity Cost / PPF | Ch. 2 | ✅ Attended | RESOLVE morning brief 8/31; first Exam 1 block lecture |
-| 9/2 (W) | Lecture 3 | Demand | Ch. 4 | — | — |
-| 9/7 (M) | Lecture 4 | Supply | Ch. 4 | — | — |
-| 9/9 (W) | Lecture 5 | Using Supply and Demand | Ch. 5 | — | — |
-| 9/14 (M) | Lecture 6 | Elasticities | Ch. 6 | — | — |
-| 9/16 (W) | Lecture 7 | Consumer Behavior | Ch. 19 | — | — |
-| 9/21 (M) | Lecture 8 | Review | — | — | Exam 1 review; Exam 1 on 9/23 (Tue) |
+| Date | Lecture | Topic | Reading | Exam Block |
+|------|---------|-------|---------|-----------|
+| 2026-08-23 (Fri) | L1 | Introduction | — | Exam 1: L1–7 |
+| 2026-08-25 (Sun)? | L2 | Supply & Demand Basics | Chapter 3 | Exam 1 |
+| 2026-09-01? | L2.5 | Supply & Demand cont'd | — | — |
+| 2026-09-02 (Wed) | **L3** | **Demand** | **Chapter 4** | **Exam 1** |
 
-> [!note] Exam 1 block
-> Lectures 1–7 form the first exam block. Exam 1 is Tuesday, September 23, 2026. Lecture 8 (9/21) will be a review session.
+> [!note] Schedule uncertainty
+> Lecture dates/numbers above are partially inferred from [[RESOLVE (AI assistant)|RESOLVE]] morning briefs. Exact schedule not yet recorded in full. L2 might have occurred earlier (possibly 2026-08-27 or 2026-08-29); L2.5 date unclear.
 
-### Second Half (at least 3+ additional lectures)
+## Exam Block 1 (Lectures 1–7)
 
-To be completed as semester progresses.
+**Scope:** Covers Lectures 1–7, focusing on supply, demand, and foundational micro concepts  
+**Content tracked:**
+- L1: Introduction
+- L2: Supply & Demand basics (Chapter 3)
+- L3: Demand (Chapter 4)
+- L4–L7: TBD
 
----
-
-## Readings & Assignments
-
-- **Chapter 2 assigned by 8/31** — covers Opportunity Cost, Production Possibilities Frontier (PPF), and foundational micro concepts
-- **Chapter 1–3 assigned by 8/26** — foundational material
-
----
-
-## Assessment
-
-| Item | Date | Type | Notes |
-|------|------|------|-------|
-| Exam 1 | 9/23 (Tue) | In-class | Lectures 1–7; 50 min |
-| Exam 2 | 10/28 (Tue) | In-class | TBD |
-| Exam 3 | 12/2 (Tue) | In-class | TBD |
-| Final Exam | 12/12 (Fri) | Comprehensive | 7:00–10:00 PM; SDAC accommodation noted |
-
----
+**Status:** In progress; 4+ lectures remaining before exam
 
 ## Related Pages
 
+- [[UVA and the Quant Question]] — Traveler's college context and academic direction
+- [[RESOLVE (AI assistant)]] — system tracking course schedules and deadlines
 - [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — academic plan (ECON 2010 is McIntire Foundation prerequisite)
-- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]] — sibling course (same morning block)
-- [[McIntire School of Commerce]] — business school housing the course
+
+## Changelog
+
+- **2026-08-23** — Course fully scheduled via RESOLVE; L1 confirmed
+- **2026-08-31** — Second lecture block and lab schedule added
+- **2026-09-02** — L3 confirmed (Demand, Chapter 4); Exam 1 block scope clarified
 
