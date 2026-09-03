@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-01
+updated: 2026-09-02
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -12,7 +12,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-28]]",
   "[[RESOLVE Daily Activity 2026-08-29]]",
   "[[RESOLVE Daily Activity 2026-08-30]]",
-  "[[RESOLVE Daily Activity 2026-09-01]]"
+  "[[RESOLVE Daily Activity 2026-09-01]]",
+  "[[RESOLVE Daily Activity 2026-09-02]]"
 ]
 ---
 
@@ -39,39 +40,70 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 - **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email
 - **Error handling:** Skip connectors that fail; don't abort
 - **Output:** Warm, concise summary with highlights and urgencies
-- **Typical content:** Classes with times, due coursework, calendar events, important emails
-- **Example (2026-09-01):** Three classes (EGMT 1540, MATH 1310, PHIL 1730), **urgent Aristotle reading** (Nicomachean Ethics I–III.4) due for PHIL 1730 at 15:30
+- **Typical content:** Classes with times/readings, open deadlines, high-signal emails, meeting invites
+- **Frequency:** Daily
 
-**2. Daily Inbox-to-Calendar Sweep** (mid-morning or as needed)
-- **Inputs:** Last 48 hours of email (`get_inbox_recent` limit 50), next 30 days of calendar (`get_calendar`)
-- **Task:** Filter emails for real-world events (invites, RSVPs, deadlines, travel, appointments) vs. noise (newsletters, marketing, contests)
-- **Output:** List of calendar-worthy events to add; summary of noise/signal ratio
-- **Example (2026-09-01):** 9 readable messages; 0 calendar-worthy events; all noise (newsletters, promos, Twitch notifications)
+**2. Daily Inbox-to-Calendar Sweep**
+- **Inputs:** Email (past 2 days, limit 50), 30-day calendar
+- **Logic:** Identify emails with real-world events (invitations, RSVPs, appointments, classes, meetings, deadlines, flights, travel, reservations, tickets, deliveries) and check for calendar presence
+- **Output:** Flag any real events missing from calendar or requiring action
+- **Frequency:** Daily
 
-### Weekly/Periodic Commands
-- **Weekly digest** — consolidated view of the week's commitments
-- **Finance check** (as needed) — portfolio status, trading activity
-- **System health** — connector status, error logs, performance
+### Weekly Commands
 
-## System Integration
+**1. Weekly Review** (typically Friday or Sunday)
+- **Inputs:** Past week's emails, calendar, Notion, finances
+- **Output:** Progress synthesis, upcoming week summary, adjustments
+- **Frequency:** Weekly (typically end-of-week)
 
-- **Connectors:** Gmail, Outlook email, Outlook calendar, Notion, Telegram, finance APIs
-- **Data flow:** Extractive (reads from sources) and synthetic (produces digests, not stored actions)
-- **Failure mode:** Graceful — skip erroring connectors, don't abort the whole run
-- **Log persistence:** All activity logged to [[wiki/log]] for historical reference
+## Operational Health
 
-## Operational Pattern (Aug–Sep 2026)
+**Status:** Healthy and stable (as of 2026-09-02)
 
-- **Frequency:** Daily morning brief + inbox-to-calendar sweep (and periodic runs)
-- **Task load:** Typical pattern: 2–4 commands per run, ~5–10 min per session
-- **System health:** Reliable; occasional connector hiccups (Gmail had a permissions issue in July)
-- **Usage trajectory:** Started 2026-07-12; now in routine steady state (daily use at UVA, F26)
+**Connectors monitored:**
+- Calendar (Outlook/Google)
+- Email (Gmail, Outlook) — note: Gmail connector has had a persistent permissions issue since 2026-06-30; unchecked in recent runs
+- Notion (task tracking)
+- Telegram (personal messages)
 
-> [!note] Week 1 @ UVA (Aug 26–Sep 1, 2026)
-> RESOLVE transitioned from summer mode to **semester mode** with the start of classes. Inbox is light (mostly promotional); calendar is steadily filling with coursework deadlines. The system is managing class load, reading assignments, and potential finance/quant work alongside normal ops.
+**Recent operational notes:**
+- All connectors responding cleanly in morning/sweep operations (2026-08-29 onward)
+- Gmail permissions issue unresolved; Notion availability varies by session
 
----
+> [!warning] Operational gap discovered 2026-09-02
+> **Untracked trip anomaly:** An Allianz Partners travel-insurance email ("It's almost time for your trip") arrived 2026-09-02 at 7:27 AM with empty body. RESOLVE's 30-day calendar search for "trip" returned zero results, implying a real booked trip exists in an external system but is **not visible in RESOLVE's calendar layer**. Possible causes: trip booked via a calendar system RESOLVE doesn't access, email permissions gap, or travel purchased outside RESOLVE's pipeline. See [[Travel Plans Untracked (2026-09-02 anomaly)]] for details and investigation.
 
-## Related
+## Examples from Daily Operations
 
-[[Traveler Stansberry]] · [[Self-Discipline and Goals]] · [[UVA and the Quant Question]]
+### ECON 2010 & CS 1110 Integration
+- Morning brief consistently includes [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] lecture times and reading assignments
+- CS 1110 daily briefing now includes lab schedule and Gradescope deadlines (as of 2026-08-26)
+- **Example:** 2026-09-02 brief correctly identified Demand (Ch. 4) for ECON 2010 L3 and Built-in Functions for CS 1110
+
+### Deadline Tracking
+- Picked up Aristotle reading deadline ([[Nicomachean Ethics]] I–III.4 due 2026-09-01 for [[PHIL 1730 (Introduction to Philosophy, UVA Fall 2026)]]) and flagged in morning brief of 2026-09-01
+- Successfully scheduled [[Naomi]] dinner coordination on 2026-07-24
+
+## Limitations & Known Gaps
+
+1. **Email body access:** Some emails arrive with empty or inaccessible body content (see Allianz anomaly above)
+2. **Gmail connector down:** Persistent permissions error since 2026-06-30; rebuilding access may be needed
+3. **Calendar visibility:** Unclear whether all calendars Traveler uses are wired into RESOLVE's pipeline
+4. **Trip discovery:** First case of a real external event (booked trip) invisible to RESOLVE's calendar layer — suggests permissions or integration gap
+5. **Notion connector flakiness:** Sometimes unavailable in a given session
+
+## Future Enhancements (Aspirational)
+
+- Rebuild Gmail connector and restore full inbox coverage
+- Add financial account monitoring (bank, investment accounts)
+- Expand task priority synthesis (not just list tasks, but rank by urgency/impact)
+- Integrate Traveler's personal notes/journal as a signal source
+- Error recovery: auto-detect and flag connector failures that harm data completeness
+
+## See Also
+
+- [[Traveler Stansberry]] — the person RESOLVE serves
+- [[UVA and the Quant Question]] — context for coursework and academic goals
+- [[Homework Hatch (startup)]] — another automation/systems project
+- [[Self-Discipline and Goals]] — the personal philosophy driving RESOLVE's existence
+
