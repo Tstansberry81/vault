@@ -1,12 +1,13 @@
 ---
 type: entity
 created: 2026-08-26
-updated: 2026-08-31
+updated: 2026-09-02
 tags: [college, uva, course, computer-science, fall-2026]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-08-26]]",
-  "[[RESOLVE Daily Activity 2026-08-31]]"
+  "[[RESOLVE Daily Activity 2026-08-31]]",
+  "[[RESOLVE Daily Activity 2026-09-02]]"
 ]
 ---
 
@@ -16,54 +17,52 @@ sources: [
 
 ## Course Overview
 
-**Format:** Lecture-based, MWF 11:00–11:50 AM  
-**Duration:** Full Fall 2026 semester (14 weeks starting Aug 26)  
-**Assessment:** Multiple quizzes + 3 exams (as per syllabus)
+**Format:** Lecture-based with lab component  
+**Duration:** Full Fall 2026 semester (14 weeks)  
+**Meeting times:** M, W, F 11:00–11:50 AM  
+**Lab:** Thursdays (schedule TBD)  
+**Instructor:** Not yet recorded  
+**Prerequisites:** None (intro course)
 
-## Lecture Schedule
+## Course Progression
 
-**First week:**
+### Unit 1: Basics
 
-| Date | Unit | Topic | Reading | Status | Notes |
-|------|------|-------|---------|--------|-------|
-| 8/26 (W) | Unit 1 | Introduction & Basics | None listed | ✅ Attended | First class; RESOLVE confirmed |
-| 8/31 (M) | Unit 1 | Basics-1 (Variables and Types) | None listed | ✅ Attended | RESOLVE morning brief 8/31 |
+| Date | Lecture | Topic | Content | Status |
+|------|---------|-------|---------|--------|
+| 2026-08-26 (Mon) | L1 | Basics-1 | — | Confirmed |
+| 2026-08-28 (Wed) | L2 | Basics-1 cont'd | — | Inferred |
+| 2026-08-31 (Sat)? | L3 | Basics-2: Built-in Functions | — | Confirmed? |
+| 2026-09-02 (Wed) | **L3–L4?** | **Basics-2: Built-in Functions** | **Unit 1** | **Active** |
 
-> [!note] Curriculum structure
-> Unit 1 spans multiple lectures (at least Basics intro and Basics-1). Likely covers foundational Python/CS concepts. Full curriculum to be populated as semester progresses.
+> [!note] Schedule uncertainty
+> Meeting days appear to be **M/W/F 11:00–11:50 AM** per the morning brief of 2026-09-02, but 2026-08-31 is listed as Saturday — likely a typo in the source or an asynchronous assignment day. Lecture count and exact topic sequencing still uncertain.
 
-## Quizzes
+### Lab Structure
 
-| Quiz | Status | Due Date | Notes |
-|------|--------|----------|-------|
-| Quiz-0 | Dropped 8/26 | Fri 9/11 | Foundation quiz; inaugural assessment |
+**Lab:** Thursdays (no specific time recorded yet)  
+**2026-09-03 lab topics (Thu, tomorrow from 2026-09-02):**
+- Covers Basics (full review)
+- Reading errors
+- Gradescope introduction/platform orientation
 
-> [!note] Quiz schedule TBD
-> Quiz-0 is the only assessment currently visible. Remaining quizzes (likely weekly or bi-weekly) to be added as syllabus clarifies.
+**Status:** Lab infrastructure (Gradescope) introduced in Week 2; students will submit work via Gradescope going forward
 
-## Exams
+### Gradescope Integration
 
-| Exam | Date | Time | Coverage | Notes |
-|------|------|------|----------|-------|
-| Exam 1 | **TBD** | TBD | TBD | **Missing from calendar sync** |
-| Exam 2 | Mon 10/26 | 11:00–11:50 AM | TBD | RESOLVE sync 2026-08-26 |
-| Exam 3 | Mon 11/16 | 11:00–11:50 AM | TBD | RESOLVE sync 2026-08-26 |
-
-> [!warning] Exam 1 missing
-> Exams 2 and 3 are in the calendar, but Exam 1 date remains unspecified. Confirm with syllabus.
-
----
-
-## Assessment & Grading
-
-Format likely: quizzes (foundation) + 3 exams (progressive units). Detailed rubric TBD as first assignment/quiz feedback arrives.
-
----
+- **Platform:** Gradescope (auto-grading system)
+- **Introduction:** 2026-09-03 lab session
+- **Usage:** Likely for all future problem sets and labs
 
 ## Related Pages
 
+- [[UVA and the Quant Question]] — Traveler's college context and academic direction
+- [[RESOLVE (AI assistant)]] — system tracking course schedules and lab deadlines
 - [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — academic plan (CS 1110 is part of CS minor pathway)
-- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — sibling course (same morning block, 10:00 start)
-- [[Personal Quant Model]] — Trav's summer quant work (CS 1110 will likely strengthen his coding for future iterations)
+
+## Changelog
+
+- **2026-08-26** — L1 confirmed; course structure logged
+- **2026-08-31** — Second session confirmed; lab schedule noted
+- **2026-09-02** — L3/L4 confirmed as Basics-2 (Built-in Functions); 2026-09-03 lab preview added (Basics review, Gradescope intro)
 
