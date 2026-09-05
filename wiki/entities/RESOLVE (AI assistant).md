@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-04
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -13,7 +13,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-29]]",
   "[[RESOLVE Daily Activity 2026-08-30]]",
   "[[RESOLVE Daily Activity 2026-09-01]]",
-  "[[RESOLVE Daily Activity 2026-09-02]]"
+  "[[RESOLVE Daily Activity 2026-09-02]]",
+  "[[RESOLVE Daily Activity 2026-09-04]]"
 ]
 ---
 
@@ -39,71 +40,73 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 **1. Morning Brief** (runs at start of day)
 - **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email
 - **Error handling:** Skip connectors that fail; don't abort
-- **Output:** Warm, concise summary with highlights and urgencies
-- **Typical content:** Classes with times/readings, open deadlines, high-signal emails, meeting invites
-- **Frequency:** Daily
+- **Output:** Warm, concise summary with highlights and urgencies; structured as "CLASSES TODAY" (if relevant), then calendar summary, then top Notion tasks, then email flags
 
-**2. Daily Inbox-to-Calendar Sweep**
-- **Inputs:** Email (past 2 days, limit 50), 30-day calendar
-- **Logic:** Identify emails with real-world events (invitations, RSVPs, appointments, classes, meetings, deadlines, flights, travel, reservations, tickets, deliveries) and check for calendar presence
-- **Output:** Flag any real events missing from calendar or requiring action
-- **Frequency:** Daily
+**2. Daily Inbox-to-Calendar Sweep** (runs after morning brief)
+- **Inputs:** Last 48 hours of email (limit: 50), full next 30-day calendar
+- **Logic:** Find emails mentioning real-world happenings (invitations, RSVPs, appointments, classes/office hours, meetings, deadlines, flights, travel, reservations, tickets, deliveries)
+- **Output:** Cross-check against calendar; flag any events in email not yet on the calendar; add to calendar if new; draft RSVP templates if needed
+- **Success threshold:** Usually 0–3 calendar-worthy items per run (routine weeks have little new scheduling)
 
-### Weekly Commands
+### Weekly Commands (when active)
 
-**1. Weekly Review** (typically Friday or Sunday)
-- **Inputs:** Past week's emails, calendar, Notion, finances
-- **Output:** Progress synthesis, upcoming week summary, adjustments
-- **Frequency:** Weekly (typically end-of-week)
+**Weekly Review** (run on intent)
+- Quarterly planning sessions, goal check-ins, and prep for major events
 
-## Operational Health
+## Operational Record (2026)
 
-**Status:** Healthy and stable (as of 2026-09-02)
+| Date | Morning Brief | Inbox Sweep | Notes |
+|------|---------------|-------------|-------|
+| 2026-07-12 | ✓ | ✓ | Initial deployment |
+| 2026-07-20 | ✓ | ✓ | Connector diagnostics |
+| 2026-07-24 | ✓ | ✓ | Routine |
+| 2026-07-26 | ✗ PARTIAL | ✓ | Gmail connector failing (permissions error); Notion unavailable |
+| 2026-08-01 | ✓ | ✓ | Routine |
+| 2026-08-20 | ✓ | ✓ | Pre-VVF workshop |
+| 2026-08-28 | ✓ | ✓ | High-volume day (4 classes + all-day VVF workshop); 11 calendar items |
+| 2026-08-29 | ✓ | ✓ | Routine Saturday |
+| 2026-08-30 | ✓ | ✓ | Routine |
+| 2026-09-01 | ✓ | ✓ | Routine |
+| 2026-09-02 | ✓ | ✓ | Routine |
+| **2026-09-04** | **✗ FAILED** | **✓** | **529 API overload; morning brief not delivered** |
 
-**Connectors monitored:**
-- Calendar (Outlook/Google)
-- Email (Gmail, Outlook) — note: Gmail connector has had a persistent permissions issue since 2026-06-30; unchecked in recent runs
-- Notion (task tracking)
-- Telegram (personal messages)
+## Known Issues & Stability Notes
 
-**Recent operational notes:**
-- All connectors responding cleanly in morning/sweep operations (2026-08-29 onward)
-- Gmail permissions issue unresolved; Notion availability varies by session
+### API Stability
 
-> [!warning] Operational gap discovered 2026-09-02
-> **Untracked trip anomaly:** An Allianz Partners travel-insurance email ("It's almost time for your trip") arrived 2026-09-02 at 7:27 AM with empty body. RESOLVE's 30-day calendar search for "trip" returned zero results, implying a real booked trip exists in an external system but is **not visible in RESOLVE's calendar layer**. Possible causes: trip booked via a calendar system RESOLVE doesn't access, email permissions gap, or travel purchased outside RESOLVE's pipeline. See [[Travel Plans Untracked (2026-09-02 anomaly)]] for details and investigation.
+**2026-09-04: First 529 Overload Error**
+- The morning brief failed with error code 529 (Overloaded) at request `req_011CeiHPUdhBJkgDecfChMTy`
+- **Impact:** No morning brief delivered; Traveler started the day without the normal situational awareness
+- **Root cause:** Unclear; likely external service degradation on the assistant backend, not a RESOLVE logic error
+- **Pattern:** This is the **first 529 error** in the available daily logs (2026-07-12 onward). Single instance; unclear if recurring.
 
-## Examples from Daily Operations
+> [!warning] Stability investigation needed
+> If 529 overload errors recur, consider:
+> - Rate-limiting or chunking the morning brief query (multiple connector calls in sequence may be overwhelming the backend)
+> - Fallback behavior (e.g., deliver partial brief from working connectors, skip failed ones)
+> - Review assistant backend logs for load patterns
+> See [[RESOLVE Daily Activity 2026-09-04]] for details.
 
-### ECON 2010 & CS 1110 Integration
-- Morning brief consistently includes [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] lecture times and reading assignments
-- CS 1110 daily briefing now includes lab schedule and Gradescope deadlines (as of 2026-08-26)
-- **Example:** 2026-09-02 brief correctly identified Demand (Ch. 4) for ECON 2010 L3 and Built-in Functions for CS 1110
+### Connector Issues (ongoing)
 
-### Deadline Tracking
-- Picked up Aristotle reading deadline ([[Nicomachean Ethics]] I–III.4 due 2026-09-01 for [[PHIL 1730 (Introduction to Philosophy, UVA Fall 2026)]]) and flagged in morning brief of 2026-09-01
-- Successfully scheduled [[Naomi]] dinner coordination on 2026-07-24
+- **Gmail** (down since 2026-06-30): Permissions error; requires reconnection. This is the most persistent connector fault.
+- **Notion** (intermittent): Unavailable in some sessions; reason unclear.
+- **Email/Calendar/Telegram** (mostly stable): Clean runs are the norm.
 
-## Limitations & Known Gaps
+## Technical Stack
 
-1. **Email body access:** Some emails arrive with empty or inaccessible body content (see Allianz anomaly above)
-2. **Gmail connector down:** Persistent permissions error since 2026-06-30; rebuilding access may be needed
-3. **Calendar visibility:** Unclear whether all calendars Traveler uses are wired into RESOLVE's pipeline
-4. **Trip discovery:** First case of a real external event (booked trip) invisible to RESOLVE's calendar layer — suggests permissions or integration gap
-5. **Notion connector flakiness:** Sometimes unavailable in a given session
+- **Backend:** Claude (via API or Anthropic agent framework)
+- **Connectors:** Email (Outlook, Gmail), Calendar (likely Google Calendar or Outlook), Notion, Telegram
+- **Storage:** Activity logs stored in wiki as daily source pages
+- **Execution:** Scheduled daily (likely morning, with follow-up sweep)
 
-## Future Enhancements (Aspirational)
+## Integration with Traveler's Life
 
-- Rebuild Gmail connector and restore full inbox coverage
-- Add financial account monitoring (bank, investment accounts)
-- Expand task priority synthesis (not just list tasks, but rank by urgency/impact)
-- Integrate Traveler's personal notes/journal as a signal source
-- Error recovery: auto-detect and flag connector failures that harm data completeness
+RESOLVE is Traveler's **first experiment in personal AI ops**. It sits between his [[Homework Hatch (startup)]] (a B2B edtech/AI play) and his personal workflow, proving out the concept that structured automation can free cognitive bandwidth for higher-level work. The daily logs ([[RESOLVE Daily Activity 2026-09-04]], etc.) are the audit trail showing what information entered the system, what crossed-checked against what, and when the machine was working vs. when it failed.
 
-## See Also
+## Related Pages
 
-- [[Traveler Stansberry]] — the person RESOLVE serves
-- [[UVA and the Quant Question]] — context for coursework and academic goals
-- [[Homework Hatch (startup)]] — another automation/systems project
-- [[Self-Discipline and Goals]] — the personal philosophy driving RESOLVE's existence
-
+- [[Traveler Stansberry]] — subject
+- [[Self-Discipline and Goals]] — philosophical grounding
+- [[Personal Quant Model]] — finance data integration (possible future)
+- [[Homework Hatch (startup)]] — parallel AI/edtech project
