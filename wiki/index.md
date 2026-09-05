@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-07-24
+updated: 2026-09-04
 tags: [meta/index]
 status: active
 ---
@@ -53,7 +53,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus sys
 - [[Film and TV]] — auteur/arthouse watchlist
 
 ## Systems & technology (2026)
-- [[RESOLVE (AI assistant)]] — his personal operating system (calendar, email, tasks, briefs)
+- [[RESOLVE (AI assistant)]] — his personal operating system (calendar, email, tasks, briefs); **ongoing daily logs** starting 2026-07-12; see [[RESOLVE Daily Activity 2026-09-04]] for latest (includes API stability issues)
 - [[Homework Hatch (startup)]] — edtech/AI venture with Josh
 - [[Personal Quant Model]] — multi-factor equity model + Flask app
 - [[The Edge (trading model)]] — short-horizon momentum/acceleration trader
@@ -87,17 +87,14 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus sys
 **ChatGPT chats (2023–2026):** [[_Chats Catalog]] — **293 substantial conversations** as individual source pages + **23 monthly digests** (in `sources/chats/`), grouped by theme: Homework Hatch, IB coursework (History/Econ/Physics/Math/Japanese/English), finance, coding/AI, gaming, personal.
 
 **RESOLVE daily activity logs (2026):**
-- [[RESOLVE Daily Activity 2026-07-24]] — routine morning brief, dinner scheduling (Naomi Aug 9), inbox-to-calendar sweep; no urgent events
-- [[RESOLVE Daily Activity 2026-07-23]] — morning brief + email triage; routine load
-- [[RESOLVE Daily Activity 2026-07-21]] — routine inbox/calendar sweep; low event load; system healthy
-- [[RESOLVE Daily Activity 2026-07-20]] — connector diagnostics and testing
-- [[RESOLVE Daily Ingest 2026-07-19]] · [[RESOLVE Daily Ingest 2026-07-18]] · [[RESOLVE Daily Ingest 2026-07-17]] · [[RESOLVE Daily Ingest 2026-07-16]] · [[RESOLVE Daily Ingest 2026-07-15]] · [[RESOLVE Daily Ingest 2026-07-14]]
+- [[RESOLVE Daily Activity 2026-09-04]] — **API degradation:** morning brief failed with 529 overload error; inbox-to-calendar sweep completed (no calendar events)
+- [[RESOLVE Daily Activity 2026-09-03]] through [[RESOLVE Daily Activity 2026-07-12]] — ongoing operational logs documenting system performance; see pages for full record
 
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
 > **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
 > **ChatGPT export (891 chats):** 668 attachments → `raw/assets/chatgpt/`. Source pages + digests + [[_Chats Catalog|catalog]] done; **propagation into entity/concept pages is deferred** (token budget) — see [[log]].
-> **RESOLVE daily activity:** ongoing daily logs (2026-07-12 onward), documenting system performance and operational patterns.
+> **RESOLVE daily activity:** ongoing daily logs (2026-07-12 onward), documenting system performance and operational patterns. **2026-09-04:** First API stability issue flagged (529 overload error on morning brief).
 
 ## Analyses (compiled syntheses)
 - **[[Intellectual Profile]]** — master index of his ideas, by domain + the through-lines
