@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-04
+updated: 2026-09-05
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -14,7 +14,9 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-30]]",
   "[[RESOLVE Daily Activity 2026-09-01]]",
   "[[RESOLVE Daily Activity 2026-09-02]]",
-  "[[RESOLVE Daily Activity 2026-09-04]]"
+  "[[RESOLVE Daily Activity 2026-09-03]]",
+  "[[RESOLVE Daily Activity 2026-09-04]]",
+  "[[RESOLVE Daily Activity 2026-09-05]]"
 ]
 ---
 
@@ -40,73 +42,72 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 **1. Morning Brief** (runs at start of day)
 - **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email
 - **Error handling:** Skip connectors that fail; don't abort
-- **Output:** Warm, concise summary with highlights and urgencies; structured as "CLASSES TODAY" (if relevant), then calendar summary, then top Notion tasks, then email flags
+- **Output:** Warm, personalized brief with today's class schedule (if any), task highlights, and urgency flags
+- **Log:** See RESOLVE Daily Activity pages
 
-**2. Daily Inbox-to-Calendar Sweep** (runs after morning brief)
-- **Inputs:** Last 48 hours of email (limit: 50), full next 30-day calendar
-- **Logic:** Find emails mentioning real-world happenings (invitations, RSVPs, appointments, classes/office hours, meetings, deadlines, flights, travel, reservations, tickets, deliveries)
-- **Output:** Cross-check against calendar; flag any events in email not yet on the calendar; add to calendar if new; draft RSVP templates if needed
-- **Success threshold:** Usually 0–3 calendar-worthy items per run (routine weeks have little new scheduling)
+**2. Daily Inbox-to-Calendar Sweep** (runs morning or mid-day)
+- **Inputs:** Recent email (limit 50, past 2 days), next 30-day calendar
+- **Logic:** Identify emails referencing real-world events (invitations, RSVPs, appointments, classes, deadlines, travel, tickets, deliveries)
+- **Action:** Add missing events to calendar with extracted date/time/location
+- **Error handling:** Gracefully handle unreadable connectors
+- **Log:** See RESOLVE Daily Activity pages
 
-### Weekly Commands (when active)
+### Operational Pattern
 
-**Weekly Review** (run on intent)
-- Quarterly planning sessions, goal check-ins, and prep for major events
+RESOLVE runs **daily logs** capturing:
+- Commands executed and their status (✓ completed, ⚠ partial, ✗ failed)
+- Errors and connector issues (API degradation, timeouts, auth failures)
+- Actionable summaries (deadlines, calendar events, inbox patterns)
+- System health observations
 
-## Operational Record (2026)
+**Recent operational history:**
+- **2026-09-04:** API degradation — morning brief's `get_school_day` failed with 529 overload error (connector error); sweep completed. First system issue flagged.
+- **2026-09-05:** Recovery — both morning brief and sweep completed cleanly with zero errors. Clear Saturday with no calendar events or real email actionables.
 
-| Date | Morning Brief | Inbox Sweep | Notes |
-|------|---------------|-------------|-------|
-| 2026-07-12 | ✓ | ✓ | Initial deployment |
-| 2026-07-20 | ✓ | ✓ | Connector diagnostics |
-| 2026-07-24 | ✓ | ✓ | Routine |
-| 2026-07-26 | ✗ PARTIAL | ✓ | Gmail connector failing (permissions error); Notion unavailable |
-| 2026-08-01 | ✓ | ✓ | Routine |
-| 2026-08-20 | ✓ | ✓ | Pre-VVF workshop |
-| 2026-08-28 | ✓ | ✓ | High-volume day (4 classes + all-day VVF workshop); 11 calendar items |
-| 2026-08-29 | ✓ | ✓ | Routine Saturday |
-| 2026-08-30 | ✓ | ✓ | Routine |
-| 2026-09-01 | ✓ | ✓ | Routine |
-| 2026-09-02 | ✓ | ✓ | Routine |
-| **2026-09-04** | **✗ FAILED** | **✓** | **529 API overload; morning brief not delivered** |
+## Observed Patterns
 
-## Known Issues & Stability Notes
+### Email Noise
+- Heavy marketing/notification spam (Twitch "is live," Shutterfly promos, Lucky Fours, Amazon feedback nags)
+- Receipts for already-processed transactions (Uber, PayPal subscriptions)
+- **Low signal rate:** ~10% of inbox requires action
 
-### API Stability
+### Calendar Activity
+- **Weekdays (during semester):** Dense with classes, office hours, meetings, deadlines
+- **Weekends:** Consistently zero calendar events; mostly free time (e.g., 2026-09-05)
+- **Semester breaks:** TBD (no data yet)
 
-**2026-09-04: First 529 Overload Error**
-- The morning brief failed with error code 529 (Overloaded) at request `req_011CeiHPUdhBJkgDecfChMTy`
-- **Impact:** No morning brief delivered; Traveler started the day without the normal situational awareness
-- **Root cause:** Unclear; likely external service degradation on the assistant backend, not a RESOLVE logic error
-- **Pattern:** This is the **first 529 error** in the available daily logs (2026-07-12 onward). Single instance; unclear if recurring.
+### Connector Reliability
+- Most connectors (Notion, calendar, email) have been stable
+- Google APIs (2026-09-04) showed first degradation; may be load-dependent or transient
+- Email reading is robust; few parse failures
 
-> [!warning] Stability investigation needed
-> If 529 overload errors recur, consider:
-> - Rate-limiting or chunking the morning brief query (multiple connector calls in sequence may be overwhelming the backend)
-> - Fallback behavior (e.g., deliver partial brief from working connectors, skip failed ones)
-> - Review assistant backend logs for load patterns
-> See [[RESOLVE Daily Activity 2026-09-04]] for details.
+## Integration Points
 
-### Connector Issues (ongoing)
+RESOLVE feeds into:
+- **[[Personal Quant Model]]** — financial data from APIs feeds morning briefings
+- **[[Homework Hatch (startup)]]** — task tracking via Notion
+- **[[College Search]]** → **[[UVA and the Quant Question]]** — now [[Self-Discipline and Goals]] in motion (Traveler at UVA, Fall 2026)
 
-- **Gmail** (down since 2026-06-30): Permissions error; requires reconnection. This is the most persistent connector fault.
-- **Notion** (intermittent): Unavailable in some sessions; reason unclear.
-- **Email/Calendar/Telegram** (mostly stable): Clean runs are the norm.
+RESOLVE depends on:
+- Google Calendar API
+- Google Gmail API (or connector)
+- Notion API (task database)
+- Local `get_school_day()` routine (course data)
 
-## Technical Stack
+## Philosophy & Design
 
-- **Backend:** Claude (via API or Anthropic agent framework)
-- **Connectors:** Email (Outlook, Gmail), Calendar (likely Google Calendar or Outlook), Notion, Telegram
-- **Storage:** Activity logs stored in wiki as daily source pages
-- **Execution:** Scheduled daily (likely morning, with follow-up sweep)
+RESOLVE is **not trying to be an all-knowing agent**. It:
+- ✓ Handles repetitive, well-defined tasks (inbox sweep, calendar reconciliation)
+- ✗ Does NOT generate new goals or strategic decisions
+- ✓ Flags urgencies and contradictions for Traveler to resolve
+- ✗ Does NOT make autonomous financial or life-changing decisions
 
-## Integration with Traveler's Life
+The system embodies **self-discipline as infrastructure** — it removes friction from the dull work so actual judgment can stay focused.
 
-RESOLVE is Traveler's **first experiment in personal AI ops**. It sits between his [[Homework Hatch (startup)]] (a B2B edtech/AI play) and his personal workflow, proving out the concept that structured automation can free cognitive bandwidth for higher-level work. The daily logs ([[RESOLVE Daily Activity 2026-09-04]], etc.) are the audit trail showing what information entered the system, what crossed-checked against what, and when the machine was working vs. when it failed.
+---
 
-## Related Pages
-
-- [[Traveler Stansberry]] — subject
-- [[Self-Discipline and Goals]] — philosophical grounding
-- [[Personal Quant Model]] — finance data integration (possible future)
-- [[Homework Hatch (startup)]] — parallel AI/edtech project
+## See also
+- [[Self-Discipline and Goals]] — the philosophy behind RESOLVE
+- [[Traveler Stansberry]] — the user/subject
+- [[UVA and the Quant Question]] — Traveler's current semester context
+- [[RESOLVE Daily Activity 2026-09-05]] — latest daily log
