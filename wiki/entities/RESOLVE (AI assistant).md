@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-05
+updated: 2026-09-06
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -16,7 +16,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-02]]",
   "[[RESOLVE Daily Activity 2026-09-03]]",
   "[[RESOLVE Daily Activity 2026-09-04]]",
-  "[[RESOLVE Daily Activity 2026-09-05]]"
+  "[[RESOLVE Daily Activity 2026-09-05]]",
+  "[[RESOLVE Daily Activity 2026-09-06]]"
 ]
 ---
 
@@ -40,74 +41,46 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 ### Daily Commands
 
 **1. Morning Brief** (runs at start of day)
-- **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email
-- **Error handling:** Skip connectors that fail; don't abort
-- **Output:** Warm, personalized brief with today's class schedule (if any), task highlights, and urgency flags
-- **Log:** See RESOLVE Daily Activity pages
+- **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email (graceful error-handling: skip errors instead of stopping)
+- **Output:** Warm, short brief with highlights and urgent items. If lectures exist, leads with CLASS TODAY section (time/location from calendar). Flags due work, meetings, calendar anomalies.
+- **Example:** [[RESOLVE Daily Activity 2026-09-06|Sep 6 brief]] — day confirmed clear, zero events, flagged PHIL reading due Tue 9/8
 
-**2. Daily Inbox-to-Calendar Sweep** (runs morning or mid-day)
-- **Inputs:** Recent email (limit 50, past 2 days), next 30-day calendar
-- **Logic:** Identify emails referencing real-world events (invitations, RSVPs, appointments, classes, deadlines, travel, tickets, deliveries)
-- **Action:** Add missing events to calendar with extracted date/time/location
-- **Error handling:** Gracefully handle unreadable connectors
-- **Log:** See RESOLVE Daily Activity pages
+**2. Daily Inbox-to-Calendar Sweep** (runs during morning or early afternoon)
+- **Inputs:** Recent email (50 messages, 2-day window), 30-day calendar look-ahead, task list
+- **Output:** Identifies calendar-worthy events (invitations, RSVPs, appointments, flights, travel, deadlines, deliveries) and either injects them into calendar or flags for action
+- **Calibration:** Gracefully skips emails with parsing errors; refuses to invent events from empty-bodied emails (e.g., Allianz email with no body text); surfaces **only real, confirmed happenings**
+- **Example:** [[RESOLVE Daily Activity 2026-09-04|Sep 4 sweep]] — API overload forced partial run; [[RESOLVE Daily Activity 2026-09-06|Sep 6 sweep]] — zero events (correct; week was clear)
 
-### Operational Pattern
+**3. Weekly Review** (Friday end-of-week or weekend)
+- **Inputs:** `get_recent_activity` (7-day ledger: commands, outcomes, decisions, failures), `get_finance` (7-day spend), `get_calendar` (week ahead), task list
+- **Output:** Honest synthesis — what got done, decisions made, what failed/stalled (named plainly), money in/out, week ahead
+- **Tone:** Unsparing. Not cheerleading; flagging gaps and delivery risks plainly (e.g., "PHIL reading has been deferred two weekends in a row; it's now one weekday away from deadline with reading incomplete").
+- **Example:** [[RESOLVE Daily Activity 2026-09-06|Sep 6 weekly review]]
 
-RESOLVE runs **daily logs** capturing:
-- Commands executed and their status (✓ completed, ⚠ partial, ✗ failed)
-- Errors and connector issues (API degradation, timeouts, auth failures)
-- Actionable summaries (deadlines, calendar events, inbox patterns)
-- System health observations
+### Error Handling
 
-**Recent operational history:**
-- **2026-09-04:** API degradation — morning brief's `get_school_day` failed with 529 overload error (connector error); sweep completed. First system issue flagged.
-- **2026-09-05:** Recovery — both morning brief and sweep completed cleanly with zero errors. Clear Saturday with no calendar events or real email actionables.
+- **Graceful degradation:** If a connector (email, calendar, Notion, finance) returns an error, RESOLVE logs it clearly and continues with available data rather than failing the entire command
+- **Allianz email judgment (Sep 4–6):** Tracked an empty-bodied email for 4 days; RESOLVE refused to invent a trip without explicit confirmation text. This decision stands; it reflects disciplined skepticism about incomplete data.
+- **API overload (Sep 4):** Morning brief 529 error; inbox sweep completed successfully despite upstream failure. No cascade.
 
-## Observed Patterns
+## Operational Status (Early September 2026)
 
-### Email Noise
-- Heavy marketing/notification spam (Twitch "is live," Shutterfly promos, Lucky Fours, Amazon feedback nags)
-- Receipts for already-processed transactions (Uber, PayPal subscriptions)
-- **Low signal rate:** ~10% of inbox requires action
+- **Timeline:** Operational logs begin 2026-07-12; daily logs available for Sep 1–6
+- **Pattern:** Morning brief + inbox sweep + weekly review form the core rhythm
+- **System health:** Nominal post-API-failure (Sep 4 outage did not cascade; Sep 5–6 runs clean)
+- **Known issue:** Gmail connector down since 2026-06-30 (permissions error; flagged for reconnect)
+- **Current focus:** Traveler's Fall 2026 UVA semester; class-to-task/calendar/deadline coherence
 
-### Calendar Activity
-- **Weekdays (during semester):** Dense with classes, office hours, meetings, deadlines
-- **Weekends:** Consistently zero calendar events; mostly free time (e.g., 2026-09-05)
-- **Semester breaks:** TBD (no data yet)
+## Future Extensions
 
-### Connector Reliability
-- Most connectors (Notion, calendar, email) have been stable
-- Google APIs (2026-09-04) showed first degradation; may be load-dependent or transient
-- Email reading is robust; few parse failures
+Potential command additions (not yet implemented):
+- **Finance dashboard** — track spending vs. budget over time
+- **Task-to-calendar injection** — map Notion tasks with deadlines directly to calendar
+- **Email priority classification** — distinguish signal (actionable) from noise (promotional, FYI)
+- **Weekly metrics dashboard** — productivity/focus tracking over weeks
 
-## Integration Points
+## Links
 
-RESOLVE feeds into:
-- **[[Personal Quant Model]]** — financial data from APIs feeds morning briefings
-- **[[Homework Hatch (startup)]]** — task tracking via Notion
-- **[[College Search]]** → **[[UVA and the Quant Question]]** — now [[Self-Discipline and Goals]] in motion (Traveler at UVA, Fall 2026)
-
-RESOLVE depends on:
-- Google Calendar API
-- Google Gmail API (or connector)
-- Notion API (task database)
-- Local `get_school_day()` routine (course data)
-
-## Philosophy & Design
-
-RESOLVE is **not trying to be an all-knowing agent**. It:
-- ✓ Handles repetitive, well-defined tasks (inbox sweep, calendar reconciliation)
-- ✗ Does NOT generate new goals or strategic decisions
-- ✓ Flags urgencies and contradictions for Traveler to resolve
-- ✗ Does NOT make autonomous financial or life-changing decisions
-
-The system embodies **self-discipline as infrastructure** — it removes friction from the dull work so actual judgment can stay focused.
-
----
-
-## See also
-- [[Self-Discipline and Goals]] — the philosophy behind RESOLVE
-- [[Traveler Stansberry]] — the user/subject
-- [[UVA and the Quant Question]] — Traveler's current semester context
-- [[RESOLVE Daily Activity 2026-09-05]] — latest daily log
+- **Daily activity logs:** [[RESOLVE Daily Activity 2026-09-06]] (latest), [[RESOLVE Daily Activity 2026-09-05]], [[RESOLVE Daily Activity 2026-09-04]], etc. (see sources above)
+- **Philosophy:** [[Self-Discipline and Goals]]
+- **Context:** [[UVA and the Quant Question]] — current coursework; [[Homework Hatch (startup)]] — related automation project
