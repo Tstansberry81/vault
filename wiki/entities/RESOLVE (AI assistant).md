@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-06
+updated: 2026-09-07
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -17,7 +17,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-03]]",
   "[[RESOLVE Daily Activity 2026-09-04]]",
   "[[RESOLVE Daily Activity 2026-09-05]]",
-  "[[RESOLVE Daily Activity 2026-09-06]]"
+  "[[RESOLVE Daily Activity 2026-09-06]]",
+  "[[RESOLVE Daily Activity 2026-09-07]]"
 ]
 ---
 
@@ -41,46 +42,87 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 ### Daily Commands
 
 **1. Morning Brief** (runs at start of day)
-- **Inputs:** Next 2-day calendar, `get_school_day()` (today's classes/coursework), Notion open tasks, unread email (graceful error-handling: skip errors instead of stopping)
-- **Output:** Warm, short brief with highlights and urgent items. If lectures exist, leads with CLASS TODAY section (time/location from calendar). Flags due work, meetings, calendar anomalies.
-- **Example:** [[RESOLVE Daily Activity 2026-09-06|Sep 6 brief]] — day confirmed clear, zero events, flagged PHIL reading due Tue 9/8
+- **Inputs:** Next 2-day calendar + `get_school_day()` (today's classes) + Notion task check + email scan
+- **Outputs:** Warm, structured summary of the day's classes, calendar events, and urgent items
+- **Error handling:** Skips failed connectors rather than halting (e.g., if Gmail auth fails, continue with Outlook/Notion)
+- **Example (2026-09-07):** Two classes (ECON 2010 Supply L4, CS 1110 Strings), seed interview at 12:40 PM, 50-minute buffer between CS and interview
 
-**2. Daily Inbox-to-Calendar Sweep** (runs during morning or early afternoon)
-- **Inputs:** Recent email (50 messages, 2-day window), 30-day calendar look-ahead, task list
-- **Output:** Identifies calendar-worthy events (invitations, RSVPs, appointments, flights, travel, deadlines, deliveries) and either injects them into calendar or flags for action
-- **Calibration:** Gracefully skips emails with parsing errors; refuses to invent events from empty-bodied emails (e.g., Allianz email with no body text); surfaces **only real, confirmed happenings**
-- **Example:** [[RESOLVE Daily Activity 2026-09-04|Sep 4 sweep]] — API overload forced partial run; [[RESOLVE Daily Activity 2026-09-06|Sep 6 sweep]] — zero events (correct; week was clear)
+**2. Inbox-to-Calendar Sweep** (daily, post-morning brief)
+- **Inputs:** `get_inbox_recent()` (limit 50, last 2 days) + full `get_calendar()` (30-day window)
+- **Outputs:** Real calendar entries extracted from email, noise filtered, additions/RSVPs/confirmations flagged for Traveler's attention
+- **Noise filtering:** Promotional blasts, notifications (Twitch, food delivery), post-transaction receipts are **not** calendar-worthy
+- **Example (2026-09-07):** 8 emails scanned; all were promotional or completed-trip receipts; zero new calendar events added
 
-**3. Weekly Review** (Friday end-of-week or weekend)
-- **Inputs:** `get_recent_activity` (7-day ledger: commands, outcomes, decisions, failures), `get_finance` (7-day spend), `get_calendar` (week ahead), task list
-- **Output:** Honest synthesis — what got done, decisions made, what failed/stalled (named plainly), money in/out, week ahead
-- **Tone:** Unsparing. Not cheerleading; flagging gaps and delivery risks plainly (e.g., "PHIL reading has been deferred two weekends in a row; it's now one weekday away from deadline with reading incomplete").
-- **Example:** [[RESOLVE Daily Activity 2026-09-06|Sep 6 weekly review]]
+**3. Weekly Synthesis** (end of week, e.g., Friday or weekend)
+- Not fully documented in individual daily logs; [[RESOLVE Daily Activity 2026-09-06|2026-09-06 summary]] mentions "weekly review"
 
-### Error Handling
+### System Performance Metrics
 
-- **Graceful degradation:** If a connector (email, calendar, Notion, finance) returns an error, RESOLVE logs it clearly and continues with available data rather than failing the entire command
-- **Allianz email judgment (Sep 4–6):** Tracked an empty-bodied email for 4 days; RESOLVE refused to invent a trip without explicit confirmation text. This decision stands; it reflects disciplined skepticism about incomplete data.
-- **API overload (Sep 4):** Morning brief 529 error; inbox sweep completed successfully despite upstream failure. No cascade.
+| Period | Status | Notes |
+|--------|--------|-------|
+| 2026-07-12 → 2026-09-03 | Operational | Daily logs; API/connector errors noted but handled gracefully |
+| 2026-09-04 | Degraded | 529 overload error on morning brief; inbox sweep completed |
+| 2026-09-05 onward | Recovered | Clean execution; zero errors on both commands; clear weekends noted |
+| 2026-09-07 (current) | Nominal | Morning brief + inbox sweep: clean, no errors |
 
-## Operational Status (Early September 2026)
+---
 
-- **Timeline:** Operational logs begin 2026-07-12; daily logs available for Sep 1–6
-- **Pattern:** Morning brief + inbox sweep + weekly review form the core rhythm
-- **System health:** Nominal post-API-failure (Sep 4 outage did not cascade; Sep 5–6 runs clean)
-- **Known issue:** Gmail connector down since 2026-06-30 (permissions error; flagged for reconnect)
-- **Current focus:** Traveler's Fall 2026 UVA semester; class-to-task/calendar/deadline coherence
+## Data Sources & Connectors
 
-## Future Extensions
+| Source | Status | Notes |
+|--------|--------|-------|
+| Google Calendar (primary) | ✓ Active | Accessed for 2-day and 30-day windows; reliable |
+| School Day API (`get_school_day`) | ✓ Active | Returns class schedule, timings, room, topic/reading prep |
+| Notion | ✓ Mostly active | Task check function; occasionally unavailable mid-session |
+| Outlook email | ✓ Active | Scanned for calendar-worthy events; noise filtering working |
+| Gmail | ⚠ Disabled | Auth failure since ~2026-06-30; requires reconnection |
+| Telegram | ✓ Active | Queue checked; usually 0–1 items |
 
-Potential command additions (not yet implemented):
-- **Finance dashboard** — track spending vs. budget over time
-- **Task-to-calendar injection** — map Notion tasks with deadlines directly to calendar
-- **Email priority classification** — distinguish signal (actionable) from noise (promotional, FYI)
-- **Weekly metrics dashboard** — productivity/focus tracking over weeks
+---
 
-## Links
+## Operational Patterns Observed
 
-- **Daily activity logs:** [[RESOLVE Daily Activity 2026-09-06]] (latest), [[RESOLVE Daily Activity 2026-09-05]], [[RESOLVE Daily Activity 2026-09-04]], etc. (see sources above)
-- **Philosophy:** [[Self-Discipline and Goals]]
-- **Context:** [[UVA and the Quant Question]] — current coursework; [[Homework Hatch (startup)]] — related automation project
+### Consistency
+- **Daily rhythm:** Morning brief → inbox sweep, executed reliably most days
+- **Graceful degradation:** When a connector fails (e.g., Gmail, Notion), RESOLVE skips it and completes other commands rather than halting
+
+### Noise Handling
+- **Email filters:** Marketing blasts, event notifications (Twitch "is live," food delivery promos), and completed-transaction receipts are correctly rejected as non-calendar-worthy
+- **Calendar integrity:** Only real, future events (classes, meetings, interviews, travel, deadlines) are added; past events and notifications are excluded
+
+### Class Integration
+- As of 2026-09-07, RESOLVE successfully integrates [[Traveler Stansberry|Traveler]]'s UVA course schedule:
+  - **ECON 2010** (10:00–10:50 AM, Gibson Hall) — Exam 1 block, L4: Supply
+  - **CS 1110** (11:00–11:50 AM) — Unit 2: Sequences, today's topic: string indexing/slicing
+  - Morning brief flags reading prep (e.g., "Chapter 4" for ECON)
+  - Buffer time between classes noted for scheduling (e.g., 50 min between CS and 12:40 PM interview)
+
+---
+
+## Related Concepts & Entities
+
+- [[Self-Discipline and Goals]] — the motivation/philosophy driving RESOLVE
+- [[Traveler Stansberry]] — user/owner
+- [[University of Virginia]] — context (Fall 2026 class integration)
+- [[CS 1110 (UVA Fall 2026)]] — one of Traveler's courses
+- [[ECON 2010 (UVA Fall 2026)]] — another course
+- [[Moral and Political Philosophy (UVA Fall 2026)]] — third known course (philosophy seminar)
+
+---
+
+## Future Enhancements (Noted in Logs)
+
+- **Gmail reconnection:** Fix auth to re-enable Gmail email scanning
+- **Weekly synthesis:** Expand/document the end-of-week review command
+- **Finance API integration:** Potentially add market data, portfolio, or quant model alerts once relevant
+- **Deeper cross-referencing:** Some calendar-worthy emails may still be missed (low false-positive rate is good; monitor for false negatives)
+
+---
+
+## Daily Activity Logs
+
+All RESOLVE operations are recorded in individual daily source pages for audit and analysis:
+
+- **Latest:** [[RESOLVE Daily Activity 2026-09-07]] — Monday (two classes, seed interview, clean system)
+- **Earlier:** [[RESOLVE Daily Activity 2026-09-06]], [[RESOLVE Daily Activity 2026-09-05]], ..., [[RESOLVE Daily Activity 2026-07-20]]
+- **See also:** [[index.md]] → "Systems & technology (2026)" → RESOLVE entries for complete list
