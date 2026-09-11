@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-07
+updated: 2026-09-10
 tags: [meta/overview, english, systems, uva]
 status: active
 ---
@@ -17,57 +17,57 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 **Key findings (2022–2026):**
 
 - **Signature theme:** [[Fate and Free Will]] — initially fatalistic ("choice is illusion"), gradually softening into nuance
-- **Intellectual foundations:** Heavy on philosophy ([[Self-Reliance]], [[Civil Disobedience]]), morality, power structures, identity collapse
-- **Literary sensibility:** Drawn to tragedy, anti-heroes, psychological depth; suspicious of easy redemption
-- **Core conviction:** Individuals are at the mercy of systems, yet resistance is still (somehow) meaningful
+- **Intellectual foundations:** Heavy on philosophy ([[Self-Reliance]], [[Civil Disobedience]]), classics ([[The Iliad]], [[Antigone]]), and modern moral fiction ([[Beloved]], [[One Flew Over the Cuckoo's Nest]])
+- **Core conviction:** [[Individual vs. Society]] — the rebel is almost always crushed, yet individualism remains the only honest stance
+- **Aesthetic:** arthouse/auteur media; distrustful of populist narratives; [[Film and TV]] curated toward intentionality
 
-See [[Intellectual Evolution]], [[Core Convictions]], [[Tensions and Open Questions]] for synthesis.
+## Part 2: UVA (Fall 2026–present)
 
-## Part 2: Systems & Projects (2026)
+**New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and life at UVA.
 
-**Scope:** Three major projects underway:
+**Current enrollment:**
+- [[EGMT 1540]] (Engineering Mechanics) — 9:30–10:45, MW
+- [[CS 1110]] (Introduction to Computer Science, UVA Fall 2026) — lab 12:30–13:45 (Thursday), lecture M/W
+- [[MATH 1310]] (Calculus II) — 14:00–15:15, M/W
+- [[PHIL 1730]] (Ancient Greek Philosophy) — 15:30–16:20, W · currently on [[Aristotle]]: particular virtues and friendship
 
-1. **[[RESOLVE (AI assistant)]]** — personal operating system (calendar, email, tasks, daily briefs); **actively logging daily operations** as of 2026-07-12
-2. **[[Homework Hatch (startup)]]** — edtech/AI venture (with Josh)
-3. **[[Personal Quant Model]] + [[The Edge (trading model)]]** — equity strategies (multi-factor + momentum), deployed via [[Vision (Porter Intelligence)]]
+**Live tracking:** [[RESOLVE (AI assistant)]] logs daily activities starting 2026-07-12. Latest: [[RESOLVE Daily Activity 2026-09-10]] (Sep 10 = full semester day, 4 classes, operations clean).
 
-*Status:* All active; RESOLVE in daily use (no failures as of 2026-09-07); Homework Hatch prototype stage; quant models in early live deployment.
+## Part 3: Technical / Systems (2026)
 
-## Part 3: UVA Coursework (Fall 2026)
+**Automation & personal ops:**
+- [[RESOLVE (AI assistant)]] — autonomous personal operating system managing calendar, email, tasks, morning briefs, inbox-to-calendar sweeps
+- [[Homework Hatch (startup)]] — edtech/AI venture with Josh (status: active side project)
+- [[Personal Quant Model]] — multi-factor equity model + Flask trading app (status: designed, coding underway)
 
-**Scope:** [[Traveler Stansberry|Traveler]] is in his first semester at the [[University of Virginia]], committed to a **Finance major with Math minor** (see [[UVA and the Quant Question]]).
-
-**Known courses (as of 2026-09-07):**
-- **[[ECON 2010 (UVA Fall 2026)]]** (10:00–10:50 AM, Gibson Hall) — Microeconomics fundamentals, currently Lecture 4: Supply
-- **[[CS 1110 (UVA Fall 2026)]]** (11:00–11:50 AM) — Intro computer science, currently Unit 2: Sequences (strings, indexing, slicing)
-- **[[Moral and Political Philosophy (UVA Fall 2026)]]** (3:30–4:20 PM, seminars 2x weekly) — Philosophy seminar on ethics & political theory
-
-*Status:* Three weeks into semester (classes confirmed through 2026-09-07). [[RESOLVE (AI assistant)|RESOLVE]] successfully integrates class schedule, reading prep, and exam blocks into daily briefs.
-
-> [!note] Seed interview
-> A "seed interview" appears on 2026-09-07 calendar at 12:40 PM. **Context unclear** — likely related to startup work (Homework Hatch? quant modeling? venture/investor meeting?). Page to be created once scope is known.
+**Status & calibration:**
+- [[RESOLVE]] system performance is GREEN as of 2026-09-10; fully operational after brief degradation on Sep 4 (API overload, now resolved)
+- Traveler's time allocation appears balanced: UVA core coursework (4 classes, ~14 hrs/week contact), plus quant model development, plus Homework Hatch
+- **Gap:** No recent evidence of the quant model or Homework Hatch in daily logs (RESOLVE tracks calendar/email/Notion, not work output). Those projects remain self-reported; their actual progress is opaque to this wiki.
 
 ---
 
-## Knowledge Artifacts
+## Epistemology & Trust
 
-See [[index]] for the full content catalog.
+This wiki makes **three distinct claims**:
+1. **From Traveler's own writing** (essays, personal notes, resumes): his intellectual output, worldview, and demonstrated skill
+2. **From instructor feedback** (grade reports, rubrics): external validation of academic work
+3. **From RESOLVE logs** (system operations, calendar/email records): his daily schedule and system performance
 
-**English corpus:** ~80 works, essays, personal writing, and ChatGPT digests (293 substantial conversations).
+**Calibration principles** (per [[CLAUDE.md]]):
+- English corpus is **high-confidence**: direct primary source (his writing), interpreted conservatively
+- System logs (RESOLVE) are **high-confidence**: objective records of what executed and what didn't
+- Self-reported projects (quant model, Homework Hatch) are **medium-confidence until demonstrated**: the logs show *intentions* and *effort allocation*, not *shipping* or *skill*
+- Claims about his understanding of math, physics, finance are **hedged per evidence**: he has designed quant models and shipped code, but depth of mathematical intuition is not yet tested at volume
 
-**Systems & coursework:** RESOLVE daily activity logs (ongoing daily), UVA course pages, startup/quant project notes.
-
-**Synthesis:** [[Intellectual Profile]], [[Core Convictions]], [[Intellectual Evolution]], [[Tensions and Open Questions]], [[Academic Record]].
+The wiki's purpose is to show **what he has actually done and proven**, not to extrapolate from adjacent capability or agreement-seeking. Where the evidence is thin or absent, we name the gap.
 
 ---
 
-## Honest Calibration Note
+## Reading entry points
 
-This wiki aims for **accuracy about what Traveler knows and can do**, not flattery. Key gaps and caveats are named explicitly:
-
-- **Coding:** Can *direct* AI to build things; has *designed* quant models; **not demonstrated as an independent coder** (mostly uses Cursor + Claude). See [[Personal Quant Model]].
-- **Quant theory:** Strong design judgment (multi-factor thinking, momentum signals); **math is untested in production** (no live trading record yet).
-- **UVA coursework:** Just begun; microeconomics and CS fundamentals are foundational, not yet mastery-level. Philosophy course is where his intellectual interests align most tightly.
-- **RESOLVE:** Operational system working cleanly; **scheduler integration and course tracking** are newly observed capabilities (2026-09).
-
-See [[Intellectual Profile]] for the full breakdown by domain.
+- **Quick version:** [[Intellectual Profile]] (master index of his ideas by domain)
+- **Deep version:** Start with the [[English Curriculum 2022-2026|four-year curriculum]], then read the flagship essays
+- **Systems:** [[RESOLVE (AI assistant)]] + the daily activity logs
+- **Live coursework:** [[UVA and the Quant Question]] for the context; individual course pages for details
+- **Current state:** See [[log]] for the most recent ingest/query/lint entries (last updated 2026-09-10)
