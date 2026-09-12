@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-10
+updated: 2026-09-11
 tags: [meta/overview, english, systems, uva]
 status: active
 ---
@@ -23,51 +23,38 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 ## Part 2: UVA (Fall 2026–present)
 
-**New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and life at UVA.
+**New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and operational life at UVA (move-in Aug 20, 2026).
 
-**Current enrollment:**
-- [[EGMT 1540]] (Engineering Mechanics) — 9:30–10:45, MW
-- [[CS 1110]] (Introduction to Computer Science, UVA Fall 2026) — lab 12:30–13:45 (Thursday), lecture M/W
-- [[MATH 1310]] (Calculus II) — 14:00–15:15, M/W
-- [[PHIL 1730]] (Ancient Greek Philosophy) — 15:30–16:20, W · currently on [[Aristotle]]: particular virtues and friendship
+**Current enrollment (Fall 2026):**
+- **PHIL 1730** (Ancient Greek Philosophy) — 9:00–9:50, F
+- **CS 1110** (Introduction to Computer Science) — lecture M/W 11:00–11:50, lab Th 12:30–1:45 (material: Sequences/Tuples; Quiz-0 & Quiz-1 due 2026-09-11)
+- **MATH 1310** (Calculus II) — discussion M/W 12:00–12:50
+- **EGMT 1540** (Engineering Mechanics) — (details from overview; course page pending)
 
-**Live tracking:** [[RESOLVE (AI assistant)]] logs daily activities starting 2026-07-12. Latest: [[RESOLVE Daily Activity 2026-09-10]] (Sep 10 = full semester day, 4 classes, operations clean).
+**Operational layer:** [[RESOLVE (AI assistant)]] manages Traveler's calendar, email, and task inbox autonomously (daily brief + daily inbox-to-calendar sweep); latest activity recorded in [[RESOLVE Daily Activity 2026-09-11]].
 
-## Part 3: Technical / Systems (2026)
-
-**Automation & personal ops:**
-- [[RESOLVE (AI assistant)]] — autonomous personal operating system managing calendar, email, tasks, morning briefs, inbox-to-calendar sweeps
-- [[Homework Hatch (startup)]] — edtech/AI venture with Josh (status: active side project)
-- [[Personal Quant Model]] — multi-factor equity model + Flask trading app (status: designed, coding underway)
-
-**Status & calibration:**
-- [[RESOLVE]] system performance is GREEN as of 2026-09-10; fully operational after brief degradation on Sep 4 (API overload, now resolved)
-- Traveler's time allocation appears balanced: UVA core coursework (4 classes, ~14 hrs/week contact), plus quant model development, plus Homework Hatch
-- **Gap:** No recent evidence of the quant model or Homework Hatch in daily logs (RESOLVE tracks calendar/email/Notion, not work output). Those projects remain self-reported; their actual progress is opaque to this wiki.
+**Finance context:** As of 2026-09-11, Traveler's checking account holds $283.85; Codecademy Pro auto-renews Sep 18. Previous day (2026-09-10) flagged checking "had a rough weekend" — suggesting recent withdrawals or transactions. Status and context TBD.
 
 ---
 
-## Epistemology & Trust
+## Key Questions & Open Gaps
 
-This wiki makes **three distinct claims**:
-1. **From Traveler's own writing** (essays, personal notes, resumes): his intellectual output, worldview, and demonstrated skill
-2. **From instructor feedback** (grade reports, rubrics): external validation of academic work
-3. **From RESOLVE logs** (system operations, calendar/email records): his daily schedule and system performance
+**English coursework synthesis is stable** (4-year arc well-documented; analysis pages written). **UVA coursework is live and growing**:
 
-**Calibration principles** (per [[CLAUDE.md]]):
-- English corpus is **high-confidence**: direct primary source (his writing), interpreted conservatively
-- System logs (RESOLVE) are **high-confidence**: objective records of what executed and what didn't
-- Self-reported projects (quant model, Homework Hatch) are **medium-confidence until demonstrated**: the logs show *intentions* and *effort allocation*, not *shipping* or *skill*
-- Claims about his understanding of math, physics, finance are **hedged per evidence**: he has designed quant models and shipped code, but depth of mathematical intuition is not yet tested at volume
+1. **Course pages:** CS 1110 is appearing in daily logs but lacks detailed page (syllabus, projects, grade expectations). EGMT 1540, MATH 1310, PHIL 1730 similarly untouched. Recommend creating stubs or a unified [[UVA Coursework (Fall 2026)]] page as structure solidifies.
 
-The wiki's purpose is to show **what he has actually done and proven**, not to extrapolate from adjacent capability or agreement-seeking. Where the evidence is thin or absent, we name the gap.
+2. **Finance:** Checking balance at $283.85 suggests tight cash (or deliberate austerity experiment). No investment accounts visible yet in RESOLVE logs. Relationship to earlier [[Personal Quant Model]] and [[The Edge (trading model)]] unclear — are these still active, paused, or archived during semester?
+
+3. **Projects:** [[Homework Hatch (startup)]] status unknown for Fall 2026 (active? deferred?). [[Coding Club]] and [[Investment Club]] participation TBD.
+
+4. **The "Apify conference" note (Sep 10 email):** mentioned in RESOLVE sweep but not calendared. Relevance unclear — work? interest? side project? Needs verification and proper calendar entry.
 
 ---
 
-## Reading entry points
+## Archive
 
-- **Quick version:** [[Intellectual Profile]] (master index of his ideas by domain)
-- **Deep version:** Start with the [[English Curriculum 2022-2026|four-year curriculum]], then read the flagship essays
-- **Systems:** [[RESOLVE (AI assistant)]] + the daily activity logs
-- **Live coursework:** [[UVA and the Quant Question]] for the context; individual course pages for details
-- **Current state:** See [[log]] for the most recent ingest/query/lint entries (last updated 2026-09-10)
+**Previous updates:**
+- 2026-09-10: RESOLVE daily logs streaming steadily (18 days sampled); operational patterns crystallizing (financial alerts, academic deadlines, inbox hygiene)
+- 2026-08-30: RESOLVE entity page created; daily ingest pipeline established
+- 2026-06-15: Wiki launched; English coursework fully indexed and analyzed
+
