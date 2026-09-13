@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-11
+updated: 2026-09-12
 tags: [meta/overview, english, systems, uva]
 status: active
 ---
@@ -26,35 +26,43 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 **New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and operational life at UVA (move-in Aug 20, 2026).
 
 **Current enrollment (Fall 2026):**
-- **PHIL 1730** (Ancient Greek Philosophy) — 9:00–9:50, F
-- **CS 1110** (Introduction to Computer Science) — lecture M/W 11:00–11:50, lab Th 12:30–1:45 (material: Sequences/Tuples; Quiz-0 & Quiz-1 due 2026-09-11)
+- **PHIL 1730** (Moral and Political Philosophy) — twice-weekly seminars; [[Moral and Political Philosophy (UVA Fall 2026)|full course page]]
+  - **Current module (Week 4):** Kant's *Grounding for the Metaphysics of Morals*, Section I — due **Mon 9/15** (flagged by [[RESOLVE (AI assistant)]] on Sep 12 as "Not Started," recommended weekend priority)
+  - Exams: Sep 29 (midterm), Nov 5 (final)
+- **CS 1110** (Introduction to Computer Science) — [[CS 1110 (UVA Fall 2026)|course page]]
+  - Lecture M/W 11:00–11:50, lab Th 12:30–1:45
+  - Quiz-0 & Quiz-1 completed by Sep 11; current material: sequences/tuples
 - **MATH 1310** (Calculus II) — discussion M/W 12:00–12:50
-- **EGMT 1540** (Engineering Mechanics) — (details from overview; course page pending)
+- **EGMT 1540** (Engineering Seminar) — F 9:00–9:50
 
-**Operational layer:** [[RESOLVE (AI assistant)]] manages Traveler's calendar, email, and task inbox autonomously (daily brief + daily inbox-to-calendar sweep); latest activity recorded in [[RESOLVE Daily Activity 2026-09-11]].
+**Operational patterns (Sep 2026):**
+- [[RESOLVE (AI assistant)]] morning briefs and inbox-to-calendar sweeps running cleanly (see [[RESOLVE Daily Activity 2026-09-12|latest daily log]]); no connector errors
+- Calendar typically moderate on weekdays (3–4 classes); weekends clear (as of Sep 12)
+- Academic deadlines flagged early and prominently; recommended prioritization working as designed
 
-**Finance context:** As of 2026-09-11, Traveler's checking account holds $283.85; Codecademy Pro auto-renews Sep 18. Previous day (2026-09-10) flagged checking "had a rough weekend" — suggesting recent withdrawals or transactions. Status and context TBD.
+## Part 3: Systems & Projects (2026)
+
+**Active projects:**
+- **[[Homework Hatch (startup)]]** — edtech/AI venture with Josh; [[Personal Quant Model]] development ongoing
+- **[[RESOLVE (AI assistant)]]** — personal operating system (calendar, email, tasks, briefs); daily logs since 2026-07-12
+
+## Intellectual Through-Lines
+
+**Consistent across all periods (2022–2026):**
+
+1. **Reason vs. tradition.** English coursework shows skepticism of unexamined convention; UVA philosophy (currently Kant) explores the same via formal ethics.
+2. **Individual agency.** Recurring theme in literature becomes active practice: self-discipline, quant modeling, and building systems that amplify his own autonomy.
+3. **High epistemic standards.** Distrusts authority, demands evidence, writes with precision. Shows in essay grades, in coding projects, and in the design of RESOLVE itself.
+
+**Open questions:**
+- How will his philosophical inquiry (Kant, ethics) intersect with his quantitative/technical interests?
+- Can he execute the "quant pivot" ([[UVA and the Quant Question]]) while maintaining the intellectual rigor he's shown in humanities work?
+- [[Tensions and Open Questions]] — full synthesis of where his views conflict or remain unresolved
 
 ---
 
-## Key Questions & Open Gaps
+**Navigating this wiki:**
 
-**English coursework synthesis is stable** (4-year arc well-documented; analysis pages written). **UVA coursework is live and growing**:
-
-1. **Course pages:** CS 1110 is appearing in daily logs but lacks detailed page (syllabus, projects, grade expectations). EGMT 1540, MATH 1310, PHIL 1730 similarly untouched. Recommend creating stubs or a unified [[UVA Coursework (Fall 2026)]] page as structure solidifies.
-
-2. **Finance:** Checking balance at $283.85 suggests tight cash (or deliberate austerity experiment). No investment accounts visible yet in RESOLVE logs. Relationship to earlier [[Personal Quant Model]] and [[The Edge (trading model)]] unclear — are these still active, paused, or archived during semester?
-
-3. **Projects:** [[Homework Hatch (startup)]] status unknown for Fall 2026 (active? deferred?). [[Coding Club]] and [[Investment Club]] participation TBD.
-
-4. **The "Apify conference" note (Sep 10 email):** mentioned in RESOLVE sweep but not calendared. Relevance unclear — work? interest? side project? Needs verification and proper calendar entry.
-
----
-
-## Archive
-
-**Previous updates:**
-- 2026-09-10: RESOLVE daily logs streaming steadily (18 days sampled); operational patterns crystallizing (financial alerts, academic deadlines, inbox hygiene)
-- 2026-08-30: RESOLVE entity page created; daily ingest pipeline established
-- 2026-06-15: Wiki launched; English coursework fully indexed and analyzed
-
+- Start with [[wiki/index.md|index.md]] to find content by category
+- Read [[Core Convictions]] and [[Intellectual Profile]] for synthesized views
+- See [[log.md|log]] for the chronological ingest history
