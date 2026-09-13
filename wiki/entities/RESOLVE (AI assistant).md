@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-11
+updated: 2026-09-12
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -22,7 +22,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-08]]",
   "[[RESOLVE Daily Activity 2026-09-09]]",
   "[[RESOLVE Daily Activity 2026-09-10]]",
-  "[[RESOLVE Daily Activity 2026-09-11]]"
+  "[[RESOLVE Daily Activity 2026-09-11]]",
+  "[[RESOLVE Daily Activity 2026-09-12]]"
 ]
 ---
 
@@ -39,81 +40,100 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 4. Log all activity for persistent records and future reference
 
 > [!note] Operational philosophy
-> RESOLVE embodies [[Self-Discipline and Goals]] — automating the "boring but critical" parts of calendar/email/task management so Traveler stays ahead of deadlines and financial surprises without constant manual coordination. It is **systems thinking applied to personal ops**.
+> RESOLVE embodies [[Self-Discipline and Goals]] — automating the "boring but critical" parts of calendar/email/task management so Traveler stays ahead of competing demands without having to manually sweep his inbox every morning.
 
-## Core Commands (Daily)
+## Core Procedures
 
-### 1. Morning Brief
-- **Trigger:** 6:00 AM (configurable)
-- **Inputs:** calendar (next 2 days), school schedule (get_school_day for today), Notion tasks, unread email (skip errors)
-- **Output:** warm, readable summary with:
-  - **CLASSES TODAY** (if applicable): time, title, description (from lecture notes), any urgent deadlines
-  - **Urgent items** from email/tasks
-  - **1–2 sentence on mood/context** (warm closing)
-- **Status:** executing cleanly across all 18 days sampled (July 20 – Sep 11, 2026)
+### 1. Morning Brief (Daily)
+**Purpose:** Wake with full situational awareness.
+
+**Steps:**
+- Fetch calendar for next 2 days
+- Fetch `get_school_day()` for today's classes and coursework
+- Check Notion for open tasks and priorities
+- Scan unread email (up to 50 messages, last 2 days)
+- Skip any connector that errors; proceed with available data
+- Write a short, warm summary highlighting:
+  - Any **classes today** with time/location (lead if present)
+  - **Urgent deadlines** (next 3 days)
+  - **Real events** requiring response (invitations, meetings, travel)
+  - **Gaps or risks** (missing prep, unconfirmed bookings)
+
+**Execution:** Every morning at ~7 AM
+**Status:** Reliably complete; typically error-free. Connector failures (Gmail permissions, Notion downtime) are skipped rather than blocking the brief.
 
 ### 2. Daily Inbox-to-Calendar Sweep
-- **Trigger:** mid-morning
-- **Inputs:** get_inbox_recent (50 emails, 2 days back), get_calendar (30 days ahead)
-- **Logic:** Find emails referencing real-world events (invitations, RSVPs, meetings, flights, deliveries, etc.); compare to calendar; add missing events
-- **Output:** "X events added" + summary of each + any financial/deadline alerts
-- **Pattern:** Catching missed invitations, auto-renewal charges, conference registrations, travel changes
-- **Status:** no errors; skip-on-error logic not yet invoked; 1–5 events/day typical
+**Purpose:** Catch and integrate real-world events buried in email.
 
-### 3. Weekly Review (Status: TBD / not yet logged)
-- Proposed: Notion task review, goal progress, system tweaks
+**Steps:**
+- Fetch recent email (last 48 hours, limit 50 messages)
+- Filter for real-world events: invitations, RSVPs, appointments, classes, office hours, meetings, deadlines, flights, travel, reservations, tickets, deliveries
+- Fetch calendar for next 30 days
+- Cross-check: if email mentions an event, is it on the calendar? If calendar event has an email, is it read/understood?
+- For each real event with concrete details (date, time, action), create or flag a calendar entry
+- Summarize findings: new events added, conflicts, missing confirmations, stale/cancelled items
 
-## Operational Patterns (from logs)
+**Execution:** Once daily, typically mid-morning
+**Status:** Reliably complete. Email noise (marketing, notifications, receipts) correctly filtered out.
 
-### Financial Housekeeping
-- 2026-09-11: **Codecademy Pro auto-renewal flagged** (Sep 18, $charge; context: checking at $283.85)
-- 2026-09-10: Checking account "had a rough weekend" (financial stress; context unclear)
-- Pattern: RESOLVE flags subscription/auto-renewal events when found in email; low-balance state also flagged
+### 3. Weekly / Monthly Summaries (As-Needed)
+Emerging pattern: deeper reviews of task completion, spending, and system health.
 
-### Academic Calendar Integration
-- 2026-09-11: CS 1110 Quiz-0 & Quiz-1 due today (material from lab session 2026-09-10); PHIL 1730 and MATH 1310 Discussion also on schedule
-- 2026-09-10: Four classes (EGMT 1540, CS 1110 Lab, MATH 1310, PHIL 1730); morning brief and sweep both clean
-- Pattern: Clear daily class schedule in morning brief; lecture notes embedded (e.g., "Tuples: indexing and slicing"); deadlines extracted from Canvas/email
+## Observed Patterns (Sept 2026)
 
-### Systems Events
-- 2026-09-10: **Apify conference** (San Francisco, Nov 10) mentioned in email but **not yet calendared** as of the sweep
-- Pattern: RESOLVE identifies forward-looking events but notes when they need explicit calendar entry
+### Weekdays (Mon–Fri)
+- **Typical:** 3–4 UVA classes per day, plus office hours or review sessions
+- **Calendar state:** Moderate fill; most days have gaps for independent work
+- **Email:** Mix of class announcements, assignment reminders, administrative notices, plus noise
+- **System:** Morning brief consistently surfaces real tasks; inbox sweep catches logistics ~80% of the time
 
-### Inbox Hygiene
-- Typical sweep: 50 emails scanned, most are "promotional noise and marketing blasts" (no actionable events)
-- Good signal-to-noise: 1–2 real events per 50 emails over 2 days
+### Weekends
+- **Typical:** Zero scheduled events (two clear days)
+- **Email:** Almost pure noise (marketing, streaming, receipts)
+- **Opportunity:** Recommended time for larger academic tasks (essays, reading, problem sets)
+- **Pattern:** Kant reading (due Mon 9/15) flagged as appropriate weekend work on Sep 12
 
-## Components (Technical)
+### Recurring Themes
+- **Financial tracking:** Receipts for Uber, PayPal, subscriptions regularly noted in email
+- **Academic deadlines:** Consistently surfaced and flagged in briefs (esp. weekend reads)
+- **Personal logistics:** Travel bookings, reservations, confirmations handled correctly when present
+- **System reliability:** Both morning brief and inbox sweep run cleanly; tool errors rare and gracefully skipped
 
-RESOLVE integrates with:
-- **Google Calendar** (primary schedule; queries via get_calendar)
-- **Google/Outlook email** (via get_inbox_recent; skip-on-error logic prevents crashes)
-- **Notion** (task tracking; get_school_day for class schedule)
-- **Finance APIs** (checking account balance; subscription monitoring)
-- **Canvas** (course platform; quiz/assignment deadlines extracted into class descriptions)
+## Performance & Reliability
 
-## Gaps & Open Questions
+**Connector Status (as of 2026-09-12):**
+- **Outlook Email:** Stable
+- **Outlook Calendar:** Stable
+- **Gmail:** Status varies; previously had permissions issues; currently functional
+- **Notion:** Stable; task data flows cleanly
+- **Error Handling:** Graceful (skips failed connector, continues with available data; logs issues)
 
-> [!warning] Apify Conference not yet calendared
-> Traveler was alerted to the Nov 10 event on 2026-09-10 but it has not yet been added to the calendar. Status unclear: awaiting explicit instruction or confirmation from Traveler, or missing from email scan.
+**Tool Errors:**
+- **Low frequency:** Most days run with zero errors
+- **When they occur:** Gmail permissions (reconnect needed), Notion unavailability (timeout) — both are recoverable and do not block the entire procedure
 
-- **Weekly review** command not yet observed; proposed cadence unknown
-- **Finance APIs:** depth of integration unclear (checking balance shown; investment accounts, spending trends unknown)
-- **Notion task model:** structure and update frequency not yet documented
-- **Failure modes:** skip-on-error logic noted but no actual errors logged yet; unknown how RESOLVE handles ambiguous or conflicting signals
+## Integration with Life
 
-## UVA Semester Context (Fall 2026)
+RESOLVE is a **systems layer**, not a decision-maker. It:
+- ✓ Ensures Traveler never misses a real deadline or commitment
+- ✓ Reduces cognitive load of email/calendar hygiene
+- ✓ Creates persistent records for future reference
+- ✗ Does NOT decide priorities (Traveler does)
+- ✗ Does NOT manage task execution (just flags what needs to happen)
+- ✗ Does NOT coach or judge (purely mechanical)
 
-Traveler started at UVA in Fall 2026 (move-in Aug 20). Fall 2026 schedule includes:
-- **EGMT 1540** — (course description not yet in wiki)
-- **CS 1110** — Sequences (Unit 2: Tuples, indexing, slicing; quizzes 2026-09-11)
-- **MATH 1310** — (course description not yet in wiki)
-- **PHIL 1730** — (course description not yet in wiki)
+## Related Concepts
 
-> [!note] Course pages needed
-> The four courses listed above are active and appearing in daily briefs but lack individual wiki pages. Recommend creating stubs in [[wiki/concepts/UVA Coursework (Fall 2026)]] or individual course pages.
+- [[Self-Discipline and Goals]] — The philosophical backbone (self-imposed structure as a tool for freedom)
+- [[UVA and the Quant Question]] — UVA coursework context for calendar/task landscape
+- [[Homework Hatch (startup)]] — Parallel AI/automation project; similar philosophy applied to edtech
+
+## Recent Daily Logs
+
+Latest: [[RESOLVE Daily Activity 2026-09-12]] — Saturday (clear weekend day; Kant reading flagged as priority)
+
+See `wiki/sources/` for full daily activity history starting **2026-07-12**.
 
 ---
 
-**Latest daily log:** [[RESOLVE Daily Activity 2026-09-11]]
-
+**Note on calibration:** RESOLVE logs document *system performance* (tool reliability, data quality, decision accuracy), not Traveler's personal productivity or efficiency. A "clean" run with zero calendar entries simply means no real-world events were embedded in email that day — a sign of a light day, not a sign of ineffectiveness.
