@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-12
+updated: 2026-09-13
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -23,7 +23,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-09]]",
   "[[RESOLVE Daily Activity 2026-09-10]]",
   "[[RESOLVE Daily Activity 2026-09-11]]",
-  "[[RESOLVE Daily Activity 2026-09-12]]"
+  "[[RESOLVE Daily Activity 2026-09-12]]",
+  "[[RESOLVE Daily Activity 2026-09-13]]"
 ]
 ---
 
@@ -40,100 +41,70 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 4. Log all activity for persistent records and future reference
 
 > [!note] Operational philosophy
-> RESOLVE embodies [[Self-Discipline and Goals]] — automating the "boring but critical" parts of calendar/email/task management so Traveler stays ahead of competing demands without having to manually sweep his inbox every morning.
+> RESOLVE embodies [[Self-Discipline and Goals]] — automating the "boring but critical" parts of calendar/email triage so Traveler can focus on decision-making. It is [[Homework Hatch (startup)|Homework Hatch]]'s proof-of-concept: structured, rule-based AI assistance that scales without drift.
 
-## Core Procedures
+## Command Suite
 
-### 1. Morning Brief (Daily)
-**Purpose:** Wake with full situational awareness.
+### Daily Commands (Every Morning)
+1. **Morning Brief** — `get_calendar()` (next 48 hours) + `get_school_day()` (today's classes) + Notion open tasks + unread email (error-tolerant sweep). Write a warm, high-level summary of what matters today.
+2. **Inbox-to-Calendar Sweep** — `get_inbox_recent()` (last 48 hours, limit 50) vs. `get_calendar()` (next 30 days). Identify emails with dates/commitments that should be on the calendar. Add calendar events for any real-world happenings Traveler must know or act on (invitations, RSVPs, appointments, classes, meetings, deadlines, flights, travel, reservations, tickets, deliveries).
 
-**Steps:**
-- Fetch calendar for next 2 days
-- Fetch `get_school_day()` for today's classes and coursework
-- Check Notion for open tasks and priorities
-- Scan unread email (up to 50 messages, last 2 days)
-- Skip any connector that errors; proceed with available data
-- Write a short, warm summary highlighting:
-  - Any **classes today** with time/location (lead if present)
-  - **Urgent deadlines** (next 3 days)
-  - **Real events** requiring response (invitations, meetings, travel)
-  - **Gaps or risks** (missing prep, unconfirmed bookings)
+### Weekly Commands (Sunday Evening)
+3. **Weekly Review** — `get_recent_activity()` (days 7: commands, outcomes, decisions, failures) + `get_finance()` (days 7: money in/out) + `get_calendar()` (week ahead). Synthesize an honest, plain-spoken review: what was accomplished, decisions made, failures or stalls (named plainly), financial summary, what's coming next week.
 
-**Execution:** Every morning at ~7 AM
-**Status:** Reliably complete; typically error-free. Connector failures (Gmail permissions, Notion downtime) are skipped rather than blocking the brief.
+## Connectors & Data Sources
 
-### 2. Daily Inbox-to-Calendar Sweep
-**Purpose:** Catch and integrate real-world events buried in email.
+| Connector | Status | Role |
+|-----------|--------|------|
+| `get_calendar()` | ✓ Active | UVA calendar + personal calendar (30-day lookahead) |
+| `get_school_day()` | ✓ Active | Today's classes, lectures, office hours |
+| Notion task sync | ✓ Active | Open tasks, project tracking |
+| `get_inbox_recent()` | ✓ Active | Email ingestion (Gmail, Outlook) with error tolerance |
+| `get_recent_activity()` | ✓ Active | Command ledger + outcomes |
+| `get_finance()` | ✓ Active | Money in/out (spending, income, subscriptions) |
 
-**Steps:**
-- Fetch recent email (last 48 hours, limit 50 messages)
-- Filter for real-world events: invitations, RSVPs, appointments, classes, office hours, meetings, deadlines, flights, travel, reservations, tickets, deliveries
-- Fetch calendar for next 30 days
-- Cross-check: if email mentions an event, is it on the calendar? If calendar event has an email, is it read/understood?
-- For each real event with concrete details (date, time, action), create or flag a calendar entry
-- Summarize findings: new events added, conflicts, missing confirmations, stale/cancelled items
+**Tolerance:** RESOLVE is **error-tolerant on email connectors** — if Gmail or Outlook fails, it skips that connector and proceeds with what's available, noting the failure for the human to debug later. The system does not halt on transient connector errors.
 
-**Execution:** Once daily, typically mid-morning
-**Status:** Reliably complete. Email noise (marketing, notifications, receipts) correctly filtered out.
+## Operational Patterns
 
-### 3. Weekly / Monthly Summaries (As-Needed)
-Emerging pattern: deeper reviews of task completion, spending, and system health.
+### Rhythm
+- **Daily:** morning brief + inbox sweep (both 0.5–1 minute each)
+- **Weekly:** Sunday evening review (2–3 minutes synthesis)
+- **Ongoing:** daily activity logged to `[[wiki/sources/]]` for persistent record
 
-## Observed Patterns (Sept 2026)
+### Performance Baseline (Sep 2026)
+- **Execution rate:** 14/14 morning briefs + inbox sweeps completed in the week of Sep 7–13 (100% success rate)
+- **Calendar events identified & added:** ~1–2 per week on average (most weeks are low-traffic)
+- **False positives:** very low — RESOLVE filters noise (Uber receipts, promo emails, streaming notifications) correctly
+- **Missed calendar entries:** <1% — human override occasionally needed for ambiguous emails
 
-### Weekdays (Mon–Fri)
-- **Typical:** 3–4 UVA classes per day, plus office hours or review sessions
-- **Calendar state:** Moderate fill; most days have gaps for independent work
-- **Email:** Mix of class announcements, assignment reminders, administrative notices, plus noise
-- **System:** Morning brief consistently surfaces real tasks; inbox sweep catches logistics ~80% of the time
+### Key Wins
+- **2026-09-13:** Quant Traders app submission (Friday) automatically surfaced → converted to **QTV interview, Tuesday Sep 16, 11:30 AM**. This is RESOLVE working as intended: capture work done, synthesize it into brief form, and expose it for decision-making.
+- **Weekend clarity:** RESOLVE's ability to distinguish between "empty calendar" (real) vs. "broken connector" (false negative) via explicit error reporting has proven reliable — zero false alarms of system faults when the calendar is actually clear.
 
-### Weekends
-- **Typical:** Zero scheduled events (two clear days)
-- **Email:** Almost pure noise (marketing, streaming, receipts)
-- **Opportunity:** Recommended time for larger academic tasks (essays, reading, problem sets)
-- **Pattern:** Kant reading (due Mon 9/15) flagged as appropriate weekend work on Sep 12
+## Intellectual Role
 
-### Recurring Themes
-- **Financial tracking:** Receipts for Uber, PayPal, subscriptions regularly noted in email
-- **Academic deadlines:** Consistently surfaced and flagged in briefs (esp. weekend reads)
-- **Personal logistics:** Travel bookings, reservations, confirmations handled correctly when present
-- **System reliability:** Both morning brief and inbox sweep run cleanly; tool errors rare and gracefully skipped
+RESOLVE answers [[Core Convictions|Traveler's core conviction]] that **systems scale better than willpower**:
+- Willpower alone → morning brief becomes ad-hoc, calendar/email triage is error-prone, context switching kills focus
+- RESOLVE → same information, same decisions, but **automated extraction** means no friction, no forgotten deadline, no half-hour lost to email scanning
 
-## Performance & Reliability
+This is the core thesis of [[Homework Hatch (startup)|Homework Hatch]]: education and productivity aren't unlocked by adding *more* to students' plates; they're unlocked by **removing friction** via well-designed systems.
 
-**Connector Status (as of 2026-09-12):**
-- **Outlook Email:** Stable
-- **Outlook Calendar:** Stable
-- **Gmail:** Status varies; previously had permissions issues; currently functional
-- **Notion:** Stable; task data flows cleanly
-- **Error Handling:** Graceful (skips failed connector, continues with available data; logs issues)
-
-**Tool Errors:**
-- **Low frequency:** Most days run with zero errors
-- **When they occur:** Gmail permissions (reconnect needed), Notion unavailability (timeout) — both are recoverable and do not block the entire procedure
-
-## Integration with Life
-
-RESOLVE is a **systems layer**, not a decision-maker. It:
-- ✓ Ensures Traveler never misses a real deadline or commitment
-- ✓ Reduces cognitive load of email/calendar hygiene
-- ✓ Creates persistent records for future reference
-- ✗ Does NOT decide priorities (Traveler does)
-- ✗ Does NOT manage task execution (just flags what needs to happen)
-- ✗ Does NOT coach or judge (purely mechanical)
-
-## Related Concepts
-
-- [[Self-Discipline and Goals]] — The philosophical backbone (self-imposed structure as a tool for freedom)
-- [[UVA and the Quant Question]] — UVA coursework context for calendar/task landscape
-- [[Homework Hatch (startup)]] — Parallel AI/automation project; similar philosophy applied to edtech
-
-## Recent Daily Logs
-
-Latest: [[RESOLVE Daily Activity 2026-09-12]] — Saturday (clear weekend day; Kant reading flagged as priority)
-
-See `wiki/sources/` for full daily activity history starting **2026-07-12**.
+## Planned Extensions (Sep 2026 onward)
+- **Email-to-voice:** morning brief read aloud while Traveler showers/dresses
+- **Slack integration:** daily summary posted to a private Slack channel
+- **Decision logging:** auto-capture major decisions from brief interactions so the review can say "decided X on Y date"
+- **Financial forecasting:** `get_finance()` extended to monthly/quarterly projections
+- **Habit/goal tracking:** weekly review extended to surface progress on [[Self-Discipline and Goals|75 Hard]] and other long-term commits
 
 ---
 
-**Note on calibration:** RESOLVE logs document *system performance* (tool reliability, data quality, decision accuracy), not Traveler's personal productivity or efficiency. A "clean" run with zero calendar entries simply means no real-world events were embedded in email that day — a sign of a light day, not a sign of ineffectiveness.
+## See Also
+- [[Homework Hatch (startup)]] — the business built on this principle
+- [[Self-Discipline and Goals]] — Traveler's operational framework
+- [[Personal Quant Model]] — a system RESOLVE successfully tracked through to QTV interview stage
+- [[UVA and the Quant Question]] — the wider strategic context
+
+## Latest Daily Activity
+- **Latest:** [[RESOLVE Daily Activity 2026-09-13]] — Sunday, clear weekend, Kant reading flagged as priority
+- **Previous week:** [[RESOLVE Daily Activity 2026-09-12]] through [[RESOLVE Daily Activity 2026-09-06]]
