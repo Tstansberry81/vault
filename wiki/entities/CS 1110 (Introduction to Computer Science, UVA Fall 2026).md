@@ -1,14 +1,15 @@
 ---
 type: entity
 created: 2026-08-26
-updated: 2026-09-03
+updated: 2026-09-14
 tags: [college, uva, course, computer-science, fall-2026]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-08-26]]",
   "[[RESOLVE Daily Activity 2026-08-31]]",
   "[[RESOLVE Daily Activity 2026-09-02]]",
-  "[[RESOLVE Daily Activity 2026-09-03]]"
+  "[[RESOLVE Daily Activity 2026-09-03]]",
+  "[[RESOLVE Daily Activity 2026-09-14]]"
 ]
 ---
 
@@ -28,40 +29,46 @@ sources: [
 ## Early Progress & Observations
 
 > [!warning] Coding fundamentals gap
-> Lab flagged on 2026-09-02 and 2026-09-03 focuses on **Basics, Reading Errors, and Gradescope platform orientation**. The repeated flagging of "Basics" and "reading errors" signals that Traveler is likely struggling with foundational CS concepts (syntax, error interpretation, debugging). This aligns with his known coding gap — see [[Coding Club]], [[Self-Discipline and Goals]], [[Personal Quant Model]]. The course is **untested** at this stage (early Sept), but the early-week focus on remedial Basics suggests he may need targeted support.
+> Lab flagged on 2026-09-02 and 2026-09-03 focuses on **Basics, Reading Errors, and Gradescope platform orientation**. The repeated flagging of "Basics" and "reading errors" signals that Traveler is likely struggling with foundational CS concepts (syntax, error interpretation, debugging). This aligns with his known coding gap — see [[Coding Club]], [[Personal Quant Model]]. The course is **untested** at this stage (early Sept), but the early-week focus on remedial Basics suggests he may need targeted support.
 
 ## Course Progression
 
-### Unit 1: Basics
+### Unit 1: Basics (Lectures 1–2)
 
 | Date | Event | Topic | Content | Status |
 |------|-------|-------|---------|--------|
 | 2026-08-26 (Mon) | L1 | Basics-1 | — | Confirmed |
 | 2026-08-28 (Wed) | L2 | Basics-1 cont'd | — | Inferred |
-| 2026-08-31 (Sat/async) | — | Assignment? | — | Uncertain |
-| 2026-09-02 (Wed) | L3–L4 | Basics-2: Built-in Functions | Unit 1 | Active |
-| 2026-09-03 (Thu) | Lab | Basics review, Reading Errors, Gradescope intro | — | Completed |
 
-> [!note] Lab structure confirmed
-> **Thursday labs:** 12:30–13:45, Olsson Hall. Sep 3 lab covered Basics full review, reading error interpretation, and Gradescope platform walk-through.
+### Unit 2: Variables (Lectures 3–4)
 
-## Assessment & Gradescope
+| Date | Event | Topic | Content | Status |
+|------|-------|-------|---------|--------|
+| 2026-08-30? (Fri) | L3 | Variables | — | Inferred |
+| 2026-09-02 (Wed) | — | Lab | Basics, Reading Errors, Gradescope | Flagged |
+| 2026-09-03 (Thu) | Lab | Basics, Gradescope | Continued remedial focus | Flagged |
 
-**Platform:** Gradescope (online lab submission and auto-grading)  
-**Frequency:** Labs weekly on Thursdays  
-**Feedback cycle:** Auto-graded submissions with reading-error emphasis
+### Unit 3: Conditionals & Loops (Lectures 5+)
 
-## Context & Motivation
+| Date | Event | Topic | Content | Status |
+|------|-------|-------|---------|--------|
+| 2026-09-14 (Mon) | — | Booleans | **Start of Unit 3: Conditionals & Loops** | **Confirmed** |
 
-[[Traveler Stansberry]] enrolled in CS 1110 despite:
-- Known **coding gap** (ideas and theory yes, implementation no — see [[Self-Discipline and Goals]], [[Coding Club]])
-- Finance major focus at [[McIntire School of Commerce]] (does not require deep CS)
-- Possible alignment with [[Personal Quant Model]], [[The Edge (trading model)]] (both require coding to implement/deploy)
+> [!note] Unit 3 begins
+> As of 2026-09-14, Traveler is entering Unit 3 with **Booleans** — the foundation for conditional logic (`if`/`else`) and loop structures (`for`/`while`). This is a critical pivot from basic syntax and variables to control flow. Performance on Unit 3 will signal whether the "Basics gap" from Units 1–2 impedes his progress.
 
-The course is **foundational work**, not optional; it's the prerequisite for higher-level CS and a prerequisite for any serious quant finance path.
+## Course Status
 
-## Related Pages
-- [[Self-Discipline and Goals]] — his drive to close the coding gap
-- [[UVA and the Quant Question]] — quant career decision (coding essential)
-- [[Personal Quant Model]] — requires Python implementation
-- [[Coding Club]] — prior coding experience at St. Paul's
+- **Engagement:** Regular attendance; lectures and labs both tracked
+- **Foundational readiness:** Uncertain; early-unit focus on "Basics" and error-reading suggests scaffolding may be needed
+- **Unit 3 readiness:** Boolean/conditional logic is the first bridge to algorithmic thinking; watchpoint for engagement and comprehension
+- **Workload integration:** 50 min lectures MWF + 75 min lab Thu; manageable alongside [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]] and other coursework
+- **Coding gap context:** Aligns with known challenge area (see [[Personal Quant Model]], [[Homework Hatch (startup)]]); intentional support may accelerate mastery
+
+## Links & Context
+
+- [[UVA and the Quant Question]] — college context; CS 1110 is part of Finance + Math minor prerequisites
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — parallel foundational course
+- [[Coding Club]] — prior CS engagement
+- [[Personal Quant Model]] — applied coding project showing gaps
+- [[Traveler Stansberry]] — student
