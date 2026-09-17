@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-15
+updated: 2026-09-16
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -26,7 +26,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-12]]",
   "[[RESOLVE Daily Activity 2026-09-13]]",
   "[[RESOLVE Daily Activity 2026-09-14]]",
-  "[[RESOLVE Daily Activity 2026-09-15]]"
+  "[[RESOLVE Daily Activity 2026-09-15]]",
+  "[[RESOLVE Daily Activity 2026-09-16]]"
 ]
 ---
 
@@ -42,99 +43,80 @@ RESOLVE is **not a chatbot**; it's a **procedural agent** executing a repeating 
 3. Synthesize brief summaries and recommendations
 4. Log all activity for persistent records and future reference
 
-> [!note] Operational philosophy
-> RESOLVE embodies intentional design: every command has a clear deliverable (a brief, a calendar update, a decision frame), every output is logged for review, and the system is designed to **reduce friction and increase visibility** rather than to make decisions on Traveler's behalf.
-
 ## Core Commands
 
-### Daily Commands (run each morning)
+### Morning Brief
+- Retrieves calendar for the next 2 days
+- Calls `get_school_day` for classes and coursework
+- Scans open Notion tasks
+- Reviews unread email (skips erring connectors rather than failing hard)
+- Outputs a brief, warm summary with highlights and urgent flags
 
-**1. Morning Brief** (`morning_brief`)
-- **Inputs:** Calendar (next 48h) · Notion tasks (open items) · School/class API · Unread email
-- **Output:** A short, warm 2–3 paragraph brief highlighting:
-  - Classes and their times (if any)
-  - Urgent deadlines or meetings
-  - Open tasks/reminders from Notion
-  - Anything that needs action today
-- **Error handling:** Skip-on-error (if a connector fails, note it and continue; don't block the whole brief)
-- **Tone:** Warm, concise, explicit about what matters
-- **[[RESOLVE Daily Activity 2026-09-15]]:** Brief flagged Tuesday as "the crunch day you were warned about twice," with 5 classes, a high-stakes QTV interview, and a Kant philosophy deadline.
+### Daily Inbox-to-Calendar Sweep
+- Retrieves recent inbox (last 2 days, up to 50 messages)
+- Retrieves full calendar (next 30 days)
+- Identifies real-world events: invitations, RSVPs, appointments, classes, meetings, deadlines, travel, reservations, tickets, deliveries
+- Drafts RSVP responses where needed
+- Adds missing events to calendar
+- Detects prompt-injection attempts
 
-**2. Inbox-to-Calendar Sweep** (`daily_sweep`)
-- **Inputs:** Unread email (last 2 days, limit 50 messages) · Calendar (next 30 days)
-- **Process:**
-  - Parse email for real-world events (invitations, RSVPs, appointments, meetings, deadlines, flights, travel, deliveries)
-  - Cross-check against existing calendar
-  - Flag **new events** requiring action
-  - Draft RSVP responses if needed
-- **Output:** Brief summary of calendar updates + RSVP drafts (if any)
-- **Error handling:** Skip-on-error; attempt to read all messages but don't block on connector failures
-- **[[RESOLVE Daily Activity 2026-09-15]]:** Zero calendar-worthy events; 8 readable messages all promotional (Twitch, Robinhood, Shutterfly, etc.); no RSVPs drafted.
+### Metrics
+- **Execution reliability:** Consistently 100% success rate (no crashes, handles connector errors gracefully)
+- **False positives:** None noted through Sept 16
+- **Calendar concordance:** All identified events successfully matched with email/calendar sources or appropriately added
 
-### Weekly Commands (on schedule TBD)
+## Architecture
 
-- **Weekly synthesis:** Aggregated trends, calendar density, workload assessment
-- **Finance review:** Portfolio snapshot, recent transactions, rebalance checks (if applicable)
-- **Notion sync:** Completed tasks → archive; new high-priority items → calendar
+**Connectors:**
+- Outlook email (operational)
+- Gmail (historically failed with permissions error ~late June; status on Sept 16: operational)
+- Apple Calendar
+- Notion (task tracking)
+- Optional: Finance APIs (for subscription/charge tracking)
 
-## Architecture & Integrations
+**Output format:** Markdown briefs, calendar entries, brief logfiles
 
-**Connectors (information sources):**
-- **Google Calendar:** class times, meetings, events
-- **Outlook Email:** unread messages, calendar reconciliation
-- **Notion API:** open tasks, project status, personal notes
-- **School day API:** class schedule, lecture topics, due dates
-- **Telegram:** (mentioned in logs; lightweight alerts)
-- **Robinhood/Bloomberg:** (finance connectors; referenced in logs but not heavily active in Sep 2026)
+**Cadence:** Daily (morning) + daily (evening sweep) = 2 executions/day
 
-> [!warning] Known issues
-> - **Gmail connector:** Has been offline since 2026-06-30 with a permissions error. Traveler uses Outlook for primary email, so impact is low but represents a single point of failure if Outlook becomes unavailable.
-> - **Notion connector:** Occasionally unavailable in a session (noted in logs); resilience handled via skip-on-error.
+## Notable Operations
 
-**Execution environment:** Cloud-based autonomous agent (likely Azure/AWS); runs daily on a fixed schedule (currently 7–8 AM by Traveler's school/class pattern). Logs are stored in the vault under `wiki/sources/RESOLVE Daily Activity <date>.md`.
+### Sept 12 (Saturday, clear weekend)
+- Zero calendar events
+- No urgent tasks
+- Kant *Grounding for the Metaphysics of Morals* Section I flagged as priority for Monday (9/15)
 
-## Operational Record
+### Sept 15 (Monday, critical day — 5 classes, major interview)
+- Described as "the critical academic day" with strict assignment deadlines
+- Executed both commands successfully
 
-**Activity density:** Nearly continuous since 2026-07-12 (first logged activity). Average calendar load per day ranges from **zero (weekend)** to **five or more classes + meetings** (high-density days like Sep 15).
+### Sept 16 (Wednesday, full academic day)
+- **ECON 2010** Lecture 7 (final exam-1 lecture): Consumer Behavior, Chapter 19
+- **CS 1110** PA-01 due same day
+- Subscription tracking: Apple TV+ price increase flagged for Oct 16
+- Both commands completed with no errors
 
-**Performance:** All connectors typically respond within brief execution window (~2–5 min). Error handling is graceful (skip-on-error); no instance of the system halting on a single connector failure.
+## Capabilities Demonstrated
 
-**Recent trajectory (Sep 2026):**
-- **Sep 5–12:** Mixed light and moderate days, with weekend downtime (Sep 6 had hiking plans)
-- **Sep 12 (Sat):** Explicit warning that Sep 15 is a critical deadline day; Kant's *Grounding* Section I reading flagged as weekend priority (but noted as "Not Started")
-- **Sep 13–14 (Sun–Mon):** Lighter days; Monday (Sep 14) described as "light class day with squash in evening"
-- **Sep 15 (Tue):** **The crunch day.** Five classes, high-stakes QTV interview at 11:30 (described as "payoff from Friday's scramble"), and implicit Kant deadline.
+- **Real-time signal extraction:** Identifies deadlines, exams, financial changes across 5+ data sources
+- **Cross-source coherence checking:** No double-entries or contradictions in calendar vs. email
+- **Financial awareness:** Proactive 30+ day alerts on auto-charges
+- **Academic task tracking:** Knows class schedule, assignment names, due dates, reading list
+- **Graceful degradation:** Operates even when individual connectors fail (doesn't crash the full system)
 
-## Key Insights
+## Limitations & Gaps
 
-1. **Real-world coherence checking:** The sweep (daily_sweep) is valuable precisely because it **catches mismatches** (e.g., an email confirms an event that's not on the calendar, or vice versa). Most days yield zero changes, which validates that Traveler's external obligations are light and his calendaring is tight.
-
-2. **Promotional email noise:** Inbox is dominated by promotional noise (Twitch, Shutterfly, beehiiv, Robinhood). This is **not a problem** — the skip-on-error behavior cleanly filters it out.
-
-3. **Time pressure correlation:** High-density days (5+ classes) correlate with assignment deadlines. Sep 15 is explicitly flagged as unusual because it stacks a time-blocked interview (11:30–12:30) into an already-full day, creating a **crunch window**.
-
-4. **Notion as the **source of truth for tasks:** Open tasks and deadlines come from Notion, not email. This suggests Traveler uses a structured task-management approach rather than email-as-todo.
-
-## Related Pages
-
-- [[Traveler Stansberry]] — the user/operator
-- [[UVA and the Quant Question]] — his academic context (Fall 2026 and beyond)
-- **Daily activity logs** — one page per day, documenting real-time operations and decisions
+- **No document parsing/synthesis:** Doesn't read assignment details, syllabus changes, or email bodies for context
+- **No predictive reasoning:** Can't infer workload spikes or deadline clusters from assignment patterns
+- **Subscription tracking incomplete:** Only flags what email mentions; may miss charges without email notifications
+- **No backlog management:** Daily sweep doesn't prioritize or rank events by urgency or impact
 
 ---
 
-## Taxonomy of Daily Activity Pages
+## Related Pages
 
-All daily activity logs follow a consistent structure:
-
-- **Date** (ISO 8601): `RESOLVE Daily Activity 2026-MM-DD`
-- **Sections:**
-  1. Overview (date, day of week, calendar density)
-  2. Morning Brief (classes, urgent items, warnings)
-  3. Inbox-to-Calendar Sweep (events added, RSVPs, email summary)
-  4. Key observations (context about the day's significance)
-  5. System performance (connector status, errors)
-  6. Related pages (wiki cross-references)
-
-**Latest entry:** [[RESOLVE Daily Activity 2026-09-15]] — Tuesday, high-density academic day with QTV interview and Kant deadline.
+- [[Traveler Stansberry]] — operator
+- [[UVA and the Quant Question]] — current academic context (Fall 2026)
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]] — course (Sept 16 activity)
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]] — course (Sept 16 activity)
+- [[Fall 2026 UVA Course Schedule]] — full course listing (to be created)
 
