@@ -1,74 +1,63 @@
 ---
 type: entity
-created: 2026-08-26
-updated: 2026-09-14
-tags: [college, uva, course, computer-science, fall-2026]
+created: 2026-09-16
+updated: 2026-09-16
+tags: [uva, fall-2026, coursework, computer-science, coding]
 status: active
 sources: [
-  "[[RESOLVE Daily Activity 2026-08-26]]",
-  "[[RESOLVE Daily Activity 2026-08-31]]",
-  "[[RESOLVE Daily Activity 2026-09-02]]",
-  "[[RESOLVE Daily Activity 2026-09-03]]",
-  "[[RESOLVE Daily Activity 2026-09-14]]"
+  "[[RESOLVE Daily Activity 2026-09-16]]"
 ]
 ---
 
 # CS 1110: Introduction to Computer Science (UVA Fall 2026)
 
-**Course:** Introduction to Computer Science, [[Traveler Stansberry]]'s foundational CS course at [[UVA and the Quant Question|UVA]]. First lecture confirmed Wednesday, August 26, 2026. **Lab meeting:** Thursdays, 12:30–13:45, Olsson Hall (confirmed Sep 3, 2026).
+**CS 1110** is [[Traveler Stansberry]]'s introductory computer science course at [[UVA and the Quant Question|UVA]], taught in Fall 2026. This course forms part of his technical foundation and complements his existing coding background (prior work with [[Homework Hatch (startup)]], [[Cursor (AI code editor)]], [[Personal Quant Model]], and [[n8n (automation platform)]]).
 
-## Course Overview
+## Course Information
 
-**Format:** Lecture-based with lab component  
-**Duration:** Full Fall 2026 semester (14 weeks)  
-**Lectures:** M, W, F 11:00–11:50 AM  
-**Lab:** Thursdays 12:30–13:45, Olsson Hall  
-**Instructor:** Not yet recorded  
-**Prerequisites:** None (intro course)
+- **Course code:** CS 1110
+- **Term:** Fall 2026
+- **Meeting time:** 11:00–11:50 (likely daily or MWF)
+- **Assignment platform:** Gradescope
 
-## Early Progress & Observations
+## Curriculum Structure
 
-> [!warning] Coding fundamentals gap
-> Lab flagged on 2026-09-02 and 2026-09-03 focuses on **Basics, Reading Errors, and Gradescope platform orientation**. The repeated flagging of "Basics" and "reading errors" signals that Traveler is likely struggling with foundational CS concepts (syntax, error interpretation, debugging). This aligns with his known coding gap — see [[Coding Club]], [[Personal Quant Model]]. The course is **untested** at this stage (early Sept), but the early-week focus on remedial Basics suggests he may need targeted support.
+The course is organized by **units** focused on programming fundamentals:
 
-## Course Progression
+- **Unit 3: Conditionals** (currently in progress as of Sept 16)
+  - **Topic:** Conditionals-01
+  - **Assignment:** PA-01 (Programming Assignment 1)
+  - **Status:** PA-01 **due Sept 16** (same day as lecture)
 
-### Unit 1: Basics (Lectures 1–2)
+## Assignments & Deadlines
 
-| Date | Event | Topic | Content | Status |
-|------|-------|-------|---------|--------|
-| 2026-08-26 (Mon) | L1 | Basics-1 | — | Confirmed |
-| 2026-08-28 (Wed) | L2 | Basics-1 cont'd | — | Inferred |
+- **PA-01** — Due Wednesday, Sept 16, 2026, on Gradescope
+  - Unit 3 programming assignment covering conditionals
 
-### Unit 2: Variables (Lectures 3–4)
+> [!note] Workload pattern
+> Assignment due same day as lecture suggests a compressed schedule or that PA-01 was assigned earlier in the unit. This is a **same-day deadline** and should have been completed before or during the 11:00 class meeting.
 
-| Date | Event | Topic | Content | Status |
-|------|-------|-------|---------|--------|
-| 2026-08-30? (Fri) | L3 | Variables | — | Inferred |
-| 2026-09-02 (Wed) | — | Lab | Basics, Reading Errors, Gradescope | Flagged |
-| 2026-09-03 (Thu) | Lab | Basics, Gradescope | Continued remedial focus | Flagged |
+## Relevance
 
-### Unit 3: Conditionals & Loops (Lectures 5+)
+This course is Traveler's **formal CS education** at UVA and grounds his [[UVA and the Quant Question|Finance + Math minor]] path. It provides rigor and accreditation for the coding skills he has developed independently through [[Homework Hatch (startup)|Homework Hatch]], [[Personal Quant Model|quant modeling]], and AI/automation projects. Understanding the relationship between this coursework and his prior coding experience is important: he has **directed AI to build** and **implemented in Python/Flask**, but this course tests fundamental CS concepts (conditionals, control flow, data structures) that may reveal gaps in computer science fundamentals vs. applied coding ability.
 
-| Date | Event | Topic | Content | Status |
-|------|-------|-------|---------|--------|
-| 2026-09-14 (Mon) | — | Booleans | **Start of Unit 3: Conditionals & Loops** | **Confirmed** |
+---
 
-> [!note] Unit 3 begins
-> As of 2026-09-14, Traveler is entering Unit 3 with **Booleans** — the foundation for conditional logic (`if`/`else`) and loop structures (`for`/`while`). This is a critical pivot from basic syntax and variables to control flow. Performance on Unit 3 will signal whether the "Basics gap" from Units 1–2 impedes his progress.
+## Related Pages
 
-## Course Status
-
-- **Engagement:** Regular attendance; lectures and labs both tracked
-- **Foundational readiness:** Uncertain; early-unit focus on "Basics" and error-reading suggests scaffolding may be needed
-- **Unit 3 readiness:** Boolean/conditional logic is the first bridge to algorithmic thinking; watchpoint for engagement and comprehension
-- **Workload integration:** 50 min lectures MWF + 75 min lab Thu; manageable alongside [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]] and other coursework
-- **Coding gap context:** Aligns with known challenge area (see [[Personal Quant Model]], [[Homework Hatch (startup)]]); intentional support may accelerate mastery
-
-## Links & Context
-
-- [[UVA and the Quant Question]] — college context; CS 1110 is part of Finance + Math minor prerequisites
-- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — parallel foundational course
-- [[Coding Club]] — prior CS engagement
-- [[Personal Quant Model]] — applied coding project showing gaps
 - [[Traveler Stansberry]] — student
+- [[UVA and the Quant Question]] — UVA pathway
+- [[Homework Hatch (startup)]] — prior coding project
+- [[Personal Quant Model]] — coding/modeling experience
+- [[Cursor (AI code editor)]] — tool used
+- [[n8n (automation platform)]] — automation experience
+- [[RESOLVE Daily Activity 2026-09-16]] — source (course mention)
+- [[Fall 2026 UVA Course Schedule]] — full schedule (to be created)
+
+---
+
+## Notes
+
+[!warning] Skill calibration needed
+> Traveler has built applications and models (edtech startup, quant system) but CS 1110 is his first formal CS course. Performance here will reveal the gap between "application-focused coding" (what he has demonstrated) and "foundational CS knowledge" (what this course tests). Treating this as the **ground truth** of his CS fundamentals, not as validation of his existing projects.
+
