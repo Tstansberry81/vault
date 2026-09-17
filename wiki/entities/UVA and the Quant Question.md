@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-08-31
+updated: 2026-09-16
 tags: [personal, college, finance, open-question]
 sources: [
   "[[bs commerce]]",
@@ -18,14 +18,15 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-28]]",
   "[[RESOLVE Daily Activity 2026-08-29]]",
   "[[RESOLVE Daily Activity 2026-08-30]]",
-  "[[RESOLVE Daily Activity 2026-08-31]]"
+  "[[RESOLVE Daily Activity 2026-08-31]]",
+  "[[RESOLVE Daily Activity 2026-09-16]]"
 ]
 status: active
 ---
 
 # UVA and the Quant Question
 
-[[Traveler Stansberry]] **moved into residence at UVA on Thursday, August 20, 2026** and **began coursework Tuesday, August 26, 2026**. This page tracks his academic plan, his open quant decision, and the live state of his first semester.
+[[Traveler Stansberry]] **moved into residence at UVA on Thursday, August 20, 2026** and **began coursework Tuesday, August 26, 2026**. This page tracks his academic plan, his open quant decision, and the live state of his first semester (Sept 2026).
 
 > [!note] The personal stakes
 > UVA isn't only an academic decision — it's the start of **long-distance with [[Naomi]]** (most emotionally significant person in his life), the dominant worry of his spring 2026. They've already scouted the DC→Charlottesville train. Worth tracking alongside the academic side. He has set [[RESOLVE]] reminders to maintain connection while at UVA.
@@ -34,50 +35,56 @@ status: active
 
 - **Major: Finance** — via UVA's **[[McIntire School of Commerce]]** (a 3rd-year-entry school; first two years are prerequisites — COMM 1800 Foundations of Commerce, ECON 2010 Micro, the first writing requirement — per [[bs commerce]]).
 - **Minor: Math** (possibly a CS minor too).
-- McIntire offers concentrations (Finance, IT) and **tracks including Quantitative Finance & Analytics / AI** (the quant finance pathway he's been mulling since 2026-06).
+- McIntire offers concentrations (Finance, IT) and tracks include the [[Quantitative Finance]] path (CFA prep, etc.).
 
-## First Semester Coursework (Fall 2026)
+## Fall 2026 Coursework (3rd week)
 
-**As of Aug 31, first class day:** [[RESOLVE Daily Activity 2026-08-31]]
+As of September 16, 2026 (Wednesday, week 3 of semester):
 
-| Course | Code | Instructor | Meeting Times | Notes |
-|--------|------|-----------|---|---|
-| **Intro to Computer Science** | CS 1110 | TBD | MWF 11:00–11:50 | Unit 1: Basics-1 (Variables & Types); foundational; part of CS minor pipeline |
-| **Principles of Microeconomics** | ECON 2010 | TBD | MWF 10:00–10:50 | Lecture 2 (Opportunity Cost / PPF) on first day; part of McIntire prereq sequence; Exam 1 block Lectures 1–7 |
+| Course | Code | Status | Key Deadline (as of Sept 16) |
+|--------|------|--------|------------------------------|
+| **Microeconomics** | [[ECON 2010]] | Exam 1 material complete | Exam 1 covers L1–7; final lecture (L7: Consumer Behavior) was Sept 16 |
+| **Intro Computer Science** | [[CS 1110]] | Unit 3 Conditionals | PA-01 due Sept 16 (Gradescope) |
+| **Philosophy** | [[Moral and Political Philosophy (UVA Fall 2026)]] | Week 4: Kant *Grounding* | Week 4: Sept 15–17 (reading: Kant Section I) |
+| Mathematics | ? | (to be documented) | ? |
+| Other courses | ? | (to be documented) | ? |
 
-> [!warning] Courses incomplete
-> Only ECON 2010 and CS 1110 appear in the RESOLVE first-day brief. Trav's full course load, including other McIntire prerequisites or electives, is not yet catalogued. RESOLVE is showing only classes meeting MWF 10–12; afternoon courses may exist but aren't surfaced in available data.
+**Observations (Sept 16):**
 
-**First week pattern:** Morning classes (back-to-back 10:00–11:50), afternoon homework block (1:00–2:45), social/professional logistics (e.g., Andrew Klinger coffee chat at 12:15 on Aug 31).
+1. **ECON 2010 checkpoint:** All Exam 1 material (Lectures 1–7) has now been covered. This is the completion of the exam-study block; the exam date is not yet flagged in RESOLVE logs.
 
----
+2. **CS 1110 PA-01 deadline:** Programming Assignment 1 (conditionals unit) due same day as lecture. This is Traveler's **first formal CS assessment** at university level. Past work (Homework Hatch, quant model) demonstrates applied coding ability, but CS 1110 performance is the ground truth on computer science fundamentals (control flow, data structures, algorithmic thinking).
 
-## The Quant Question
-
-**Status as of summer 2026:** Open. Trav has been debating whether to pursue:
-1. **Finance major + Math minor** (current plan; finance-first, math scaffolding)
-2. **Mathematics major + Finance concentration** (math-first, more theoretical; requires riskier GPA over years 2–4)
-3. **Finance + CS minor** (emerging preference; more practical for quant hedge funds / algorithmic trading)
-
-The decision hinges on **how hands-on he wants to be with code** vs. **how theoretical**. Summer 2026 work on his own quant model ([[Personal Quant Model]]) and [[The Edge]] trader gave him some coding practice, but [[CLAUDE.md#Honest calibration|per honest calibration]], the skill is **demonstrated in direction/design, not yet in solo implementation**. First semester at UVA will surface how much he enjoys and can sustain **CS coursework** (CS 1110 is the first real test).
-
-**Key observation:** If CS 1110 proves energizing and manageable alongside ECON/McIntire load, the Finance + CS minor track becomes more credible. If he burns out or dislikes it, Finance + Math is safer.
+3. **Philosophy: Kant Section I:** The morning brief on Sept 15 flagged Kant's *Grounding for the Metaphysics of Morals*, Section I as a priority for Monday study (Sept 15). By Sept 16, he is in Week 4 and reading this text. Aligns with his long-standing interest in [[Intellectual Interests|moral philosophy and metaphysics]].
 
 ---
 
-## Living at UVA
+## The Open Quant Question
 
-- **Residence:** Dorm housing (move-in Aug 20, 2026).
-- **Distance from DC:** ~2 hours by train (Amtrak Northeast Regional or car).
-- **Long-distance with Naomi:** Primary personal logistics (see [[Naomi — Relationship Log (2026)]]). RESOLVE has reminders set.
+**Status as of Sept 2026:** Unresolved but operationalized.
+
+Does Traveler want to **specialize in quantitative finance** (advanced math/statistics for trading/derivatives pricing) or stay broader in finance (corporate finance, valuations, capital markets)? 
+
+- **Evidence for quant:** Has built three quant projects ([[Personal Quant Model]], [[The Edge (trading model)]], [[Vision (Porter Intelligence)]]; deep interest in math/physics; took IB Math HL; independent math reading (linear algebra, probability). His father [[Porter Stansberry (father)]] is a financial educator and mentor.
+  
+- **Evidence against quant:** All three quant projects are untested and/or "directed AI" (not coded from scratch by Traveler). Math minor (not major). First CS course shows he hasn't built CS fundamentals rigorously. Has not traded live or proven profitability.
+
+- **Current action:** Pursuing Finance major + Math minor + strong CS foundation (CS 1110). Will specialize as he discovers fit.
 
 ---
 
 ## Related Pages
-- [[Traveler Stansberry]] — primary subject
-- [[McIntire School of Commerce]] — the business school
-- [[Naomi]] — long-distance partner
-- [[Personal Quant Model]] — his summer quant work
-- [[The Edge]] — short-horizon momentum trader
-- [[RESOLVE]] — system managing the academic/personal logistics
+
+- [[Traveler Stansberry]] — the student
+- [[McIntire School of Commerce]] — UVA business school
+- [[ECON 2010 (UVA Fall 2026)]] — first econ course
+- [[CS 1110 (UVA Fall 2026)]] — first CS course
+- [[Moral and Political Philosophy (UVA Fall 2026)]] — philosophy course
+- [[Fall 2026 UVA Course Schedule]] — full course schedule
+- [[RESOLVE (AI assistant)]] — daily schedule management
+- [[Naomi]] — long-distance context
+- [[Personal Quant Model]] — quant project
+- [[The Edge (trading model)]] — quant project
+- [[Vision (Porter Intelligence)]] — quant project
+- [[Quantitative Finance]] — concept page
 
