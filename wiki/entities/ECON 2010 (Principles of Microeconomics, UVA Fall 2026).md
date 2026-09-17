@@ -1,71 +1,51 @@
 ---
 type: entity
-created: 2026-08-23
-updated: 2026-09-14
-tags: [college, uva, course, economics, fall-2026]
+created: 2026-09-16
+updated: 2026-09-16
+tags: [uva, fall-2026, coursework, economics]
 status: active
 sources: [
-  "[[RESOLVE Daily Activity 2026-08-23]]",
-  "[[RESOLVE Daily Activity 2026-08-26]]",
-  "[[RESOLVE Daily Activity 2026-08-31]]",
-  "[[RESOLVE Daily Activity 2026-09-02]]",
-  "[[RESOLVE Daily Activity 2026-09-14]]",
-  "[[weekly-review-2026-08-23.md]]"
+  "[[RESOLVE Daily Activity 2026-09-16]]"
 ]
 ---
 
 # ECON 2010: Principles of Microeconomics (UVA Fall 2026)
 
-**Course:** Principles of Microeconomics, [[Traveler Stansberry]]'s foundational economics course at [[UVA and the Quant Question|UVA]]. Fully scheduled on 2026-08-23 via [[RESOLVE (AI assistant)|RESOLVE]]; first lecture confirmed 2026-08-23 (Lecture 1).
+**ECON 2010** is [[Traveler Stansberry]]'s introductory microeconomics course at [[UVA and the Quant Question|UVA]], taught in Fall 2026.
 
-## Course Overview
+## Course Information
 
-**Format:** Lecture-based  
-**Duration:** Full Fall 2026 semester (14 weeks)  
-**Meeting times:** M, W, F 10:00–10:50 AM, Gibson Hall  
-**Instructor:** Not yet recorded  
-**Prerequisites:** None (intro course)
+- **Course code:** ECON 2010
+- **Term:** Fall 2026
+- **Meeting location:** Gibson Hall
+- **Class time:** 10:00–10:50 (likely TR or MWF, based on schedule pattern)
 
-## Course Progression
+## Curriculum Structure
 
-### Lecture Sequence
+The course is organized in **lecture blocks** with major exams. As of September 16, the course has completed:
 
-| Date | Lecture | Topic | Reading | Exam Block |
-|------|---------|-------|---------|-----------| 
-| 2026-08-23 (Fri) | L1 | Introduction | — | Exam 1: L1–7 |
-| 2026-08-25 (Sun)? | L2 | Supply & Demand Basics | Chapter 3 | Exam 1 |
-| 2026-09-01? | L2.5 | Supply & Demand cont'd | — | — |
-| 2026-09-02 (Wed) | L3 | Demand | Chapter 4 | Exam 1 |
-| 2026-09-14 (Mon) | **L6** | **Elasticities** | **Chapter 6** | **Exam 1** |
+- **Lectures 1–7** — Consumer Behavior and surrounding topics
+  - **Lecture 7 (Sept 16):** Consumer Behavior
+  - **Reading:** Chapter 19 (primary source material for L7)
+  - **Status:** Exam 1 content block **complete** after this lecture
 
-> [!note] Schedule tracking
-> Lecture dates/numbers continue to be populated from [[RESOLVE (AI assistant)|RESOLVE]] morning briefs. Full schedule may not yet be recorded in a single authoritative list. As of 2026-09-14, through L6, Exam 1 block (L1–7) spans roughly the first three weeks of September.
+> [!note] Academic importance
+> Per RESOLVE morning brief on 2026-09-16, Lecture 7 is the **final lecture in Exam 1 block**. After today, Traveler has seen all material required for Exam 1 and can begin comprehensive review/study.
 
-## Exam Block 1 (Lectures 1–7)
+## Assessment
 
-**Scope:** Covers Lectures 1–7, focusing on supply, demand, elasticity, and foundational micro concepts  
-**Exam date:** Approximately 2026-09-23 (9 days from 2026-09-14)  
-**Content tracked:**
-- L1: Introduction
-- L2: Supply & Demand basics (Chapter 3)
-- L3: Demand (Chapter 4)
-- L4: ? (likely price/qty interactions)
-- L5: ? (likely elasticity precursor)
-- **L6: Elasticities (Chapter 6)** — confirmed 2026-09-14
-- L7: ? (likely elasticity or applications)
+- **Exam 1:** Covers Lectures 1–7 (content finalized as of Sept 16)
+- Subsequent exams: (to be documented as course progresses)
 
-> [!note] Elasticities significance
-> Elasticity (L6, Chapter 6) is a **gateway concept** in microeconomics: it quantifies responsiveness of quantity demanded/supplied to price changes. Core to consumer/producer surplus analysis, tax policy, and market equilibrium. Traveler is attending L6 on 2026-09-14 with Chapter 6 reading assigned; this is directly examinable content in 9 days.
+## Relevance
 
-## Course Status
+This is a **core economics course** for Traveler's UVA enrollment. It aligns with his [[UVA and the Quant Question|Finance + Math minor intention]] and his long-standing interest in [[Political and Economic Views|economic theory and markets]]. The course grounds his prior independent study and provides formal preparation for upper-level quant/finance coursework.
 
-- **Engagement:** Regular attendance (L1 through L6 confirmed)
-- **Reading pace:** Tracking with lectures (Chapter 6 assigned for L6)
-- **Exam readiness:** Early-to-mid stage of exam prep window; concept reinforcement needed in Weeks 3–4 of semester
-- **Workload integration:** Light Mon-Wed-Fri lecture load (50 min), manageable alongside [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]] and other coursework
+---
 
-## Links & Context
+## Related Pages
 
-- [[UVA and the Quant Question]] — college context and Traveler's Finance + Math minor plan
-- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]] — parallel foundational course
 - [[Traveler Stansberry]] — student
+- [[UVA and the Quant Question]] — Traveler's UVA pathway
+- [[RESOLVE Daily Activity 2026-09-16]] — source (course mention)
+- [[Fall 2026 UVA Course Schedule]] — full schedule (to be created)
