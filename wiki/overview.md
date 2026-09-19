@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-17
+updated: 2026-09-18
 tags: [meta/overview, english, systems, uva, fall-2026]
 status: active
 ---
@@ -23,74 +23,69 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 ## Part 2: UVA (Fall 2026–present)
 
-**New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and operational life at UVA (move-in Aug 20, 2026).
+**New content stream:** [[Traveler Stansberry|Traveler]]'s Fall 2026 coursework and operational life at UVA (move-in Aug 20, 2026; classes began Aug 26).
 
-**Operational backbone:** [[RESOLVE (AI assistant)]] — Traveler's autonomous personal AI system handling calendar, tasks, email, and daily briefing. Generates operational logs (daily as of July 12, 2026) documenting system performance and behavioral insights. Latest: **[[RESOLVE Daily Activity 2026-09-17]]** (Thu, 4 classes, Kant reading priority, budget on-target, Uber spending pattern flagged).
+**Operational backbone:** [[RESOLVE (AI assistant)]] — Traveler's autonomous personal AI system handling calendar, tasks, email, and daily briefing. Generates operational logs (daily as of July 12, 2026) documenting system performance and behavioral insights. **Latest: [[RESOLVE Daily Activity 2026-09-18]]** (Fri, short day, CS 1110 Quiz-02 due, clean inbox, peer settlements via Venmo).
 
-### Current Enrollment (Fall 2026, as of Sep 17)
+### Courses (Fall 2026)
 
-| Course | Instructor | Schedule | Status & Notes |
-|--------|-----------|----------|---|
-| **EGMT 1540** (English Composition & Rhetoric) | — | Thu 9:30–10:45 AM | On track; no urgent deadlines |
-| **CS 1110** (Introduction to Computer Science) | — | MWF + Wed 12:30–13:45 lab (Olsson Hall) | **Quiz-02 due Fri 9/18** (1 day); Exam 1 Mon 9/28 |
-| **MATH 1310** (Calculus II) | — | TR 14:00–15:15 + Fri discussion 12:00 | **Checkpoint 1 Thu 9/24** (7 days); practice materials live |
-| **PHIL 1730** (Kant's Deontology: Common-Sense & the CI) | — | Fri 9:00 AM | **CRITICAL:** *Grounding* Sections II & III due **Tue 9/22** (5 days, Not Started); First Exam **Tue 9/29** |
-| **ECON 2010** (Principles of Microeconomics) | — | MWF 10:00–10:50 AM (Gibson Hall) | **Exam 1 Wed 9/23** (6 days, L1–L7 covered); part of Finance major |
+**Currently enrolled (5 courses):**
 
-**Academic calendar moment (Sep 17):** Traveler is in Week 4 of Fall 2026. Exam pressure clusters **Sep 23–29** (4 exams in 7 days, following the Kant deadline on Sep 22). The **Kant reading** (PHIL 1730, *Grounding* Sections II & III) is the **critical bottleneck** — flagged Sep 15 as highest weekend priority, still "Not Started" as of Thu 9/17 morning brief.
+| Course | Code | Inst. | Status | Key Insight |
+|--------|------|-------|--------|------------|
+| Principles of Microeconomics | [[ECON 2010]] | 10:00 AM | Active | Foundation for quant modeling; aligns with stated interest in quantitative finance |
+| Foundations of Philosophy | [[PHIL 1730]] | 9:00 AM | Active | Continues philosophical engagement; first formal philosophy course |
+| Introduction to Computer Science | [[CS 1110]] | 11:00 AM | Active | First formal CS course (prior self-directed exp via Homework Hatch); Quiz-02 due Sept 18 |
+| Calculus II | [[MATH 1310]] | 1:00 PM (disc) | Active | Math minor component; weekly discussion session |
+| Squash | — | 3:00 PM | Active | Likely sport/club (not a class) |
 
-### Intellectual Context: Kant & Self-Understanding
+**Schedule pattern:** Early mornings (9 AM start), clustered afternoon, no Friday afternoon classes (light day). This matches the "under budget" framing on Sept 18.
 
-**PHIL 1730 is notable** because it introduces Traveler to **Kantian deontological ethics** — duty-based morality grounded in universal rational law. His existing [[Political and Economic Views|political/economic worldview]] leans libertarian and consequentialist (free markets, individual liberty, outcomes matter more than rules). The collision between:
+### Upcoming Assessments (Confirmed)
 
-- **Kant:** Morality = duty to the Categorical Imperative; autonomy = submission to reason's universal demands
-- **Traveler's instinct:** Liberty = absence of constraint; authority comes from consent/choice, not universal law
+- **PHIL 1730** — First Exam, **Tue 9/29**
+- **CS 1110** — Exam 1, **Mon 9/28**
+- **ECON 2010** — Exam 1, **Wed 9/23**
+- **MATH 1310** — Checkpoint 1, **Thu 9/24**
+- **KANT *Grounding***  — Sections II & III, **Tue 9/22** (reading assignment; status: Not Started as of Sept 17)
 
-...suggests potential intellectual friction or refinement in his moral philosophy. Early reading of *Grounding* Section I is laying groundwork; Sections II & III (due Sep 22) will deepen the argument and likely provoke synthesis with his existing views.
+### Operational Patterns (Week of Sept 12–18)
 
-### Operational Life (RESOLVE)
+**RESOLVE daily logs (Sept 12–18) show:**
+- **High-stimulus week:** Thick coursework with cascading deadlines (Kant → Econ Exam → Math → CS)
+- **Signal quality:** Calendar and Notion kept current; inbox is ~95% promotional noise; real events are rare
+- **Social integration:** Peer expense settlements (Venmo) suggest active social ties (Ryan, Sebastian, Mathias, Benjamin named; context: shared meals/group payments)
+- **Workload management:** Lighter days ("under budget" on Sept 18) create breathing room; RESOLVE highlights these as relief markers
 
-**RESOLVE's output (as of Sep 17):**
+**Calibration note:** Traveler is **managing** his first UVA semester — keeping on top of deadlines, using structured tools (RESOLVE, Notion), but early signal on performance (quizzes, exams) is **not yet available** (as of Sept 18). Watch for assessment results in early Oct to measure whether he's meeting expectations in CS fundamentals and economics reasoning.
 
-1. **Morning brief:** Daily calendar, class, task, and email summary with actionable highlights. Format: warm, grounded, concise.
-2. **Inbox-to-calendar sweep:** Automatic event detection; no new calendar events flagged Thu 9/17 (only promo/receipts in unread queue).
-3. **Behavioral intelligence:** RESOLVE surfaces patterns Traveler may not consciously track — e.g., "Uber receipts ×10 in 9 days; fixed monthly subscription you haven't admitted to." See [[Self-Discipline and Goals|Self-Discipline & Goals]] for flagged Uber spending pattern.
-4. **Budget tracking:** 30-day expenses $1,500.40 vs. $1,500 budget = **1.00x (on-target)**. Net worth stable at $8,845.02 (4-day window).
+## Part 3: Systems Projects (2026)
 
-**System health:** Both commands (morning brief + inbox sweep) executed with no critical errors (Sep 17). Error-skip behavior working as designed (email connectors fail gracefully).
+**Supporting infrastructure:**
+- [[Homework Hatch (startup)]] — edtech/AI venture with Josh (active)
+- [[Personal Quant Model]] — multi-factor equity model (active development)
+- [[The Edge (trading model)]] — short-horizon trader (untested live)
+- [[RESOLVE (AI assistant)]] — personal operating system (production, daily logs)
 
-### Key Observations (Fall 2026)
+**Observation:** Traveler is building a **stacked automation ecosystem** — using AI/tooling to offload scheduling, leaving mental bandwidth for coursework and strategic thinking. This aligns with his self-discipline / systems-thinking philosophy.
 
-1. **Exam clustering:** 4 exams in 12 days (Sep 23–29) following a critical reading deadline (Sep 22). Traveler's performance in this window will be a data point on his execution under pressure.
+---
 
-2. **Discipline infrastructure:** RESOLVE is designed to close the gap between intention and execution. The Uber spending pattern (10 receipts in 9 days, flagged by system but not yet acted on) is a test case — whether he *acts* on surfaced behavioral insights.
+## Synthesis: Intellectual Profile
 
-3. **PHIL 1730 as intellectual inflection:** First formal philosophy course at UVA; first sustained engagement with Kantian ethics. Outcome will reveal whether his libertarian/consequentialist instincts deepen or soften.
+See [[Intellectual Profile]], [[Core Convictions]], [[Intellectual Evolution]], and [[Tensions and Open Questions]] for compiled views.
 
-4. **Continuation of K–12 pattern:** The [[English Curriculum 2022-2026|K–12 English arc]] emphasized philosophical engagement + individualist skepticism. Fall 2026 coursework (Kant, microeconomics, comp/rhetoric) extends this intellectually while adding **financial & technical credentials** (Finance major + CS 1110).
+**One-line:** Traveler is a **systems-thinking individualist** with philosophical depth (free will, power, identity), strong independent reading, and emerging technical competence. He designs systems (education, quant models, personal AI) as expressions of his convictions about autonomy and rigor. His English coursework reveals sophisticated critical thinking; his UVA coursework and systems projects will measure whether that translates to formal technical discipline.
 
-## Part 3: Technical Projects (2026)
+---
 
-**Active projects:**
-- [[Homework Hatch (startup)]] — edtech/AI venture (with Josh)
-- [[Personal Quant Model]] — multi-factor equity model + Flask app
-- [[The Edge (trading model)]] — short-horizon momentum trader
-- [[RESOLVE (AI assistant)]] — the daily operational AI system (generating logs since Jul 12, 2026)
+## Coverage by Source Layer
 
-**Status:** All three paused or suspended during the intensity of Fall 2026 coursework and move to UVA. RESOLVE is the only active development (core operational infrastructure). [[UVA and the Quant Question|The quant decision]] remains open: whether to pursue formal quant finance credential or remain self-directed.
+| Layer | Scope | Status |
+|-------|-------|--------|
+| **English coursework (2022–2026)** | 77 essays, memoirs, responses | Complete; 28 works, 11 themes, 20 personal pieces all with pages |
+| **Apple Notes (2022–2026)** | 274 notes | 43 kept; 231 deleted (low signal); woven into 6 personal life pages |
+| **ChatGPT exports (2023–2026)** | 891 chats | 293 substantial; catalogued; monthly digests done; propagation deferred |
+| **RESOLVE daily activity (July–Sept 2026)** | 69 days logged | All daily pages written; entity/concept updates ongoing; operational patterns emerging |
+| **UVA coursework (Fall 2026)** | 5 courses; 69 days in | Schedule + instructor pages done; assessment results not yet in |
 
-## Meta: Database Structure
-
-- **[[English Curriculum 2022-2026]]** — K–12 timeline
-- **[[Academic Record]]** — official grades (IB Diploma, UVA report)
-- **[[RESOLVE (AI assistant)]]** — operational system + daily logs (index: [[RESOLVE Daily Activity 2026-09-17]] and prior)
-- **[[log]]** — chronological ingest/query/lint operations
-- **[[index]]** — current content catalog (you are reading the overview; check [[index]] for full page list)
-
-## Related Pages
-
-- [[Traveler Stansberry]] — the author/subject
-- [[UVA and the Quant Question]] — college decision & Finance major context
-- [[Political and Economic Views]] — his worldview (free markets, individualism, skepticism)
-- [[Intellectual Profile]] — master synthesis of his ideas, by domain
-- [[Intellectual Evolution]] — how his thinking developed, 2022–2026
