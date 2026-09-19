@@ -1,11 +1,12 @@
 ---
 type: concept
 created: 2026-09-07
-updated: 2026-09-16
+updated: 2026-09-18
 tags: [college, coursework, computer-science, uva, fall-2026]
 sources: [
   "[[RESOLVE Daily Activity 2026-09-07]]",
-  "[[RESOLVE Daily Activity 2026-09-16]]"
+  "[[RESOLVE Daily Activity 2026-09-16]]",
+  "[[RESOLVE Daily Activity 2026-09-18]]"
 ]
 status: active
 ---
@@ -21,7 +22,7 @@ An introductory computer science course at the [[University of Virginia]], part 
 - **Term:** Fall 2026
 - **Meeting time:** 11:00–11:50 AM
 - **Location:** (not yet noted in logs)
-- **Assignment platform:** Gradescope
+- **Assignment platform:** Gradescope / Canvas (quizzes)
 
 ## Curriculum Structure
 
@@ -31,50 +32,46 @@ The course is organized into units:
 - **2026-09-07 topic:** Strings: indexing and slicing
 - Covers fundamental string operations (accessing characters by index, extracting substrings via slice notation)
 
-### Unit 3: Conditionals (Current as of Sept 16)
+### Unit 3: Conditionals & Loops (Current as of Sept 18)
 
-| Topic | Date | Assignment |
-|-------|------|-----------|
-| **Conditionals-01** | Sept 16 | **PA-01 due** |
+| Topic | Date | Assignment | Due |
+|-------|------|-----------|----|
+| **Conditionals-01** | Sept 16 | PA-01 | Sept 16 |
+| **Conditionals-02** | Sept 18 | **Quiz-02** | **Sept 18 (TODAY)** |
 
-**Status:** PA-01 (Programming Assignment 1) due on Gradescope, **Sept 16, 2026** (same day as lecture).
+**Status (Sept 18):** Lecture Conditionals-02 delivered; **Quiz-02 due on Canvas today** (Friday).
 
-> [!warning] Workload note
-> Assignment due same day as lecture suggests either:
-> 1. PA-01 was assigned earlier in the unit (and this is the final submission day), or
-> 2. The course uses tight deadlines after in-class material introduction.
+> [!warning] Assessment pattern emerging
+> PA-01 (assignment) due same day as Conditionals-01 lecture (Sept 16).
+> Quiz-02 due same day as Conditionals-02 lecture (Sept 18).
+> Pattern suggests: lecture → immediate assessment (same day). This is **tight pacing** and may indicate either:
+> 1. Material is being taught/reinforced across multiple contact hours before submission, or
+> 2. Quizzes/PA are lower-stakes and designed to be quick checks rather than major projects.
 > 
-> This is a **first formal CS assessment** for Traveler. Performance on PA-01 (conditionals) is a data point on his computer science fundamentals (see calibration note below).
+> No grade data yet on PA-01 or Quiz-02 performance (as of Sept 18).
+
+---
+
+## Assessment Schedule (Forecasted)
+
+From RESOLVE logs, key upcoming assessments:
+
+- **Exam 1 (CS 1110)** — **Monday, Sept 28, 2026** (confirmed)
 
 ---
 
 ## Relevance
 
-CS 1110 is Traveler's **first formal computer science course** at university level. He has prior coding experience through:
-- [[Homework Hatch (startup)]] — co-founded edtech platform (Python/Flask)
-- [[Personal Quant Model]] — multi-factor equity model with Flask app
-- [[Cursor (AI code editor)]] and [[n8n (automation platform)]] — tools used for automation
-- **Directed AI to build** code rather than writing substantial programs from scratch
+CS 1110 is Traveler's **first formal computer science course** at university level. He has prior coding experience (Python, JavaScript, Flask through [[Homework Hatch (startup)|Homework Hatch]]; self-directed web dev), but this is his first classroom CS course with formal grading.
 
-> [!warning] Skill calibration
-> CS 1110 performance (especially early assignments like PA-01) is the **ground truth** on Traveler's foundational computer science knowledge. This course will reveal gaps between:
-> - **Applied coding** (what he's demonstrated: building apps, models, automation)
-> - **Foundational CS** (what this course tests: control flow, data structures, algorithmic thinking)
-> 
-> Do not extrapolate CS mastery from his startup/model work until this course grades out.
+**Calibration note:** This is valuable **ground truth** on his CS fundamentals. His Homework Hatch work shows he can *direct* an AI to build things and understands systems-level thinking; CS 1110 measures whether he can *independently implement* core algorithms and control flow. Quiz-02 and Exam 1 results will clarify whether prior experience translates to formal coursework performance or whether gaps exist in foundational concepts (e.g., Boolean logic, nested conditionals, loop mechanics).
 
 ---
 
 ## Related Pages
 
 - [[Traveler Stansberry]] — student
-- [[University of Virginia]] — institution
-- [[UVA and the Quant Question]] — his college plan
-- [[Homework Hatch (startup)]] — prior coding project
-- [[Personal Quant Model]] — coding/modeling experience
-- [[Cursor (AI code editor)]] — tool used
-- [[n8n (automation platform)]] — automation experience
-- [[Fall 2026 UVA Course Schedule]] — full schedule
-- [[RESOLVE Daily Activity 2026-09-07]] — source (Unit 2 documentation)
-- [[RESOLVE Daily Activity 2026-09-16]] — source (Unit 3, PA-01 documentation)
-
+- [[Fall 2026 UVA Course Schedule]] — course overview
+- [[Homework Hatch (startup)]] — prior coding experience
+- [[Cursor (AI code editor)]] — likely tool he uses
+- [[RESOLVE (AI assistant)]] — schedule/deadline tracking
