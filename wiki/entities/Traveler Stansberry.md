@@ -1,8 +1,8 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-09-16
-tags: [person/author, self]
+updated: 2026-09-19
+tags: [person/author, self, uva, fall-2026]
 sources: [
   "[[When I Feel Like an Outsider]]",
   "[[Major Moments Memoir]]",
@@ -21,120 +21,94 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-28]]",
   "[[RESOLVE Daily Activity 2026-08-29]]",
   "[[RESOLVE Daily Activity 2026-08-30]]",
-  "[[RESOLVE Daily Activity 2026-09-04]]",
-  "[[RESOLVE Daily Activity 2026-09-16]]"
+  "[[RESOLVE Daily Activity 2026-09-01]]",
+  "[[RESOLVE Daily Activity 2026-09-16]]",
+  "[[RESOLVE Daily Activity 2026-09-18]]",
+  "[[RESOLVE Daily Activity 2026-09-19]]"
 ]
-status: active
 ---
 
 # Traveler Stansberry
 
-The author of nearly every source in this wiki, and its subject. Attended **[[St. Paul's School|St. Paul's]]** (an Episcopal private school) from kindergarten through senior year in the Maryland/Baltimore area, **graduating June 5, 2026**. The coursework corpus tracks him from grade 9 (2022) through IB HL English 2 (2026). **Currently: University of Virginia, starting fall 2026** — Finance major ([[McIntire School of Commerce|McIntire]]), Math minor; orientation completed **July 20, 2026** (per [[RESOLVE Daily Ingest 2026-07-19]]).
+**Student, investor, builder.** The subject of this wiki. Determinist (philosophically, 2022–2024), skeptic (of institutions, religions, mass narratives), individualist (high independent streak, resistant to conformity). English 9–12 (2022–2026, St. Paul's School), now UVA student (Finance + Math, Fall 2026–present).
 
-## Current Status (September 16, 2026)
+## Quick Profile
 
-**Location:** United States (EST timezone).
-
-**Academic phase:** Third week of fall 2026 semester at [[UVA and the Quant Question|UVA]]; classes began Aug 26, 2026.
-
-**Current coursework (Fall 2026):**
-- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]] — Intro to Computer Science (PA-01 due Sept 16)
-- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)|ECON 2010]] — Principles of Microeconomics (Exam 1 content completes Sept 16, Lecture 7)
-- [[PHIL 1730 (Introduction to Philosophy, UVA Fall 2026)|PHIL 1730]] — Introduction to Philosophy
-- [[MATH 1110 or similar]] — Mathematics (part of Math minor requirement)
-- Other courses (full roster: see [[Fall 2026 UVA Course Schedule]])
-
-## Character & Profile
-
-**Worldview:** Libertarian-leaning; determinist skeptic; values free markets, individual agency, and intellectual rigor. Suspicious of groupthink and consensus.
-
-**Emotional profile:** Sensitive, introspective, conflicted about ambition and belonging. Deep relationships with [[Naomi]] (girlfriend) and [[Porter Stansberry (father)]] (father/mentor). Strained relationship with family; divorce ongoing.
-
-**Intellectual interests:** Fate vs. free will; identity; power; morality; religion and faith; art; memory; technology and alienation.
-
-**Strengths (demonstrated):**
-- **Writing:** Sophisticated prose; strong analytical essays on literature and philosophy
-- **Thinking:** Identifies patterns across domains; articulate about ideas
-- **Independence:** Self-directed reading, self-motivated coding projects
-- **Interpersonal:** Meaningful relationships; emotional depth
-- **Entrepreneurship:** Co-founded [[Homework Hatch (startup)]] with [[Josh]] (built edtech with AI)
-
-**Gaps/Calibration notes (honest):**
-- **Coding:** Has built applications ([[Personal Quant Model]], [[Homework Hatch (startup)]], automation scripts) but mostly "directed AI to build" rather than written substantial code from scratch. CS 1110 is his **first formal CS course**; performance here is the ground truth on computer science fundamentals.
-- **Mathematics:** Self-taught quant model + high school / IB math background; [[UVA and the Quant Question|aspires to quant finance]] but hasn't proven advanced linear algebra, probability, or statistics competency in a rigorous setting yet.
-- **Economics:** Econ IA (paper) passed; now in ECON 2010 (formal college-level microeconomics). This is his first rigorous academic test of economic theory.
-- **Finance:** Has ideas about markets and investing, but hasn't managed a real portfolio or built a profitable trading model (The Edge and quant model are both untested/directed-AI projects).
+| Attribute | Evidence |
+|-----------|----------|
+| **Core theme** | [[Fate and Free Will]] — signature intellectual obsession; tension between determinism and responsibility |
+| **Worldview** | Free market, free people; skeptical of state power; individualist in principle though socially embedded |
+| **Artistic taste** | Arthouse / auteur (film, literature); distrustful of populist narrative |
+| **Emotional pattern** | Sensitive beneath achievement; values depth over credential; prone to introspection and self-critique |
+| **Key relationship** | [[Naomi]] — girlfriend; most emotionally significant person in his life; long-distance (UVA ↔ DC) |
+| **Immediate goal** | Navigate UVA first semester (Fall 2026); exam cluster Sept 23–29 (four exams in 7 days); Kant reading due Tue 9/22 |
 
 ---
 
-## Key Periods
+## Current Status (Fall 2026, First Month)
 
-### Grade 9–10 (2022–2024) — English Foundations
-First work-significant coursework in literature and writing under [[Mr. Bryant]]. Heavy reading: *Maus*, *Beloved*, *Gatsby*, *Station Eleven*, etc. Themes: fate vs. free will, identity, power, morality.
+**Location:** UVA, Charlottesville, VA (arrived Aug 20, 2026; classes began Aug 26)
 
-### Grade 11–12 (2024–2026) — IB HL, Personal Philosophy
-[[IB HL English 1 and 2]]; essays on *The Iliad*, *Beloved*, *Narrow Road to the Deep North*. Simultaneously developing independent philosophy through Apple Notes (death, morality, religion, free will). Senior year: [[College Search]] → committed to [[UVA and the Quant Question|UVA ED]], Finance + Math minor.
+**Coursework:**
+- CS 1110 (Introduction to Computer Science)
+- ECON 2010 (Microeconomics)
+- MATH 1310 (Calculus 2)
+- PHIL 1730 (Kant's Deontology)
 
-### Summer 2026 — Transition
-Graduated St. Paul's June 5, 2026. **[[Homework Hatch (startup)|Homework Hatch]]** active (co-founded with Josh, ongoing development). UVA orientation July 20. Classes begin Aug 26.
+**Immediate deadlines:**
+- **Tue, Sep 22:** Kant, *Grounding for the Metaphysics of Morals*, Sections II & III — **high priority, not started as of Sat 9/19**
+- **Sep 23–29:** Four-exam cluster (critical prep window)
+- **Weekend Sep 19–20:** Clear; reserved for exam prep
 
-### Fall 2026 (Current) — UVA First Semester
-Five or more courses (CS, Econ, Philosophy, Math, possibly others); RESOLVE system managing daily schedule; establishing academic rhythm at university level.
-
----
-
-## Projects & Endeavors
-
-### Active Projects (2026)
-- **[[Homework Hatch (startup)]]** — EdTech / AI tutoring platform (with Josh). Status: ongoing development.
-- **[[Personal Quant Model]]** — Multi-factor equity model with Flask web app. Status: built (Cursor + directed AI), untested live trading.
-- **[[The Edge (trading model)]]** — Short-horizon momentum/acceleration trader. Status: designed, not implemented/traded.
-- **[[RESOLVE (AI assistant)]]** — Personal operating system. Status: fully operational (2026-07 onward), daily execution.
-
-### Prior Projects
-- **[[Vision (Porter Intelligence)]]** — Consumer static site for quant outputs (Sauron brand). Status: completed.
+**Operational status:** [[RESOLVE]] morning brief and inbox sweep executing cleanly; weekend is structured for intensive prep. Latest briefing: [[RESOLVE Daily Activity 2026-09-19]].
 
 ---
 
-## Relationships
+## Intellectual Profile
 
-- **[[Naomi]]** — Girlfriend. "The most emotionally significant person in his life." Started dating late 2024–2025. Referenced extensively in Apple Notes (2026); relationship stable as of Sept 2026.
-- **[[Porter Stansberry (father)]]** — Founder of Porter & Co. (financial publisher/educator). Mentor; relationship improved in 2025 after years of strain. Supportive of UVA/quant trajectory.
-- **[[Josh]]** — Co-founder of [[Homework Hatch (startup)]]. Collaborator; ongoing technical partnership.
-- **Mr. Bryant, Dr. Harris, Mr. Mezeske** — High school English teachers. Formative.
+### Central Questions (from [[Intellectual Interests]])
 
----
+1. **Free will vs. determinism** — core obsession; has moved from "choice is illusion" (2022–2024) to acknowledging the **practical necessity of responsibility** even if free will is metaphysically unresolved
+2. **Individual vs. society** — rebel usually loses, yet individualism remains the only coherent stance
+3. **Morality without God** — what grounds ethics if religion is false? (→ Kant's deontology, currently studying)
+4. **Technology vs. human nature** — does AI/tech enhance or hollow out the self?
 
-## Philosophy & Intellectual Commitments
+### Demonstrated Capabilities
 
-Per his essays and notes, Traveler is:
-- **Anti-deterministic in practice** (wants free will) but **reads determinism as plausible** (uncertainty about the metaphysics)
-- **Skeptical of faith, drawn to rationality**, but aware religion has deep human value
-- **Individualist** (reads Emerson approvingly; distrusts groupthink)
-- **Interested in power dynamics** (reads *Beloved*, *The Iliad*, *Antigone*; suspicious of hierarchy)
-- **Concerned with identity collapse** (2024–2026 theme in his essays)
-- **Attracted to rigor**: philosophy, mathematics, precise thinking
+- **Reading & synthesis:** Digests dense philosophy (Kant, Emerson, Thoreau), complex fiction (Faulkner, Murakami), and theory (Spiegelman)
+- **Writing:** Essays that show genuine intellectual wrestling, not formula; can sustain voice and argument over 3,000+ words
+- **Self-reflection:** Apple notes show constant introspection; candid about doubts, failures, emotional vulnerability
+- **Coding/tech:** Building [[Homework Hatch]] (edtech venture) and personal [[Personal Quant Model|quant models]]; uses AI tools (Cursor, Claude) effectively to extend capability
 
----
+### Gaps (Honest Assessment)
 
-## Wiki Pages Directly About Traveler
-
-- [[Intellectual Profile]] — his ideas by domain + through-lines
-- [[Core Convictions]] — his beliefs (propositions with evidence)
-- [[Intellectual Evolution]] — how his thinking developed (2022–2026)
-- [[Tensions and Open Questions]] — unresolved conflicts in his views
-- [[Family and Personal Life]] — relationships, family, emotional life
-- [[Self-Discipline and Goals]] — "75 Hard," productivity, self-improvement
-- [[Political and Economic Views]] — his political/economic worldview
-- [[Reading List]] — independent reading + his ratings
+- **Math beyond calculus:** Foundational, but differential equations, linear algebra, probability/stats are WIP
+- **Quantitative coding:** Can direct an AI to build quant models; coding from first principles is weaker than directed/iterative work
+- **Philosophy study depth:** Reading for ideas; formal deontological ethics (Kant) is new territory, requires deep engagement to master the math/logic
+- **Trading/finance practice:** Model-building is proven; *execution* (risk management, position sizing, actual market decisions) untested
 
 ---
 
-## Related Pages
+## Pattern: Work/Rest Rhythm
 
-- [[UVA and the Quant Question]] — UVA pathway (Finance + Math minor, quant aspirations)
-- [[RESOLVE (AI assistant)]] — his personal operating system
-- [[Homework Hatch (startup)]] — his edtech venture
-- [[St. Paul's School]] — his K–12 school
-- [[McIntire School of Commerce]] — UVA business school (Finance major)
-- [[Fall 2026 UVA Course Schedule]] — full course listing (to be created)
+Consistent pattern observed in [[RESOLVE Daily Activity|daily logs]]: intense work periods ("lock in" → [[Self-Discipline and Goals]]) alternate with social breaks. Maintains active social life even during exam-prep windows (e.g., 2 AM Uber ride Fri night, Sept 19 context). Not ascetic; integrates life fully.
+
+---
+
+## Key Relationships & Context
+
+- **[[Naomi]]** — girlfriend; most emotionally significant person; long-distance (UVA ↔ DC)
+- **[[Porter Stansberry (father)]]** — financial publisher, model for risk-taking/independent thinking; complex relationship (divorce, 2015; reconciliation notes 2025–2026)
+- **[[St. Paul's School]]** — formative environment; Episcopal tradition, high-achieving culture
+- **[[RESOLVE (AI assistant)]]** — personal OS; daily logs document behavior, deadlines, operational intelligence
+- **[[Homework Hatch (startup)]]** — co-founder with Josh; edtech/AI venture; active project running parallel to coursework
+
+---
+
+## Sources & Backlinks
+
+- [[RESOLVE Daily Activity 2026-09-19]] — latest operational snapshot
+- [[UVA and the Quant Question]] — academic path and quant decision
+- [[Self-Discipline and Goals]] — work/rest rhythm pattern
+- [[Intellectual Interests]] — philosophical questions
+- [[Core Convictions]] — distilled beliefs with evidence
