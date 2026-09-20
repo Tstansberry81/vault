@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-18
+updated: 2026-09-19
 tags: [meta/index]
 status: active
 ---
@@ -53,7 +53,7 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus sys
 - [[Film and TV]] — auteur/arthouse watchlist
 
 ## Systems & technology (2026)
-- [[RESOLVE (AI assistant)]] — his personal operating system (calendar, email, tasks, briefs); **ongoing daily logs** starting 2026-07-12; see [[RESOLVE Daily Activity 2026-09-18]] for latest (Friday; short day, one assignment due, under budget)
+- [[RESOLVE (AI assistant)]] — his personal operating system (calendar, email, tasks, briefs); **ongoing daily logs** starting 2026-07-12; see [[RESOLVE Daily Activity 2026-09-19]] for latest (Saturday, Sep 19; clear day, exam prep weekend, Kant reading due Tue 9/22, four exams in 7 days)
 - [[Homework Hatch (startup)]] — edtech/AI venture with Josh
 - [[Personal Quant Model]] — multi-factor equity model + Flask app
 - [[The Edge (trading model)]] — short-horizon momentum/acceleration trader
@@ -87,17 +87,11 @@ Built from [[Traveler Stansberry]]'s English coursework, grades 9–12, plus sys
 **ChatGPT chats (2023–2026):** [[_Chats Catalog]] — **293 substantial conversations** as individual source pages + **23 monthly digests** (in `sources/chats/`), grouped by theme: Homework Hatch, IB coursework (History/Econ/Physics/Math/Japanese/English), finance, coding/AI, gaming, personal.
 
 **RESOLVE daily activity logs (2026):**
-- [[RESOLVE Daily Activity 2026-09-18]] — **Friday (short day):** CS 1110 Quiz-02 due today; four classes; clean inbox; Venmo settlement activity with peers (Ryan, Sebastian, Mathias, Benjamin). Morning brief: "under budget."
-- [[RESOLVE Daily Activity 2026-09-17]] through [[RESOLVE Daily Activity 2026-07-12]] — ongoing operational logs documenting system performance; see pages for full record
+- [[RESOLVE Daily Activity 2026-09-19]] — **Saturday, Sep 19:** Clear day; no classes, no calendar items. **Exam cluster context:** four exams in 7 days (2026-09-23 to 2026-09-29); weekend reserved for exam prep. **Kant reading:** *Grounding*, Sections II & III due Tue 9/22 (high priority, not started). Inbox clean.
+- [[RESOLVE Daily Activity 2026-09-18]] through [[RESOLVE Daily Activity 2026-07-12]] — ongoing operational logs documenting system performance; see pages for full record
 
 > [!note] Coverage
 > **Coursework:** full pages for all ~28 works and 11 themes; ~20 essays/personal pieces have source pages; ~55 minor assignments are catalogued inside their work pages.
 > **Apple Notes (2022–2026):** 274 notes triaged — 43 kept in `raw/notes/` and woven into the 6 personal pages above; ~231 garbage/romantic/credential notes deleted. See [[log]].
 > **ChatGPT export (891 chats):** 668 attachments → `raw/assets/chatgpt/`. Source pages + digests + [[_Chats Catalog|catalog]] done; **propagation into entity/concept pages is deferred** (token budget) — see [[log]].
-> **RESOLVE daily activity:** ongoing daily logs (2026-07-12 onward), documenting system performance and operational patterns. Latest: **2026-09-18** (Friday, short day, CS 1110 Quiz-02 due, clean inbox, social Venmo settlements).
-
-## Analyses (compiled syntheses)
-- **[[Intellectual Profile]]** — master index of his ideas, by domain + the through-lines
-- **[[Core Convictions]]** — his beliefs distilled into propositions, with evidence
-- **[[Intellectual Evolution]]** — how his thinking developed, 2022–2026
-- **[[Tensions and Open Questions]]** — where his views conflict or stay unresolved
+> **RESOLVE daily activity:** ongoing daily logs (2026-07-12 onward), documenting system performance and operational patterns. Latest: **2026-09-19** (Saturday, clear day, exam prep weekend, Kant reading due Tue 9/22, four exams in 7 days).
