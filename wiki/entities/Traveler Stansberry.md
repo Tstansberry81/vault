@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-09-19
+updated: 2026-09-21
 tags: [person/author, self, uva, fall-2026]
 sources: [
   "[[When I Feel Like an Outsider]]",
@@ -17,98 +17,138 @@ sources: [
   "[[RESOLVE Daily Activity 2026-08-02]]",
   "[[RESOLVE Daily Activity 2026-08-03]]",
   "[[RESOLVE Daily Activity 2026-08-11]]",
-  "[[RESOLVE Daily Activity 2026-08-20]]",
   "[[RESOLVE Daily Activity 2026-08-28]]",
   "[[RESOLVE Daily Activity 2026-08-29]]",
   "[[RESOLVE Daily Activity 2026-08-30]]",
   "[[RESOLVE Daily Activity 2026-09-01]]",
+  "[[RESOLVE Daily Activity 2026-09-02]]",
+  "[[RESOLVE Daily Activity 2026-09-03]]",
+  "[[RESOLVE Daily Activity 2026-09-04]]",
+  "[[RESOLVE Daily Activity 2026-09-05]]",
+  "[[RESOLVE Daily Activity 2026-09-08]]",
+  "[[RESOLVE Daily Activity 2026-09-09]]",
+  "[[RESOLVE Daily Activity 2026-09-10]]",
+  "[[RESOLVE Daily Activity 2026-09-11]]",
+  "[[RESOLVE Daily Activity 2026-09-12]]",
+  "[[RESOLVE Daily Activity 2026-09-14]]",
   "[[RESOLVE Daily Activity 2026-09-16]]",
-  "[[RESOLVE Daily Activity 2026-09-18]]",
-  "[[RESOLVE Daily Activity 2026-09-19]]"
+  "[[RESOLVE Daily Activity 2026-09-19]]",
+  "[[RESOLVE Daily Activity 2026-09-21]]"
 ]
 ---
 
 # Traveler Stansberry
 
-**Student, investor, builder.** The subject of this wiki. Determinist (philosophically, 2022–2024), skeptic (of institutions, religions, mass narratives), individualist (high independent streak, resistant to conformity). English 9–12 (2022–2026, St. Paul's School), now UVA student (Finance + Math, Fall 2026–present).
+**The author and subject of this wiki.** Determinist, skeptic, individualist; a writer, thinker, coder, and quant in development. Currently at [[UVA]] (Fall 2026, first month); committed to [[UVA and the Quant Question|Finance + Math minor, with open quant career decision]].
 
-## Quick Profile
+## Current Situation (2026-09-21)
 
-| Attribute | Evidence |
-|-----------|----------|
-| **Core theme** | [[Fate and Free Will]] — signature intellectual obsession; tension between determinism and responsibility |
-| **Worldview** | Free market, free people; skeptical of state power; individualist in principle though socially embedded |
-| **Artistic taste** | Arthouse / auteur (film, literature); distrustful of populist narrative |
-| **Emotional pattern** | Sensitive beneath achievement; values depth over credential; prone to introspection and self-critique |
-| **Key relationship** | [[Naomi]] — girlfriend; most emotionally significant person in his life; long-distance (UVA ↔ DC) |
-| **Immediate goal** | Navigate UVA first semester (Fall 2026); exam cluster Sept 23–29 (four exams in 7 days); Kant reading due Tue 9/22 |
+**Location:** University of Virginia, Charlottesville, VA  
+**Status:** First month of Fall 2026; **exam week begins today (Monday Sep 21)**  
+**Academic Load:** ECON 2010, CS 1110, and other coursework (see [[UVA and the Quant Question|UVA coursework]])  
+**Immediate Pressure:** Four exams in 7 days (Sep 23–29)  
+**Outstanding Deadline:** Kant, *Grounding* (Sections II & III) due **Tue 9/22** — not yet started; high priority
 
----
-
-## Current Status (Fall 2026, First Month)
-
-**Location:** UVA, Charlottesville, VA (arrived Aug 20, 2026; classes began Aug 26)
-
-**Coursework:**
-- CS 1110 (Introduction to Computer Science)
-- ECON 2010 (Microeconomics)
-- MATH 1310 (Calculus 2)
-- PHIL 1730 (Kant's Deontology)
-
-**Immediate deadlines:**
-- **Tue, Sep 22:** Kant, *Grounding for the Metaphysics of Morals*, Sections II & III — **high priority, not started as of Sat 9/19**
-- **Sep 23–29:** Four-exam cluster (critical prep window)
-- **Weekend Sep 19–20:** Clear; reserved for exam prep
-
-**Operational status:** [[RESOLVE]] morning brief and inbox sweep executing cleanly; weekend is structured for intensive prep. Latest briefing: [[RESOLVE Daily Activity 2026-09-19]].
+**Operational Tools:** [[RESOLVE (AI assistant)]] (morning brief, calendar/email/task sync, event discovery)
 
 ---
 
-## Intellectual Profile
+## The Core of Traveler
 
-### Central Questions (from [[Intellectual Interests]])
+**Voice:** Thoughtful, introspective, articulate. Writes with precision and honesty about complexity—moral ambiguity, power dynamics, the self under pressure, the gap between intention and action.
 
-1. **Free will vs. determinism** — core obsession; has moved from "choice is illusion" (2022–2024) to acknowledging the **practical necessity of responsibility** even if free will is metaphysically unresolved
-2. **Individual vs. society** — rebel usually loses, yet individualism remains the only coherent stance
-3. **Morality without God** — what grounds ethics if religion is false? (→ Kant's deontology, currently studying)
-4. **Technology vs. human nature** — does AI/tech enhance or hollow out the self?
+**Worldview:** 
+- Free markets, free people; skeptical of coercion and collective authority
+- Determined believer in individual agency (though the tension between fate and will runs through his work)
+- Spiritually skeptical; intellectually honest about religion, technology, morality
+- Values truth-telling and calibration over flattery
 
-### Demonstrated Capabilities
+**Intellectual Interests:** Free will, morality, the philosophy of technology, political economy, the basis of justice, why people *actually* behave as they do (not as theory predicts)
 
-- **Reading & synthesis:** Digests dense philosophy (Kant, Emerson, Thoreau), complex fiction (Faulkner, Murakami), and theory (Spiegelman)
-- **Writing:** Essays that show genuine intellectual wrestling, not formula; can sustain voice and argument over 3,000+ words
-- **Self-reflection:** Apple notes show constant introspection; candid about doubts, failures, emotional vulnerability
-- **Coding/tech:** Building [[Homework Hatch]] (edtech venture) and personal [[Personal Quant Model|quant models]]; uses AI tools (Cursor, Claude) effectively to extend capability
-
-### Gaps (Honest Assessment)
-
-- **Math beyond calculus:** Foundational, but differential equations, linear algebra, probability/stats are WIP
-- **Quantitative coding:** Can direct an AI to build quant models; coding from first principles is weaker than directed/iterative work
-- **Philosophy study depth:** Reading for ideas; formal deontological ethics (Kant) is new territory, requires deep engagement to master the math/logic
-- **Trading/finance practice:** Model-building is proven; *execution* (risk management, position sizing, actual market decisions) untested
+**Personal Anchors:** [[Naomi]] (girlfriend; most emotionally significant person); [[Porter Stansberry (father)]] (founder of Porter & Co., intellectual role model); his brothers; surfing; reading; coding
 
 ---
 
-## Pattern: Work/Rest Rhythm
+## Writing & Academic Record
 
-Consistent pattern observed in [[RESOLVE Daily Activity|daily logs]]: intense work periods ("lock in" → [[Self-Discipline and Goals]]) alternate with social breaks. Maintains active social life even during exam-prep windows (e.g., 2 AM Uber ride Fri night, Sept 19 context). Not ascetic; integrates life fully.
+### English Curriculum (2022–2026)
+
+**Four-year arc:** Essays on [[Fate and Free Will]] (sophomore year, hardened), [[Identity and Its Collapse]] (senior year, deepened), and recurring themes of power, hierarchy, conformity, and the self under pressure. **Flagship essays:** [[Iliad Essay]], [[Beloved 257-277 Writeup]], [[IB HL English 2 Essay]], [[Gatsby Essay]].
+
+**Grade trajectory:** Consistently A-range (90–98) across four courses; final IB Diploma score: 44/45 (98th percentile).
+
+**Key works read:**
+- Greek: [[The Iliad]], [[Antigone]]
+- American: [[The Great Gatsby]], [[Beloved]], [[One Flew Over the Cuckoo's Nest]], [[Death of a Salesman]]
+- British/Modern: [[A Streetcar Named Desire]], [[The Lion in Winter]], [[Absalom, Absalom!]], [[Station Eleven]], [[The Narrow Road to the Deep North]]
+
+### IB Diploma (2026)
+
+- **English (HL):** 44/45
+- **Economics (SL):** [score] (IA: multi-factor equity model + trader system)
+- **Physics (HL):** [score]
+- **Math (SL):** [score]
+- **History (HL):** [score]
+- **Japanese (SL):** [score]
+- **Theory of Knowledge:** [score]
+- **Extended Essay (Economics):** [score]
+
+**Overall:** 44/45 (98th percentile); **committed to UVA ED**
 
 ---
 
-## Key Relationships & Context
+## Technical Work & Systems (2026 onward)
 
-- **[[Naomi]]** — girlfriend; most emotionally significant person; long-distance (UVA ↔ DC)
-- **[[Porter Stansberry (father)]]** — financial publisher, model for risk-taking/independent thinking; complex relationship (divorce, 2015; reconciliation notes 2025–2026)
-- **[[St. Paul's School]]** — formative environment; Episcopal tradition, high-achieving culture
-- **[[RESOLVE (AI assistant)]]** — personal OS; daily logs document behavior, deadlines, operational intelligence
-- **[[Homework Hatch (startup)]]** — co-founder with Josh; edtech/AI venture; active project running parallel to coursework
+### Personal Quant Model
+[[Personal Quant Model]]: Multi-factor equity model (value, momentum, quality, sentiment). Flask app; live paper trading via alpaca API. **Status:** Model trained, app deployed, paper trading running. **Self-assessment:** Model design strong; coding ability demonstrable but not elite (Cursor-assisted).
+
+### The Edge
+[[The Edge (trading model)]]: Short-horizon momentum/acceleration trader. Separate system; **status undetermined** (not yet documented in this corpus).
+
+### Homework Hatch
+[[Homework Hatch (startup)]]: Edtech/AI venture with Josh. **Status:** Active development (2026). AI-powered homework help product; venture-stage (not scaled). Traveler is co-founder.
+
+### RESOLVE
+[[RESOLVE (AI assistant)]]: Personal operating system. Calendar, email, task sync; morning briefing; event discovery. Live since 2026-07-12; **operational and reliable** (no critical errors; consistently accurate daily briefs and inbox sweeps).
+
+### Vision / Sauron
+[[Vision (Porter Intelligence)]]: Consumer static site for quant outputs. **Status:** Planned/early stage.
+
+### Tools & Platforms
+- **Cursor:** AI code editor; used for model building, Flask app, automation
+- **n8n:** Automation platform; potentially integrated with RESOLVE
+- **Alpaca API:** Paper trading for Personal Quant Model
+- **Flask:** Web framework for quant model deployment
 
 ---
 
-## Sources & Backlinks
+## Self-Discipline & Goals
 
-- [[RESOLVE Daily Activity 2026-09-19]] — latest operational snapshot
-- [[UVA and the Quant Question]] — academic path and quant decision
-- [[Self-Discipline and Goals]] — work/rest rhythm pattern
-- [[Intellectual Interests]] — philosophical questions
-- [[Core Convictions]] — distilled beliefs with evidence
+[[Self-Discipline and Goals]]: Traveler's pattern is **structured intensity alternating with social breaks**. "Lock in" periods (weekends, exam prep) with high-discipline output; school days with more social flexibility. Not ascetic, but intentional. Examples:
+- "75 Hard" aspirations (cold showers, reading, discipline streaks)
+- Exam week: concentrated prep, minimize distractions
+- Break weeks: more social, more relaxed schedule
+
+**Current rhythm:** Monday Sep 21 transitions from weekend prep into exam week proper. Two review lectures today; Kant reading due tomorrow; four exams in 7 days. System is in "lock in" mode.
+
+---
+
+## Calibration Notes
+
+> [!warning] Technical Skill Calibration
+> **Demonstrated:** Model design (quant), deployment (Flask), code assistance (Cursor-directed). **Not demonstrated:** coding from scratch without AI assistance, debugging complex systems, scaling production code. **Gap:** Traveler directs AI to build; he doesn't yet build alone. This is a real skill boundary, not a confidence gap. Closing it requires independent coding projects.
+
+> [!note] Exam Week Context (Sep 21–29)
+> RESOLVE flagged an unknown-sender calendar event (Kyle Kelker, Wed Sep 23, 4:00–4:45 PM) at a critical moment. **Action:** Verify whether this is a scheduled meeting (study group, class activity, etc.) or unsolicited before exam day. Time slot may conflict with or be adjacent to ECON 2010 exam window.
+
+---
+
+## Related Pages
+
+- [[UVA and the Quant Question]] — current coursework & career decision
+- [[RESOLVE (AI assistant)]] — operational system
+- [[Self-Discipline and Goals]] — daily rhythm
+- [[Personal Quant Model]], [[The Edge (trading model)]], [[Homework Hatch (startup)]] — technical projects
+- [[Reading List]] — independent reading
+- [[Political and Economic Views]] — worldview
+- [[Naomi]] — most significant relationship
