@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-08-30
-updated: 2026-09-21
+updated: 2026-09-22
 tags: [systems, automation, ai, resolve, personal-ops]
 status: active
 sources: [
@@ -31,7 +31,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-17]]",
   "[[RESOLVE Daily Activity 2026-09-18]]",
   "[[RESOLVE Daily Activity 2026-09-19]]",
-  "[[RESOLVE Daily Activity 2026-09-21]]"
+  "[[RESOLVE Daily Activity 2026-09-21]]",
+  "[[RESOLVE Daily Activity 2026-09-22]]"
 ]
 ---
 
@@ -39,88 +40,86 @@ sources: [
 
 **[[Traveler Stansberry]]'s autonomous AI assistant and operational system.** RESOLVE handles calendar, email, task management, briefings, and data pipelines. Live since 2026-07-12; daily activity logs document performance, patterns, and operational intelligence.
 
-## Current Status (2026-09-21)
+## Current Status (2026-09-22)
 
 **System Health:** Operational; no critical errors  
 **Active Since:** July 12, 2026  
-**Current Context:** Traveler is at UVA (Fall 2026, first month); **exam week begins Monday Sep 21**. Four exams in 7 days (Sep 23–29). Monday morning featured two back-to-back review lectures (ECON 2010, CS 1110); high-priority Kant reading due Tue 9/22 (not yet started). Unknown calendar event flagged (Kyle Kelker, Wed 4:00–4:45 PM, adjacent to exam window).
+**Current Context:** Traveler is at [[UVA]] (Fall 2026, first month); **exam week in progress** (Sep 23–29). Tuesday Sep 22 is a high-stress day with Kant's *Grounding* due in afternoon lecture (PHIL 1730 15:30–16:20).
 
----
+## Architecture
 
-## Architecture & Capabilities
+**Core Functions:**
+- Morning brief (next 2 days, classes, tasks, unread email, urgency flags)
+- Daily inbox-to-calendar sweep (email → calendar extraction, RSVP drafting, event conflict detection)
+- Task sync with Notion
+- Calendar + email connectors (Outlook, Gmail, Telegram)
+- Audit for prompt-injection attempts
 
-RESOLVE is a **multi-command agent** integrating:
+**Integrations:**
+- Outlook email + calendar
+- Gmail (restored Sep 2026; was down Jun 30–early Jul)
+- Notion task management
+- Telegram (low-traffic queue)
+- School day API (`get_school_day` → classes + coursework)
 
-- **Calendar sync** — pull schedule for next N days; display classes, meetings, deadlines
-- **Email integration** — scan recent inbox (configurable lookback); flag actionable items (invites, RSVPs, deadlines)
-- **Task management** — read Notion database; display open goals and priorities
-- **Morning briefing** — warm, prioritized summary (classes today, urgent deadlines, inbox highlights)
-- **Inbox-to-calendar sync** — compare email events against calendar; surface new or conflicting commitments
-- **Error handling** — skip failed connectors instead of hard-stopping; log issues
+**Data Flow:**
+1. Fetch email (last N days, limit M items)
+2. Fetch calendar (next 30 days)
+3. Fetch Notion tasks (open items)
+4. Extract real-world events (appointments, deadlines, RSVPs)
+5. Detect conflicts, flag urgent items, draft responses
+6. Generate morning brief (warm, actionable, high-signal)
+7. Archive logs to agent record
 
-**Operational philosophy:** Autonomous, non-blocking. Morning brief runs first thing; sweep happens on request or schedule. Errors are logged and reported, not fatal.
+## Operational Pattern (Jul–Sep 2026)
 
----
+### System Maturation
+- **Late Jul (2026-07-20 onward):** Initial setup; frequent errors (Gmail permissions, Notion unavailable, connectors flaky).
+- **Early-Mid Aug (2026-08-01+):** Stabilization. Most connectors solid; Gmail restored. Email/calendar nominal.
+- **Late Aug (2026-08-20+):** Cruising. Clear inboxes, clean calendars, minimal noise. Good weather for testing edge cases.
+- **Early Sep (2026-09-01+):** Back to school. Heavier calendar load (classes resume). Noise increases but system handles it.
+- **Mid-Sep (2026-09-15+):** Exam week prep. Calendar densifies; Kant reading deferred repeatedly. Task volume rises.
+- **Sep 22 (today):** Exam week live. High urgency; high-stakes convergence (Kant due + lecture same time).
 
-## Daily Activity Log (Recent)
+### Inbox Cleanliness & Calendar Signal-to-Noise
+- **Late Aug:** Inboxes mostly empty; calendar sparse. High SNR (signal-to-noise ratio).
+- **Early-Mid Sep:** Steady increase in noise (promotional, spam, social media). Real events isolated but actionable.
+- **Sep 22:** Still cleanish inbox (50 items in 2 days = low volume), but pure noise — no real-world events for RESOLVE to extract.
 
-| Date | Status | Key Events | Notes |
-|------|--------|-----------|-------|
-| **Sep 21 (Mon)** | ✓ Complete | Morning brief, inbox sweep | Exam week starts; two review lectures; Kyle Kelker calendar flag |
-| **Sep 19 (Sat)** | ✓ Complete | Morning brief, inbox sweep | Clear weekend day; Kant reading deadline awareness (Tue 9/22) |
-| **Sep 18 (Fri)** | ✓ Complete | Morning brief, inbox sweep | End of first full week of classes |
-| Sep 17–13 | ✓ Ongoing | Consistent daily operation | School routine, no critical events |
+### Email Sources (Pattern)
+- **Real:** School emails, professor office-hour notices, RSVP invitations, travel/logistics
+- **Noise:** Twitch, Shutterclub, marketing (beehiiv, MyClaw, Tumblr, Snacks)
+- **Spam:** Duplicate promotional campaigns (Shutterfly's "Still going!" sale has appeared 3+ times Sep)
 
-**Latest notable:** [[RESOLVE Daily Activity 2026-09-21|2026-09-21]] — morning brief correctly led with exam-week framing and two critical review lectures. Inbox sweep identified unknown sender (Kyle Kelker) with Wed Sep 23 4:00–4:45 PM invite — timing concern: potentially adjacent to or conflicting with ECON 2010 exam window.
+## Key Observations
 
----
+### Strength: Morning Brief Clarity
+RESOLVE's morning briefs are **warm, prioritized, and actionable**. When there are real events, they surface immediately. When there are none (like Sep 22), the brief is honest ("nothing calendar-worthy") and shifts focus to coursework/readings. This is reliable.
 
-## Patterns & Observations
+### Strength: Connector Stability
+After stabilization in Aug, connectors have been solid. No critical failures since Gmail was restored. Occasional non-critical issues (e.g., Notion unavailable in one session) are handled gracefully (skip, don't crash).
 
-### Morning Brief Quality
-- Consistently **warm, conversational tone** with accurate calendar reads
-- **Correct prioritization** — leads with classes/deadlines before minor items
-- Flags high-priority upcoming work (e.g., Kant reading, exam prep)
-- Exam-week context properly emphasized
+### Strength: Prompt-Injection Detection
+Sep 22 saw 1 injection attempt, which was blocked. Audit flag is in place. This is working.
 
-### Inbox Management
-- Email sweeps are **clean and efficient**; no false positives
-- Unknown senders correctly flagged (Kyle Kelker, 2026-09-21)
-- Event extraction is **accurate** — times match source invites, no invention
-- Two-day lookback appropriately captures event-horizon items
+### Weakness: Email Noise Filtering
+Inboxes accumulate spam/promotional mail at a steady clip. RESOLVE correctly filters it (doesn't pollute calendar), but the volume is creeping. Consider: whitelist for true events, aggressive unsubscribe, or digest batching.
 
-### Error Handling
-- **No connector crashes** to date; graceful skip of failed integrations (per design)
-- System stays **operational even during partial failures**
+### Weakness: Missing Integration — Academic Deadlines
+Kant's *Grounding* was deferred for a week before Sep 22. RESOLVE surfaced it in the morning brief *on the day it's due*, not before. **Gap:** no integration with syllabus/course calendar to flag upcoming deadlines 3–7 days out. The reading was *actionable* (could've been started anytime), but RESOLVE only flagged it when escape velocity was near-zero.
 
-### Exam Week Performance
-RESOLVE is proving its value during high-stress periods: correct emphasis on review lectures, deadline flagging (Kant), and event discovery. System holds together the operational load that would otherwise fragment Traveler's attention.
+*Implication:* RESOLVE is excellent for **real-time operations** (calendar/email today), but lacks **forward-looking academic planning**. A course-calendar integration or a "readings due in next 7 days" briefing would catch these earlier.
 
----
+## Daily Activity Logs
 
-## Integration Points
+Latest logs: see [[RESOLVE Daily Activity 2026-09-22]] (today) and linked history.
 
-[[Traveler Stansberry]]'s operational stack:
-- **Calendar:** Google Calendar (classes, exams, meetings, reminders)
-- **Email:** Gmail (class announcements, invites, deadlines)
-- **Tasks:** Notion (open goals, priorities, coursework checklist)
-- **Personal notes:** Apple Notes (archived 2022–2026, 274 notes triaged)
-- **Code/automation:** Cursor (AI code editor), n8n (automation workflows)
-
-RESOLVE binds these into a single **daily operational briefing** and **event-discovery pipeline**.
-
----
-
-## Gaps & Observations
-
-> [!note] Calibration
-> **RESOLVE's demonstrated strength:** operational hygiene, calendar accuracy, tone/prioritization. The system runs reliably and surfaces actionable information correctly. **Gaps:** the system cannot *decide* (e.g., should Traveler attend the CS 1110 review if time-constrained?), cannot infer *intent* from calendar conflicts, and **cannot verify unknown contacts** (Kyle Kelker flag is correct, but RESOLVE can only report the flag, not resolve it). Human judgment remains essential for event verification and priority trade-offs.
+For a sense of the full operational record (Jul–Sep), see the `sources:` frontmatter above. Each day is a mini-narrative of what the system encountered and handled.
 
 ---
 
 ## Related Pages
-
-- [[Traveler Stansberry]] — subject/user
-- [[Self-Discipline and Goals]] — how RESOLVE supports the daily rhythm
-- [[UVA and the Quant Question]] — context for Fall 2026 coursework
-- All [[RESOLVE Daily Activity]] pages — detailed daily logs
+- [[Traveler Stansberry]] — the human operator
+- [[UVA and the Quant Question]] — academic context (Finance + Math minor at UVA)
+- [[Homework Hatch (startup)]] — his edtech startup (also uses AI/automation)
+- [[Personal Quant Model]] · [[The Edge (trading model)]] — investment/coding systems (parallel to RESOLVE)
