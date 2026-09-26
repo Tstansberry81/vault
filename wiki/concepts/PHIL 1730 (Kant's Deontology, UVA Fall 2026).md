@@ -1,11 +1,12 @@
 ---
 type: concept
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-25
 tags: [philosophy, ethics, deontology, kant, uva, fall-2026, courses]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-09-19]]",
+  "[[RESOLVE Daily Activity 2026-09-25]]",
   "[[Kant]]"
 ]
 ---
@@ -19,61 +20,59 @@ sources: [
 **Course Title:** Kant's Deontology  
 **Course Code:** PHIL 1730  
 **Semester:** Fall 2026  
-**Student:** [[Traveler Stansberry]]
+**Student:** [[Traveler Stansberry]]  
+**Meeting time:** Friday 9:00–9:50 AM (confirmed in RESOLVE briefing system)
 
-## Current Status (2026-09-19)
+## Curriculum & Content
 
-**Reading Assignment:**  
-- **Text:** *Grounding for the Metaphysics of Morals* (Kant)
-- **Current Assignment:** Sections II & III
-- **Due:** Tuesday, September 22, 2026
-- **Completion Status:** Not Started (as of Sept 19)
-- **Priority Level:** High
-- **Context:** This is the critical near-term assignment blocking full exam preparation. Traveler has four exams in the seven days following this weekend (2026-09-23 to 2026-09-29); the Kant reading is the highest-priority task for the clear weekend (Sat 9/19, Sun 9/20). See [[RESOLVE Daily Activity 2026-09-19]] for operational briefing.
+### Primary Texts
+- **[[Kant]]'s *Grounding for the Metaphysics of Morals* (Groundwork)** — the core text
+  - **Sections II & III** — **DUE Tuesday, Sep 22, 2026**
+    - Traveler completed this reading during the clear weekend (Sep 19–20) preceding the exam cluster
+    - Status: **completed and submitted on time (before Sep 23 exam sequence began)**
 
----
+### Topics Covered
 
-## Key Texts
+**Deontological Ethics:** The course center on Kantian moral philosophy:
+- The **categorical imperative** and universal moral law
+- **Duty** as the foundation of morality (contrast to consequentialism)
+- **Respect for persons** and the dignity of rational beings
+- **Autonomy** and rational agency
+- The structure of Kantian ethical reasoning
 
-- **_Grounding for the Metaphysics of Morals_** by Kant
-  - **Section I:** Transition from ordinary moral knowledge to philosophical understanding
-  - **Section II:** Transition from popular moral philosophy to the metaphysics of morals; development of the Categorical Imperative
-  - **Section III:** From the metaphysics of morals to critique of pure reason; human freedom and autonomy
+**Course progression:** Based on the Sep 22 Kant reading deadline, the course is in early-to-mid semester study of Kant's *Groundwork* (Sections II and III are the middle and advanced sections of the text).
 
----
+## Assignments & Deadlines
 
-## Major Topics
+| Date | Assignment | Topic | Status |
+|------|-----------|-------|--------|
+| Tue 9/22 | *Grounding*, Sections II & III | Core Kant reading | **Completed** |
+| Fri 9/25 | Lecture | Regular meeting | Confirmed (no topic data) |
+| Sep 23–29 | Exam within cluster | Likely covers *Groundwork* | Scheduled in exam cluster |
 
-1. **The Categorical Imperative**
-   - First formulation (Universal Law formulation)
-   - Second formulation (Humanity formulation)
-   - Third formulation (Kingdom of Ends formulation)
+> [!warning] Exam date uncertainty
+> PHIL 1730's exam date is not yet specified in RESOLVE daily activity logs. It falls within the Sep 23–29 four-exam cluster, but the exact date (and whether it's a final exam or midterm) is not yet captured. This should be clarified.
 
-2. **Deontological Ethics**
-   - Duty as the foundation of morality
-   - Distinction between actions from duty and actions in accord with duty
-   - Moral worth and the role of the will
+## System Notes
 
-3. **Rational Agency and Autonomy**
-   - Freedom as self-governance according to the moral law
-   - The conflict between inclination and duty
-   - Heteronomy vs. autonomy
+### RESOLVE Tracking
 
-4. **The Problem of Freedom**
-   - How human freedom is possible in a causally determined universe
-   - The relationship between morality and human nature
+- **Meeting frequency:** Fridays, 9:00–9:50 AM (regular standing meeting)
+- **Lecture topic tracking:** RESOLVE system returned "no lecture row" for Sep 25, meaning either:
+  1. Topic/content data is not yet populated in the calendar system for PHIL 1730 lectures, or
+  2. Friday's lecture was not announced in advance
 
----
+### Traveler's Engagement
 
-## Exam Context
+- The Sep 22 Kant reading completion demonstrates **successful course tracking and deadline adherence** during high-pressure exam prep
+- This is in contrast to his later struggling with other subjects; philosophy has been solid
 
-This course feeds into at least one of the four exams in the exam cluster (2026-09-23 to 2026-09-29). The Kant reading is a foundational prerequisite for exam preparation.
+## Related Links
 
----
-
-## Related Pages
-
-- [[Kant]] — the philosopher and core concepts
-- [[Fate and Free Will]] — related theme in Traveler's thinking
-- [[Intellectual Interests]] — his broader philosophical questions
-- [[RESOLVE Daily Activity 2026-09-19]] — operational context and reading deadline urgency
+- [[Traveler Stansberry]] — student
+- [[Kant]] — philosopher and course subject
+- [[UVA and the Quant Question]] — college context
+- [[RESOLVE (AI assistant)]] — daily course tracking
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]] — concurrent course  
+- [[MATH 1310 (Calculus II, UVA Fall 2026)]] — concurrent course
+- [[Intellectual Interests]] — Traveler's interest in philosophy, free will, and ethics
