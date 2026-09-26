@@ -41,15 +41,27 @@ The course is organized by **units** focused on programming fundamentals:
 |----------|-----------|-----------|--------|-------|
 | Wed 9/16 | PA-01 | Unit 3: Conditionals | Completed | Programming Assignment 1 |
 | Fri 9/18 | Quiz-02 | Unit 3 | Completed | Weekly quiz |
-| Fri 9/25 | **Quiz-03** | Unit 3: For Loop-2 | Due today | Weekly quiz; lecture topic confirmed Sep 25 |
-| Mon 9/28 | **Exam 1** | Comprehensive | Scheduled | 11:00 AM early-term exam |
+| Fri 9/25 | Quiz-03 | Unit 3: For Loop-2 | **Due today** | Weekly quiz; lecture topic confirmed Sep 25 |
+| **Mon 9/28** | **Exam 1** | Basics through For Loops | **SCHEDULED** | 11:00 AM; in-class; comprehensive coverage through Unit 3 |
+
+## Exam 1 Details
+
+**CS 1110 Exam 1 — Monday, Sep 28, 2026**
+
+- **Time:** 11:00 AM (scheduled during regular lecture slot)
+- **Format:** In-class exam
+- **Coverage:** All material from course start through **For Loops** (Unit 3 complete)
+  - Conditionals (if/else, nested conditionals)
+  - Loop structures (for loops, loop mechanics)
+  - Basic programming patterns and logic
+
+**Context:** This exam falls mid-way through the high-pressure exam cluster (Sep 23–29: four exams in 7 days). CS 1110 Exam 1 (Mon 9/28) is followed immediately by **PHIL 1730 First Exam on Tue 9/29** — two consecutive exam days.
 
 ## Workload & Pacing
 
-**Weekly pattern:** Quizzes every Friday (Quiz-02 on 9/18, Quiz-03 on 9/25, implying Quiz-01 was earlier in Sept). Each quiz corresponds to the week's unit topic. Exams cluster heavily in late September (Exam 1 on Monday 9/28, as part of the 4-exam cluster Sep 23–29).
+**Weekly pattern:** Quizzes every Friday (Quiz-02 on 9/18, Quiz-03 on 9/25). Each quiz corresponds to the week's unit topic. The Friday quiz schedule creates a steady check-in on unit mastery before the Monday exam.
 
-> [!warning] Exam cluster context
-> CS 1110 Exam 1 (Monday 9/28) falls in the middle of Traveler's high-pressure exam week (4 exams in 7 days, Sep 23–29). This requires careful time allocation during the Sep 25–27 weekend preceding the exam.
+**Quiz-03 and exam readiness:** Quiz-03 (due Sep 25, Friday) serves as the final formative assessment before Exam 1 (Sep 28, Monday). This 3-day gap is standard prep time.
 
 ## Related Links
 
@@ -58,4 +70,4 @@ The course is organized by **units** focused on programming fundamentals:
 - [[RESOLVE (AI assistant)]] — daily course tracking via morning briefs
 - [[Cursor (AI code editor)]] — coding environment used for assignments
 - [[MATH 1310 (Calculus II, UVA Fall 2026)]] — concurrent course
-- [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)]] — concurrent course
+- [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)]] — concurrent course; exam on Tue 9/29 (day after CS 1110 Exam 1)
