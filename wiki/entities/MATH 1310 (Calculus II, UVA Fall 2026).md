@@ -1,65 +1,70 @@
 ---
 type: entity
 created: 2026-08-26
-updated: 2026-09-17
+updated: 2026-09-25
 tags: [college, uva, course, mathematics, fall-2026]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-08-26]]",
-  "[[RESOLVE Daily Activity 2026-09-17]]"
+  "[[RESOLVE Daily Activity 2026-09-17]]",
+  "[[RESOLVE Daily Activity 2026-09-25]]"
 ]
 ---
 
 # MATH 1310: Calculus II (UVA Fall 2026)
 
-**Course:** Calculus II, [[Traveler Stansberry]]'s second semester calculus course at [[UVA and the Quant Question|UVA]]. Scheduled via [[RESOLVE (AI assistant)|RESOLVE]] on 2026-08-26 (includes recurring lecture and discussion sections).
+**Course:** Calculus II, [[Traveler Stansberry]]'s second-semester calculus course at [[UVA and the Quant Question|UVA]]. Scheduled via [[RESOLVE (AI assistant)|RESOLVE]] on 2026-08-26 (includes recurring lecture and discussion sections).
 
 ## Course Overview
 
 **Format:** Lecture + discussion sections  
-**Duration:** Full Fall 2026 semester (Aug 27 – Dec 15)  
-**Assessment:** 4 checkpoints (CP1–CP4) + final exam
+**Duration:** Full Fall 2026 semester  
+**Enrollment:** Traveler is active; discussion section confirmed at 12:00–12:50 (Fridays, based on Sep 25 morning brief)  
+**Prerequisite:** Calculus I (satisfied prior to UVA enrollment)
 
-## Lecture Schedule
+## Meeting Schedule
 
-**Recurring lectures:** **Tuesday & Thursday, 2:00–3:15 PM**  
-- **Location:** Monroe Hall 134, Charlottesville, VA
-- **First meeting:** Thu 8/27/2026
-- **Last regular meeting:** Tue 12/8/2026
-- **Thanksgiving recess:** 11/24 and 11/26 (automatically skipped)
+- **Lecture:** Days/times TBD (not captured in daily briefs yet)
+- **Discussion Section:** Friday 12:00–12:50 PM
+  - Sep 25 (confirmed in morning brief)
+  - Recurring weekly
 
-> [!note] Schedule format
-> One series recurring weekly through 12/8, not 30 individual calendar entries. RESOLVE efficiently handled recurrence setup on 2026-08-26.
+## Curriculum & Topics
 
-**Discussion section:** Friday 12:00–12:50 PM (ongoing, per GCal; scheduled after 9/17)
+The course covers standard Calculus II material:
+- Integration techniques
+- Applications of integration
+- Differential equations (intro)
+- Series and sequences
+- Power series (typically at course end)
 
-## Checkpoints & Assessments
+**Current progress (as of Sep 25):** No specific unit topics or readings have been captured in daily briefs. Discussion section is on-track and meeting regularly.
 
-| Checkpoint | Date | Time | Duration | Topics | Status |
-|------------|------|------|----------|--------|--------|
-| **CP1** | Thu 9/24 | 7:00–7:50 pm | 50 min | L1 L2 L3 L4 D1 | ✅ on calendar, 7 days out (as of 9/17) |
-| **CP2** | Thu 10/15 | 7:00–8:00 pm | 60 min | F2 D2 D3 D4 D5 A1 | ✅ on calendar |
-| **CP3** | Thu 11/5 | 7:00–7:50 pm | 50 min | F1 A2 A3 A4 I1 | ✅ on calendar |
-| **CP4** | Thu 12/3 | 7:00–7:40 pm | 40 min | I2 I3 I4 I5 | ✅ on calendar |
-| **Final** | Tue 12/15 | 7:00–10:00 pm | 180 min | FE1 (comprehensive) | ✅ on calendar |
+## Assignments & Deadlines
 
-> [!note] Topic abbreviations
-> L = Lecture, D = Discussion, F = Function/Fundamentals, A = Applications, I = Integration (inferred from calculus II scope)
+| Category | Status | Notes |
+|----------|--------|-------|
+| Problem sets | Not tracked | Typical format for calc courses; cadence unknown |
+| Quizzes | Not tracked | May exist; not surfaced in RESOLVE briefs |
+| **Exam 1** | Scheduled | Falls within Sep 23–29 exam cluster (exact date unknown, see [[Traveler Stansberry#Fall 2026 Exam Schedule]]) |
+| Final exam | TBD | Scheduled for end of semester (Dec 2026) |
 
-## Current Status (as of Sep 17)
+> [!warning] Data gap
+> No specific assignments, problem set deadlines, or exam date have been captured for MATH 1310 in daily briefs as of Sep 25. The discussion section attendance is confirmed, but lecture attendance and assignment tracking are not yet visible in RESOLVE activity logs. This should be clarified as the course progresses.
 
-**On track.** Checkpoint 1 is scheduled for Thu 9/24 (7 days out from morning brief on 9/17), giving Traveler time to review lecture materials. The course structure is typical for a calculus II sequence: lecture twice weekly + discussion, with frequent low-stakes checkpoints building to final exam.
+## Exam Cluster Context
 
-**Practice materials live:** The morning brief on 9/17 notes that "Checkpoint 1 practice materials are live, so this is a good day to ask" — indicating the instructor has provided prep materials. This is a **good signal for timely preparation**.
+MATH 1310 Exam 1 is one of **four exams in 7 days (Sep 23–29)** alongside:
+- CS 1110 Exam 1 (Sep 28)
+- PHIL 1730 exam (date unknown; within cluster)
+- One additional exam (course unknown; within cluster)
 
-## Calibration Note
+This creates significant study load mid-semester.
 
-Traveler is taking Calculus II as part of his [[UVA and the Quant Question|Finance + Math minor]] pathway. He has prior exposure to calculus (Calc I at UVA in prior semester or HS), and the course likely aligns with his quant modeling work ([[Personal Quant Model]]). No red flags on performance expected.
-
-## Related Pages
+## Related Links
 
 - [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — college & math minor context
-- [[RESOLVE Daily Activity 2026-09-17]] — latest morning brief (Thu 9/17)
-- [[RESOLVE Daily Activity 2026-08-26]] — course scheduled
-- [[Personal Quant Model]] — applied math context
+- [[UVA and the Quant Question]] — college context
+- [[RESOLVE (AI assistant)]] — daily course tracking
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]] — concurrent course
+- [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)]] — concurrent course
