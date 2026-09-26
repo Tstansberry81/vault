@@ -1,7 +1,7 @@
 ---
 type: entity
 created: 2026-06-15
-updated: 2026-09-21
+updated: 2026-09-25
 tags: [person/author, self, uva, fall-2026]
 sources: [
   "[[When I Feel Like an Outsider]]",
@@ -33,7 +33,8 @@ sources: [
   "[[RESOLVE Daily Activity 2026-09-14]]",
   "[[RESOLVE Daily Activity 2026-09-16]]",
   "[[RESOLVE Daily Activity 2026-09-19]]",
-  "[[RESOLVE Daily Activity 2026-09-21]]"
+  "[[RESOLVE Daily Activity 2026-09-21]]",
+  "[[RESOLVE Daily Activity 2026-09-25]]"
 ]
 ---
 
@@ -41,114 +42,50 @@ sources: [
 
 **The author and subject of this wiki.** Determinist, skeptic, individualist; a writer, thinker, coder, and quant in development. Currently at [[UVA]] (Fall 2026, first month); committed to [[UVA and the Quant Question|Finance + Math minor, with open quant career decision]].
 
-## Current Situation (2026-09-21)
+## Current Situation (as of 2026-09-25)
 
 **Location:** University of Virginia, Charlottesville, VA  
-**Status:** First month of Fall 2026; **exam week begins today (Monday Sep 21)**  
-**Academic Load:** ECON 2010, CS 1110, and other coursework (see [[UVA and the Quant Question|UVA coursework]])  
-**Immediate Pressure:** Four exams in 7 days (Sep 23–29)  
-**Outstanding Deadline:** Kant, *Grounding* (Sections II & III) due **Tue 9/22** — not yet started; high priority
+**Status:** First month of Fall 2026; **in the middle of four-exam cluster (Sep 23–29)**  
+**Academic Load:** [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)|PHIL 1730]], [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]], [[MATH 1310 (Calculus II, UVA Fall 2026)|MATH 1310]], and at least one other course
 
-**Operational Tools:** [[RESOLVE (AI assistant)]] (morning brief, calendar/email/task sync, event discovery)
+### Fall 2026 Exam Schedule
 
----
+| Exam | Course | Date | Time | Coverage |
+|------|--------|------|------|----------|
+| Exam 1 | [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)\|CS 1110]] | **Mon, Sep 28** | 11:00 AM | Basics through For Loops (Unit 3 complete) |
+| First Exam | [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)\|PHIL 1730]] | **Tue, Sep 29** | TBD | Plato, Aristotle NE, Rachels, Kant *Grounding* I–III |
+| Exam 1 | [[MATH 1310 (Calculus II, UVA Fall 2026)\|MATH 1310]] | Within cluster (date TBD) | TBD | TBD |
+| Unknown | Unknown course | Within cluster (date TBD) | TBD | TBD |
 
-## The Core of Traveler
+**Cluster context:** Four exams compressed into 7 days (Sep 23–29). Most stress concentrated in Sep 28–29 (consecutive exam days: CS 1110 Mon → PHIL 1730 Tue).
 
-**Voice:** Thoughtful, introspective, articulate. Writes with precision and honesty about complexity—moral ambiguity, power dynamics, the self under pressure, the gap between intention and action.
+### Current Coursework Status (2026-09-25)
 
-**Worldview:** 
-- Free markets, free people; skeptical of coercion and collective authority
-- Determined believer in individual agency (though the tension between fate and will runs through his work)
-- Spiritually skeptical; intellectually honest about religion, technology, morality
-- Values truth-telling and calibration over flattery
+**[[PHIL 1730 (Kant's Deontology, UVA Fall 2026)|PHIL 1730]]**
+- Reading: *Grounding for the Metaphysics of Morals*, Sections II & III ✓ **completed on-time (due 9/22)**
+- Upcoming: Mill, *Utilitarianism* Ch 1–2 due Oct 1 (not yet started, medium priority)
+- Exam: Tue Sep 29 (covers Plato, Aristotle, Rachels, Kant I–III)
 
-**Intellectual Interests:** Free will, morality, the philosophy of technology, political economy, the basis of justice, why people *actually* behave as they do (not as theory predicts)
+**[[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]]**
+- Unit 3: Conditionals & Loops (For Loop-2)
+- Quiz-03 due **today (Sep 25)**
+- Exam: Mon Sep 28, 11:00 AM
 
-**Personal Anchors:** [[Naomi]] (girlfriend; most emotionally significant person); [[Porter Stansberry (father)]] (founder of Porter & Co., intellectual role model); his brothers; surfing; reading; coding
+**[[MATH 1310 (Calculus II, UVA Fall 2026)|MATH 1310]]**
+- Discussion section meeting regularly (Fri 12:00–12:50)
+- Assignments/topics not yet visible in RESOLVE briefs; data gap exists
+- Exam: Within cluster (date unknown)
 
----
+**Unknown 4th exam:** At least one more exam in the cluster; details not yet surfaced in RESOLVE tracking.
 
-## Writing & Academic Record
+## Life & System
 
-### English Curriculum (2022–2026)
+**Intellectual core:** [[Fate and Free Will]], [[Individual vs. Society]], [[Faith vs. Knowledge]] — themes developed over four years of English coursework (2022–26) and now tested in higher education.
 
-**Four-year arc:** Essays on [[Fate and Free Will]] (sophomore year, hardened), [[Identity and Its Collapse]] (senior year, deepened), and recurring themes of power, hierarchy, conformity, and the self under pressure. **Flagship essays:** [[Iliad Essay]], [[Beloved 257-277 Writeup]], [[IB HL English 2 Essay]], [[Gatsby Essay]].
+**Operational system:** [[RESOLVE (AI assistant)]] — autonomous AI handling calendar, email, task queue, and daily briefing. Performing well; all deadlines met to date despite exam cluster stress.
 
-**Grade trajectory:** Consistently A-range (90–98) across four courses; final IB Diploma score: 44/45 (98th percentile).
+**Projects in background:** [[Personal Quant Model]], [[The Edge (trading model)]], [[Vision (Porter Intelligence)]], [[Homework Hatch (startup)]] — deferred during exam cluster; expected to resume in October.
 
-**Key works read:**
-- Greek: [[The Iliad]], [[Antigone]]
-- American: [[The Great Gatsby]], [[Beloved]], [[One Flew Over the Cuckoo's Nest]], [[Death of a Salesman]]
-- British/Modern: [[A Streetcar Named Desire]], [[The Lion in Winter]], [[Absalom, Absalom!]], [[Station Eleven]], [[The Narrow Road to the Deep North]]
+## Historical Context
 
-### IB Diploma (2026)
-
-- **English (HL):** 44/45
-- **Economics (SL):** [score] (IA: multi-factor equity model + trader system)
-- **Physics (HL):** [score]
-- **Math (SL):** [score]
-- **History (HL):** [score]
-- **Japanese (SL):** [score]
-- **Theory of Knowledge:** [score]
-- **Extended Essay (Economics):** [score]
-
-**Overall:** 44/45 (98th percentile); **committed to UVA ED**
-
----
-
-## Technical Work & Systems (2026 onward)
-
-### Personal Quant Model
-[[Personal Quant Model]]: Multi-factor equity model (value, momentum, quality, sentiment). Flask app; live paper trading via alpaca API. **Status:** Model trained, app deployed, paper trading running. **Self-assessment:** Model design strong; coding ability demonstrable but not elite (Cursor-assisted).
-
-### The Edge
-[[The Edge (trading model)]]: Short-horizon momentum/acceleration trader. Separate system; **status undetermined** (not yet documented in this corpus).
-
-### Homework Hatch
-[[Homework Hatch (startup)]]: Edtech/AI venture with Josh. **Status:** Active development (2026). AI-powered homework help product; venture-stage (not scaled). Traveler is co-founder.
-
-### RESOLVE
-[[RESOLVE (AI assistant)]]: Personal operating system. Calendar, email, task sync; morning briefing; event discovery. Live since 2026-07-12; **operational and reliable** (no critical errors; consistently accurate daily briefs and inbox sweeps).
-
-### Vision / Sauron
-[[Vision (Porter Intelligence)]]: Consumer static site for quant outputs. **Status:** Planned/early stage.
-
-### Tools & Platforms
-- **Cursor:** AI code editor; used for model building, Flask app, automation
-- **n8n:** Automation platform; potentially integrated with RESOLVE
-- **Alpaca API:** Paper trading for Personal Quant Model
-- **Flask:** Web framework for quant model deployment
-
----
-
-## Self-Discipline & Goals
-
-[[Self-Discipline and Goals]]: Traveler's pattern is **structured intensity alternating with social breaks**. "Lock in" periods (weekends, exam prep) with high-discipline output; school days with more social flexibility. Not ascetic, but intentional. Examples:
-- "75 Hard" aspirations (cold showers, reading, discipline streaks)
-- Exam week: concentrated prep, minimize distractions
-- Break weeks: more social, more relaxed schedule
-
-**Current rhythm:** Monday Sep 21 transitions from weekend prep into exam week proper. Two review lectures today; Kant reading due tomorrow; four exams in 7 days. System is in "lock in" mode.
-
----
-
-## Calibration Notes
-
-> [!warning] Technical Skill Calibration
-> **Demonstrated:** Model design (quant), deployment (Flask), code assistance (Cursor-directed). **Not demonstrated:** coding from scratch without AI assistance, debugging complex systems, scaling production code. **Gap:** Traveler directs AI to build; he doesn't yet build alone. This is a real skill boundary, not a confidence gap. Closing it requires independent coding projects.
-
-> [!note] Exam Week Context (Sep 21–29)
-> RESOLVE flagged an unknown-sender calendar event (Kyle Kelker, Wed Sep 23, 4:00–4:45 PM) at a critical moment. **Action:** Verify whether this is a scheduled meeting (study group, class activity, etc.) or unsolicited before exam day. Time slot may conflict with or be adjacent to ECON 2010 exam window.
-
----
-
-## Related Pages
-
-- [[UVA and the Quant Question]] — current coursework & career decision
-- [[RESOLVE (AI assistant)]] — operational system
-- [[Self-Discipline and Goals]] — daily rhythm
-- [[Personal Quant Model]], [[The Edge (trading model)]], [[Homework Hatch (startup)]] — technical projects
-- [[Reading List]] — independent reading
-- [[Political and Economic Views]] — worldview
-- [[Naomi]] — most significant relationship
+See [[English Curriculum 2022-2026]] for full K–12 English record, [[Academic Record]] for official transcript, and the **293 substantial ChatGPT conversations** (documented in [[_Chats Catalog]]) spanning coding, physics, history, philosophy, and personal reflection across 2023–2026.
