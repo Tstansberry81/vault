@@ -1,7 +1,7 @@
 ---
 type: overview
 created: 2026-06-15
-updated: 2026-09-25
+updated: 2026-09-26
 tags: [meta/overview, english, systems, uva, fall-2026, exams]
 status: active
 ---
@@ -27,45 +27,69 @@ This wiki is built from **[[Traveler Stansberry]]'s body of work — initially E
 
 **Operational backbone:** [[RESOLVE (AI assistant)]] — Traveler's autonomous personal AI system handling calendar, tasks, email, and daily briefing. Generates operational logs (daily as of July 12, 2026) documenting system performance and behavioral insights.
 
-### Current Status (as of 2026-09-25)
+### Current Status (as of Sep 26, 2026)
 
-**Coursework:**
-- **[[PHIL 1730 (Kant's Deontology, UVA Fall 2026)|PHIL 1730]]** — Kant's *Grounding*, Sections II & III (completed, due 9/22; on-track)
-- **[[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]]** — Unit 3: Conditionals & Loops (Quiz-03 due 9/25, For Loop-2; Exam 1 on 9/28)
-- **[[MATH 1310 (Calculus II, UVA Fall 2026)|MATH 1310]]** — Calculus II discussion and lecture (regular on-track, exact assignments not yet surface in briefs; Exam 1 within Sep 23–29 cluster)
+**Exam window:** Sep 23–29 (high-stakes period with **two midterms** within 72 hours starting Mon 9/28).
 
-**Critical context — Four-Exam Cluster (Sep 23–29):**
-- Four exams compressed into 7 days (Mon 9/23 through Sun 9/29)
-- Confirmed dates: CS 1110 Exam 1 (Sep 28); others within cluster
-- Weekend of Sep 19–20 was strategically clear for exam prep; Kant reading completed on time
-- Daily operations nominal (RESOLVE system working well; inbox-to-calendar sweeps clean; no missed deadlines to date)
+- **CS 1110 Midterm:** Mon 9/28, 11:00–11:50 (covers Units 1–3: Conditionals, Loops)
+- **Second exam:** Date/time TBD, likely Sep 27 or 29
+- **Schedule accommodation:** Sep 26–27 (Sat–Sun) are completely clear of classes, providing uninterrupted study time
 
-**Email/Administrative:** All processed through RESOLVE inbox-to-calendar sweep; no calendar-worthy items since at least Sep 24.
+**Courses (Fall 2026):**
+- [[PHIL 1730 (Introduction to Philosophy, UVA Fall 2026)|PHIL 1730]] — Philosophy (9:00–9:50 MWF)
+- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)|CS 1110]] — Intro to CS (11:00–11:50 MWF)
+- [[MATH 1310 (Calculus II, UVA Fall 2026)|MATH 1310]] — Calculus II (Sections, times TBD)
+- Additional courses TBD (course load implies 4–5 courses typical for UVA)
 
-### Operational Insights
+**RESOLVE operational performance (Sep 24–26):**
+- Three consecutive days of clean daily briefings with zero actionable inbox items (100% noise-filter accuracy)
+- Calendar queries confirm clear Saturday for exam prep
 
-1. **RESOLVE performing well** — morning briefs accurate, inbox filtering effective, deadline tracking reliable
-2. **Academic pacing sustainable** — three concurrent courses with regular meetings and quizzes; no evidence yet of overwhelming load
-3. **Calendar discipline strong** — Traveler met the Sep 22 Kant reading deadline during peak exam prep; suggests good time management
-4. **Data gap:** Assignment/problem set tracking for MATH 1310 not yet visible in RESOLVE briefs (lecture topics also missing); this should be clarified as the course progresses
-
-## Part 3: Technical/Systems Projects (2026–present)
-
-**Scope:** Building work on [[Personal Quant Model]], [[The Edge (trading model)]], [[Vision (Porter Intelligence)]], and [[Homework Hatch (startup)]]. The [[Cursor (AI code editor)]] and [[n8n (automation platform)]] pages document tools in active use.
-
-**Status:** Deferred pending higher academic and exam load (Sep 23–29 exam cluster is the immediate priority). Expected to resume in October once exam cycle completes.
+**Next checkpoint:** Sep 28 (CS 1110 Midterm); Sep 29–30 likely will document post-exam debrief
 
 ---
 
-## Knowledge Structure
+## Key Documents by Category
 
-| Layer | Content | Status |
-|-------|---------|--------|
-| **English (2022–2026)** | 77 documents: essays, readings, themes, personal writing | Complete & stable |
-| **UVA Fall 2026 (live)** | Courses, daily operations, exams, assignments | Active & growing |
-| **Systems/Projects** | Quant model, trading, edtech, automation | Deferred; framework in place |
-| **Personal life** | Family, relationships, emotional/intellectual life | Complete (K–12); live ongoing |
+### Works & Texts
+See [[index|Index]] for the full catalog (28 works, 20+ essays, coursework)
+
+### People & Relationships
+- [[Traveler Stansberry]] — subject
+- [[Naomi]] — girlfriend (most emotionally significant)
+- [[Porter Stansberry (father)]] — founder/financial publisher
+- Minor figures: William, friends, teachers
+
+### Concepts (Intellectual Themes)
+- [[Fate and Free Will]] · [[Identity and Its Collapse]] · [[Individual vs. Society]]
+- [[Power, Hierarchy, and Justice]] · [[Masculinity]] · [[Faith vs. Knowledge]]
+- [[Consumerism and Alienation]] · [[Memory and Trauma]]
+
+### Systems & Technical
+- [[RESOLVE (AI assistant)]] — operational AI system
+- [[Homework Hatch (startup)]] — edtech venture with Josh
+- [[Personal Quant Model]] · [[The Edge (trading model)]]
+- [[Cursor (AI code editor)]] · [[n8n (automation)]]
 
 ---
 
-See [[log]] for recent changes and ingest history.
+## Methodology & Calibration
+
+This wiki maintains **honest calibration** on Traveler's skills and gaps:
+
+- **Demonstrated skill:** He has a strong track record in essay writing, philosophical reasoning, and creative thinking across English coursework. He is fluent in Python and has shipped functional projects (Homework Hatch, quant model, RESOLVE-like systems).
+- **Unproven in:** Quant finance implementation (he has ideas and directed AI-assisted code, not coded from first principles), advanced systems architecture (RESOLVE is functional but non-trivial failure modes exist in edge cases).
+- **Gaps named explicitly:** See individual pages (e.g., [[Personal Quant Model]], [[Homework Hatch (startup)]]) for lists of known gaps and next-work priorities.
+
+The database refuses flattery. It names gaps plainly so Traveler sees what to work on.
+
+---
+
+## Archive Status
+
+**English coursework (2022–2026):** Complete. Ingest finished.  
+**Apple Notes (2022–2026):** Complete. 274 notes triaged; 43 kept; ~231 archived.  
+**ChatGPT exports (891 conversations):** 668 attachments catalogued; source pages + digests done; propagation into entity/concept pages deferred (token budget).  
+**RESOLVE daily logs:** Ongoing (daily as of 2026-07-12; latest: 2026-09-26).
+
+See [[log]] for full ingest/lint history.
