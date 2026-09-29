@@ -1,13 +1,14 @@
 ---
 type: entity
 created: 2026-09-16
-updated: 2026-09-25
-tags: [uva, fall-2026, coursework, computer-science, coding]
+updated: 2026-09-28
+tags: [uva, fall-2026, coursework, computer-science, coding, exams]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-09-16]]",
   "[[RESOLVE Daily Activity 2026-09-17]]",
-  "[[RESOLVE Daily Activity 2026-09-25]]"
+  "[[RESOLVE Daily Activity 2026-09-25]]",
+  "[[RESOLVE Daily Activity 2026-09-28]]"
 ]
 ---
 
@@ -29,11 +30,15 @@ sources: [
 
 The course is organized by **units** focused on programming fundamentals:
 
+- **Unit 1–2: Basics** (early September)
+  - Foundational concepts; quizzes passed
+  
 - **Unit 3: Conditionals & Loops** (mid-to-late September)
   - **Topics:** Conditionals-01, Conditionals-02, For Loop-1, For Loop-2
-  - **Assignments:** PA-01 (Programming Assignment 1), Quizzes
+  - **Coverage for Exam 1:** Basics through For Loops (all Units 1–3)
+  - **Assignments:** PA-01 (Programming Assignment 1), Quizzes-01 through -03
   
-- **Later units:** Structure TBD
+- **Later units:** Structure TBD (post-Exam-1)
 
 ## Assignments & Deadlines
 
@@ -41,33 +46,39 @@ The course is organized by **units** focused on programming fundamentals:
 |----------|-----------|-----------|--------|-------|
 | Wed 9/16 | PA-01 | Unit 3: Conditionals | Completed | Programming Assignment 1 |
 | Fri 9/18 | Quiz-02 | Unit 3 | Completed | Weekly quiz |
-| Fri 9/25 | Quiz-03 | Unit 3: For Loop-2 | **Due today** | Weekly quiz; lecture topic confirmed Sep 25 |
-| **Mon 9/28** | **Exam 1** | Basics through For Loops | **SCHEDULED** | 11:00 AM; in-class; comprehensive coverage through Unit 3 |
+| Fri 9/25 | Quiz-03 | Unit 3: For Loop-2 | Completed | Weekly quiz; confirmed Sep 25 morning brief |
+| **Mon 9/28 11:00** | **EXAM-01** | **Units 1–3 (Basics → For Loops)** | **DUE TODAY** | In-class, pen-and-paper; no new material introduced |
 
-## Exam 1 Details
+## Exam-01 Context (2026-09-28)
 
-**CS 1110 Exam 1 — Monday, Sep 28, 2026**
+**Date & Time:** Monday, September 28, 2026 · 11:00–11:50 (in-class)
 
-- **Time:** 11:00 AM (scheduled during regular lecture slot)
-- **Format:** In-class exam
-- **Coverage:** All material from course start through **For Loops** (Unit 3 complete)
-  - Conditionals (if/else, nested conditionals)
-  - Loop structures (for loops, loop mechanics)
-  - Basic programming patterns and logic
+**Format:** Pen-and-paper, in-classroom assessment
 
-**Context:** This exam falls mid-way through the high-pressure exam cluster (Sep 23–29: four exams in 7 days). CS 1110 Exam 1 (Mon 9/28) is followed immediately by **PHIL 1730 First Exam on Tue 9/29** — two consecutive exam days.
+**Coverage:** Fundamentals through Unit 3 (Basics, Conditionals-01/02, For Loop-1/2)
 
-## Workload & Pacing
+**Preparation:** Two weeks of study; [[RESOLVE (AI assistant)|RESOLVE]] morning brief on 2026-09-28 flagged this as "the day you've been circling for two weeks — let's walk in clean." Exam is the **second item in the day's schedule** (after ECON 2010 L9 10:00–10:50), positioned right after economics lecture. Earned squash at 19:00 as post-exam recovery.
 
-**Weekly pattern:** Quizzes every Friday (Quiz-02 on 9/18, Quiz-03 on 9/25). Each quiz corresponds to the week's unit topic. The Friday quiz schedule creates a steady check-in on unit mastery before the Monday exam.
+**Anxiety flagged:** No specific CS 1110 anxieties noted in the 2026-09-28 brief, though math office hours was a source of concern (see [[MATH 1310]]).
 
-**Quiz-03 and exam readiness:** Quiz-03 (due Sep 25, Friday) serves as the final formative assessment before Exam 1 (Sep 28, Monday). This 3-day gap is standard prep time.
+## Course Performance Trajectory
 
-## Related Links
+- **Quizzes:** 3 completed; all passed (no scores recorded yet, but on-time submissions suggest competence)
+- **PA-01:** Completed and submitted on time (2026-09-16)
+- **Study pattern:** Regular attendance; quiz completion suggests weekly engagement with lectures
 
-- [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — college context
-- [[RESOLVE (AI assistant)]] — daily course tracking via morning briefs
-- [[Cursor (AI code editor)]] — coding environment used for assignments
-- [[MATH 1310 (Calculus II, UVA Fall 2026)]] — concurrent course
-- [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)]] — concurrent course; exam on Tue 9/29 (day after CS 1110 Exam 1)
+---
+
+## Related Pages
+
+- [[Traveler Stansberry]] — author/student
+- [[UVA and the Quant Question]] — Traveler's UVA enrollment context
+- [[Fall 2026 UVA Course Schedule]] — full semester view
+- [[RESOLVE Daily Activity 2026-09-25]] — pre-exam preparation day (Quiz-03 due)
+- [[RESOLVE Daily Activity 2026-09-28]] — exam day log
+- [[MATH 1310 (Calculus II, UVA Fall 2026)]] — concurrent course with flagged anxiety
+- [[ECON 2010 (Principles of Microeconomics, UVA Fall 2026)]] — concurrent course, also on exam day
+
+---
+
+**Status note:** CS 1110 is a formal university course, foundational to Traveler's technical curriculum at UVA. The exam on 2026-09-28 marks the first major checkpoint in the course and the first CS exam of his college career.
