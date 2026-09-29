@@ -1,13 +1,14 @@
 ---
 type: entity
 created: 2026-08-26
-updated: 2026-09-25
-tags: [college, uva, course, mathematics, fall-2026]
+updated: 2026-09-28
+tags: [college, uva, course, mathematics, fall-2026, exams]
 status: active
 sources: [
   "[[RESOLVE Daily Activity 2026-08-26]]",
   "[[RESOLVE Daily Activity 2026-09-17]]",
-  "[[RESOLVE Daily Activity 2026-09-25]]"
+  "[[RESOLVE Daily Activity 2026-09-25]]",
+  "[[RESOLVE Daily Activity 2026-09-28]]"
 ]
 ---
 
@@ -17,54 +18,38 @@ sources: [
 
 ## Course Overview
 
-**Format:** Lecture + discussion sections  
-**Duration:** Full Fall 2026 semester  
-**Enrollment:** Traveler is active; discussion section confirmed at 12:00–12:50 (Fridays, based on Sep 25 morning brief)  
-**Prerequisite:** Calculus I (satisfied prior to UVA enrollment)
+**Format:** Lecture + Discussion section  
+**Meeting times:**  
+- Lecture: TBD (primary instruction)
+- Discussion section: MATH 1310 Discussion 12:00–12:50 (Tuesdays or ongoing; confirmed on multiple daily logs)
 
-## Meeting Schedule
+## Coursework & Exams
 
-- **Lecture:** Days/times TBD (not captured in daily briefs yet)
-- **Discussion Section:** Friday 12:00–12:50 PM
-  - Sep 25 (confirmed in morning brief)
-  - Recurring weekly
+The course includes regular homework, quizzes, and multiple exams. Specific exam dates and coverage areas are tracked in [[RESOLVE (AI assistant)|RESOLVE]] daily logs and student calendar.
 
-## Curriculum & Topics
+**Note:** MATH 1310 appears to be a source of **identified anxiety** for Traveler. The [[RESOLVE Daily Activity 2026-09-28|2026-09-28 morning brief]] included a **flagged warning about math office hours**, suggesting he is monitoring his performance and seeking support in this course. This is the most anxiety-bearing course in his schedule as of late September.
 
-The course covers standard Calculus II material:
-- Integration techniques
-- Applications of integration
-- Differential equations (intro)
-- Series and sequences
-- Power series (typically at course end)
+> [!warning] Math anxiety flagged
+> RESOLVE morning brief on 2026-09-28 noted "Your 'office hours math...'" with an implied warning (exact text cut off in log). This suggests:
+> - Traveler is aware of potential weakness in MATH 1310
+> - He is (or should be) attending office hours for support
+> - Math may be the tightest constraint in his Fall 2026 coursework
+> - This contrasts with his [[Intellectual Interests|self-reported mathematical curiosity]] (free will, logic, etc.) and [[Personal Quant Model|demonstrated quantitative work]] — the gap may be between self-directed quant modeling and formal calculus coursework.
 
-**Current progress (as of Sep 25):** No specific unit topics or readings have been captured in daily briefs. Discussion section is on-track and meeting regularly.
+## Course Schedule & Attendance
 
-## Assignments & Deadlines
+- **Discussion section:** 12:00–12:50 (appears on multiple days in daily logs)
+- **Enrollment:** Active; attending regularly per [[RESOLVE (AI assistant)|RESOLVE]] tracking
 
-| Category | Status | Notes |
-|----------|--------|-------|
-| Problem sets | Not tracked | Typical format for calc courses; cadence unknown |
-| Quizzes | Not tracked | May exist; not surfaced in RESOLVE briefs |
-| **Exam 1** | Scheduled | Falls within Sep 23–29 exam cluster (exact date unknown, see [[Traveler Stansberry#Fall 2026 Exam Schedule]]) |
-| Final exam | TBD | Scheduled for end of semester (Dec 2026) |
+## Related Pages
 
-> [!warning] Data gap
-> No specific assignments, problem set deadlines, or exam date have been captured for MATH 1310 in daily briefs as of Sep 25. The discussion section attendance is confirmed, but lecture attendance and assignment tracking are not yet visible in RESOLVE activity logs. This should be clarified as the course progresses.
+- [[Traveler Stansberry]] — student/author
+- [[UVA and the Quant Question]] — UVA context
+- [[Fall 2026 UVA Course Schedule]] — semester view
+- [[RESOLVE Daily Activity 2026-09-28]] — exam day with flagged math office hours warning
+- [[Intellectual Interests]] — Traveler's private mathematical/philosophical interests
+- [[Personal Quant Model]] — demonstrates quantitative capability outside formal coursework
 
-## Exam Cluster Context
+---
 
-MATH 1310 Exam 1 is one of **four exams in 7 days (Sep 23–29)** alongside:
-- CS 1110 Exam 1 (Sep 28)
-- PHIL 1730 exam (date unknown; within cluster)
-- One additional exam (course unknown; within cluster)
-
-This creates significant study load mid-semester.
-
-## Related Links
-
-- [[Traveler Stansberry]] — student
-- [[UVA and the Quant Question]] — college context
-- [[RESOLVE (AI assistant)]] — daily course tracking
-- [[CS 1110 (Introduction to Computer Science, UVA Fall 2026)]] — concurrent course
-- [[PHIL 1730 (Kant's Deontology, UVA Fall 2026)]] — concurrent course
+**Status note:** MATH 1310 is a foundational quantitative course in Traveler's UVA curriculum. The flagged anxiety on 2026-09-28 suggests this is the course most likely to require intervention or support as the semester progresses. Given his demonstrated quant capability ([[Personal Quant Model]], [[The Edge (trading model)]]), the anxiety may reflect the gap between **self-directed problem-solving and formal exam performance** rather than a lack of mathematical foundation.
